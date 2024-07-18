@@ -1,0 +1,2 @@
+VIEW:Roma + Malta ACC:DORAS:300.0
+VIEW:Milano + Padova ACC:GIVAT:140.0

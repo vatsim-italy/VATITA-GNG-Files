@@ -1,0 +1,647 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Airports:EDDM:symbol
+Airports:LFMN:symbol
+Airports:LIBC:symbol
+Airports:LIBD:symbol
+Airports:LIBF:symbol
+Airports:LIBP:symbol
+Airports:LIBR:symbol
+Airports:LICA:symbol
+Airports:LICB:symbol
+Airports:LICC:symbol
+Airports:LICD:symbol
+Airports:LICG:symbol
+Airports:LICJ:symbol
+Airports:LICR:symbol
+Airports:LICT:symbol
+Airports:LIEA:symbol
+Airports:LIEE:symbol
+Airports:LIEO:symbol
+Airports:LIMC:symbol
+Airports:LIME:symbol
+Airports:LIMF:symbol
+Airports:LIMG:symbol
+Airports:LIMJ:symbol
+Airports:LIML:symbol
+Airports:LIMP:symbol
+Airports:LIMZ:symbol
+Airports:LIPE:symbol
+Airports:LIPH:symbol
+Airports:LIPK:symbol
+Airports:LIPO:symbol
+Airports:LIPQ:symbol
+Airports:LIPR:symbol
+Airports:LIPX:symbol
+Airports:LIPY:symbol
+Airports:LIPZ:symbol
+Airports:LIRA:symbol
+Airports:LIRF:symbol
+Airports:LIRI:symbol
+Airports:LIRN:symbol
+Airports:LIRP:symbol
+Airports:LIRQ:symbol
+Airports:LIRS:symbol
+Airports:LIRU:symbol
+Airports:LIRZ:symbol
+Airports:LMML:symbol
+Airports:LOWI:symbol
+Airports:LOWK:symbol
+Airports:LOWS:symbol
+Airports:LOWW:symbol
+Airports:LSGG:symbol
+Airports:LSZH:symbol
+ARTCC boundary:FIR border LIXX Milano FIR:
+ARTCC boundary:FIR border LMMM Malta FIR:
+ARTCC low boundary:LMML TMA:
+Fixes:ABDAB:symbol
+Fixes:ABESI:symbol
+Fixes:ABRAM:symbol
+Fixes:ADEXI:symbol
+Fixes:AIOSA:symbol
+Fixes:AMOXI:symbol
+Fixes:AOSTA:symbol
+Fixes:ARLOS:symbol
+Fixes:ASKOT:symbol
+Fixes:ASTUB:symbol
+Fixes:BABLO:symbol
+Fixes:BANKO:symbol
+Fixes:BASMO:symbol
+Fixes:BAXON:symbol
+Fixes:BELIX:symbol
+Fixes:BEVIS:symbol
+Fixes:BILDU:symbol
+Fixes:BIRSA:symbol
+Fixes:BIVLO:symbol
+Fixes:BONAR:symbol
+Fixes:BORDI:symbol
+Fixes:BRENO:symbol
+Fixes:CANNE:symbol
+Fixes:CERVI:symbol
+Fixes:CORSI:symbol
+Fixes:CRAYE:symbol
+Fixes:DEMAG:symbol
+Fixes:DETSA:symbol
+Fixes:DILIN:symbol
+Fixes:DINOB:symbol
+Fixes:DINUX:symbol
+Fixes:DIRKA:symbol
+Fixes:DOBIM:symbol
+Fixes:DOBIX:symbol
+Fixes:DOKAR:symbol
+Fixes:EKLIS:symbol
+Fixes:EKOLA:symbol
+Fixes:ELIMO:symbol
+Fixes:ELMEM:symbol
+Fixes:ELSAG:symbol
+Fixes:GG520:symbol
+Fixes:GG525:symbol
+Fixes:GINOX:symbol
+Fixes:GISAM:symbol
+Fixes:GOKEL:symbol
+Fixes:GOLEB:symbol
+Fixes:GOPAT:symbol
+Fixes:IBENI:symbol
+Fixes:INDOT:symbol
+Fixes:IVKAL:symbol
+Fixes:KATTI:symbol
+Fixes:KOLEX:symbol
+Fixes:LABIN:symbol
+Fixes:LATAN:symbol
+Fixes:LEIRA:symbol
+Fixes:LEVDI:symbol
+Fixes:LIZUM:symbol
+Fixes:LOCRI:symbol
+Fixes:LOKDI:symbol
+Fixes:LONDI:symbol
+Fixes:LORED:symbol
+Fixes:LORNO:symbol
+Fixes:LOTIN:symbol
+Fixes:LUMED:symbol
+Fixes:LURAG:symbol
+Fixes:MADIR:symbol
+Fixes:MADKA:symbol
+Fixes:MALUG:symbol
+Fixes:MAPIS:symbol
+Fixes:MARON:symbol
+Fixes:MEBUR:symbol
+Fixes:MEDAM:symbol
+Fixes:MEGER:symbol
+Fixes:MIRSA:symbol
+Fixes:MOULE:symbol
+Fixes:NEDOX:symbol
+Fixes:NELDA:symbol
+Fixes:NEVIK:symbol
+Fixes:NIBEL:symbol
+Fixes:NIBLO:symbol
+Fixes:NIGAT:symbol
+Fixes:NIKOL:symbol
+Fixes:NIVAB:symbol
+Fixes:NOGLU:symbol
+Fixes:NOLSI:symbol
+Fixes:NOSTO:symbol
+Fixes:OKIVA:symbol
+Fixes:OLGAT:symbol
+Fixes:OLMAX:symbol
+Fixes:OMENI:symbol
+Fixes:ORTAP:symbol
+Fixes:OSBUL:symbol
+Fixes:OSMAR:symbol
+Fixes:PAPIZ:symbol
+Fixes:PELOS:symbol
+Fixes:PINUK:symbol
+Fixes:PITOM:symbol
+Fixes:PUNSA:symbol
+Fixes:RALAK:symbol
+Fixes:RASNO:symbol
+Fixes:RESIA:symbol
+Fixes:REVDO:symbol
+Fixes:ROCCA:symbol
+Fixes:ROTAR:symbol
+Fixes:ROTAS:symbol
+Fixes:RUTOM:symbol
+Fixes:SARKI:symbol
+Fixes:SENTI:symbol
+Fixes:SONAK:symbol
+Fixes:SOPIR:symbol
+Fixes:SOTOV:symbol
+Fixes:SUPUX:symbol
+Fixes:SUSIP:symbol
+Fixes:SUSOM:symbol
+Fixes:SUVEL:symbol
+Fixes:TABOT:symbol
+Fixes:TALEP:symbol
+Fixes:TIGRA:symbol
+Fixes:TISAL:symbol
+Fixes:TORPO:symbol
+Fixes:TORTU:symbol
+Fixes:TUNEX:symbol
+Fixes:TUPAL:symbol
+Fixes:UMVEG:symbol
+Fixes:UNIMI:symbol
+Fixes:UPLIT:symbol
+Fixes:UPOXE:symbol
+Fixes:VALBU:symbol
+Fixes:VALKI:symbol
+Fixes:VAMTU:symbol
+Fixes:VANAS:symbol
+Fixes:VAPUP:symbol
+Fixes:VARIG:symbol
+Fixes:VELUG:symbol
+Fixes:VENIM:symbol
+Fixes:VESOD:symbol
+Fixes:VETUR:symbol
+Fixes:VOLET:symbol
+Fixes:WI002:symbol
+Fixes:WI103:symbol
+Fixes:WI601:symbol
+Fixes:WI749:symbol
+Fixes:WI751:symbol
+Fixes:WI752:symbol
+Fixes:WI753:symbol
+Fixes:WI754:symbol
+Fixes:XAMIT:symbol
+Fixes:XATOS:symbol
+Fixes:XOLTA:symbol
+Free Text:LIBB MRVA LABELs ACC + APP\100:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\100:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\100:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\100:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\100:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\100:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\110:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\110:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\110:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\130:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\2:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\20:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\25:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\25:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\3:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\4:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\45:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\45:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\45:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\45:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\85:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\90:freetext
+Free Text:LIBB MRVA LABELs ACC + APP\NO MINIMA:freetext
+Free Text:LICA MRVA LABELs\100:freetext
+Free Text:LICA MRVA LABELs\100:freetext
+Free Text:LICA MRVA LABELs\100:freetext
+Free Text:LICA MRVA LABELs\110:freetext
+Free Text:LICA MRVA LABELs\110:freetext
+Free Text:LICA MRVA LABELs\110:freetext
+Free Text:LICA MRVA LABELs\2:freetext
+Free Text:LICA MRVA LABELs\35:freetext
+Free Text:LICA MRVA LABELs\35:freetext
+Free Text:LICA MRVA LABELs\35:freetext
+Free Text:LICA MRVA LABELs\5:freetext
+Free Text:LICA MRVA LABELs\5:freetext
+Free Text:LICA MRVA LABELs\55:freetext
+Free Text:LICA MRVA LABELs\6:freetext
+Free Text:LICA MRVA LABELs\6:freetext
+Free Text:LICA MRVA LABELs\6:freetext
+Free Text:LICA MRVA LABELs\6:freetext
+Free Text:LICA MRVA LABELs\TL:freetext
+Free Text:LICA MRVA LABELs\TL:freetext
+Free Text:LICC MRVA LABELs\100:freetext
+Free Text:LICC MRVA LABELs\110:freetext
+Free Text:LICC MRVA LABELs\150:freetext
+Free Text:LICC MRVA LABELs\2:freetext
+Free Text:LICC MRVA LABELs\2:freetext
+Free Text:LICC MRVA LABELs\3:freetext
+Free Text:LICC MRVA LABELs\3:freetext
+Free Text:LICC MRVA LABELs\4:freetext
+Free Text:LICC MRVA LABELs\4:freetext
+Free Text:LICC MRVA LABELs\4:freetext
+Free Text:LICC MRVA LABELs\5:freetext
+Free Text:LICC MRVA LABELs\55:freetext
+Free Text:LICC MRVA LABELs\6:freetext
+Free Text:LICC MRVA LABELs\6:freetext
+Free Text:LICC MRVA LABELs\7:freetext
+Free Text:LICJ MRVA LABELs\15:freetext
+Free Text:LICJ MRVA LABELs\25:freetext
+Free Text:LICJ MRVA LABELs\25:freetext
+Free Text:LICJ MRVA LABELs\35:freetext
+Free Text:LICJ MRVA LABELs\35:freetext
+Free Text:LICJ MRVA LABELs\35:freetext
+Free Text:LICJ MRVA LABELs\45:freetext
+Free Text:LICJ MRVA LABELs\5:freetext
+Free Text:LICJ MRVA LABELs\5:freetext
+Free Text:LICJ MRVA LABELs\5:freetext
+Free Text:LICJ MRVA LABELs\80:freetext
+Free Text:LICJ MRVA LABELs\80:freetext
+Free Text:LICJ MRVA LABELs\90:freetext
+Free Text:LICJ MRVA LABELs\TL:freetext
+Free Text:LIEE MRVA LABELs\100:freetext
+Free Text:LIEE MRVA LABELs\2:freetext
+Free Text:LIEE MRVA LABELs\25:freetext
+Free Text:LIEE MRVA LABELs\35:freetext
+Free Text:LIEE MRVA LABELs\4:freetext
+Free Text:LIEE MRVA LABELs\4:freetext
+Free Text:LIEE MRVA LABELs\4:freetext
+Free Text:LIEE MRVA LABELs\5:freetext
+Free Text:LIEE MRVA LABELs\6:freetext
+Free Text:LIEE MRVA LABELs\6:freetext
+Free Text:LIEE MRVA LABELs\6:freetext
+Free Text:LIEE MRVA LABELs\85:freetext
+Free Text:LIEE MRVA LABELs\85:freetext
+Free Text:LIEO MRVA LABELs\3:freetext
+Free Text:LIEO MRVA LABELs\3:freetext
+Free Text:LIEO MRVA LABELs\4:freetext
+Free Text:LIEO MRVA LABELs\4:freetext
+Free Text:LIEO MRVA LABELs\4:freetext
+Free Text:LIEO MRVA LABELs\5:freetext
+Free Text:LIEO MRVA LABELs\5:freetext
+Free Text:LIEO MRVA LABELs\6:freetext
+Free Text:LIEO MRVA LABELs\6:freetext
+Free Text:LIEO MRVA LABELs\6:freetext
+Free Text:LIEO MRVA LABELs\6:freetext
+Free Text:LIEO MRVA LABELs\6:freetext
+Free Text:LIEO MRVA LABELs\6:freetext
+Free Text:LIEO MRVA LABELs\6:freetext
+Free Text:LIEO MRVA LABELs\90:freetext
+Free Text:LIEO MRVA LABELs\90:freetext
+Free Text:LIEO MRVA LABELs\90:freetext
+Free Text:LIEO MRVA LABELs\90:freetext
+Free Text:LIEO MRVA LABELs\TL:freetext
+Free Text:LIMJ MRVA LABELs\2:freetext
+Free Text:LIMJ MRVA LABELs\25:freetext
+Free Text:LIMJ MRVA LABELs\45:freetext
+Free Text:LIMJ MRVA LABELs\45:freetext
+Free Text:LIMJ MRVA LABELs\45:freetext
+Free Text:LIMJ MRVA LABELs\55:freetext
+Free Text:LIMJ MRVA LABELs\6:freetext
+Free Text:LIMJ MRVA LABELs\6:freetext
+Free Text:LIMJ MRVA LABELs\6:freetext
+Free Text:LIMJ MRVA LABELs\80/TL:freetext
+Free Text:LIMJ MRVA LABELs\80/TL:freetext
+Free Text:LIMJ MRVA LABELs\80/TL:freetext
+Free Text:LIMM MRVA LABELs\100:freetext
+Free Text:LIMM MRVA LABELs\100:freetext
+Free Text:LIMM MRVA LABELs\105:freetext
+Free Text:LIMM MRVA LABELs\110:freetext
+Free Text:LIMM MRVA LABELs\110:freetext
+Free Text:LIMM MRVA LABELs\110:freetext
+Free Text:LIMM MRVA LABELs\110:freetext
+Free Text:LIMM MRVA LABELs\115:freetext
+Free Text:LIMM MRVA LABELs\115:freetext
+Free Text:LIMM MRVA LABELs\130:freetext
+Free Text:LIMM MRVA LABELs\130:freetext
+Free Text:LIMM MRVA LABELs\130:freetext
+Free Text:LIMM MRVA LABELs\145:freetext
+Free Text:LIMM MRVA LABELs\15:freetext
+Free Text:LIMM MRVA LABELs\15:freetext
+Free Text:LIMM MRVA LABELs\150:freetext
+Free Text:LIMM MRVA LABELs\150:freetext
+Free Text:LIMM MRVA LABELs\160:freetext
+Free Text:LIMM MRVA LABELs\180:freetext
+Free Text:LIMM MRVA LABELs\180:freetext
+Free Text:LIMM MRVA LABELs\195:freetext
+Free Text:LIMM MRVA LABELs\2:freetext
+Free Text:LIMM MRVA LABELs\2:freetext
+Free Text:LIMM MRVA LABELs\2:freetext
+Free Text:LIMM MRVA LABELs\2:freetext
+Free Text:LIMM MRVA LABELs\25:freetext
+Free Text:LIMM MRVA LABELs\25:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\3:freetext
+Free Text:LIMM MRVA LABELs\35:freetext
+Free Text:LIMM MRVA LABELs\35:freetext
+Free Text:LIMM MRVA LABELs\4:freetext
+Free Text:LIMM MRVA LABELs\4:freetext
+Free Text:LIMM MRVA LABELs\4:freetext
+Free Text:LIMM MRVA LABELs\45:freetext
+Free Text:LIMM MRVA LABELs\45:freetext
+Free Text:LIMM MRVA LABELs\5:freetext
+Free Text:LIMM MRVA LABELs\5:freetext
+Free Text:LIMM MRVA LABELs\5:freetext
+Free Text:LIMM MRVA LABELs\5:freetext
+Free Text:LIMM MRVA LABELs\55:freetext
+Free Text:LIMM MRVA LABELs\6:freetext
+Free Text:LIMM MRVA LABELs\6:freetext
+Free Text:LIMM MRVA LABELs\6:freetext
+Free Text:LIMM MRVA LABELs\70/TL:freetext
+Free Text:LIMM MRVA LABELs\70/TL:freetext
+Free Text:LIMM MRVA LABELs\80:freetext
+Free Text:LIMM MRVA LABELs\90:freetext
+Free Text:LIMM MRVA LABELs\90:freetext
+Free Text:LIMM MRVA LABELs\95:freetext
+Free Text:LIPP MRVA LABELs\100:freetext
+Free Text:LIPP MRVA LABELs\100:freetext
+Free Text:LIPP MRVA LABELs\110:freetext
+Free Text:LIPP MRVA LABELs\110:freetext
+Free Text:LIPP MRVA LABELs\110:freetext
+Free Text:LIPP MRVA LABELs\120:freetext
+Free Text:LIPP MRVA LABELs\130:freetext
+Free Text:LIPP MRVA LABELs\130:freetext
+Free Text:LIPP MRVA LABELs\130:freetext
+Free Text:LIPP MRVA LABELs\130:freetext
+Free Text:LIPP MRVA LABELs\140:freetext
+Free Text:LIPP MRVA LABELs\150:freetext
+Free Text:LIPP MRVA LABELs\160:freetext
+Free Text:LIPP MRVA LABELs\160:freetext
+Free Text:LIPP MRVA LABELs\170:freetext
+Free Text:LIPP MRVA LABELs\170:freetext
+Free Text:LIPP MRVA LABELs\180:freetext
+Free Text:LIPP MRVA LABELs\190:freetext
+Free Text:LIPP MRVA LABELs\190:freetext
+Free Text:LIPP MRVA LABELs\2:freetext
+Free Text:LIPP MRVA LABELs\25:freetext
+Free Text:LIPP MRVA LABELs\3:freetext
+Free Text:LIPP MRVA LABELs\35:freetext
+Free Text:LIPP MRVA LABELs\5:freetext
+Free Text:LIPP MRVA LABELs\5:freetext
+Free Text:LIPP MRVA LABELs\5:freetext
+Free Text:LIPP MRVA LABELs\5:freetext
+Free Text:LIPP MRVA LABELs\5:freetext
+Free Text:LIPP MRVA LABELs\5:freetext
+Free Text:LIPP MRVA LABELs\5:freetext
+Free Text:LIPP MRVA LABELs\90:freetext
+Free Text:LIPP MRVA LABELs\90:freetext
+Free Text:LIPP MRVA LABELs\90:freetext
+Free Text:LIPP MRVA LABELs\90:freetext
+Free Text:LIPP MRVA LABELs\90:freetext
+Free Text:LIPP MRVA LABELs\90:freetext
+Free Text:LIPP MRVA LABELs\90:freetext
+Free Text:LIPZ MRVA LABELs\2:freetext
+Free Text:LIPZ MRVA LABELs\2:freetext
+Free Text:LIPZ MRVA LABELs\2:freetext
+Free Text:LIPZ MRVA LABELs\2:freetext
+Free Text:LIPZ MRVA LABELs\4:freetext
+Free Text:LIPZ MRVA LABELs\4:freetext
+Free Text:LIPZ MRVA LABELs\45:freetext
+Free Text:LIPZ MRVA LABELs\5:freetext
+Free Text:LIPZ MRVA LABELs\5:freetext
+Free Text:LIRN MRVA LABELs\110:freetext
+Free Text:LIRN MRVA LABELs\110:freetext
+Free Text:LIRN MRVA LABELs\2:freetext
+Free Text:LIRN MRVA LABELs\3:freetext
+Free Text:LIRN MRVA LABELs\37:freetext
+Free Text:LIRN MRVA LABELs\4:freetext
+Free Text:LIRN MRVA LABELs\4:freetext
+Free Text:LIRN MRVA LABELs\4:freetext
+Free Text:LIRN MRVA LABELs\5:freetext
+Free Text:LIRN MRVA LABELs\5:freetext
+Free Text:LIRN MRVA LABELs\6:freetext
+Free Text:LIRN MRVA LABELs\6:freetext
+Free Text:LIRN MRVA LABELs\6:freetext
+Free Text:LIRN MRVA LABELs\6:freetext
+Free Text:LIRN MRVA LABELs\7:freetext
+Free Text:LIRN MRVA LABELs\75:freetext
+Free Text:LIRN MRVA LABELs\75:freetext
+Free Text:LIRN MRVA LABELs\8:freetext
+Free Text:LIRN MRVA LABELs\TL:freetext
+Free Text:LIRN MRVA LABELs\TL:freetext
+Free Text:LIRP MRVA LABELs\100:freetext
+Free Text:LIRP MRVA LABELs\110:freetext
+Free Text:LIRP MRVA LABELs\15:freetext
+Free Text:LIRP MRVA LABELs\15:freetext
+Free Text:LIRP MRVA LABELs\3:freetext
+Free Text:LIRP MRVA LABELs\3:freetext
+Free Text:LIRP MRVA LABELs\35:freetext
+Free Text:LIRP MRVA LABELs\5:freetext
+Free Text:LIRP MRVA LABELs\6:freetext
+Free Text:LIRP MRVA LABELs\85:freetext
+Free Text:LIRQ MRVA LABELs\100:freetext
+Free Text:LIRQ MRVA LABELs\110:freetext
+Free Text:LIRQ MRVA LABELs\110:freetext
+Free Text:LIRQ MRVA LABELs\3:freetext
+Free Text:LIRQ MRVA LABELs\4:freetext
+Free Text:LIRQ MRVA LABELs\4:freetext
+Free Text:LIRQ MRVA LABELs\5:freetext
+Free Text:LIRQ MRVA LABELs\5:freetext
+Free Text:LIRQ MRVA LABELs\6:freetext
+Free Text:LIRQ MRVA LABELs\90:freetext
+Free Text:LIRR MRVA LABELs\100:freetext
+Free Text:LIRR MRVA LABELs\100:freetext
+Free Text:LIRR MRVA LABELs\100:freetext
+Free Text:LIRR MRVA LABELs\100:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\110:freetext
+Free Text:LIRR MRVA LABELs\13:freetext
+Free Text:LIRR MRVA LABELs\130:freetext
+Free Text:LIRR MRVA LABELs\130:freetext
+Free Text:LIRR MRVA LABELs\135:freetext
+Free Text:LIRR MRVA LABELs\15:freetext
+Free Text:LIRR MRVA LABELs\150:freetext
+Free Text:LIRR MRVA LABELs\2:freetext
+Free Text:LIRR MRVA LABELs\2:freetext
+Free Text:LIRR MRVA LABELs\25:freetext
+Free Text:LIRR MRVA LABELs\25:freetext
+Free Text:LIRR MRVA LABELs\3:freetext
+Free Text:LIRR MRVA LABELs\3/4:freetext
+Free Text:LIRR MRVA LABELs\35:freetext
+Free Text:LIRR MRVA LABELs\4:freetext
+Free Text:LIRR MRVA LABELs\4:freetext
+Free Text:LIRR MRVA LABELs\5:freetext
+Free Text:LIRR MRVA LABELs\5:freetext
+Free Text:LIRR MRVA LABELs\5:freetext
+Free Text:LIRR MRVA LABELs\6:freetext
+Free Text:LIRR MRVA LABELs\6:freetext
+Free Text:LIRR MRVA LABELs\6:freetext
+Free Text:LIRR MRVA LABELs\6:freetext
+Free Text:LIRR MRVA LABELs\6:freetext
+Free Text:LIRR MRVA LABELs\6:freetext
+Free Text:LIRR MRVA LABELs\70/TL:freetext
+Free Text:LIRR MRVA LABELs\90:freetext
+Free Text:LIRR MRVA LABELs\90:freetext
+Free Text:LIRR MRVA LABELs\90:freetext
+Free Text:LIRR MRVA LABELs\90:freetext
+Free Text:LIRR MRVA LABELs\NO MINIMA:freetext
+Free Text:LIRR MRVA LABELs\TL:freetext
+Free Text:LMML MRVA LABELs\15:freetext
+Free Text:LMML MRVA LABELs\2:freetext
+Geo:GEO:
+Geo:IT Landmark Coastline:
+Geo:LIBB MRVA ACC + APP:
+Geo:LICA MRVA:
+Geo:LICC MRVA:
+Geo:LICJ MRVA:
+Geo:LIEE MRVA:
+Geo:LIEO MRVA:
+Geo:LIMJ MRVA:
+Geo:LIMM MRVA:
+Geo:LIPP MRVA:
+Geo:LIPZ MRVA:
+Geo:LIRN MRVA:
+Geo:LIRP MRVA:
+Geo:LIRQ MRVA:
+Geo:LIRR MRVA:
+Geo:LMML MRVA:
+Geo:LMMM Landmark Coastline Malta:
+NDBs:ABN:symbol
+NDBs:COD:symbol
+NDBs:LEV:symbol
+NDBs:RON:symbol
+NDBs:RTT:symbol
+NDBs:SVC:symbol
+VORs:AEA:symbol
+VORs:ALB:symbol
+VORs:ALG:symbol
+VORs:ANC:symbol
+VORs:BAR:symbol
+VORs:BEG:symbol
+VORs:BOA:symbol
+VORs:CAR:symbol
+VORs:CDC:symbol
+VORs:CHI:symbol
+VORs:CMP:symbol
+VORs:COM:symbol
+VORs:CRN:symbol
+VORs:CSL:symbol
+VORs:CTF:symbol
+VORs:ELB:symbol
+VORs:FOL:symbol
+VORs:FRS:symbol
+VORs:GEN:symbol
+VORs:GRO:symbol
+VORs:GVA:symbol
+VORs:GZO:symbol
+VORs:LAT:symbol
+VORs:LCC:symbol
+VORs:LPD:symbol
+VORs:OST:symbol
+VORs:OZE:symbol
+VORs:PAL:symbol
+VORs:PAN:symbol
+VORs:PES:symbol
+VORs:PIS:symbol
+VORs:PNZ:symbol
+VORs:PRS:symbol
+VORs:RCA:symbol
+VORs:RCH:symbol
+VORs:RIM:symbol
+VORs:SES:symbol
+VORs:SOR:symbol
+VORs:SRN:symbol
+VORs:TAQ:symbol
+VORs:TEA:symbol
+VORs:TOP:symbol
+VORs:TRP:symbol
+VORs:TZO:symbol
+VORs:VIC:symbol
+VORs:VIE:symbol
+VORs:VIL:symbol
+VORs:VOG:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:1000
+ABOVE:0
+LEADER:-1
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Italy CTR
+WINDOWAREA:42.620454:4.271119:47.554448:16.907682
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:2384
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:662
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:5
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:50000
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:1000
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:99
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:131
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

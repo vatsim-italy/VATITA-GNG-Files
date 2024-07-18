@@ -1,0 +1,41 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Geo:GEO:
+Geo:IT Landmark Coastline:
+Runways:LIML 17-35:centerline
+Runways:LIML 17-35:extended centerline 1
+Runways:LIML 17-35:extended centerline 1 left base
+Runways:LIML 17-35:extended centerline 1 left ticks
+Runways:LIML 17-35:extended centerline 1 left vectoring
+Runways:LIML 17-35:extended centerline 1 right base
+Runways:LIML 17-35:extended centerline 1 right ticks
+Runways:LIML 17-35:extended centerline 1 right vectoring
+Runways:LIML 17-35:extended centerline 2
+Runways:LIML 17-35:extended centerline 2 left base
+Runways:LIML 17-35:extended centerline 2 left ticks
+Runways:LIML 17-35:extended centerline 2 left vectoring
+Runways:LIML 17-35:extended centerline 2 right base
+Runways:LIML 17-35:extended centerline 2 right ticks
+Runways:LIML 17-35:extended centerline 2 right vectoring
+Runways:LIML 17-35:name
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:94.50000
+TAGFAMILY:Italy
+WINDOWAREA:45.437939:9.242351:45.461710:9.303177
+PLUGIN:Ground Radar plugin:AirportElevation:353
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIML
+PLUGIN:TopSky plugin:NoDraw:1

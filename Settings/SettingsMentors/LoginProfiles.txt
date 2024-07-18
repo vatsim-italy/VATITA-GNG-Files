@@ -1,0 +1,34 @@
+PROFILE
+PROFILE:OBS:50:0
+ATIS2:TEST. No Active ATC.
+ATIS3:
+ATIS4:
+PROFILE:LIXX_GND:20:3
+ATIS2:XXX Ground
+ATIS3:Charts at vats.im/it/charts
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIXX_TWR:50:4
+ATIS2:XXXXX Tower
+ATIS3:Charts at vats.im/it/charts
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIXX_APP:150:5
+ATIS2:XXX Approach
+ATIS3:Charts at vats.im/it/charts
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIXX_X_CTR:300:6
+ATIS2:XXX Radar
+ATIS3:Charts at vats.im/it/charts
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIMM_N_CTR:300:6
+ATIS2:Milano Control
+ATIS3:Charts
+ATIS4:Covering the whole Milano FIR LIM* LIP* LIL* LID*
+PROFILE:LIRR_N_CTR:300:6
+ATIS2:Roma Control
+ATIS3:Charts
+ATIS4:Covering the whole LIRR FIR, LIR* LIE* LIC* LIQ* LIA* and Malta LMMM
+PROFILE:LIUP_CTR:300:6
+ATIS2:Italy Radar
+ATIS3:Charts
+ATIS4:Covering all Italy's FIRs
+END
