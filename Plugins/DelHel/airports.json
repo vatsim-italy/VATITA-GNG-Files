@@ -1668,28 +1668,6 @@
 	"LIMZ": {
 		"elevation": 1267,
 		"sids": {
-			"ABESI": {
-				"cfl": 6000,
-				"rwys": {
-					"03": {
-						"dep": "ABESI1Q"
-					},
-					"21": {
-						"dep": "ABESI1Q"
-					}
-				}
-			},
-			"CANNE": {
-				"cfl": 6000,
-				"rwys": {
-					"03": {
-						"dep": "CANNE1Q"
-					},
-					"21": {
-						"dep": "CANNE1Q"
-					}
-				}
-			},
 			"ENOBA": {
 				"cfl": 6000,
 				"rwys": {
@@ -1734,17 +1712,6 @@
 					}
 				}
 			},
-			"LEV": {
-				"cfl": 6000,
-				"rwys": {
-					"03": {
-						"dep": "LEV6Q"
-					},
-					"21": {
-						"dep": "LEV6P"
-					}
-				}
-			},
 			"MMP": {
 				"cfl": 6000,
 				"rwys": {
@@ -1753,17 +1720,6 @@
 					},
 					"21": {
 						"dep": "MMP1D"
-					}
-				}
-			},
-			"SRN": {
-				"cfl": 6000,
-				"rwys": {
-					"03": {
-						"dep": "SRN1Q"
-					},
-					"21": {
-						"dep": "SRN1Q"
 					}
 				}
 			},
