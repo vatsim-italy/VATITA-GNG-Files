@@ -145,7 +145,7 @@ Color_WM_Border=88,95,99
 Color_WM_Fg=20,20,21
 Color_WM_Frame=88,95,99
 
-Equip_UseCodes=0
+Equip_UseCodes=1
 
 Malrt_Misap=MISAP-
 Malrt_Inbound_EST=EST-
