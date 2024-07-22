@@ -1,57 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-Fixes:DIEZO:name
-Fixes:DIEZO:symbol
-Fixes:ESCOB:name
-Fixes:ESCOB:symbol
-Free Text:LIPE MRVA LABELs\100:freetext
-Free Text:LIPE MRVA LABELs\110:freetext
-Free Text:LIPE MRVA LABELs\25:freetext
-Free Text:LIPE MRVA LABELs\25:freetext
-Free Text:LIPE MRVA LABELs\3:freetext
-Free Text:LIPE MRVA LABELs\3:freetext
-Free Text:LIPE MRVA LABELs\3:freetext
-Free Text:LIPE MRVA LABELs\35:freetext
-Free Text:LIPE MRVA LABELs\4:freetext
-Free Text:LIPE MRVA LABELs\4:freetext
-Free Text:LIPE MRVA LABELs\5:freetext
-Free Text:LIPE MRVA LABELs\5:freetext
-Free Text:LIPE MRVA LABELs\5:freetext
-Free Text:LIPE MRVA LABELs\5:freetext
-Free Text:LIPE MRVA LABELs\90:freetext
-Free Text:LIPE MRVA LABELs\TL:freetext
-Geo:LIPE MRVA:
-Runways:LIMJ 10-28:centerline
-Runways:LIMJ 10-28:extended centerline 1
-Runways:LIMJ 10-28:extended centerline 1 left base
-Runways:LIMJ 10-28:extended centerline 1 left ticks
-Runways:LIMJ 10-28:extended centerline 1 right base
-Runways:LIMJ 10-28:extended centerline 1 right ticks
-Runways:LIMJ 10-28:extended centerline 2
-Runways:LIMJ 10-28:extended centerline 2 left base
-Runways:LIMJ 10-28:extended centerline 2 left ticks
-Runways:LIMJ 10-28:extended centerline 2 right base
-Runways:LIMJ 10-28:extended centerline 2 right ticks
-Runways:LIMJ 10-28:name
-Runways:LIRP 04R-22L:centerline
-Runways:LIRP 04R-22L:extended centerline 1
-Runways:LIRP 04R-22L:extended centerline 1 left base
-Runways:LIRP 04R-22L:extended centerline 1 left ticks
-Runways:LIRP 04R-22L:extended centerline 1 left vectoring
-Runways:LIRP 04R-22L:extended centerline 1 right base
-Runways:LIRP 04R-22L:extended centerline 1 right ticks
-Runways:LIRP 04R-22L:extended centerline 1 right vectoring
-Runways:LIRP 04R-22L:extended centerline 2
-Runways:LIRP 04R-22L:extended centerline 2 left base
-Runways:LIRP 04R-22L:extended centerline 2 left ticks
-Runways:LIRP 04R-22L:extended centerline 2 left vectoring
-Runways:LIRP 04R-22L:extended centerline 2 right base
-Runways:LIRP 04R-22L:extended centerline 2 right ticks
-Runways:LIRP 04R-22L:extended centerline 2 right vectoring
-Runways:LIRP 04R-22L:name
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
+SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
 SHOWC:1
 SHOWSB:0
 BELOW:900
@@ -65,4 +16,4 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:Italy CTR
-WINDOWAREA:36.080310:2.496491:44.715160:23.505736
+WINDOWAREA:39.505558:-1.869100:45.084025:11.797983
