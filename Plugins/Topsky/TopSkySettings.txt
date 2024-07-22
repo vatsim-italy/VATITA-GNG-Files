@@ -151,14 +151,18 @@ Malrt_Misap=MISAP-
 Malrt_Inbound_EST=EST-
 Malrt_Irregular=IRREG-
 
-Airspace_ASSR_Type=0
+Airspace_AOR_Airports=LI,LM
+Airspace_AOR_Positions=LI,LM
 Airspace_ModeS_Code_VFR=7000
 Airspace_No_DUPE_Codes=7000,1200,1000
 Airspace_SIGMET_Areas=LIMM,LIRR,LIBB
-Airspace_NOTAM_Remove=EDMM,LSAS,LOVV,LFMM,LJLA,LDZO,LSZH,LOWW,LFMN,LDZA,LOWI,EDDM
+Airspace_ASSR_AutoAssign_Type=2
+Airspace_ASSR_AutoAssign_AcceptCurrent=1
 HTTP_NOTAM_Server=https://www.notams.faa.gov/
+Airspace_NOTAM_Remove=EDMM,LSAS,LOVV,LFMM,LJLA,LDZO,LSZH,LOWW,LFMN,LDZA,LOWI,EDDM
 HTTP_SIGMET_Server=http://aviationweather.gov/
 HTTP_TAF_Server=https://aviationweather.gov/
+Airspace_NOTAM_Add=LIMM,LIRR,LIBB
 
 RDF_Mode=2
 RDF_Accuracy=0.0
@@ -319,18 +323,21 @@ Window_SmallQNHTL_ICAO=LIPZ
 
 Airspace_AOR_Airports=LIM,LIL,LIP,LID,LIRQ,LIRP
 Airspace_AOR_Positions=LIM,LIL,LIP,LID,LIRQ,LIRP
-Airspace_ASSR_StartCode=5401
-Airspace_ASSR_EndCode=5477
-Airspace_ASSR_APL_StartCode=5401
-Airspace_ASSR_APL_EndCode=5477
 Window_SmallQNHTL_ICAO=LIMC
 
 [LIRR_]
 
 Airspace_AOR_Airports=LIR,LIC,LIE,LIA,LMML
 Airspace_AOR_Positions=LIR,LIC,LIE,LIA,LMML
-Airspace_ASSR_StartCode=5501
-Airspace_ASSR_EndCode=5577
-Airspace_ASSR_APL_StartCode=5501
-Airspace_ASSR_APL_EndCode=5577
 Window_SmallQNHTL_ICAO=LIRF
+
+
+
+
+
+
+
+
+
+
+
