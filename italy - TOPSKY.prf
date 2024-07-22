@@ -1,0 +1,82 @@
+Voice	Grammar	\Settings\ESGrammar.txt
+Settings	AselKey	1769472
+Settings	FreqKey	2686976
+Settings	AtisFolder	\LIXX\ATIS\AtisFiles.txt
+Settings	airlines	\LIXX\ICAO\ICAO_Airlines.txt
+Settings	airports	\LIXX\ICAO\ICAO_Airports.txt
+Settings	aircraft	\LIXX\ICAO\ICAO_Aircraft.txt
+Settings	airways	\LIXX\NavData\airway.txt
+Settings	airportcoords	\LIXX\NavData\icao.txt
+Settings	SettingsfileSYMBOLOGY	\LIXX\Settings\SymbologySettings.txt
+Settings	SettingsfileVOICE	\LIXX\Settings\VoiceChannels.txt
+Settings	SettingsfilePROFILE	\LIXX\Settings\LoginProfiles.txt
+Settings	SettingsfileTAGS	\LIXX\Settings\TAGDefinitions.txt
+Settings	SettingsfileSIL	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileSEL	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileDEP	\LIXX\Settings\DepartureList.txt
+Settings	SettingsfileARR	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileFP	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfilePLUGINS	\LIXX\Settings\Plugins.txt
+Settings	SettingsfileSCREEN	\LIXX\Settings\ScreenSettings.txt
+Settings	SettingsfileCONFLICT	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileVCCS	\LIXX\Settings\VCCS.txt
+Settings	SettingsfilePILOTING	\LIXX\Settings\italyCTR.txt
+Settings	sector	\LIXX-Italy_20240717174204-240701-0007.sct
+Settings	SettingsfileORIGPLANE	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileSTUP	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileTAXIOUT	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileTAKEOFF	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileADCS	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileTAXIIN	\LIXX\Settings\italyCTR.txt
+Settings	Settingsfile	\LIXX\Settings\GeneralSettings.txt
+Settings	alias	\LIXX\Alias\alias.txt
+Sounds	Sound0	\LIXX\Sounds\handoffreq.wav
+Sounds	Sound1	\LIXX\Sounds\handoffacc.wav
+Sounds	Sound2	\LIXX\Plugins\Topsky\TopSkySoundSTCA.wav
+Sounds	Sound3	\LIXX\Sounds\radiomessage.wav
+Sounds	Sound4	\LIXX\Sounds\chatmessage.wav
+Sounds	Sound5	\LIXX\Sounds\atcmessage.wav
+Sounds	Sound6	\LIXX\Sounds\broadcast.wav
+Sounds	Sound7	\LIXX\Sounds\intercomcall.wav
+Sounds	Sound8	\LIXX\Sounds\supervisor_message.wav
+Sounds	Sound9	\LIXX\Sounds\connected.wav
+Sounds	Sound10	\LIXX\Sounds\disconnected.wav
+Sounds	Sound11	\LIXX\Plugins\Topsky\TopSkySoundCoord.wav
+Sounds	Sound12	\LIXX\Plugins\Topsky\TopSkySoundCoordACP.wav
+Sounds	Sound13	\LIXX\Plugins\Topsky\TopSkySoundCoordRJC.wav
+Sounds	Sound14	\LIXX\Plugins\Topsky\TopSkySoundCoord.wav
+Sounds	Sound15	\LIXX\Sounds\new_atis.wav
+Sounds	Sound16	\LIXX\Sounds\handoff_refused.wav
+Sounds	Sound17	\LIXX\Sounds\pointout.wav
+Voice	PPPT	1900544
+Voice	SPPT	2752512
+Plugins	Plugin1	\LIXX\Plugins\VCH\VCH.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin2	\LIXX\Plugins\DelHel\DelHel.dll
+Plugins	Plugin2Display0	DelHel
+Plugins	Plugin0	\LIXX\Plugins\Topsky\TopSky.dll
+Plugins	Plugin0Display0	Standard ES radar screen
+Plugins	Plugin2Display1	Standard ES radar screen
+Plugins	Plugin0Display1	Ground Radar display
+Plugins	Plugin1Display1	SMR radar display
+Plugins	Plugin2Display2	SMR radar display
+TeamSpeakVccs	Ts3NickName	ATC_STATION
+TeamSpeakVccs	PlaybackMode	Windows Audio Session
+TeamSpeakVccs	PlaybackDevice	Altoparlanti (Realtek High Definition Audio)
+TeamSpeakVccs	CaptureMode	Windows Audio Session
+TeamSpeakVccs	CaptureDevice	Microfono (Razer Seiren X)
+TeamSpeakVccs	Ts3DialogLeft	338
+TeamSpeakVccs	Ts3DialogTop	181
+TeamSpeakVccs	Ts3DialogRight	1139
+TeamSpeakVccs	Ts3DialogBottom	754
+TeamSpeakVccs	Ts3G2APtt	3670016
+Plugins	Plugin3	\LIXX\Plugins\GRplugin_1.5\GRplugin.dll
+Plugins	Plugin3Display0	Ground Radar display
+LastSession	server	AUTOMATIC
+LastSession	atis_freq3	118000
+TeamSpeakVccs	Ts3G2GPtt	3670016
+TeamSpeakVccs	TsVccsMiniControlX	769
+TeamSpeakVccs	TsVccsMiniControlY	24
+Sounds	Sound18	\LIXX\Sounds\startup.wav
+RecentFiles	Recent1	\LIXX\ASR\VATITA\TOPSKY\TOPSKY.asr
+LastSession	atis_freq4	118000
