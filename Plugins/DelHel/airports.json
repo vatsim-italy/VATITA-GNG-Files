@@ -1304,17 +1304,6 @@
 					}
 				}
 			},
-			"GEN": {
-				"cfl": 5000,
-				"rwys": {
-					"18": {
-						"dep": "TOP1BxGEN2L"
-					},
-					"36": {
-						"dep": "SIRLO8AxGEN9N"
-					}
-				}
-			},
 			"IXUSA": {
 				"cfl": 5000,
 				"rwys": {
