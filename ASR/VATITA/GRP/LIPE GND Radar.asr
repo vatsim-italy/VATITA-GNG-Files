@@ -1,0 +1,206 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LIPE MRVA LABELs\100:freetext
+Free Text:LIPE MRVA LABELs\110:freetext
+Free Text:LIPE MRVA LABELs\25:freetext
+Free Text:LIPE MRVA LABELs\3:freetext
+Free Text:LIPE MRVA LABELs\35:freetext
+Free Text:LIPE MRVA LABELs\4:freetext
+Free Text:LIPE MRVA LABELs\5:freetext
+Free Text:LIPE MRVA LABELs\90:freetext
+Free Text:LIPE MRVA LABELs\TL:freetext
+Free Text:LIPE Parkings\102:freetext
+Free Text:LIPE Parkings\103:freetext
+Free Text:LIPE Parkings\1031:freetext
+Free Text:LIPE Parkings\1032:freetext
+Free Text:LIPE Parkings\104:freetext
+Free Text:LIPE Parkings\105:freetext
+Free Text:LIPE Parkings\106:freetext
+Free Text:LIPE Parkings\107:freetext
+Free Text:LIPE Parkings\108:freetext
+Free Text:LIPE Parkings\109:freetext
+Free Text:LIPE Parkings\110:freetext
+Free Text:LIPE Parkings\111:freetext
+Free Text:LIPE Parkings\112:freetext
+Free Text:LIPE Parkings\113:freetext
+Free Text:LIPE Parkings\114:freetext
+Free Text:LIPE Parkings\115:freetext
+Free Text:LIPE Parkings\116:freetext
+Free Text:LIPE Parkings\205:freetext
+Free Text:LIPE Parkings\2051:freetext
+Free Text:LIPE Parkings\206:freetext
+Free Text:LIPE Parkings\207:freetext
+Free Text:LIPE Parkings\208:freetext
+Free Text:LIPE Parkings\2081:freetext
+Free Text:LIPE Parkings\209:freetext
+Free Text:LIPE Parkings\210:freetext
+Free Text:LIPE Parkings\211:freetext
+Free Text:LIPE Parkings\212:freetext
+Free Text:LIPE Parkings\213:freetext
+Free Text:LIPE Parkings\214:freetext
+Free Text:LIPE Parkings\215:freetext
+Free Text:LIPE Parkings\2151:freetext
+Free Text:LIPE Parkings\216:freetext
+Free Text:LIPE Parkings\217:freetext
+Free Text:LIPE Parkings\218:freetext
+Free Text:LIPE Parkings\219:freetext
+Free Text:LIPE Parkings\2201:freetext
+Free Text:LIPE Parkings\2202:freetext
+Free Text:LIPE Parkings\301:freetext
+Free Text:LIPE Parkings\302:freetext
+Free Text:LIPE Parkings\3021:freetext
+Free Text:LIPE Parkings\303:freetext
+Free Text:LIPE Parkings\3031:freetext
+Free Text:LIPE Parkings\401:freetext
+Free Text:LIPE Parkings\402:freetext
+Free Text:LIPE Parkings\403:freetext
+Free Text:LIPE Parkings\404:freetext
+Free Text:LIPE Parkings\405:freetext
+Free Text:LIPE Taxiway\(*) CAT I RHP:freetext
+Free Text:LIPE Taxiway\(**) CAT II/III RHP:freetext
+Free Text:LIPE Taxiway\102:freetext
+Free Text:LIPE Taxiway\103:freetext
+Free Text:LIPE Taxiway\1031:freetext
+Free Text:LIPE Taxiway\1032:freetext
+Free Text:LIPE Taxiway\104:freetext
+Free Text:LIPE Taxiway\105:freetext
+Free Text:LIPE Taxiway\106:freetext
+Free Text:LIPE Taxiway\107:freetext
+Free Text:LIPE Taxiway\108:freetext
+Free Text:LIPE Taxiway\109:freetext
+Free Text:LIPE Taxiway\110:freetext
+Free Text:LIPE Taxiway\111:freetext
+Free Text:LIPE Taxiway\112:freetext
+Free Text:LIPE Taxiway\113:freetext
+Free Text:LIPE Taxiway\114:freetext
+Free Text:LIPE Taxiway\115:freetext
+Free Text:LIPE Taxiway\116:freetext
+Free Text:LIPE Taxiway\205:freetext
+Free Text:LIPE Taxiway\2051:freetext
+Free Text:LIPE Taxiway\206:freetext
+Free Text:LIPE Taxiway\207:freetext
+Free Text:LIPE Taxiway\208:freetext
+Free Text:LIPE Taxiway\2081:freetext
+Free Text:LIPE Taxiway\209:freetext
+Free Text:LIPE Taxiway\210:freetext
+Free Text:LIPE Taxiway\211:freetext
+Free Text:LIPE Taxiway\212:freetext
+Free Text:LIPE Taxiway\213:freetext
+Free Text:LIPE Taxiway\214:freetext
+Free Text:LIPE Taxiway\215:freetext
+Free Text:LIPE Taxiway\2151:freetext
+Free Text:LIPE Taxiway\216:freetext
+Free Text:LIPE Taxiway\217:freetext
+Free Text:LIPE Taxiway\218:freetext
+Free Text:LIPE Taxiway\219:freetext
+Free Text:LIPE Taxiway\2201:freetext
+Free Text:LIPE Taxiway\2202:freetext
+Free Text:LIPE Taxiway\301:freetext
+Free Text:LIPE Taxiway\302:freetext
+Free Text:LIPE Taxiway\3021:freetext
+Free Text:LIPE Taxiway\303:freetext
+Free Text:LIPE Taxiway\3031:freetext
+Free Text:LIPE Taxiway\401:freetext
+Free Text:LIPE Taxiway\402:freetext
+Free Text:LIPE Taxiway\403:freetext
+Free Text:LIPE Taxiway\404:freetext
+Free Text:LIPE Taxiway\405:freetext
+Free Text:LIPE Taxiway\A:freetext
+Free Text:LIPE Taxiway\B:freetext
+Free Text:LIPE Taxiway\B1*:freetext
+Free Text:LIPE Taxiway\B2**:freetext
+Free Text:LIPE Taxiway\C*:freetext
+Free Text:LIPE Taxiway\Cargo:freetext
+Free Text:LIPE Taxiway\D*:freetext
+Free Text:LIPE Taxiway\D1:freetext
+Free Text:LIPE Taxiway\D2:freetext
+Free Text:LIPE Taxiway\D3:freetext
+Free Text:LIPE Taxiway\DE-ICING:freetext
+Free Text:LIPE Taxiway\E*:freetext
+Free Text:LIPE Taxiway\F:freetext
+Free Text:LIPE Taxiway\G:freetext
+Free Text:LIPE Taxiway\H1*:freetext
+Free Text:LIPE Taxiway\J*/**:freetext
+Free Text:LIPE Taxiway\K*/**:freetext
+Free Text:LIPE Taxiway\L1:freetext
+Free Text:LIPE Taxiway\L2:freetext
+Free Text:LIPE Taxiway\M1:freetext
+Free Text:LIPE Taxiway\M2:freetext
+Free Text:LIPE Taxiway\Mil.A:freetext
+Free Text:LIPE Taxiway\N:freetext
+Free Text:LIPE Taxiway\N1:freetext
+Free Text:LIPE Taxiway\N2:freetext
+Free Text:LIPE Taxiway\N3:freetext
+Free Text:LIPE Taxiway\P1:freetext
+Free Text:LIPE Taxiway\P2:freetext
+Free Text:LIPE Taxiway\Q1:freetext
+Free Text:LIPE Taxiway\Q2:freetext
+Free Text:LIPE Taxiway\R1:freetext
+Free Text:LIPE Taxiway\R2:freetext
+Free Text:LIPE Taxiway\S1:freetext
+Free Text:LIPE Taxiway\T:freetext
+Free Text:LIPE Taxiway\T1*/**:freetext
+Free Text:LIPE Taxiway\T2:freetext
+Free Text:LIPE Taxiway\T3:freetext
+Free Text:LIPE Taxiway\TL:freetext
+Free Text:LIPE Taxiway\TM:freetext
+Free Text:LIPE Taxiway\TN:freetext
+Free Text:LIPE Taxiway\TP:freetext
+Free Text:LIPE Taxiway\TQ:freetext
+Free Text:LIPE Taxiway\TR:freetext
+Free Text:LIPE Taxiway\TS:freetext
+Free Text:LIPE Taxiway\TU:freetext
+Free Text:LIPE Taxiway\TV:freetext
+Free Text:LIPE Taxiway\TW:freetext
+Free Text:LIPE Taxiway\TY:freetext
+Free Text:LIPE Taxiway\U:freetext
+Free Text:LIPE Taxiway\U1:freetext
+Free Text:LIPE Taxiway\U2:freetext
+Free Text:LIPE Taxiway\U3:freetext
+Free Text:LIPE Taxiway\V:freetext
+Free Text:LIPE Taxiway\V1:freetext
+Free Text:LIPE Taxiway\W:freetext
+Free Text:LIPE Taxiway\W1:freetext
+Free Text:LIPE Taxiway\Y1:freetext
+Free Text:LIPE Taxiway\Z:freetext
+Geo:GEO:
+Geo:IT Landmark Coastline:
+Geo:LIPE Groundlayout:
+Geo:LIPE MRVA:
+Runways:LIPE 12-30:centerline
+Runways:LIPE 12-30:extended centerline 1
+Runways:LIPE 12-30:extended centerline 1 left base
+Runways:LIPE 12-30:extended centerline 1 left ticks
+Runways:LIPE 12-30:extended centerline 1 left vectoring
+Runways:LIPE 12-30:extended centerline 1 right base
+Runways:LIPE 12-30:extended centerline 1 right ticks
+Runways:LIPE 12-30:extended centerline 1 right vectoring
+Runways:LIPE 12-30:extended centerline 2
+Runways:LIPE 12-30:extended centerline 2 left base
+Runways:LIPE 12-30:extended centerline 2 left ticks
+Runways:LIPE 12-30:extended centerline 2 left vectoring
+Runways:LIPE 12-30:extended centerline 2 right base
+Runways:LIPE 12-30:extended centerline 2 right ticks
+Runways:LIPE 12-30:extended centerline 2 right vectoring
+Runways:LIPE 12-30:name
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:334.00000
+TAGFAMILY:Italy
+WINDOWAREA:44.526398:11.274747:44.539896:11.307699
+PLUGIN:Ground Radar plugin:AirportElevation:123
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIPE
+PLUGIN:TopSky plugin:NoDraw:1
