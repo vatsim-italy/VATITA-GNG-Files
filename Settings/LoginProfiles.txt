@@ -19,16 +19,52 @@ PROFILE:LIXX_X_CTR:300:6
 ATIS2:XXX Radar
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMM_N_CTR:300:6
-ATIS2:Milano Control
-ATIS3:Charts
-ATIS4:Covering the whole Milano FIR LIM* LIP* LIL* LID*
+PROFILE:LIMM_EN_CTR:300:6
+ATIS2:Milano Radar - CPDLC LIMN [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIMM_WN_CTR:300:6
+ATIS2:Milano Radar - CPDLC LIMW [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIMM_WU_CTR:300:6
+ATIS2:Milano Radar - CPDLC LIMU [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIMM_WS_CTR:300:6
+ATIS2:Milano Radar - CPDLC LIMS [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIMM_EU_CTR:300:6
+ATIS2:Milano Radar - CPDLC LIME [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
 PROFILE:LIRR_N_CTR:300:6
-ATIS2:Roma Control
-ATIS3:Charts
-ATIS4:Covering the whole LIRR FIR, LIR* LIE* LIC* LIQ* LIA* and Malta LMMM
-PROFILE:LIUP_CTR:300:6
-ATIS2:Italy Radar
-ATIS3:Charts
-ATIS4:Covering all Italy's FIRs
+ATIS2:Roma Radar - CPDLC LIRN [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIRR_S_CTR:300:6
+ATIS2:Roma Radar - CPDLC LIRS [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIRR_U_CTR:300:6
+ATIS2:Roma Radar - CPDLC LIRU [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIPP_NE_CTR:250:6
+ATIS2:Padova Radar - CPDLC LIPN [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIPP_CE_CTR:250:6
+ATIS2:Padova Radar - CPDLC LIPC [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIPP_SD_CTR:250:6
+ATIS2:Padova Radar - CPDLC LIPS [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
+PROFILE:LIPP_NU_CTR:250:6
+ATIS2:Padova Radar - CPDLC LIPU [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector vatglasses.uk
 END
