@@ -1,0 +1,64 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
+SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
+Free Text:LIPK Parkings\101:freetext
+Free Text:LIPK Parkings\102:freetext
+Free Text:LIPK Parkings\103:freetext
+Free Text:LIPK Parkings\104:freetext
+Free Text:LIPK Parkings\105:freetext
+Free Text:LIPK Parkings\106:freetext
+Free Text:LIPK Parkings\107:freetext
+Free Text:LIPK Parkings\108:freetext
+Free Text:LIPK Parkings\109:freetext
+Free Text:LIPK Parkings\110:freetext
+Free Text:LIPK Parkings\111:freetext
+Free Text:LIPK Parkings\112:freetext
+Free Text:LIPK Parkings\113:freetext
+Free Text:LIPK Parkings\201:freetext
+Free Text:LIPK Parkings\202:freetext
+Free Text:LIPK Parkings\203:freetext
+Free Text:LIPK Parkings\204:freetext
+Free Text:LIPK Parkings\205:freetext
+Free Text:LIPK Parkings\206:freetext
+Free Text:LIPK Parkings\207:freetext
+Free Text:LIPK Parkings\208:freetext
+Free Text:LIPK Parkings\209:freetext
+Free Text:LIPK Parkings\210:freetext
+Free Text:LIPK Parkings\211:freetext
+Free Text:LIPK Parkings\301:freetext
+Free Text:LIPK Parkings\302:freetext
+Free Text:LIPK Parkings\303:freetext
+Free Text:LIPK Parkings\304:freetext
+Free Text:LIPK Parkings\401:freetext
+Free Text:LIPK Parkings\402:freetext
+Free Text:LIPK Parkings\403:freetext
+Free Text:LIPK Parkings\404:freetext
+Free Text:LIPK Taxiway\A:freetext
+Free Text:LIPK Taxiway\B:freetext
+Free Text:LIPK Taxiway\C:freetext
+Free Text:LIPK Taxiway\D:freetext
+Free Text:LIPK Taxiway\Z:freetext
+Free Text:LIPK Taxiway\Z:freetext
+Free Text:LIPK Taxiway\Z:freetext
+Geo:IT Landmark Coastline:
+Geo:LIPK Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:334.00000
+TAGFAMILY:Italy
+WINDOWAREA:44.186442:12.049569:44.203314:12.092744
+PLUGIN:Ground Radar plugin:AirportElevation:98
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIPK
+PLUGIN:TopSky plugin:NoDraw:1

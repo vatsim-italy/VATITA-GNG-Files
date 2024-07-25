@@ -1,0 +1,89 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
+SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
+Free Text:LIPX Parkings\11:freetext
+Free Text:LIPX Parkings\12:freetext
+Free Text:LIPX Parkings\13:freetext
+Free Text:LIPX Parkings\14:freetext
+Free Text:LIPX Parkings\21:freetext
+Free Text:LIPX Parkings\22:freetext
+Free Text:LIPX Parkings\23:freetext
+Free Text:LIPX Parkings\31:freetext
+Free Text:LIPX Parkings\32:freetext
+Free Text:LIPX Parkings\33:freetext
+Free Text:LIPX Parkings\34:freetext
+Free Text:LIPX Parkings\35:freetext
+Free Text:LIPX Parkings\36:freetext
+Free Text:LIPX Parkings\37:freetext
+Free Text:LIPX Parkings\41:freetext
+Free Text:LIPX Parkings\42:freetext
+Free Text:LIPX Parkings\43:freetext
+Free Text:LIPX Parkings\44:freetext
+Free Text:LIPX Parkings\45:freetext
+Free Text:LIPX Parkings\46:freetext
+Free Text:LIPX Parkings\47:freetext
+Free Text:LIPX Parkings\48:freetext
+Free Text:LIPX Parkings\51:freetext
+Free Text:LIPX Parkings\511:freetext
+Free Text:LIPX Parkings\512:freetext
+Free Text:LIPX Parkings\52:freetext
+Free Text:LIPX Parkings\53:freetext
+Free Text:LIPX Parkings\54:freetext
+Free Text:LIPX Parkings\55:freetext
+Free Text:LIPX Parkings\56:freetext
+Free Text:LIPX Parkings\57:freetext
+Free Text:LIPX Taxiway\A:freetext
+Free Text:LIPX Taxiway\B:freetext
+Free Text:LIPX Taxiway\C:freetext
+Free Text:LIPX Taxiway\D:freetext
+Free Text:LIPX Taxiway\E:freetext
+Free Text:LIPX Taxiway\F:freetext
+Free Text:LIPX Taxiway\G:freetext
+Free Text:LIPX Taxiway\J:freetext
+Free Text:LIPX Taxiway\J:freetext
+Free Text:LIPX Taxiway\J1:freetext
+Free Text:LIPX Taxiway\K:freetext
+Free Text:LIPX Taxiway\K(CAT_II/III):freetext
+Free Text:LIPX Taxiway\M:freetext
+Free Text:LIPX Taxiway\M:freetext
+Free Text:LIPX Taxiway\M1:freetext
+Free Text:LIPX Taxiway\M2:freetext
+Free Text:LIPX Taxiway\MIL.A:freetext
+Free Text:LIPX Taxiway\MIL.A:freetext
+Free Text:LIPX Taxiway\MIL.A:freetext
+Free Text:LIPX Taxiway\N:freetext
+Free Text:LIPX Taxiway\P:freetext
+Free Text:LIPX Taxiway\P:freetext
+Free Text:LIPX Taxiway\P:freetext
+Free Text:LIPX Taxiway\P:freetext
+Free Text:LIPX Taxiway\P(CAT_II/III):freetext
+Free Text:LIPX Taxiway\R:freetext
+Free Text:LIPX Taxiway\R:freetext
+Free Text:LIPX Taxiway\R1:freetext
+Free Text:LIPX Taxiway\T:freetext
+Free Text:LIPX Taxiway\T:freetext
+Free Text:LIPX Taxiway\T:freetext
+Free Text:LIPX Taxiway\T:freetext
+Free Text:LIPX Taxiway\W:freetext
+Free Text:LIPX Taxiway\Y:freetext
+Geo:LIPX Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:42.50000
+TAGFAMILY:Italy
+WINDOWAREA:45.386587:10.860194:45.407678:10.914163
+PLUGIN:Ground Radar plugin:AirportElevation:240
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIPX
+PLUGIN:TopSky plugin:NoDraw:1

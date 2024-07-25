@@ -1,0 +1,70 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
+SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
+Free Text:LIPQ Parkings\1:freetext
+Free Text:LIPQ Parkings\10:freetext
+Free Text:LIPQ Parkings\11:freetext
+Free Text:LIPQ Parkings\12:freetext
+Free Text:LIPQ Parkings\13:freetext
+Free Text:LIPQ Parkings\14:freetext
+Free Text:LIPQ Parkings\15:freetext
+Free Text:LIPQ Parkings\16:freetext
+Free Text:LIPQ Parkings\17:freetext
+Free Text:LIPQ Parkings\18:freetext
+Free Text:LIPQ Parkings\19:freetext
+Free Text:LIPQ Parkings\2:freetext
+Free Text:LIPQ Parkings\20:freetext
+Free Text:LIPQ Parkings\21:freetext
+Free Text:LIPQ Parkings\22:freetext
+Free Text:LIPQ Parkings\23:freetext
+Free Text:LIPQ Parkings\24:freetext
+Free Text:LIPQ Parkings\25:freetext
+Free Text:LIPQ Parkings\26:freetext
+Free Text:LIPQ Parkings\27:freetext
+Free Text:LIPQ Parkings\28:freetext
+Free Text:LIPQ Parkings\29:freetext
+Free Text:LIPQ Parkings\3:freetext
+Free Text:LIPQ Parkings\30:freetext
+Free Text:LIPQ Parkings\31:freetext
+Free Text:LIPQ Parkings\32:freetext
+Free Text:LIPQ Parkings\4:freetext
+Free Text:LIPQ Parkings\5:freetext
+Free Text:LIPQ Parkings\6:freetext
+Free Text:LIPQ Parkings\7:freetext
+Free Text:LIPQ Parkings\8:freetext
+Free Text:LIPQ Parkings\9:freetext
+Free Text:LIPQ Taxiway\A:freetext
+Free Text:LIPQ Taxiway\B:freetext
+Free Text:LIPQ Taxiway\C:freetext
+Free Text:LIPQ Taxiway\D:freetext
+Free Text:LIPQ Taxiway\E:freetext
+Free Text:LIPQ Taxiway\F:freetext
+Free Text:LIPQ Taxiway\G:freetext
+Free Text:LIPQ Taxiway\G:freetext
+Free Text:LIPQ Taxiway\G1:freetext
+Free Text:LIPQ Taxiway\G2:freetext
+Free Text:LIPQ Taxiway\S:freetext
+Free Text:LIPQ Taxiway\S:freetext
+Free Text:LIPQ Taxiway\S:freetext
+Geo:IT Landmark Coastline:
+Geo:LIPQ Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:359.00000
+TAGFAMILY:Italy
+WINDOWAREA:45.814977:13.441340:45.836068:13.495309
+PLUGIN:Ground Radar plugin:AirportElevation:40
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIPQ
+PLUGIN:TopSky plugin:NoDraw:1

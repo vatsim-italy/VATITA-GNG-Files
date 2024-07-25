@@ -1,0 +1,101 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
+SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
+Free Text:LIMJ Parkings\101:freetext
+Free Text:LIMJ Parkings\102:freetext
+Free Text:LIMJ Parkings\103:freetext
+Free Text:LIMJ Parkings\104:freetext
+Free Text:LIMJ Parkings\105:freetext
+Free Text:LIMJ Parkings\106:freetext
+Free Text:LIMJ Parkings\107:freetext
+Free Text:LIMJ Parkings\108:freetext
+Free Text:LIMJ Parkings\109:freetext
+Free Text:LIMJ Parkings\110:freetext
+Free Text:LIMJ Parkings\111:freetext
+Free Text:LIMJ Parkings\112:freetext
+Free Text:LIMJ Parkings\201:freetext
+Free Text:LIMJ Parkings\202:freetext
+Free Text:LIMJ Parkings\203:freetext
+Free Text:LIMJ Parkings\204:freetext
+Free Text:LIMJ Parkings\205:freetext
+Free Text:LIMJ Parkings\206:freetext
+Free Text:LIMJ Parkings\207:freetext
+Free Text:LIMJ Parkings\208:freetext
+Free Text:LIMJ Parkings\209:freetext
+Free Text:LIMJ Parkings\210:freetext
+Free Text:LIMJ Parkings\211:freetext
+Free Text:LIMJ Parkings\212:freetext
+Free Text:LIMJ Parkings\213:freetext
+Free Text:LIMJ Parkings\301:freetext
+Free Text:LIMJ Parkings\302:freetext
+Free Text:LIMJ Parkings\303:freetext
+Free Text:LIMJ Parkings\304:freetext
+Free Text:LIMJ Parkings\308:freetext
+Free Text:LIMJ Parkings\309:freetext
+Free Text:LIMJ Parkings\310:freetext
+Free Text:LIMJ Parkings\311:freetext
+Free Text:LIMJ Parkings\401:freetext
+Free Text:LIMJ Parkings\402:freetext
+Free Text:LIMJ Parkings\403:freetext
+Free Text:LIMJ Parkings\404:freetext
+Free Text:LIMJ Parkings\405:freetext
+Free Text:LIMJ Parkings\406:freetext
+Free Text:LIMJ Parkings\407:freetext
+Free Text:LIMJ Parkings\408:freetext
+Free Text:LIMJ Parkings\FUEL:freetext
+Free Text:LIMJ Taxiway\A:freetext
+Free Text:LIMJ Taxiway\A:freetext
+Free Text:LIMJ Taxiway\A:freetext
+Free Text:LIMJ Taxiway\A:freetext
+Free Text:LIMJ Taxiway\A1:freetext
+Free Text:LIMJ Taxiway\A2:freetext
+Free Text:LIMJ Taxiway\A3:freetext
+Free Text:LIMJ Taxiway\A4:freetext
+Free Text:LIMJ Taxiway\AE:freetext
+Free Text:LIMJ Taxiway\AF:freetext
+Free Text:LIMJ Taxiway\B:freetext
+Free Text:LIMJ Taxiway\C:freetext
+Free Text:LIMJ Taxiway\D:freetext
+Free Text:LIMJ Taxiway\E:freetext
+Free Text:LIMJ Taxiway\F:freetext
+Free Text:LIMJ Taxiway\G:freetext
+Free Text:LIMJ Taxiway\H3:freetext
+Free Text:LIMJ Taxiway\L1:freetext
+Free Text:LIMJ Taxiway\L2:freetext
+Free Text:LIMJ Taxiway\L3:freetext
+Free Text:LIMJ Taxiway\M:freetext
+Free Text:LIMJ Taxiway\M:freetext
+Free Text:LIMJ Taxiway\M:freetext
+Free Text:LIMJ Taxiway\M1:freetext
+Free Text:LIMJ Taxiway\M2:freetext
+Free Text:LIMJ Taxiway\M3:freetext
+Free Text:LIMJ Taxiway\M4:freetext
+Free Text:LIMJ Taxiway\N:freetext
+Free Text:LIMJ Taxiway\N:freetext
+Free Text:LIMJ Taxiway\N1:freetext
+Free Text:LIMJ Taxiway\N2:freetext
+Free Text:LIMJ Taxiway\N3:freetext
+Free Text:LIMJ Taxiway\N4:freetext
+Free Text:LIMJ Taxiway\P:freetext
+Free Text:LIMJ Taxiway\TP:freetext
+Geo:LIMJ Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:345.50000
+TAGFAMILY:Italy
+WINDOWAREA:44.406819:8.816200:44.427913:8.870175
+PLUGIN:Ground Radar plugin:AirportElevation:13
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIMJ
+PLUGIN:TopSky plugin:NoDraw:1
