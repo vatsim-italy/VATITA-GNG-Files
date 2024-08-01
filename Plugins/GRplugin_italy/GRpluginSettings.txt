@@ -34,11 +34,11 @@ Maps_Font=Verdana
 
 // TAGS
 
-GroundLabel_Font=Verdana
+GroundLabel_Font=Lato
 GroundLabel_FontStyle=550,0,0,0
 
 Color_Arrival=0,255,0
-Color_Departure=0,200,255
+Color_Departure=0,188,255
 
 Track_Heading_Line=1
 Track_HistoryDots_GND=5
@@ -150,14 +150,15 @@ List_Departure_Items=30
 List_Inbound_DefPos=10,600
 List_Inbound_DTT=1
 List_Inbound_TYPE=1
-List_Inbound_STAND=1
+List_Inbound_STAND=0
 
 List_Outbound_DefPos=10,800
 List_Outbound_TYPE=1
+List_Outbound_WTC=1
 List_Outbound_SID=1
 List_Outbound_ExpiryTime=300
 
-List_Alerts=1,1640,50
+List_Alerts=1,1400,50
 
 
 //AIRPORT SPECIFIC SETTINGS
