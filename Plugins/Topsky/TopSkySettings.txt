@@ -1,3 +1,7 @@
+//Shortcuts
+Shortcut_Map_Target=1,CTA / TMA\PADOVA Controlled Airspace
+Shortcut_Map_Target=2,FIS\VRP LIXX
+
 //Cursors
 System_GUI_Scale_Cursors=0.7
 
