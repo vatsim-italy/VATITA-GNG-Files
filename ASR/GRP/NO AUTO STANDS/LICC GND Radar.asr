@@ -1,0 +1,98 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
+SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
+Free Text:LICC Parkings\100:freetext
+Free Text:LICC Parkings\101:freetext
+Free Text:LICC Parkings\102:freetext
+Free Text:LICC Parkings\103:freetext
+Free Text:LICC Parkings\104:freetext
+Free Text:LICC Parkings\300:freetext
+Free Text:LICC Parkings\301:freetext
+Free Text:LICC Parkings\302:freetext
+Free Text:LICC Parkings\303:freetext
+Free Text:LICC Parkings\304:freetext
+Free Text:LICC Parkings\305:freetext
+Free Text:LICC Parkings\306:freetext
+Free Text:LICC Parkings\307:freetext
+Free Text:LICC Parkings\308:freetext
+Free Text:LICC Parkings\309:freetext
+Free Text:LICC Parkings\310:freetext
+Free Text:LICC Parkings\311:freetext
+Free Text:LICC Parkings\312:freetext
+Free Text:LICC Parkings\313:freetext
+Free Text:LICC Parkings\314:freetext
+Free Text:LICC Parkings\315:freetext
+Free Text:LICC Parkings\316:freetext
+Free Text:LICC Parkings\317:freetext
+Free Text:LICC Parkings\318:freetext
+Free Text:LICC Parkings\319:freetext
+Free Text:LICC Parkings\320:freetext
+Free Text:LICC Parkings\321:freetext
+Free Text:LICC Parkings\322:freetext
+Free Text:LICC Parkings\323:freetext
+Free Text:LICC Parkings\324:freetext
+Free Text:LICC Parkings\325:freetext
+Free Text:LICC Parkings\326:freetext
+Free Text:LICC Parkings\327:freetext
+Free Text:LICC Parkings\328:freetext
+Free Text:LICC Parkings\329:freetext
+Free Text:LICC Parkings\330:freetext
+Free Text:LICC Parkings\331:freetext
+Free Text:LICC Parkings\332:freetext
+Free Text:LICC Parkings\333:freetext
+Free Text:LICC Parkings\334:freetext
+Free Text:LICC Parkings\335:freetext
+Free Text:LICC Parkings\336:freetext
+Free Text:LICC Parkings\337:freetext
+Free Text:LICC Parkings\338:freetext
+Free Text:LICC Parkings\339:freetext
+Free Text:LICC Taxiway\A:freetext
+Free Text:LICC Taxiway\A:freetext
+Free Text:LICC Taxiway\A:freetext
+Free Text:LICC Taxiway\A:freetext
+Free Text:LICC Taxiway\A:freetext
+Free Text:LICC Taxiway\A:freetext
+Free Text:LICC Taxiway\A1:freetext
+Free Text:LICC Taxiway\A2:freetext
+Free Text:LICC Taxiway\A3:freetext
+Free Text:LICC Taxiway\A4:freetext
+Free Text:LICC Taxiway\A5:freetext
+Free Text:LICC Taxiway\A6:freetext
+Free Text:LICC Taxiway\B:freetext
+Free Text:LICC Taxiway\C:freetext
+Free Text:LICC Taxiway\D:freetext
+Free Text:LICC Taxiway\E:freetext
+Free Text:LICC Taxiway\F:freetext
+Free Text:LICC Taxiway\G:freetext
+Free Text:LICC Taxiway\H:freetext
+Free Text:LICC Taxiway\H:freetext
+Free Text:LICC Taxiway\H1:freetext
+Free Text:LICC Taxiway\H2:freetext
+Free Text:LICC Taxiway\L:freetext
+Free Text:LICC Taxiway\L:freetext
+Free Text:LICC Taxiway\L1:freetext
+Free Text:LICC Taxiway\L2:freetext
+Free Text:LICC Taxiway\M:freetext
+Free Text:LICC Taxiway\M:freetext
+Free Text:LICC Taxiway\M1:freetext
+Geo:LICC Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:6.00000
+TAGFAMILY:Italy
+WINDOWAREA:37.461209:15.042862:37.478084:15.086043
+PLUGIN:Ground Radar plugin:AirportElevation:39
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LICC
+PLUGIN:TopSky plugin:NoDraw:1
