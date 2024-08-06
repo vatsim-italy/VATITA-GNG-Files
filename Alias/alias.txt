@@ -68,177 +68,180 @@
 ; ==============================================================================
 ; General
 ; ==============================================================================
-.SBY standby
-.NOATC monitor UNICOM on 122.800 - ciao! :)
-.CO Contact $radioname($1) on frequency $freq($1), ciao! :)
-.FPC flightplan closed, thanks for flying to $arr, ciao! :)
-.NEG negative
 .AFF affirm
-.RGR roger
+.BUSY Hello. Unfortunately, I am currently too busy to help you or to answer your question. Please try to find another person who can help you or contact me later.
+.CO Contact $radioname($1) on frequency $freq($1), ciao! :)
 .COR correction
-.IMM immediately
-.THX thanks
 .DIS disregard
-.SRY sorry
+.FPC flightplan closed, thanks for flying to $arr, ciao! :)
+.IMM immediately
 .INF information $atiscode
-.busy Hello. Unfortunately, I am currently too busy to help you or to answer your question. Please try to find another person who can help you or contact me later.
-.NBusy Hello! I am currently too busy to explain you everything in details. Please refere to the manuals on www.vatsim.net > Pilot resources
+.METAR $metar($1)
+.METBB .QD LIBD LIBR 
 .METMM .QD LIMF LIMC LIML LIMJ LIME LIPX LIPO
 .METPP .QD LIPE LIPR LIPK LIPZ LIPQ LIPH LIPB
 .METRR .QD LIEE LIEO LIEA LIRP LIRF LIRA LIRN LIBP LICJ LICC LICA LMML
-.METBB .QD LIBD LIBR 
-.METAR $metar($1)
+.NBUSY Hello! I am currently too busy to explain you everything in details. Please refere to the manuals on www.vatsim.net > Pilot resources
+.NEG negative
+.NOATC monitor UNICOM on 122.800 - ciao! :)
+.RGR roger
+.SBY standby
+.SRY sorry
+.THX thanks
 ; ==============================================================================
 ; Delivery / Ground
 ; ==============================================================================
-.FLOW due to imposed flow rate restrictions at $arr airport expect $2 minutes delay
-.WHENREADY Hello! When ready, please contact me for clearance :)
 .CLR cleared to $arr via $sid departure, climb to $temp, squawk $squawk
-.CLRTR cleared to $arr via $1 departure, $2 transition, climb to $temp, squawk $squawk
 .CLRA cleared to $arr via $sid departure, climb to $temp, squawk $squawk
+.CLRTR cleared to $arr via $1 departure, $2 transition, climb to $temp, squawk $squawk
 .CLRV cleared to $arr, climb to $1 on runway heading, expect vectors to $temp, squawk $squawk
-.RB Readback correct
-.rbspa Readback correct, startup and pushback approved
-.spa startup and pushback approved
-.SU startup approved
-.PS push & start is approved
-.PSN push & start is approved, nose NORTH
-.PSE push & start is approved, nose EAST
-.PSS push & start is approved, nose SOUTH
-.PSW push & start is approved, nose WEST
-.PBCO for pushback contact $radioname($1) on frequency $freq($1), good bye!
-.POS report your position
-.ttr taxi to holding point runway $deprwy
-.tts taxi to stand of your choice
-.ttrv taxi to holding point runway $deprwy via $2
-.ttsv taxi to stand $1 via $2
-.TG taxi to gate $1 via $2
-.TS taxi to stand $1 via $2
-.TE taxi to entry $1 via $2
-.TA taxi to the apron via $1
-.TGC taxi to gate of your choice
+.CROSS cross runway $1
+.CT continue taxiing
+.FLOW due to imposed flow rate restrictions at $arr airport expect $2 minutes delay
 .HSR hold short of runway $1
 .HST hold short of taxiway $1
-.CT continue taxiing
-.CROSS cross runway $1
+.PBCO for pushback contact $radioname($1) on frequency $freq($1), good bye!
+.PDCTR .msg $aircraft PDC START. Cleared to $arr via $sid (SIDxTRANSITION), then as filed. Initial climb $temp. Set Squawk $asquawk. Expect departure rwy $deprwy($dep). Readback not required. Report ready for start up and pushback. PDC END
+.PDC .msg $aircraft PDC START. Cleared to $arr via $sid, RWY $deprwy($dep). Initial climb $temp. Set Squawk $asquawk. Readback not required. Report ready for start up and pushback. PDC END
+.POS report your position
+.PS push & start is approved
+.PSE push & start is approved, nose EAST
+.PSN push & start is approved, nose NORTH
+.PSS push & start is approved, nose SOUTH
+.PSW push & start is approved, nose WEST
+.RB Readback correct
+.RBSPA Readback correct, startup and pushback approved
 .RV report vacated
 .S1 Continue standard 1. Standard 1 means monitor 121.90 , taxi via D and hold short of EG. It?s your duty as a pilot to carefully brief the local procedures of every airport you fly in, next time please be more careful and read the AOI/Airport Briefing charts where this type of information is contained. Flying without briefing procedures properly will ultimately hinder ATC operations so please try to do better next time. 
+.SPA startup and pushback approved
+.SU startup approved
+.TA taxi to the apron via $1
+.TE taxi to entry $1 via $2
+.TG taxi to gate $1 via $2
+.TGC taxi to gate of your choice
+.TS taxi to stand $1 via $2
+.TTR taxi to holding point runway $deprwy
+.TTRV taxi to holding point runway $deprwy via $2
+.TTS taxi to stand of your choice
+.TTSV taxi to stand $1 via $2
+.WHENREADY Hello! When ready, please contact me for clearance :)
 ; ==============================================================================
 ; Tower
 ; ==============================================================================
-.IMTO are you ready for an immediate departure?
-.LW line up  and wait runway $deprwy
-.LUL behind landing traffic runway $deprwy lineup and wait behind
-.LUD after departing traffic runway $deprwy lineup and wait after
 .CFT wind $winds, runway $deprwy, cleared for takeoff
-.CTL runway $arrrwy, cleared to land, wind $winds
-.CTG runway $arrrwy, cleared touch and go, wind $winds
 .CLA runway $arrrwy, cleared low approach, wind $winds 
+.CTG runway $arrrwy, cleared touch and go, wind $winds
+.CTL runway $arrrwy, cleared to land, wind $winds
 .GOA go around, I say again, go around
-.OM continue approach, report passing outer marker, wind $winds
+.IMTO are you ready for an immediate departure?
 .LATE continue approach, expect landing clearence on short final, wind $winds
-.VR vacate runway to the right, report vacated
+.LUD after departing traffic runway $deprwy lineup and wait after
+.LUL behind landing traffic runway $deprwy lineup and wait behind
+.LW line up  and wait runway $deprwy
+.MAP Perform missed approach procedure.
+.OM continue approach, report passing outer marker, wind $winds
 .VL vacate runway to the left, report vacated
+.VR vacate runway to the right, report vacated
 ; ==============================================================================
 ; VFR
 ; ==============================================================================
-.ok roger, report $1
+.OK roger, report $1
 ; ==============================================================================
 ; Radar
 ; ==============================================================================
-.SQ squawk $squawk
-.SQI squawk ident
-.SQC please squawk mode C
-.SQS please squawk standby on ground
-.ID identified
-.IDL identification lost
-.RC radar contact
-.HP hold over $1 as published
-.HI hold over $1, inbound track $2 degrees, $3 hand turns
 .AF after $1
-.WP when passing FL $1
-.WPA when passing altitude $1 ft
-.PD proceed direct $1
-.CD cleared direct waypoint $1
-.CV cleared via waypoints $1 and $2
-.FH fly heading $1
-.LH leave $1 heading $2
-.RPH report present heading
-.CPH continue present heading
-.TL turn left heading $1
-.TR turn right heading $1
-.TFL turn further left heading $1
-.TFR turn further right heading $1
-.TLB turn left by $1 degrees
-.TRB turn right by $1 degrees
-.TLD turn left direct $1
-.TRD turn right direct $1
-.SEP for separation
-.SEQ for sequencing
-.COC for continuous climb
-.WND for wind correction
-.WR when ready
+.AT at $1 ft per minute
 .C climb to FL $1
-.D descend FL $1
-.DFL descend FL $1
 .CA climb to altitude $1 ft
+.CD cleared direct waypoint $1
+.COC for continuous climb
+.CPH continue present heading
+.CV cleared via waypoints $1 and $2
+.D descend FL $1
 .DA descend altitude $1 ft
 .DAQ descend altitude $1 ft, QNH $altim($arr)
-.Q QNH $altim($arr)
-.TRL to reach level at $1
-.RRD report present rate of descent
-.RRC report present rate of climb
-.AT at $1 ft per minute
-.ROC rate of climb $1 ft per minute
-.ROD rate of descent $1 ft per minute
+.DFL descend FL $1
+.FH fly heading $1
+.HI hold over $1, inbound track $2 degrees, $3 hand turns
+.HP hold over $1 as published
+.ID identified
+.IDL identification lost
+.LH leave $1 heading $2
 .ORG or greater
 .ORL or less
 .ORM or more
+.PD proceed direct $1
+.Q QNH $altim($arr)
+.RC radar contact
+.ROC rate of climb $1 ft per minute
+.ROD rate of descent $1 ft per minute
+.RPH report present heading
+.RRC report present rate of climb
+.RRD report present rate of descent
+.SEP for separation
+.SEQ for sequencing
+.SQ squawk $squawk
+.SQC please squawk mode C
+.SQI squawk ident
+.SQS please squawk standby on ground
+.TFL turn further left heading $1
+.TFR turn further right heading $1
+.TL turn left heading $1
+.TLB turn left by $1 degrees
+.TLD turn left direct $1
+.TR turn right heading $1
+.TRB turn right by $1 degrees
+.TRD turn right direct $1
+.TRL to reach level at $1
 .UP until passing FL $1
+.WND for wind correction
+.WP when passing FL $1
+.WPA when passing altitude $1 ft
+.WR when ready
 ; ==============================================================================
 ; Approach
 ; ==============================================================================
-.RPS report present speed
-.MPS maintain present speed
-.SPD speed $1 knots
-.RED reduce speed $1 knots
-.INC increase speed $1 knots
-.REDM reduce speed to minimum clean
-.REDF reduce to final approach speed
-.RNS resume normal speed
-.MOM maintain to the outer marker
-.HSA highspeed approved
-.SUD speed $1 until $2 DME
-.RWY expect runway $1
 .EXP expect $1 approach runway $arrwy
-.OPH on present heading
-.ILS cleared ILS approach runway $arrrwy, report established
-.LOC intercept localizer runway $arrrwy
-.GL descend with the glideslope
-.LOG leave $1 on the glideslope
 .FIS report field in sight
-.VA cleared visual approach runway $arrrwy
+.GL descend with the glideslope
+.GPS cleared RNAV/GPS approach runway $arrrwy
+.HSA highspeed approved
+.ILS cleared ILS approach runway $arrrwy, report established
+.INC increase speed $1 knots
 .LLZ cleared localizer approach runway $arrrwy
 .LLZD cleared localizer/DME approach runway $arrrwy
-.VOR cleared VOR approach runway $arrrwy
-.VORD cleared VOR/DME approach runway $arrrwy
+.LOC intercept localizer runway $arrrwy
+.LOG leave $1 on the glideslope
+.MOM maintain to the outer marker
+.MPS maintain present speed
 .NDB cleared NDB approach runway $arrrwy
 .NDBD cleared NDB/DME approach runway $arrrwy
-.GPS cleared RNAV/GPS approach runway $arrrwy
-.STAR you are cleared $star arrival, expect runway $arrrwy in $arr
+.OPH on present heading
 .RE report established
+.RED reduce speed $1 knots
+.REDF reduce to final approach speed
+.REDM reduce speed to minimum clean
 .REL report established on localizer
 .RFE report fully established
+.RNS resume normal speed
+.RPS report present speed
+.RWY expect runway $1
+.SPD speed $1 knots
+.STAR you are cleared $star arrival, expect runway $arrrwy in $arr
+.SUD speed $1 until $2 DME
+.VA cleared visual approach runway $arrrwy
+.VOR cleared VOR approach runway $arrrwy
+.VORD cleared VOR/DME approach runway $arrrwy
 ; ==============================================================================
 ; Fix-Sets
 ; ==============================================================================
-.EVRIP hold over EVRIP fix, inbound course 305, 1.00 minute legs, left turns. Expect EVRIP3E arrival for ILS Z runway $arrrwy
 .ASTIG hold over ASTIG fix, inbound course 086, 1.00 minute legs, left turns. Expect ASTIG3E arrival for ILS Z runway $arrrwy
 .DEVOX hold over DEVOX fix, inbound course 020, 1.00 minute legs, left turns. Expect DEVOX3E arrival for ILS Z runway $arrrwy
+.EVGIR hold over EVGIR fix, inbound course 202, 1.00 minute legs, left turns, speed 210 knots
+.EVRIP hold over EVRIP fix, inbound course 305, 1.00 minute legs, left turns. Expect EVRIP3E arrival for ILS Z runway $arrrwy
+.INLER hold over INLER fix, inbound course 356, 3.5NM legs, right turns, maximum speed 190 knots
 .MEBUR hold over MEBUR fix, inbound course 324, 1.00 minute legs, right turns. Expect MEBUR3E arrival for ILS Z runway $arrrwy
+.NELAB cleared NELAB3P arrival, expect ILS Z runway $arrrwy. Hold over IKREZ fix, inbound course 143, 1.00 minute legs, right turns, speed 210 knots
+.ODINA cleared ODINA3G arrival, expect ILS Z runway $arrrwy. Hold over EVGIR fix, inbound course 202, 1.00 minute legs, left turns, speed 210 knots
 .PEXUG hold over PEXUG fix, inbound course 290, 1.00 minute legs, left turns. Expect PEXUG3E arrival for ILS Z runway $arrrwy
 .SRN hold over Saronno VOR (SRN), inbound course 169, 1.00 minute legs, left turns. Expect SRN3P arrival for ILS Z runway $arrrwy
-.ODINA cleared ODINA3G arrival, expect ILS Z runway $arrrwy. Hold over EVGIR fix, inbound course 202, 1.00 minute legs, left turns, speed 210 knots
-.NELAB cleared NELAB3P arrival, expect ILS Z runway $arrrwy. Hold over IKREZ fix, inbound course 143, 1.00 minute legs, right turns, speed 210 knots
-.EVGIR hold over EVGIR fix, inbound course 202, 1.00 minute legs, left turns, speed 210 knots
-.INLER hold over INLER fix, inbound course 356, 3.5NM legs, right turns, maximum speed 190 knots
