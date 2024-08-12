@@ -7,13 +7,13 @@ Settings	airports	\LIXX\ICAO\ICAO_Airports.txt
 Settings	aircraft	\LIXX\ICAO\ICAO_Aircraft.txt
 Settings	airways	\LIXX\NavData\airway.txt
 Settings	airportcoords	\LIXX\NavData\icao.txt
-Settings	SettingsfileSYMBOLOGY	\LIXX\Settings\SymbologySettings.txt
+Settings	SettingsfileSYMBOLOGY	\LIXX\Settings\SymbologySettings_topsky.txt
 Settings	SettingsfileVOICE	\LIXX\Settings\VoiceChannels.txt
 Settings	SettingsfilePROFILE	\LIXX\Settings\LoginProfiles.txt
 Settings	SettingsfileTAGS	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileSIL	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileSEL	\LIXX\Settings\italyCTR.txt
-Settings	SettingsfileDEP	\LIXX\Settings\DepartureList.txt
+Settings	SettingsfileDEP	\LIXX\Settings\DepartureList_topsky.txt
 Settings	SettingsfileARR	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileFP	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfilePLUGINS	\LIXX\Settings\Plugins.txt
@@ -27,7 +27,7 @@ Settings	SettingsfileTAXIOUT	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileTAKEOFF	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileADCS	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileTAXIIN	\LIXX\Settings\italyCTR.txt
-Settings	Settingsfile	\LIXX\Settings\GeneralSettings.txt
+Settings	Settingsfile	\LIXX\Settings\GeneralSettings_topsky.txt
 Settings	alias	\LIXX\Alias\alias.txt
 Sounds	Sound0	\LIXX\Sounds\handoffreq.wav
 Sounds	Sound1	\LIXX\Sounds\handoffacc.wav
