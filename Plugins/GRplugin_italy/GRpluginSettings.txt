@@ -181,6 +181,10 @@ Airport_Runway_Buffer_LVP=04R:150
 Window_APP=0,250,600,300,300
 Window_APP_Rotation=226
 
+Airport_Runway_Closed_Arr=04L
+Airport_Runway_Closed_Dep=04L
+
+System_RIM=0
 
 [LIRF]
 
