@@ -3,36 +3,6 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Fixes:BOVOLENTA:name
-Fixes:BOVOLENTA:symbol
-Fixes:CAORLE:name
-Fixes:CAORLE:symbol
-Fixes:CASAVIO:name
-Fixes:CASAVIO:symbol
-Fixes:CAVARZERE:name
-Fixes:CAVARZERE:symbol
-Fixes:CHIOGGIA:name
-Fixes:CHIOGGIA:symbol
-Fixes:LAREN:name
-Fixes:LAREN:symbol
-Fixes:LIDODIJESOLO:name
-Fixes:LIDODIJESOLO:symbol
-Fixes:MARANO:name
-Fixes:MARANO:symbol
-Fixes:MARTELLAGO:name
-Fixes:MARTELLAGO:symbol
-Fixes:MESTRENORD:name
-Fixes:MESTRENORD:symbol
-Fixes:PIOVEDISACCO:name
-Fixes:PIOVEDISACCO:symbol
-Fixes:PORTODIMALAMOCCO:name
-Fixes:PORTODIMALAMOCCO:symbol
-Fixes:SANDONADIPIAVE:name
-Fixes:SANDONADIPIAVE:symbol
-Fixes:VALECENTER:name
-Fixes:VALECENTER:symbol
-Fixes:VENEZIALIDOAD:name
-Fixes:VENEZIALIDOAD:symbol
 Free Text:LIPH Parkings\101:freetext
 Free Text:LIPH Parkings\102:freetext
 Free Text:LIPH Parkings\103:freetext

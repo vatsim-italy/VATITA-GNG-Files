@@ -3,24 +3,6 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Fixes:ERSEP:name
-Fixes:ERSEP:symbol
-Runways:LIMF 18-36:centerline
-Runways:LIMF 18-36:extended centerline 1
-Runways:LIMF 18-36:extended centerline 1 left base
-Runways:LIMF 18-36:extended centerline 1 left ticks
-Runways:LIMF 18-36:extended centerline 1 left vectoring
-Runways:LIMF 18-36:extended centerline 1 right base
-Runways:LIMF 18-36:extended centerline 1 right ticks
-Runways:LIMF 18-36:extended centerline 1 right vectoring
-Runways:LIMF 18-36:extended centerline 2
-Runways:LIMF 18-36:extended centerline 2 left base
-Runways:LIMF 18-36:extended centerline 2 left ticks
-Runways:LIMF 18-36:extended centerline 2 left vectoring
-Runways:LIMF 18-36:extended centerline 2 right base
-Runways:LIMF 18-36:extended centerline 2 right ticks
-Runways:LIMF 18-36:extended centerline 2 right vectoring
-Runways:LIMF 18-36:name
 SHOWC:1
 SHOWSB:0
 BELOW:0
