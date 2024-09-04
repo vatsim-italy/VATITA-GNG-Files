@@ -1,86 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-Free Text:LIRN Parkings\11:freetext
-Free Text:LIRN Parkings\12:freetext
-Free Text:LIRN Parkings\13:freetext
-Free Text:LIRN Parkings\14:freetext
-Free Text:LIRN Parkings\15:freetext
-Free Text:LIRN Parkings\16:freetext
-Free Text:LIRN Parkings\17:freetext
-Free Text:LIRN Parkings\18:freetext
-Free Text:LIRN Parkings\19:freetext
-Free Text:LIRN Parkings\20:freetext
-Free Text:LIRN Parkings\21:freetext
-Free Text:LIRN Parkings\22:freetext
-Free Text:LIRN Parkings\23:freetext
-Free Text:LIRN Parkings\41:freetext
-Free Text:LIRN Parkings\42:freetext
-Free Text:LIRN Parkings\43:freetext
-Free Text:LIRN Parkings\44:freetext
-Free Text:LIRN Parkings\45:freetext
-Free Text:LIRN Parkings\46:freetext
-Free Text:LIRN Parkings\51:freetext
-Free Text:LIRN Parkings\52:freetext
-Free Text:LIRN Parkings\53:freetext
-Free Text:LIRN Parkings\54:freetext
-Free Text:LIRN Parkings\55:freetext
-Free Text:LIRN Parkings\56:freetext
-Free Text:LIRN Parkings\57:freetext
-Free Text:LIRN Parkings\61:freetext
-Free Text:LIRN Parkings\62:freetext
-Free Text:LIRN Parkings\63:freetext
-Free Text:LIRN Parkings\64:freetext
-Free Text:LIRN Parkings\65:freetext
-Free Text:LIRN Parkings\66:freetext
-Free Text:LIRN Parkings\71:freetext
-Free Text:LIRN Parkings\72:freetext
-Free Text:LIRN Parkings\73:freetext
-Free Text:LIRN Parkings\74:freetext
-Free Text:LIRN Taxiway\A:freetext
-Free Text:LIRN Taxiway\Apron MIL 5:freetext
-Free Text:LIRN Taxiway\B:freetext
-Free Text:LIRN Taxiway\BC:freetext
-Free Text:LIRN Taxiway\C:freetext
-Free Text:LIRN Taxiway\C1:freetext
-Free Text:LIRN Taxiway\D:freetext
-Free Text:LIRN Taxiway\E:freetext
-Free Text:LIRN Taxiway\Engine Test S:freetext
-Free Text:LIRN Taxiway\F:freetext
-Free Text:LIRN Taxiway\G:freetext
-Free Text:LIRN Taxiway\H:freetext
-Free Text:LIRN Taxiway\H1:freetext
-Free Text:LIRN Taxiway\L:freetext
-Free Text:LIRN Taxiway\M:freetext
-Free Text:LIRN Taxiway\N:freetext
-Free Text:LIRN Taxiway\N1:freetext
-Free Text:LIRN Taxiway\NA1:freetext
-Free Text:LIRN Taxiway\NB1:freetext
-Free Text:LIRN Taxiway\P1:freetext
-Free Text:LIRN Taxiway\Q:freetext
-Free Text:LIRN Taxiway\Q1:freetext
-Free Text:LIRN Taxiway\Q2:freetext
-Free Text:LIRN Taxiway\Q3:freetext
-Free Text:LIRN Taxiway\Q4:freetext
-Free Text:LIRN Taxiway\R:freetext
-Free Text:LIRN Taxiway\R1:freetext
-Free Text:LIRN Taxiway\SA:freetext
-Free Text:LIRN Taxiway\SA1:freetext
-Free Text:LIRN Taxiway\SB:freetext
-Free Text:LIRN Taxiway\SB1:freetext
-Free Text:LIRN Taxiway\TN:freetext
-Free Text:LIRN Taxiway\TN1:freetext
-Free Text:LIRN Taxiway\TN2:freetext
-Free Text:LIRN Taxiway\TN3:freetext
-Free Text:LIRN Taxiway\TS:freetext
-Free Text:LIRN Taxiway\TS1:freetext
-Free Text:LIRN Taxiway\TS2:freetext
-Geo:GEO:
-Geo:IT Landmark Coastline:
-Geo:LIRN Groundlayout:
-Geo:LIRN MRVA:
+SECTORFILE:C:\Users\loren\AppData\Roaming\EuroScope\LIXX-Italy_20240821191021-240801-0004.sct
+SECTORTITLE:LIXX-Italy_20240821191021-240801-0004.sct
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -93,8 +15,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:32.00000
-TAGFAMILY:Italy
-WINDOWAREA:40.874796:14.267584:40.890902:14.306902
+TAGFAMILY:Italy CTR
+WINDOWAREA:40.874769:14.267584:40.890929:14.306902
 PLUGIN:Ground Radar plugin:AirportElevation:294
 PLUGIN:Ground Radar plugin:AirportRadius:3
 PLUGIN:Ground Radar plugin:GroundMode:LIRN
