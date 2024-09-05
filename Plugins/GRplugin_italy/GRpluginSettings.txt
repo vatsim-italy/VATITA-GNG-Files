@@ -1,7 +1,7 @@
 // GROUND RADAR
 
 Equip_ModeS=WZLCISG
-Equip_ProMode=0
+Equip_ProMode=1
 System_OSM=1
 System_CVM=1
 System_ECM=1
