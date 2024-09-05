@@ -1,7 +1,7 @@
 // GROUND RADAR
 
 Equip_ModeS=WZLCISG
-Equip_ProMode=1
+Equip_ProMode=0
 System_OSM=1
 System_CVM=1
 System_ECM=1
@@ -18,7 +18,7 @@ Window_APP_Extensions=15
 Window_APP_AltFilter=9000
 Color_RunwayExtension=220,220,220
 
-System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LS,LZ
+System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LB,LD,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LR,LS,LZ
 System_RMCA_RWY_Closure=50
 System_RMCA_RWY_Closure_Info=20
 System_RMCA_RWY_Closure_LVP=40
@@ -30,15 +30,23 @@ System_RMCA_APP_Time_LVP_Info=50
 System_RMCA_NoLineUpState=0
 System_AutoAssignDist=18
 
+System_GroundMode_AltFilter_AAL=5000
+
 Maps_Font=Verdana
+
+System_GlobalMenu_Font=Verdana
 
 // TAGS
 
+GroundLabel=1
 GroundLabel_Font=Verdana
 GroundLabel_FontStyle=600,0,0,0
 
-Color_Arrival=0,255,0
-Color_Departure=0,188,255
+Color_Arrival=255,255,255
+Color_Departure=255,255,0
+Color_Unknown=0,255,255
+
+Color_New_Stand=255,110,0
 
 Track_Heading_Line=1
 Track_HistoryDots_GND=5
@@ -173,6 +181,13 @@ Airport_Runway_Buffer_LVP=35R:205
 Window_APP=0,120,630,300,300
 Window_APP_Rotation=281.5
 
+Color_Arrival=0,255,0
+Color_Departure=0,188,255
+
+[LIML]
+
+Color_Arrival=0,255,0
+Color_Departure=0,188,255
 
 [LIPZ]
 Airport_Runway_Buffer=04R:150
@@ -214,6 +229,9 @@ Window_APP_Rotation=32
 
 Window_APP=0,050,600,300,300
 Window_APP_Rotation=334
+
+List_Outbound=*,2,1440,400
+List_Inbound=*,2,1220,400
 
 [LIML]
 
