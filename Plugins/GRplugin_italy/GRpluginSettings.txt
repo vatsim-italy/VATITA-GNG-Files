@@ -40,7 +40,7 @@ System_GlobalMenu_Font=Verdana
 
 GroundLabel=1
 GroundLabel_Font=Verdana
-GroundLabel_FontStyle=600,0,0,0
+GroundLabel_FontStyle=550,0,0,0
 
 Color_Arrival=255,255,255
 Color_Departure=255,255,0
