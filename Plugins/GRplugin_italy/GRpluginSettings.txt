@@ -34,8 +34,8 @@ Maps_Font=Verdana
 
 // TAGS
 
-GroundLabel_Font=Lato
-GroundLabel_FontStyle=550,0,0,0
+GroundLabel_Font=Verdana
+GroundLabel_FontStyle=600,0,0,0
 
 Color_Arrival=0,255,0
 Color_Departure=0,188,255
