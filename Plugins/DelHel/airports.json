@@ -1950,36 +1950,36 @@
     "LIPK": {
         "elevation": 98,
         "sids": {
-            "ASDOR": {
-                "cfl": 4000,
+            "AMLON": {
+                "cfl": 5000,
                 "rwys": {
                     "12": {
-                        "dep": "ASDOR1M"
+                        "dep": "AMLON1T"
                     },
                     "30": {
-                        "dep": "ASDOR1W"
+                        "dep": "ASDOR1K"
                     }
                 }
             },
-            "FOL": {
-                "cfl": 4000,
+            "ASDOR": {
+                "cfl": 5000,
                 "rwys": {
                     "12": {
-                        "dep": "FOL1M"
+                        "dep": "ASDOR1T"
                     },
                     "30": {
-                        "dep": "FOL1W"
+                        "dep": "ASDOR1K"
                     }
                 }
             },
             "GIPUK": {
-                "cfl": 4000,
+                "cfl": 5000,
                 "rwys": {
                     "12": {
-                        "dep": "GIPUK1M"
+                        "dep": "GIPUK1T"
                     },
                     "30": {
-                        "dep": "GIPUK1W"
+                        "dep": "GIPUK1K"
                     }
                 }
             }
