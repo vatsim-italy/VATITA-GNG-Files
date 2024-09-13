@@ -1,0 +1,79 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LIBR Parkings\101:freetext
+Free Text:LIBR Parkings\102:freetext
+Free Text:LIBR Parkings\201:freetext
+Free Text:LIBR Parkings\202:freetext
+Free Text:LIBR Parkings\203:freetext
+Free Text:LIBR Parkings\204:freetext
+Free Text:LIBR Parkings\205:freetext
+Free Text:LIBR Parkings\206:freetext
+Free Text:LIBR Parkings\207:freetext
+Free Text:LIBR Parkings\208:freetext
+Free Text:LIBR Parkings\209:freetext
+Free Text:LIBR Parkings\210:freetext
+Free Text:LIBR Parkings\211:freetext
+Free Text:LIBR Parkings\300:freetext
+Free Text:LIBR Parkings\301:freetext
+Free Text:LIBR Parkings\302:freetext
+Free Text:LIBR Parkings\303:freetext
+Free Text:LIBR Parkings\304:freetext
+Free Text:LIBR Parkings\305:freetext
+Free Text:LIBR Parkings\306:freetext
+Free Text:LIBR Parkings\307:freetext
+Free Text:LIBR Parkings\308:freetext
+Free Text:LIBR Parkings\309:freetext
+Free Text:LIBR Taxiway\A:freetext
+Free Text:LIBR Taxiway\A:freetext
+Free Text:LIBR Taxiway\A:freetext
+Free Text:LIBR Taxiway\A:freetext
+Free Text:LIBR Taxiway\A:freetext
+Free Text:LIBR Taxiway\A:freetext
+Free Text:LIBR Taxiway\A:freetext
+Free Text:LIBR Taxiway\AA:freetext
+Free Text:LIBR Taxiway\AB:freetext
+Free Text:LIBR Taxiway\AC:freetext
+Free Text:LIBR Taxiway\AD:freetext
+Free Text:LIBR Taxiway\AE:freetext
+Free Text:LIBR Taxiway\AF:freetext
+Free Text:LIBR Taxiway\B:freetext
+Free Text:LIBR Taxiway\B:freetext
+Free Text:LIBR Taxiway\B1:freetext
+Free Text:LIBR Taxiway\C:freetext
+Free Text:LIBR Taxiway\C:freetext
+Free Text:LIBR Taxiway\D:freetext
+Free Text:LIBR Taxiway\D:freetext
+Free Text:LIBR Taxiway\F:freetext
+Free Text:LIBR Taxiway\G:freetext
+Free Text:LIBR Taxiway\G:freetext
+Free Text:LIBR Taxiway\H:freetext
+Free Text:LIBR Taxiway\H:freetext
+Free Text:LIBR Taxiway\J:freetext
+Free Text:LIBR Taxiway\K:freetext
+Free Text:LIBR Taxiway\L:freetext
+Free Text:LIBR Taxiway\M:freetext
+Free Text:LIBR Taxiway\N:freetext
+Free Text:LIBR Taxiway\RWY 05 Closed:freetext
+Free Text:LIBR Taxiway\TWY A<>B1:freetext
+Geo:LIBR Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:20.50000
+TAGFAMILY:Italy CTR
+WINDOWAREA:40.641031:17.902669:40.686272:17.978461
+PLUGIN:Ground Radar plugin:AirportElevation:46
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIBR
+PLUGIN:TopSky plugin:NoDraw:1
