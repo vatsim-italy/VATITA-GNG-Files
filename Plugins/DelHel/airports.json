@@ -1005,8 +1005,8 @@
                         "nap": "IBCUC6BxAOSTA7M"
                     },
                     "35R": {
-                        "dep": "MMP6LxAOSTA5X",
-                        "nap": "DOGUB6TxAOSTA5W"
+                        "dep": "DOGUB6TxAOSTA5W",
+                        "nap": "MMP6LxAOSTA5X"
                     }
                 }
             },
@@ -1035,8 +1035,8 @@
                         "nap": "FARAK6BxLAGEN5U"
                     },
                     "35R": {
-                        "dep": "MMP6LxLAGEN9X",
-                        "nap": "DOGUB6TxLAGEN6I"
+                        "dep": "DOGUB6TxLAGEN6I",
+                        "nap": "MMP6LxLAGEN9X"
                     }
                 }
             },
@@ -1054,8 +1054,8 @@
                         "nap": "FARAK6BxNEDED9U"
                     },
                     "35R": {
-                        "dep": "MMP6LxNEDED9X",
-                        "nap": "DOGUB6TxNEDED6I"
+                        "dep": "DOGUB6TxNEDED6I",
+                        "nap": "MMP6LxNEDED9X"
                     }
                 }
             },
@@ -1126,8 +1126,8 @@
                         "nap": "FARAK6BxTOP5U"
                     },
                     "35R": {
-                        "dep": "MMP6LxTOP9X",
-                        "nap": "DOGUB6TxTOP6I"
+                        "dep": "DOGUB6TxTOP6I",
+                        "nap": "MMP6LxTOP9X"
                     }
                 }
             },
@@ -1950,36 +1950,36 @@
     "LIPK": {
         "elevation": 98,
         "sids": {
-            "AMLON": {
-                "cfl": 5000,
+            "ASDOR": {
+                "cfl": 4000,
                 "rwys": {
                     "12": {
-                        "dep": "AMLON1T"
+                        "dep": "ASDOR1M"
                     },
                     "30": {
-                        "dep": "AMLON1K"
+                        "dep": "ASDOR1W"
                     }
                 }
             },
-            "ASDOR": {
-                "cfl": 5000,
+            "FOL": {
+                "cfl": 4000,
                 "rwys": {
                     "12": {
-                        "dep": "ASDOR1T"
+                        "dep": "FOL1M"
                     },
                     "30": {
-                        "dep": "ASDOR1K"
+                        "dep": "FOL1W"
                     }
                 }
             },
             "GIPUK": {
-                "cfl": 5000,
+                "cfl": 4000,
                 "rwys": {
                     "12": {
-                        "dep": "GIPUK1T"
+                        "dep": "GIPUK1M"
                     },
                     "30": {
-                        "dep": "GIPUK1K"
+                        "dep": "GIPUK1W"
                     }
                 }
             }
@@ -2556,6 +2556,76 @@
                     }
                 }
             }
+        }
+    },
+    "LIRI": {
+        "elevation": 123,
+        "sids": {
+            "AMANO": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "AMANO6C",
+                        "nap": "AMANO6E"
+                    },
+                    "23": {
+                        "dep": "AMANO6C",
+                        "nap": "AMANO6E"
+                    }
+                }
+            },
+            "PEVIR": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "PEVIR6C",
+                        "nap": "PEVIR6E"
+                    },
+                    "23": {
+                        "dep": "PEVIR6C",
+                        "nap": "PEVIR6E"
+                    }
+                }
+            },
+            "POLIT": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "POLIT6C",
+                        "nap": "POLIT6E"
+                    },
+                    "23": {
+                        "dep": "POLIT6C",
+                        "nap": "POLIT6E"
+                    }
+                }
+            },
+            "SOR": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "SOR6C",
+                        "nap": "SOR6E"
+                    },
+                    "23": {
+                        "dep": "SOR6C",
+                        "nap": "SOR6E"
+                    }
+                }
+            },
+            "VARAL": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "VARAL6C",
+                        "nap": "VARAL6E"
+                    },
+                    "23": {
+                        "dep": "VARAL6C",
+                        "nap": "VARAL6E"
+                    }
+                }
+            }    
         }
     },
     "LIRF": {
