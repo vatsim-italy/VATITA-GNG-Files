@@ -1,85 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
-SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
-Free Text:LIEE Parkings\1:freetext
-Free Text:LIEE Parkings\10:freetext
-Free Text:LIEE Parkings\11:freetext
-Free Text:LIEE Parkings\12:freetext
-Free Text:LIEE Parkings\121:freetext
-Free Text:LIEE Parkings\122:freetext
-Free Text:LIEE Parkings\123:freetext
-Free Text:LIEE Parkings\124:freetext
-Free Text:LIEE Parkings\14:freetext
-Free Text:LIEE Parkings\15:freetext
-Free Text:LIEE Parkings\16:freetext
-Free Text:LIEE Parkings\2:freetext
-Free Text:LIEE Parkings\20:freetext
-Free Text:LIEE Parkings\21:freetext
-Free Text:LIEE Parkings\22:freetext
-Free Text:LIEE Parkings\23:freetext
-Free Text:LIEE Parkings\24:freetext
-Free Text:LIEE Parkings\25:freetext
-Free Text:LIEE Parkings\26:freetext
-Free Text:LIEE Parkings\27:freetext
-Free Text:LIEE Parkings\28:freetext
-Free Text:LIEE Parkings\3:freetext
-Free Text:LIEE Parkings\30:freetext
-Free Text:LIEE Parkings\31:freetext
-Free Text:LIEE Parkings\32:freetext
-Free Text:LIEE Parkings\33:freetext
-Free Text:LIEE Parkings\34:freetext
-Free Text:LIEE Parkings\35:freetext
-Free Text:LIEE Parkings\36:freetext
-Free Text:LIEE Parkings\4:freetext
-Free Text:LIEE Parkings\5:freetext
-Free Text:LIEE Parkings\50:freetext
-Free Text:LIEE Parkings\51:freetext
-Free Text:LIEE Parkings\52:freetext
-Free Text:LIEE Parkings\53:freetext
-Free Text:LIEE Parkings\54:freetext
-Free Text:LIEE Parkings\55:freetext
-Free Text:LIEE Parkings\56:freetext
-Free Text:LIEE Parkings\57:freetext
-Free Text:LIEE Parkings\6:freetext
-Free Text:LIEE Parkings\60:freetext
-Free Text:LIEE Parkings\61:freetext
-Free Text:LIEE Parkings\62:freetext
-Free Text:LIEE Parkings\7:freetext
-Free Text:LIEE Parkings\8:freetext
-Free Text:LIEE Parkings\9:freetext
-Free Text:LIEE Taxiway\A:freetext
-Free Text:LIEE Taxiway\A:freetext
-Free Text:LIEE Taxiway\A:freetext
-Free Text:LIEE Taxiway\A:freetext
-Free Text:LIEE Taxiway\A:freetext
-Free Text:LIEE Taxiway\AA:freetext
-Free Text:LIEE Taxiway\B:freetext
-Free Text:LIEE Taxiway\C:freetext
-Free Text:LIEE Taxiway\D:freetext
-Free Text:LIEE Taxiway\E:freetext
-Free Text:LIEE Taxiway\F:freetext
-Free Text:LIEE Taxiway\G:freetext
-Free Text:LIEE Taxiway\H:freetext
-Free Text:LIEE Taxiway\J:freetext
-Free Text:LIEE Taxiway\K:freetext
-Free Text:LIEE Taxiway\L:freetext
-Free Text:LIEE Taxiway\M:freetext
-Free Text:LIEE Taxiway\Mil.A:freetext
-Free Text:LIEE Taxiway\S:freetext
-Free Text:LIEE Taxiway\S1:freetext
-Free Text:LIEE Taxiway\S2:freetext
-Free Text:LIEE Taxiway\T:freetext
-Free Text:LIEE Taxiway\T:freetext
-Free Text:LIEE Taxiway\T1:freetext
-Free Text:LIEE Taxiway\T2:freetext
-Free Text:LIEE Taxiway\T3:freetext
-Free Text:LIEE Taxiway\U:freetext
-Free Text:LIEE Taxiway\U1:freetext
-Free Text:LIEE Taxiway\V1:freetext
-Free Text:LIEE Taxiway\V2:freetext
-Geo:LIEE Groundlayout:
+SECTORFILE:
+SECTORTITLE:
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -92,7 +15,7 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:311.50000
-TAGFAMILY:Italy
+TAGFAMILY:Italy CTR
 WINDOWAREA:39.243108:9.033216:39.259983:9.076397
 PLUGIN:Ground Radar plugin:AirportElevation:11
 PLUGIN:Ground Radar plugin:AirportRadius:3
