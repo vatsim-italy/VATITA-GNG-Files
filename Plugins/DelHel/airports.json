@@ -1384,10 +1384,10 @@
                 "cfl":5000,
                 "rwys":{
                     "10":{
-                        "dep":"GEN6F"
+                        "dep":"GEN9K"
                     },
                     "28":{
-                        "dep":"GEN6E"
+                        "dep":"GEN9K"
                     }
                 }
             },
@@ -1395,10 +1395,10 @@
                 "cfl":5000,
                 "rwys":{
                     "10":{
-                        "dep":"LAGEN6F"
+                        "dep":"LAGEN9K"
                     },
                     "28":{
-                        "dep":"LAGEN6E"
+                        "dep":"LAGEN9K"
                     }
                 }
             },
@@ -1406,10 +1406,10 @@
                 "cfl":5000,
                 "rwys":{
                     "10":{
-                        "dep":"UNITA6F"
+                        "dep":"UNITA8K"
                     },
                     "28":{
-                        "dep":"UNITA6E"
+                        "dep":"UNITA8K"
                     }
                 }
             }
