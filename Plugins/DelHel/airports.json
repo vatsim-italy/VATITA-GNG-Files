@@ -201,17 +201,6 @@
                     }
                 }
             },
-            "DOLON":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"DOLON6G"
-                    },
-                    "31":{
-                        "dep":"DOLON6J"
-                    }
-                }
-            },
             "ENOXA":{
                 "cfl":3000,
                 "rwys":{
@@ -263,17 +252,6 @@
                 "rwys":{
                     "13":{
                         "dep":"ORSOM6G"
-                    }
-                }
-            },
-            "ROBOT":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"ROBOT6G"
-                    },
-                    "31":{
-                        "dep":"ROBOT6J"
                     }
                 }
             },
