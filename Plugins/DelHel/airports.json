@@ -1784,13 +1784,11 @@
                 "cfl": 12000,
                 "rwys": {
                     "01": {
-                        "dep": "ADOSA1W",
-                        "nap": "ADOSA6A"
+                        "dep": "ADOSA1W"
 
                     },
                     "19": {
-                        "dep": "ADOSA1W",
-                        "nap": "ADOSA6A"
+                        "dep": "ADOSA1W"
                     }
                 }
             },
@@ -1798,12 +1796,10 @@
                 "cfl": 12000,
                 "rwys": {
                     "01": {
-                        "dep": "ALESE1W",
-                        "nap": "ALESE6A"
+                        "dep": "ALESE1W"
                     },
                     "19": {
-                        "dep": "ALESE1W",
-                        "nap": "ALESE6A"
+                        "dep": "ALESE1W"
                     }
                 }
             },
@@ -1811,12 +1807,10 @@
                 "cfl": 12000,
                 "rwys": {
                     "01": {
-                        "dep": "NAXAV1W",
-                        "nap": "NAXAV6B"
+                        "dep": "NAXAV1W"
                     },
                     "19": {
-                        "dep": "NAXAV1W",
-                        "nap": "NAXAV6B"
+                        "dep": "NAXAV1W"
                     }
                 }
             },
@@ -1824,12 +1818,10 @@
                 "cfl": 12000,
                 "rwys": {
                     "01": {
-                        "dep": "VIC1W",
-                        "nap": "VIC6A"
+                        "dep": "VIC1W"
                     },
                     "19": {
-                        "dep": "VIC1W",
-                        "nap": "VIC6A"
+                        "dep": "VIC1W"
                     }
                 }
             }
@@ -2574,12 +2566,10 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "AMANO6C",
-                        "nap": "AMANO7E"
+                        "dep": "AMANO6C"
                     },
                     "23": {
-                        "dep": "AMANO6C",
-                        "nap": "AMANO7E"
+                        "dep": "AMANO6C"
                     }
                 }
             },
@@ -2587,12 +2577,10 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "PEVIR6C",
-                        "nap": "PEVIR6E"
+                        "dep": "PEVIR6C"
                     },
                     "23": {
-                        "dep": "PEVIR6C",
-                        "nap": "PEVIR6E"
+                        "dep": "PEVIR6C"
                     }
                 }
             },
@@ -2600,12 +2588,10 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "POLIT6C",
-                        "nap": "POLIT6E"
+                        "dep": "POLIT6C"
                     },
                     "23": {
-                        "dep": "POLIT6C",
-                        "nap": "POLIT6E"
+                        "dep": "POLIT6C"
                     }
                 }
             },
@@ -2613,12 +2599,10 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "SOR6C",
-                        "nap": "SOR6E"
+                        "dep": "SOR6C"
                     },
                     "23": {
-                        "dep": "SOR6C",
-                        "nap": "SOR6E"
+                        "dep": "SOR6C"
                     }
                 }
             },
@@ -2626,12 +2610,10 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "VARAL6C",
-                        "nap": "VARAL7E"
+                        "dep": "VARAL6C"
                     },
                     "23": {
-                        "dep": "VARAL6C",
-                        "nap": "VARAL7E"
+                        "dep": "VARAL6C"
                     }
                 }
             }    
