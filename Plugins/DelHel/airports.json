@@ -992,7 +992,7 @@
         "elevation": 768,
         "sids": {
             "AOSTA": {
-                "cfl": 6000,
+                "cfl": 5000,
                 "rwys": {
                     "17L": {
                         "dep": "IBCUC6YxAOSTA7Y"
@@ -1784,11 +1784,13 @@
                 "cfl": 12000,
                 "rwys": {
                     "01": {
-                        "dep": "ADOSA1W"
+                        "dep": "ADOSA1W",
+                        "nap": "ADOSA6A"
 
                     },
                     "19": {
-                        "dep": "ADOSA1W"
+                        "dep": "ADOSA1W",
+                        "nap": "ADOSA6A"
                     }
                 }
             },
@@ -1796,10 +1798,12 @@
                 "cfl": 12000,
                 "rwys": {
                     "01": {
-                        "dep": "ALESE1W"
+                        "dep": "ALESE1W",
+                        "nap": "ALESE6A"
                     },
                     "19": {
-                        "dep": "ALESE1W"
+                        "dep": "ALESE1W",
+                        "nap": "ALESE6A"
                     }
                 }
             },
@@ -1807,10 +1811,12 @@
                 "cfl": 12000,
                 "rwys": {
                     "01": {
-                        "dep": "NAXAV1W"
+                        "dep": "NAXAV1W",
+                        "nap": "NAXAV6B"
                     },
                     "19": {
-                        "dep": "NAXAV1W"
+                        "dep": "NAXAV1W",
+                        "nap": "NAXAV6B"
                     }
                 }
             },
@@ -1818,10 +1824,12 @@
                 "cfl": 12000,
                 "rwys": {
                     "01": {
-                        "dep": "VIC1W"
+                        "dep": "VIC1W",
+                        "nap": "VIC6A"
                     },
                     "19": {
-                        "dep": "VIC1W"
+                        "dep": "VIC1W",
+                        "nap": "VIC6A"
                     }
                 }
             }
@@ -2566,10 +2574,12 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "AMANO6C"
+                        "dep": "AMANO6C",
+                        "nap": "AMANO7E"
                     },
                     "23": {
-                        "dep": "AMANO6C"
+                        "dep": "AMANO6C",
+                        "nap": "AMANO7E"
                     }
                 }
             },
@@ -2577,10 +2587,12 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "PEVIR6C"
+                        "dep": "PEVIR6C",
+                        "nap": "PEVIR6E"
                     },
                     "23": {
-                        "dep": "PEVIR6C"
+                        "dep": "PEVIR6C",
+                        "nap": "PEVIR6E"
                     }
                 }
             },
@@ -2588,10 +2600,12 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "POLIT6C"
+                        "dep": "POLIT6C",
+                        "nap": "POLIT6E"
                     },
                     "23": {
-                        "dep": "POLIT6C"
+                        "dep": "POLIT6C",
+                        "nap": "POLIT6E"
                     }
                 }
             },
@@ -2599,10 +2613,12 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "SOR6C"
+                        "dep": "SOR6C",
+                        "nap": "SOR6E"
                     },
                     "23": {
-                        "dep": "SOR6C"
+                        "dep": "SOR6C",
+                        "nap": "SOR6E"
                     }
                 }
             },
@@ -2610,10 +2626,12 @@
                 "cfl": 6000,
                 "rwys": {
                     "05": {
-                        "dep": "VARAL6C"
+                        "dep": "VARAL6C",
+                        "nap": "VARAL7E"
                     },
                     "23": {
-                        "dep": "VARAL6C"
+                        "dep": "VARAL6C",
+                        "nap": "VARAL7E"
                     }
                 }
             }    
