@@ -1,171 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-Free Text:LIPH Parkings\101:freetext
-Free Text:LIPH Parkings\102:freetext
-Free Text:LIPH Parkings\103:freetext
-Free Text:LIPH Parkings\104:freetext
-Free Text:LIPH Parkings\105:freetext
-Free Text:LIPH Parkings\106:freetext
-Free Text:LIPH Parkings\107:freetext
-Free Text:LIPH Parkings\108:freetext
-Free Text:LIPH Parkings\109:freetext
-Free Text:LIPH Parkings\110:freetext
-Free Text:LIPH Parkings\211:freetext
-Free Text:LIPH Parkings\212:freetext
-Free Text:LIPH Parkings\213:freetext
-Free Text:LIPH Parkings\214:freetext
-Free Text:LIPH Parkings\215:freetext
-Free Text:LIPH Parkings\216:freetext
-Free Text:LIPH Parkings\217:freetext
-Free Text:LIPH Parkings\218:freetext
-Free Text:LIPH Taxiway\A:freetext
-Free Text:LIPH Taxiway\B:freetext
-Free Text:LIPH Taxiway\D:freetext
-Free Text:LIPH Taxiway\D1:freetext
-Free Text:LIPH Taxiway\D2:freetext
-Free Text:LIPH Taxiway\D3:freetext
-Free Text:LIPH Taxiway\D4:freetext
-Free Text:LIPH Taxiway\E:freetext
-Free Text:LIPH Taxiway\E1:freetext
-Free Text:LIPH Taxiway\E2:freetext
-Free Text:LIPH Taxiway\Mil.A.:freetext
-Free Text:LIPZ Parkings\110:freetext
-Free Text:LIPZ Parkings\111:freetext
-Free Text:LIPZ Parkings\112:freetext
-Free Text:LIPZ Parkings\113:freetext
-Free Text:LIPZ Parkings\114:freetext
-Free Text:LIPZ Parkings\115:freetext
-Free Text:LIPZ Parkings\116:freetext
-Free Text:LIPZ Parkings\177:freetext
-Free Text:LIPZ Parkings\178:freetext
-Free Text:LIPZ Parkings\179:freetext
-Free Text:LIPZ Parkings\180:freetext
-Free Text:LIPZ Parkings\181:freetext
-Free Text:LIPZ Parkings\182:freetext
-Free Text:LIPZ Parkings\183:freetext
-Free Text:LIPZ Parkings\184:freetext
-Free Text:LIPZ Parkings\185:freetext
-Free Text:LIPZ Parkings\186:freetext
-Free Text:LIPZ Parkings\187:freetext
-Free Text:LIPZ Parkings\188:freetext
-Free Text:LIPZ Parkings\189:freetext
-Free Text:LIPZ Parkings\190:freetext
-Free Text:LIPZ Parkings\191:freetext
-Free Text:LIPZ Parkings\217:freetext
-Free Text:LIPZ Parkings\218:freetext
-Free Text:LIPZ Parkings\219:freetext
-Free Text:LIPZ Parkings\220:freetext
-Free Text:LIPZ Parkings\221:freetext
-Free Text:LIPZ Parkings\322:freetext
-Free Text:LIPZ Parkings\323:freetext
-Free Text:LIPZ Parkings\324:freetext
-Free Text:LIPZ Parkings\325:freetext
-Free Text:LIPZ Parkings\326:freetext
-Free Text:LIPZ Parkings\327:freetext
-Free Text:LIPZ Parkings\328:freetext
-Free Text:LIPZ Parkings\329:freetext
-Free Text:LIPZ Parkings\330:freetext
-Free Text:LIPZ Parkings\362:freetext
-Free Text:LIPZ Parkings\363:freetext
-Free Text:LIPZ Parkings\364:freetext
-Free Text:LIPZ Parkings\365:freetext
-Free Text:LIPZ Parkings\366:freetext
-Free Text:LIPZ Parkings\367:freetext
-Free Text:LIPZ Parkings\370:freetext
-Free Text:LIPZ Parkings\371:freetext
-Free Text:LIPZ Parkings\372:freetext
-Free Text:LIPZ Parkings\431:freetext
-Free Text:LIPZ Parkings\432:freetext
-Free Text:LIPZ Parkings\433:freetext
-Free Text:LIPZ Parkings\434:freetext
-Free Text:LIPZ Parkings\435:freetext
-Free Text:LIPZ Parkings\436:freetext
-Free Text:LIPZ Parkings\437:freetext
-Free Text:LIPZ Parkings\438:freetext
-Free Text:LIPZ Parkings\439:freetext
-Free Text:LIPZ Parkings\440:freetext
-Free Text:LIPZ Parkings\441:freetext
-Free Text:LIPZ Parkings\442:freetext
-Free Text:LIPZ Parkings\443:freetext
-Free Text:LIPZ Parkings\544:freetext
-Free Text:LIPZ Parkings\545:freetext
-Free Text:LIPZ Parkings\546:freetext
-Free Text:LIPZ Parkings\CARGO TERMINAL:freetext
-Free Text:LIPZ Parkings\HELI:freetext
-Free Text:LIPZ Parkings\NEW TERMINAL:freetext
-Free Text:LIPZ Parkings\OLD TERMINAL:freetext
-Free Text:LIPZ Taxiway\A:freetext
-Free Text:LIPZ Taxiway\B:freetext
-Free Text:LIPZ Taxiway\C:freetext
-Free Text:LIPZ Taxiway\D:freetext
-Free Text:LIPZ Taxiway\E:freetext
-Free Text:LIPZ Taxiway\F:freetext
-Free Text:LIPZ Taxiway\G:freetext
-Free Text:LIPZ Taxiway\H:freetext
-Free Text:LIPZ Taxiway\J:freetext
-Free Text:LIPZ Taxiway\K:freetext
-Free Text:LIPZ Taxiway\K1:freetext
-Free Text:LIPZ Taxiway\K2:freetext
-Free Text:LIPZ Taxiway\K3:freetext
-Free Text:LIPZ Taxiway\K4:freetext
-Free Text:LIPZ Taxiway\K5:freetext
-Free Text:LIPZ Taxiway\L:freetext
-Free Text:LIPZ Taxiway\M:freetext
-Free Text:LIPZ Taxiway\M1:freetext
-Free Text:LIPZ Taxiway\M2:freetext
-Free Text:LIPZ Taxiway\M3:freetext
-Free Text:LIPZ Taxiway\M4:freetext
-Free Text:LIPZ Taxiway\M5:freetext
-Free Text:LIPZ Taxiway\M6:freetext
-Free Text:LIPZ Taxiway\M7:freetext
-Free Text:LIPZ Taxiway\M8:freetext
-Free Text:LIPZ Taxiway\M9:freetext
-Free Text:LIPZ Taxiway\N:freetext
-Free Text:LIPZ Taxiway\P:freetext
-Free Text:LIPZ Taxiway\Q:freetext
-Free Text:LIPZ Taxiway\Q2:freetext
-Free Text:LIPZ Taxiway\R:freetext
-Free Text:LIPZ Taxiway\S:freetext
-Free Text:LIPZ Taxiway\T:freetext
-Free Text:LIPZ Taxiway\T1:freetext
-Free Text:LIPZ Taxiway\T10:freetext
-Free Text:LIPZ Taxiway\T11:freetext
-Free Text:LIPZ Taxiway\T2:freetext
-Free Text:LIPZ Taxiway\T3:freetext
-Free Text:LIPZ Taxiway\T4:freetext
-Free Text:LIPZ Taxiway\T5:freetext
-Free Text:LIPZ Taxiway\T6:freetext
-Free Text:LIPZ Taxiway\T7:freetext
-Free Text:LIPZ Taxiway\T8:freetext
-Free Text:LIPZ Taxiway\T9:freetext
-Free Text:LIPZ Taxiway\U:freetext
-Free Text:LIPZ Taxiway\V:freetext
-Free Text:LIPZ Taxiway\W:freetext
-Free Text:LIPZ Taxiway\Y:freetext
-Geo:GEO:
-Geo:IT Landmark Coastline:
-Geo:LIPH Groundlayout:
-Geo:LIPZ Groundlayout SMR:
-Regions:LIPZ LIPZ SMR Display:polygon
-Runways:LIPZ 04R-22L:centerline
-Runways:LIPZ 04R-22L:extended centerline 1
-Runways:LIPZ 04R-22L:extended centerline 1 left base
-Runways:LIPZ 04R-22L:extended centerline 1 left ticks
-Runways:LIPZ 04R-22L:extended centerline 1 left vectoring
-Runways:LIPZ 04R-22L:extended centerline 1 right base
-Runways:LIPZ 04R-22L:extended centerline 1 right ticks
-Runways:LIPZ 04R-22L:extended centerline 1 right vectoring
-Runways:LIPZ 04R-22L:extended centerline 2
-Runways:LIPZ 04R-22L:extended centerline 2 left base
-Runways:LIPZ 04R-22L:extended centerline 2 left ticks
-Runways:LIPZ 04R-22L:extended centerline 2 left vectoring
-Runways:LIPZ 04R-22L:extended centerline 2 right base
-Runways:LIPZ 04R-22L:extended centerline 2 right ticks
-Runways:LIPZ 04R-22L:extended centerline 2 right vectoring
-Runways:LIPZ 04R-22L:name
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240911174841-240901-0005.sct
+SECTORTITLE:LIXX-Italy_20240911174841-240901-0005.sct
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -177,9 +14,9 @@ HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:226.00000
+DisplayRotation:226.20000
 TAGFAMILY:Italy CTR
-WINDOWAREA:45.499711:12.327844:45.516026:12.369700
+WINDOWAREA:45.490152:12.325107:45.521480:12.377755
 PLUGIN:Ground Radar plugin:AirportElevation:7
 PLUGIN:Ground Radar plugin:AirportRadius:3
 PLUGIN:Ground Radar plugin:GroundMode:LIPZ
