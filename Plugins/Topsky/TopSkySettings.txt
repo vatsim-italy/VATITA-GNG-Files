@@ -2,6 +2,7 @@ Maps_Font=EuroScope
 //Shortcuts
 Shortcut_Map_Target=1,CTA / TMA\PADOVA Controlled Airspace
 Shortcut_Map_Target=2,FIS\VRP LIXX
+Shortcut_Map_Target=3,STANDS\STANDS
 
 //Cursors
 System_GUI_Scale_Cursors=0.7
@@ -43,7 +44,7 @@ Color_Active_Map_Type_3=230,126,0
 Color_Active_Map_Type_4=200,53,18
 Color_Active_Map_Type_5=198,174,58
 Color_Active_RD_Infill_Map=90,90,90
-Color_Active_Sector=52,58,62
+Color_Active_Sector=10,10,10
 Color_Active_Text_Map=198,174,58
 Color_AIW_Intrusion=255,152,0
 Color_Arm=97,97,97
@@ -79,7 +80,7 @@ Color_FPLSEP_Tool_5=166,160,245
 Color_Freq_Indicator=237,237,237
 Color_Global_Menu_Highlight=1,165,219
 Color_Heading_Vector=0,255,0
-Color_Inactive_Sector=67,73,76
+Color_Inactive_Sector=18,18,18
 Color_Info_Coord=1,255,255
 Color_Information=40,150,40
 Color_Information_FL=41,245,41
@@ -158,7 +159,7 @@ Malrt_Irregular=IRREG-
 
 Airspace_AOR_Airports=LI,LM
 Airspace_AOR_Positions=LI,LM
-Airspace_ModeS_Code_VFR=7000
+Airspace_ModeS_Code_VFR=1000
 Airspace_No_DUPE_Codes=7000,1200,1000
 Airspace_SIGMET_Areas=LIMM,LIRR,LIBB
 Airspace_ASSR_AutoAssign_Type=2
@@ -335,6 +336,9 @@ Window_SmallQNHTL_ICAO=LIMC
 Airspace_AOR_Airports=LIR,LIC,LIE,LIA,LMML
 Airspace_AOR_Positions=LIR,LIC,LIE,LIA,LMML
 Window_SmallQNHTL_ICAO=LIRF
+
+[LIMC]
+Window_CPDLC_Current=1,1,600
 
 
 
