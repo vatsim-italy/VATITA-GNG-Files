@@ -12,7 +12,7 @@ System_SRM=1
 
 RawVideo=0
 
-System_CMAC_NoTakeOffClr_Speed=31
+System_CMAC_NoTakeOffClr_Speed=50
 
 Window_APP_Extensions=15
 Window_APP_AltFilter=9000
@@ -168,6 +168,9 @@ List_Outbound_ExpiryTime=300
 
 List_Alerts=1,1400,50
 
+List_Outbound=*,2,1440,400
+List_Inbound=*,2,1220,400
+
 
 //AIRPORT SPECIFIC SETTINGS
 
@@ -175,14 +178,17 @@ List_Alerts=1,1400,50
 Airport_Runway_Buffer_LVP=35L:150
 Airport_Runway_Buffer_LVP=35R:205
 
-//List_Outbound=*,2,1131,500
-//List_Inbound=*,2,1203,650
-
 Window_APP=0,120,630,300,300
 Window_APP_Rotation=281.5
 
 Color_Arrival=0,255,0
 Color_Departure=0,188,255
+
+Track_HistoryDots_GND=0
+
+Airport_Runway_End=35L:N045.36.39.068:E008.43.41.997
+Airport_Runway_Thr=35R:N045.39.01.503:E008.43.40.605
+Airport_Runway_End=17L:N045.39.01.503:E008.43.40.605
 
 [LIML]
 
@@ -229,9 +235,6 @@ Window_APP_Rotation=32
 
 Window_APP=0,050,600,300,300
 Window_APP_Rotation=334
-
-List_Outbound=*,2,1440,400
-List_Inbound=*,2,1220,400
 
 [LIML]
 
