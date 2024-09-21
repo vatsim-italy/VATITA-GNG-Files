@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240911174841-240901-0005.sct
+SECTORTITLE:LIXX-Italy_20240911174841-240901-0005.sct
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -16,8 +16,9 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:281.30000
 TAGFAMILY:Italy
-WINDOWAREA:45.613959:8.691703:45.638642:8.754863
+WINDOWAREA:45.609138:8.693857:45.646958:8.757415
 PLUGIN:Ground Radar plugin:AirportElevation:768
 PLUGIN:Ground Radar plugin:AirportRadius:3
 PLUGIN:Ground Radar plugin:GroundMode:LIMC
-PLUGIN:TopSky plugin:NoDraw:1
+PLUGIN:TopSky plugin:HideMapData:RWY
+PLUGIN:TopSky plugin:ShowMapData:SMR

@@ -1,12 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-Airports:LMML:name
-Airports:LMML:symbol
-Fixes:SUDOX:name
-Fixes:SUDOX:symbol
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240911174841-240901-0005.sct
+SECTORTITLE:LIXX-Italy_20240911174841-240901-0005.sct
 Free Text:LMML MRVA LABELs\15:freetext
 Free Text:LMML MRVA LABELs\2:freetext
 Free Text:LMML Parking A2\1:freetext
@@ -82,92 +78,25 @@ Free Text:LMML Parking A9\9:freetext
 Free Text:LMML Parking A9\9X:freetext
 Free Text:LMML Parking LTM\1A:freetext
 Free Text:LMML Parking LTM\1B:freetext
-Free Text:LMML Taxiways\1B:freetext
-Free Text:LMML Taxiways\A:freetext
-Free Text:LMML Taxiways\A1:freetext
-Free Text:LMML Taxiways\B:freetext
-Free Text:LMML Taxiways\B1:freetext
-Free Text:LMML Taxiways\C:freetext
-Free Text:LMML Taxiways\D:freetext
-Free Text:LMML Taxiways\E:freetext
-Free Text:LMML Taxiways\F:freetext
-Free Text:LMML Taxiways\G:freetext
-Free Text:LMML Taxiways\G1:freetext
-Free Text:LMML Taxiways\G2:freetext
-Free Text:LMML Taxiways\H:freetext
-Free Text:LMML Taxiways\H-South:freetext
-Free Text:LMML Taxiways\H1:freetext
-Free Text:LMML Taxiways\I:freetext
-Free Text:LMML Taxiways\J:freetext
-Free Text:LMML Taxiways\K:freetext
-Free Text:LMML Taxiways\K1:freetext
-Free Text:LMML Taxiways\L:freetext
-Free Text:LMML Taxiways\L1:freetext
-Free Text:LMML Taxiways\LT:freetext
-Free Text:LMML Taxiways\M:freetext
-Free Text:LMML Taxiways\M1:freetext
-Free Text:LMML Taxiways\M2:freetext
-Free Text:LMML Taxiways\N:freetext
-Free Text:LMML Taxiways\O:freetext
-Free Text:LMML Taxiways\O1:freetext
-Free Text:LMML Taxiways\P:freetext
-Free Text:LMML Taxiways\P-inner:freetext
-Free Text:LMML Taxiways\P1:freetext
-Free Text:LMML Taxiways\Q:freetext
-Free Text:LMML Taxiways\Q1:freetext
-Free Text:LMML Taxiways\Q2:freetext
-Free Text:LMML Taxiways\R:freetext
-Free Text:LMML Taxiways\S:freetext
-Free Text:LMML Taxiways\T:freetext
-Free Text:LMML Taxiways\U:freetext
-Free Text:LMML Taxiways\V:freetext
-Free Text:LMML Taxiways\W:freetext
-Free Text:LMML Taxiways\X:freetext
-Free Text:LMML Taxiways\Y:freetext
-Free Text:LMML Taxiways\Z:freetext
-Geo:GEO:
-Geo:IT Landmark Coastline:
+Free Text:LMML VRPs\BLUE GROTTO (BG):freetext
+Free Text:LMML VRPs\COMINO TOWER (CT):freetext
+Free Text:LMML VRPs\DINGLI RADAR (DR):freetext
+Free Text:LMML VRPs\FAWWARA RADAR (FR):freetext
+Free Text:LMML VRPs\FILFLA (FA):freetext
+Free Text:LMML VRPs\GHARGHUR MAST (GM):freetext
+Free Text:LMML VRPs\GOZO VOR/DME (GZO):freetext
+Free Text:LMML VRPs\GRAND HARBOUR (GH):freetext
+Free Text:LMML VRPs\MADLIENA FORT (MF):freetext
+Free Text:LMML VRPs\MARSASCALA BAY (MB):freetext
+Free Text:LMML VRPs\PORTOMASO TOWER (PT):freetext
+Free Text:LMML VRPs\ST PAUL'S ISLANDS (SP):freetext
+Free Text:LMML VRPs\TEMPLES (TP):freetext
+Free Text:LMML VRPs\WEST POINT (WP):freetext
 Geo:LMML Groundlayout:
 Geo:LMML Groundlayout Airport TWY:
 Geo:LMML Groundlayout Airport TWY Blue:
 Geo:LMML MRVA:
-Geo:LMML VFR sectors:
 Regions:LUQA Geo Malta Ground:polygon
-Runways:LMML 05-23:centerline
-Runways:LMML 05-23:extended centerline 1
-Runways:LMML 05-23:extended centerline 1 left base
-Runways:LMML 05-23:extended centerline 1 left ticks
-Runways:LMML 05-23:extended centerline 1 left vectoring
-Runways:LMML 05-23:extended centerline 1 right base
-Runways:LMML 05-23:extended centerline 1 right ticks
-Runways:LMML 05-23:extended centerline 1 right vectoring
-Runways:LMML 05-23:extended centerline 2
-Runways:LMML 05-23:extended centerline 2 left base
-Runways:LMML 05-23:extended centerline 2 left ticks
-Runways:LMML 05-23:extended centerline 2 left vectoring
-Runways:LMML 05-23:extended centerline 2 right base
-Runways:LMML 05-23:extended centerline 2 right ticks
-Runways:LMML 05-23:extended centerline 2 right vectoring
-Runways:LMML 05-23:name
-Runways:LMML 13-31:centerline
-Runways:LMML 13-31:extended centerline 1
-Runways:LMML 13-31:extended centerline 1 left base
-Runways:LMML 13-31:extended centerline 1 left ticks
-Runways:LMML 13-31:extended centerline 1 left vectoring
-Runways:LMML 13-31:extended centerline 1 right base
-Runways:LMML 13-31:extended centerline 1 right ticks
-Runways:LMML 13-31:extended centerline 1 right vectoring
-Runways:LMML 13-31:extended centerline 2
-Runways:LMML 13-31:extended centerline 2 left base
-Runways:LMML 13-31:extended centerline 2 left ticks
-Runways:LMML 13-31:extended centerline 2 left vectoring
-Runways:LMML 13-31:extended centerline 2 right base
-Runways:LMML 13-31:extended centerline 2 right ticks
-Runways:LMML 13-31:extended centerline 2 right vectoring
-Runways:LMML 13-31:name
-VORs:GZO:frequency
-VORs:GZO:name
-VORs:GZO:symbol
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -179,8 +108,8 @@ HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:133.00000
-TAGFAMILY:Italy
+DisplayRotation:314.00000
+TAGFAMILY:Italy CTR
 WINDOWAREA:35.809847:14.372084:35.892526:14.573926
 PLUGIN:Ground Radar plugin:AirportElevation:297
 PLUGIN:Ground Radar plugin:AirportRadius:3
