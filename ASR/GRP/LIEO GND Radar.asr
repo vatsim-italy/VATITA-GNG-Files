@@ -3,140 +3,6 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Fixes:MILIS:name
-Fixes:MILIS:symbol
-Fixes:SENAL:name
-Fixes:SENAL:symbol
-Free Text:LIEO MRVA LABELs\3:freetext
-Free Text:LIEO MRVA LABELs\4:freetext
-Free Text:LIEO MRVA LABELs\5:freetext
-Free Text:LIEO MRVA LABELs\6:freetext
-Free Text:LIEO MRVA LABELs\90:freetext
-Free Text:LIEO MRVA LABELs\TL:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\101:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\102:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\103:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\104:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\105:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\106:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\107:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\108:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\109:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\110:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\111:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\113:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\114:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\115:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\116:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\117:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\118:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\119:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\201:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\202:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\203:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\204:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\205:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\206:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\207:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\208:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\209:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\21:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\210:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\211:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\212:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\213:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\214:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\215:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\216:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\217:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\218:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\219:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\22:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\220:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\221:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\222:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\223:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\224:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\225:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\226:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\23:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\24:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\25:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\26:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\27:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\28:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\29:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\30:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\31:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\32:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\33:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\34:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\35:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\36:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\37:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\39:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\40:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\41:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\42:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\43:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\44:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\45:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\46:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\47:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\48:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\49:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\50:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\51:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\A:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\B:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\C:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\D:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\E:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\F:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G1:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G2:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G3:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G4:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G5:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G6:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G7:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G8:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\G9:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\HEMS:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\L:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\M:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\N:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\NR:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\NS:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\P:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\P1:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\PR:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\PS:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\Q:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\R:freetext
-Free Text:LIEO ParkingsTaxiwaysSMR\S:freetext
-Geo:GEO:
-Geo:IT Landmark Coastline:
-Geo:LIEO Groundlayout SMR:
-Regions:LIEO LIEO SMR Display:polygon
-Runways:LIEO 05-23:centerline
-Runways:LIEO 05-23:extended centerline 1
-Runways:LIEO 05-23:extended centerline 1 left base
-Runways:LIEO 05-23:extended centerline 1 left ticks
-Runways:LIEO 05-23:extended centerline 1 left vectoring
-Runways:LIEO 05-23:extended centerline 1 right base
-Runways:LIEO 05-23:extended centerline 1 right ticks
-Runways:LIEO 05-23:extended centerline 1 right vectoring
-Runways:LIEO 05-23:extended centerline 2
-Runways:LIEO 05-23:extended centerline 2 left base
-Runways:LIEO 05-23:extended centerline 2 left ticks
-Runways:LIEO 05-23:extended centerline 2 left vectoring
-Runways:LIEO 05-23:extended centerline 2 right base
-Runways:LIEO 05-23:extended centerline 2 right ticks
-Runways:LIEO 05-23:extended centerline 2 right vectoring
-Runways:LIEO 05-23:name
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -149,8 +15,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:215.00000
-TAGFAMILY:Italy
-WINDOWAREA:40.892038:9.499045:40.907975:9.537953
+TAGFAMILY:Italy CTR
+WINDOWAREA:40.892011:9.498984:40.908002:9.538014
 PLUGIN:Ground Radar plugin:AirportElevation:37
 PLUGIN:Ground Radar plugin:AirportRadius:3
 PLUGIN:Ground Radar plugin:GroundMode:LIEO
