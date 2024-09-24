@@ -168,9 +168,6 @@ List_Outbound_ExpiryTime=300
 
 List_Alerts=1,1400,50
 
-List_Outbound=*,2,1440,400
-List_Inbound=*,2,1220,400
-
 
 //AIRPORT SPECIFIC SETTINGS
 
@@ -221,22 +218,90 @@ Window_APP_Scale=7
 Window_APP=0,1600,630,300,300
 Window_APP_Rotation=347
 
+Airport_Runway_End=28:N045.39.51.899:E009.43.31.789
+Airport_Runway_End=10:N045.40.15.754:E009.41.23.100
+
 [LIMF]
 
 Window_APP=0,1600,640,300,300
 Window_APP_Rotation=267
+
+Airport_Runway_End=36:N045.11.09.120:E007.38.55.451
+Airport_Runway_End=18:N045.12.56.263:E007.39.02.149
 
 [LIRN]
 
 Window_APP=0,1600,640,300,300
 Window_APP_Rotation=32
 
+Airport_Runway_End=24:N040.53.32.558:E014.18.14.947
+Airport_Runway_End=06:N040.52.47.024:E014.16.38.613
+
 [LIPE]
 
 Window_APP=0,050,600,300,300
 Window_APP_Rotation=334
 
+Airport_Runway_End=12:N044.32.29.720:E011.16.18.195
+Airport_Runway_End=30:N044.31.46.880:E011.18.16.800
+
 [LIML]
 
 Window_APP=0,400,200,300,300
 Window_APP_Rotation=95
+
+[LICJ]
+
+Airport_Runway_End=25:N038.11.10.801:E013.07.20.121
+Airport_Runway_End=07:N038.10.25.843:E013.05.06.538
+
+[LIEO]
+
+Airport_Runway_End=05:N040.53.31.627:E009.30.18.337
+
+[LIBR]
+
+Airport_Runway_End=31:N040.39.19.993:E017.57.01.196
+Airport_Runway_End=13:N040.40.32.282:E017.55.32.861
+
+[LICC]
+
+Airport_Runway_End=08:N037.27.55.892:E015.03.04.192
+Airport_Runway_End=26:N037.28.04.854:E015.04.51.956
+
+[LIMP]
+
+Airport_Runway_End=20:N044.50.09.121:E010.18.04.100
+Airport_Runway_End=02:N044.49.03.745:E010.17.35.367
+
+[LIMZ]
+
+Airport_Runway_End=21:N044.33.24.251:E007.37.53.289
+Airport_Runway_End=03:N044.32.17.300:E007.36.53.558
+
+[LIPO]
+
+Airport_Runway_End=14:N045.26.17.144:E010.19.03.799
+Airport_Runway_End=32:N045.25.08.681:E010.20.41.274
+
+[LIPQ]
+
+Airport_Runway_End=09:N045.49.40.721:E013.26.50.781
+
+[LIPR]
+
+Airport_Runway_End=30:N044.00.44.185:E012.37.34.086
+Airport_Runway_End=12:N044.01.42.703:E012.35.49.200
+
+[LIPX]
+
+Airport_Runway_End=22:N045.24.22.085:E010.54.13.429
+
+[LIRP]
+
+Airport_Runway_End=04R:N043.40.23.123:E010.22.59.813
+Airport_Runway_End=22L:N043.41.40.392:E010.24.19.252
+
+[LIRQ]
+
+Airport_Runway_End=23:N043.48.52.907:E011.12.44.323
