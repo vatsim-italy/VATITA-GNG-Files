@@ -183,9 +183,12 @@ Color_Departure=0,188,255
 
 Track_HistoryDots_GND=0
 
-Airport_Runway_End=35L:N045.36.39.068:E008.43.41.997
-Airport_Runway_Thr=35R:N045.39.01.503:E008.43.40.605
-Airport_Runway_End=17L:N045.39.01.503:E008.43.40.605
+Airport_Runway_End=35R:N045.36.56.648:E008.44.15.003
+Airport_Runway_Thr=35R:N045.36.56.648:E008.44.15.003
+Airport_Runway_End=17L:N045.39.01.521:E008.43.40.470
+
+
+
 
 [LIML]
 
