@@ -1,60 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
-SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
-Free Text:LIRQ ParkingsTaxiwaysSMR\101:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\102:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\103:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\104:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\105:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\106:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\107:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\201:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\202:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\203:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\204:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\205:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\206:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\207:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\208:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\301:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\302:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\303:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\304:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\305:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\306:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\307:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\308:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\309:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\310:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\A:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\A:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\A:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\B:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\B:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\B:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\E1:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\ES:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\F:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\F:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\G:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\H:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\K:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\L:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\M:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\N1:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\N2:freetext
-Free Text:LIRQ ParkingsTaxiwaysSMR\P:freetext
-Geo:LIRQ Groundlayout SMR:
-Regions:LIRQ LIRQ SMR Display:polygon
+SECTORFILE:
+SECTORTITLE:
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -67,7 +15,7 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:41.50000
-TAGFAMILY:Italy
+TAGFAMILY:Italy CTR
 WINDOWAREA:43.803173:11.184348:43.816673:11.219000
 PLUGIN:Ground Radar plugin:AirportElevation:142
 PLUGIN:Ground Radar plugin:AirportRadius:3
