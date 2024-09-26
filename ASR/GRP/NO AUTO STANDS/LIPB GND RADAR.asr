@@ -1,14 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
-SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
-Free Text:LIPB Taxiway\A:freetext
-Free Text:LIPB Taxiway\B:freetext
-Free Text:LIPB Taxiway\C:freetext
-Free Text:LIPB Taxiway\M:freetext
-Free Text:LIPB Taxiway\MIL.APR:freetext
-Geo:LIPB Groundlayout:
+SECTORFILE:C:\Users\loren\AppData\Roaming\EuroScope\LIXX-Italy_20240911174641-240901-0004.sct
+SECTORTITLE:LIXX-Italy_20240911174641-240901-0004.sct
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -20,9 +14,9 @@ HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:78.50000
-TAGFAMILY:Italy
-WINDOWAREA:46.452377:11.307303:46.465877:11.341956
+DisplayRotation:79.00000
+TAGFAMILY:Italy CTR
+WINDOWAREA:46.454536:11.312753:46.465930:11.340477
 PLUGIN:Ground Radar plugin:AirportElevation:787
 PLUGIN:Ground Radar plugin:AirportRadius:3
 PLUGIN:Ground Radar plugin:GroundMode:LIPB
