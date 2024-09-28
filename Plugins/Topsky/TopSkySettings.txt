@@ -18,6 +18,7 @@ System_GUI_Scale_Screen=1
 
 //Radar Targets
 System_GUI_Scale_Tracks=1
+
 //Normal Window
 System_GUI_Scale_Windows=1
 
@@ -206,7 +207,7 @@ MTCD_Filter_Dep=3
 MTCD_Sep_Lat=5
 
 Track_HistoryDots=4
-Track_PredictionLine=1
+Track_PredictionLine=0
 Track_TextSize=1
 Track_TextSize_2_Ratio=0.8
 
