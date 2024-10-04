@@ -1,3501 +1,3532 @@
 {
-    "LIBC":{
-        "elevation":523,
-        "sids":{
-            "CDC":{
-                "cfl":4000,
-                "rwys":{
-                    "17":{
-                        "dep":"CDC1L"
+    "LIBC": {
+        "elevation": 523,
+        "sids": {
+            "CDC": {
+                "cfl": 4000,
+                "rwys": {
+                    "17": {
+                        "dep": "CDC1L"
                     },
-                    "35":{
-                        "dep":"CDC1W"
+                    "35": {
+                        "dep": "CDC1W"
                     }
                 }
             }
         }
     },
-    "LIBD":{
-        "elevation":193,
-        "sids":{
-            "BANAV":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"BANAV6W"
+    "LIBD": {
+        "elevation": 193,
+        "sids": {
+            "BANAV": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "BANAV6W"
                     },
-                    "25":{
-                        "dep":"BANAV5Z"
+                    "25": {
+                        "dep": "BANAV5Z"
                     }
                 }
             },
-            "DIVKU":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"DIVKU5W"
+            "DIVKU": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "DIVKU5W"
                     },
-                    "25":{
-                        "dep":"DIVKU5Z"
+                    "25": {
+                        "dep": "DIVKU5Z"
                     }
                 }
             },
-            "DOLON":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"DOLON7C"
+            "DOLON": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "DOLON7C"
                     },
-                    "25":{
-                        "dep":"DOLON5Z"
+                    "25": {
+                        "dep": "DOLON5Z"
                     }
                 }
             },
-            "EKMUR":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"EKMUR5W"
+            "EKMUR": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "EKMUR5W"
                     },
-                    "25":{
-                        "dep":"EKMUR5Z"
+                    "25": {
+                        "dep": "EKMUR5Z"
                     }
                 }
             },
-            "FASAN":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"FASAN5W"
+            "FASAN": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "FASAN5W"
                     },
-                    "25":{
-                        "dep":"FASAN5Z"
+                    "25": {
+                        "dep": "FASAN5Z"
                     }
                 }
             },
-            "LUXIL":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"LUXIL7A"
+            "LUXIL": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "LUXIL7A"
                     },
-                    "25":{
-                        "dep":"LUXIL5Z"
+                    "25": {
+                        "dep": "LUXIL5Z"
                     }
                 }
             },
-            "PERAV":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"PERAV5W"
+            "PERAV": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "PERAV5W"
                     },
-                    "25":{
-                        "dep":"PERAV5Z"
+                    "25": {
+                        "dep": "PERAV5Z"
                     }
                 }
             },
-            "PISIP":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"PISIP6W"
+            "PISIP": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "PISIP6W"
                     },
-                    "25":{
-                        "dep":"PISIP6Z"
+                    "25": {
+                        "dep": "PISIP6Z"
                     }
                 }
             },
-            "TOPNO":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"TOPNO5W"
+            "TOPNO": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "TOPNO5W"
                     },
-                    "25":{
-                        "dep":"TOPNO5Z"
+                    "25": {
+                        "dep": "TOPNO5Z"
                     }
                 }
             },
-            "VURKE":{
-                "cfl":3000,
-                "rwys":{
-                    "07":{
-                        "dep":"VURKE5W"
+            "VURKE": {
+                "cfl": 3000,
+                "rwys": {
+                    "07": {
+                        "dep": "VURKE5W"
                     },
-                    "25":{
-                        "dep":"VURKE5Z"
-                    }
-                }
-            }
-        }
-    },
-    "LIBP":{
-        "elevation":48,
-        "sids":{
-            "ASPIR":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"ASPIR6R"
-                    },
-                    "22":{
-                        "dep":"ASPIR6S"
-                    }
-                }
-            },
-            "ERPOG":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"ERPOG6R"
-                    },
-                    "22":{
-                        "dep":"ERPOG6S"
-                    }
-                }
-            },
-            "INKIM":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"INKIM6R"
-                    },
-                    "22":{
-                        "dep":"INKIM6S"
-                    }
-                }
-            },
-            "OTRET":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"OTRET6R"
-                    },
-                    "22":{
-                        "dep":"OTRET6S"
-                    }
-                }
-            },
-            "SUTOB":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"SUTOB6R"
-                    },
-                    "22":{
-                        "dep":"SUTOB6S"
+                    "25": {
+                        "dep": "VURKE5Z"
                     }
                 }
             }
         }
     },
-    "LIBR":{
-        "elevation":46,
-        "sids":{
-            "ABADI":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"ABADI6G"
-                    }
-                }
-            },
-            "ENOXA":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"ENOXA6G"
+    "LIBP": {
+        "elevation": 48,
+        "sids": {
+            "ASPIR": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "ASPIR6R"
                     },
-                    "31":{
-                        "dep":"ENOXA6J"
+                    "22": {
+                        "dep": "ASPIR6S"
                     }
                 }
             },
-            "FASAN":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"FASAN6G"
+            "ERPOG": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "ERPOG6R"
                     },
-                    "31":{
-                        "dep":"FASAN6J"
+                    "22": {
+                        "dep": "ERPOG6S"
                     }
                 }
             },
-            "GOKEL":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"GOKEL7C"
-                    }
-                }
-            },
-            "KAPPO":{
-                "cfl":3000,
-                "rwys":{
-                    "31":{
-                        "dep":"KAPPO6J"
-                    }
-                }
-            },
-            "NUCRE":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"NUCRE6G"
-                    }
-                }
-            },
-            "TIGRA":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"TIGRA7C"
-                    }
-                }
-            },
-            "TROTA":{
-                "cfl":3000,
-                "rwys":{
-                    "13":{
-                        "dep":"TROTA6G"
+            "INKIM": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "INKIM6R"
                     },
-                    "31":{
-                        "dep":"TROTA6J"
+                    "22": {
+                        "dep": "INKIM6S"
                     }
                 }
             },
-            "XAPAT":{
-                "cfl":3000,
-                "rwys":{
-                    "31":{
-                        "dep":"XAPAT7C"
+            "OTRET": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "OTRET6R"
+                    },
+                    "22": {
+                        "dep": "OTRET6S"
+                    }
+                }
+            },
+            "SUTOB": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "SUTOB6R"
+                    },
+                    "22": {
+                        "dep": "SUTOB6S"
                     }
                 }
             }
         }
     },
-    "LICA":{
-        "elevation":46,
-        "sids":{
-            "APVAR":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"APVAR8F"
+    "LIBR": {
+        "elevation": 46,
+        "sids": {
+            "ABADI": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "ABADI6G"
                     }
                 }
             },
-            "ARBUM":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"ARBUM7F"
+            "DOLON": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "DOLON6G"
                     },
-                    "28":{
-                        "dep":"ARBUM7R"
+                    "31": {
+                        "dep": "DOLON6J"
                     }
                 }
             },
-            "BAGIX":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"BAGIX1F"
+            "ENOXA": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "ENOXA6G"
                     },
-                    "28":{
-                        "dep":"BAGIX6R"
+                    "31": {
+                        "dep": "ENOXA6J"
                     }
                 }
             },
-            "CDC":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"CDC6S"
+            "FASAN": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "FASAN6G"
                     },
-                    "28":{
-                        "dep":"CDC6R"
+                    "31": {
+                        "dep": "FASAN6J"
                     }
                 }
             },
-            "CRN":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"CRN6R"
+            "GOKEL": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "GOKEL7C"
                     }
                 }
             },
-            "DELIK":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"DELIK6R"
+            "KAPPO": {
+                "cfl": 3000,
+                "rwys": {
+                    "31": {
+                        "dep": "KAPPO6J"
+                    }
+                }
+            },
+            "NUCRE": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "NUCRE6G"
+                    }
+                }
+            },
+            "ORSOM": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "ORSOM6G"
+                    }
+                }
+            },
+            "ROBOT": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "ROBOT6G"
                     },
-                    "28":{
-                        "dep":"DELIK8E"
+                    "31": {
+                        "dep": "ROBOT6J"
                     }
                 }
             },
-            "GIROV":{
-                "cfl":5000,
-                "rwys":{
-                    "28":{
-                        "dep":"GIROV7R"
+            "TIGRA": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "TIGRA7C"
                     }
                 }
             },
-            "PEROS":{
-                "cfl":5000,
-                "rwys":{
-                    "28":{
-                        "dep":"PEROS6R"
-                    }
-                }
-            }
-        }
-    },
-    "LICC":{
-        "elevation":37,
-        "sids":{
-            "ALUDU":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"ALUDU5K"
+            "TROTA": {
+                "cfl": 3000,
+                "rwys": {
+                    "13": {
+                        "dep": "TROTA6G"
                     },
-                    "26":{
-                        "dep":"ALUDU5Y"
+                    "31": {
+                        "dep": "TROTA6J"
                     }
                 }
             },
-            "BUDIN":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"PEKOD5KxBUDIN5B"
-                    },
-                    "26":{
-                        "dep":"UXUTA5YxBUDIN5A"
-                    }
-                }
-            },
-            "LIBRO":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"LIBRO5K"
-                    },
-                    "26":{
-                        "dep":"LIBRO5Y"
-                    }
-                }
-            },
-            "NELDA":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"NELDA5K"
-                    },
-                    "26":{
-                        "dep":"NELDA5Y"
-                    }
-                }
-            },
-            "PEKOD":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"PEKOD5K"
-                    },
-                    "26":{
-                        "dep":"PEKOD5Y"
-                    }
-                }
-            },
-            "PIMOR":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"PIMOR5K"
-                    },
-                    "26":{
-                        "dep":"PIMOR5Y"
-                    }
-                }
-            },
-            "RCA":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"RCA7A"
-                    },
-                    "26":{
-                        "dep":"RCA7B"
-                    }
-                }
-            },
-            "UXUTA":{
-                "cfl":6000,
-                "rwys":{
-                    "26":{
-                        "dep":"UXUTA5Y"
+            "XAPAT": {
+                "cfl": 3000,
+                "rwys": {
+                    "31": {
+                        "dep": "XAPAT7C"
                     }
                 }
             }
         }
     },
-    "LICD":{
-        "elevation":66,
-        "sids":{
-            "AGMUB":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"AGMUB1M"
-                    },
-                    "26":{
-                        "dep":"AGMUB1E"
+    "LICA": {
+        "elevation": 46,
+        "sids": {
+            "APVAR": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "APVAR9F"
                     }
                 }
             },
-            "EMCOL":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"EMCOL1M"
+            "ARBUM": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "ARBUM7F"
+                    },
+                    "28": {
+                        "dep": "ARBUM7R"
                     }
                 }
             },
-            "LICDE":{
-                "cfl":6000,
-                "rwys":{
-                    "26":{
-                        "dep":"LICDE1E"
+            "BAGIX": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "BAGIX1F"
+                    },
+                    "28": {
+                        "dep": "BAGIX6R"
                     }
                 }
             },
-            "PURZE":{
-                "cfl":6000,
-                "rwys":{
-                    "08":{
-                        "dep":"PURZE1M"
+            "CDC": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "CDC6S"
                     },
-                    "26":{
-                        "dep":"PURZE1E"
-                    }
-                }
-            }
-        }
-    },
-    "LICG":{
-        "elevation":629,
-        "sids":{
-            "ROBET":{
-                "cfl":4000,
-                "rwys":{
-                    "02":{
-                        "dep":"ROBET1X"
-                    },
-                    "07":{
-                        "dep":"ROBET1W"
-                    },
-                    "25":{
-                        "dep":"ROBET1Y"
+                    "28": {
+                        "dep": "CDC6R"
                     }
                 }
             },
-            "RUBRI":{
-                "cfl":4000,
-                "rwys":{
-                    "02":{
-                        "dep":"RUBRI1X"
-                    },
-                    "07":{
-                        "dep":"RUBRI1W"
-                    },
-                    "25":{
-                        "dep":"RUBRI1Y"
-                    }
-                }
-            }
-        }
-    },
-    "LICJ":{
-        "elevation":33,
-        "sids":{
-            "GIANO":{
-                "cfl":4000,
-                "rwys":{
-                    "02":{
-                        "dep":"GIANO6S"
-                    },
-                    "07":{
-                        "dep":"GIANO6R"
-                    },
-                    "20":{
-                        "dep":"GIANO5Q"
-                    },
-                    "25":{
-                        "dep":"GIANO5Q"
+            "CRN": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "CRN6R"
                     }
                 }
             },
-            "KAPIL":{
-                "cfl":4000,
-                "rwys":{
-                    "02":{
-                        "dep":"KAPIL6W"
+            "DELIK": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "DELIK6R"
                     },
-                    "07":{
-                        "dep":"KAPIL6U"
-                    },
-                    "20":{
-                        "dep":"KAPIL6T"
-                    },
-                    "25":{
-                        "dep":"KAPIL6T"
+                    "28": {
+                        "dep": "DELIK8E"
                     }
                 }
             },
-            "LURON":{
-                "cfl":4000,
-                "rwys":{
-                    "02":{
-                        "dep":"LURON6S"
-                    },
-                    "07":{
-                        "dep":"LURON6R"
-                    },
-                    "20":{
-                        "dep":"LURON5Q"
-                    },
-                    "25":{
-                        "dep":"LURON5Q"
+            "GIROV": {
+                "cfl": 5000,
+                "rwys": {
+                    "28": {
+                        "dep": "GIROV7R"
                     }
                 }
             },
-            "PAL":{
-                "cfl":4000,
-                "rwys":{
-                    "02":{
-                        "dep":"PAL6S"
-                    },
-                    "07":{
-                        "dep":"PAL6R"
-                    },
-                    "20":{
-                        "dep":"PAL7Q"
-                    },
-                    "25":{
-                        "dep":"PAL7Q"
+            "KOGEB": {
+                "cfl": 5000,
+                "rwys": {
+                    "28": {
+                        "dep": "KOGEB7E"
                     }
                 }
             },
-            "ROSAS":{
-                "cfl":4000,
-                "rwys":{
-                    "02":{
-                        "dep":"ROSAS5S"
-                    },
-                    "07":{
-                        "dep":"ROSAS6R"
-                    },
-                    "20":{
-                        "dep":"ROSAS6Q"
-                    },
-                    "25":{
-                        "dep":"ROSAS6Q"
-                    }
-                }
-            },
-            "TRP":{
-                "cfl":4000,
-                "rwys":{
-                    "02":{
-                        "dep":"TRP6W"
-                    },
-                    "07":{
-                        "dep":"TRP6U"
-                    },
-                    "20":{
-                        "dep":"TRP5Q"
-                    },
-                    "25":{
-                        "dep":"TRP5Q"
+            "PEROS": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "PEROS1F"
+                    },                    
+                    "28": {
+                        "dep": "PEROS6R"
                     }
                 }
             }
         }
     },
-    "LICR":{
-        "elevation":95,
-        "sids":{
-            "BERMI":{
-                "cfl":7000,
-                "rwys":{
-                    "15":{
-                        "dep":"BERMI5W"
+    "LICC": {
+        "elevation": 37,
+        "sids": {
+            "ALUDU": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "ALUDU5K"
                     },
-                    "29":{
-                        "dep":"BERMI5S"
-                    },
-                    "33":{
-                        "dep":"BERMI5T"
+                    "26": {
+                        "dep": "ALUDU5Y"
                     }
                 }
             },
-            "PAZZE":{
-                "cfl":7000,
-                "rwys":{
-                    "29":{
-                        "dep":"PAZZE1S"
+            "BUDIN": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "PEKOD5KxBUDIN5B"
                     },
-                    "33":{
-                        "dep":"PAZZE1T"
+                    "26": {
+                        "dep": "UXUTA5YxBUDIN5A"
                     }
                 }
             },
-            "RCA":{
-                "cfl":7000,
-                "rwys":{
-                    "15":{
-                        "dep":"RCA1J"
+            "LIBRO": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "LIBRO5K"
                     },
-                    "29":{
-                        "dep":"RCA1G"
-                    },
-                    "33":{
-                        "dep":"RCA1G"
+                    "26": {
+                        "dep": "LIBRO5Y"
                     }
                 }
             },
-            "URCAH":{
-                "cfl":7000,
-                "rwys":{
-                    "15":{
-                        "dep":"URCAH1W"
-                    }
-                }
-            }
-        }
-    },
-    "LIEA":{
-        "elevation":87,
-        "sids":{
-            "GINOX":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"GINOX6X"
+            "NELDA": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "NELDA5K"
                     },
-                    "20":{
-                        "dep":"GINOX6U"
+                    "26": {
+                        "dep": "NELDA5Y"
                     }
                 }
             },
-            "GOPAT":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"GOPAT6X"
+            "PEKOD": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "PEKOD5K"
                     },
-                    "20":{
-                        "dep":"GOPAT6U"
+                    "26": {
+                        "dep": "PEKOD5Y"
                     }
                 }
             },
-            "KOLUS":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"KOLUS6K"
+            "PIMOR": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "PIMOR5K"
                     },
-                    "20":{
-                        "dep":"KOLUS6G"
+                    "26": {
+                        "dep": "PIMOR5Y"
                     }
                 }
             },
-            "MINKA":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"MINKA6X"
+            "RCA": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "RCA7A"
                     },
-                    "20":{
-                        "dep":"MINKA6U"
+                    "26": {
+                        "dep": "RCA7B"
                     }
                 }
             },
-            "ORVEX":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"ORVEX6X"
-                    },
-                    "20":{
-                        "dep":"ORVEX6U"
-                    }
-                }
-            },
-            "POULP":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"POULP6X"
-                    },
-                    "20":{
-                        "dep":"POULP6U"
-                    }
-                }
-            },
-            "SODIO":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"SODIO6X"
-                    },
-                    "20":{
-                        "dep":"SODIO6U"
-                    }
-                }
-            },
-            "SUPUX":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"SUPUX6X"
-                    },
-                    "20":{
-                        "dep":"SUPUX6U"
+            "UXUTA": {
+                "cfl": 6000,
+                "rwys": {
+                    "26": {
+                        "dep": "UXUTA5Y"
                     }
                 }
             }
         }
     },
-    "LIEE":{
-        "elevation":11,
-        "sids":{
-            "CAR":{
-                "cfl":4000,
-                "rwys":{
-                    "14":{
-                        "dep":"CAR5N"
+    "LICD": {
+        "elevation": 66,
+        "sids": {
+            "AGMUB": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "AGMUB1M"
                     },
-                    "32":{
-                        "dep":"CAR5M"
+                    "26": {
+                        "dep": "AGMUB1E"
                     }
                 }
             },
-            "KOVAS":{
-                "cfl":4000,
-                "rwys":{
-                    "14":{
-                        "dep":"KOVAS5K"
-                    },
-                    "32":{
-                        "dep":"KOVAS5J"
+            "EMCOL": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "EMCOL1M"
                     }
                 }
             },
-            "LEDRO":{
-                "cfl":4000,
-                "rwys":{
-                    "32":{
-                        "dep":"LEDRO6E"
-                    }
-                }
-            }
-        }
-    },
-    "LIEO":{
-        "elevation":37,
-        "sids":{
-            "ATNET":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"ATNET7K"
-                    },
-                    "23":{
-                        "dep":"ATNET8Q"
+            "LICDE": {
+                "cfl": 6000,
+                "rwys": {
+                    "26": {
+                        "dep": "LICDE1E"
                     }
                 }
             },
-            "BATOX":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"BATOX6K"
+            "PURZE": {
+                "cfl": 6000,
+                "rwys": {
+                    "08": {
+                        "dep": "PURZE1M"
                     },
-                    "23":{
-                        "dep":"BATOX8Q"
-                    }
-                }
-            },
-            "INDUM":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"INDUM7K"
-                    },
-                    "23":{
-                        "dep":"INDUM8Q"
-                    }
-                }
-            },
-            "KOLUS":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"KOLUS8A"
-                    },
-                    "23":{
-                        "dep":"KOLUS8B"
-                    }
-                }
-            },
-            "LABOM":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"LABOM7K"
-                    },
-                    "23":{
-                        "dep":"LABOM8Q"
-                    }
-                }
-            },
-            "MINKA":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"MINKA6A"
-                    },
-                    "23":{
-                        "dep":"MINKA6B"
-                    }
-                }
-            },
-            "OKIVA":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"OKIVA7K"
-                    },
-                    "23":{
-                        "dep":"OKIVA8Q"
-                    }
-                }
-            },
-            "OLBEK":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"OLBEK6K"
-                    },
-                    "23":{
-                        "dep":"OLBEK8Q"
-                    }
-                }
-            },
-            "POZZO":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"POZZO8A"
-                    },
-                    "23":{
-                        "dep":"POZZO8B"
-                    }
-                }
-            },
-            "SUKUN":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"SUKUN6K"
-                    },
-                    "23":{
-                        "dep":"SUKUN8Q"
-                    }
-                }
-            },
-            "SUTAD":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"SUTAD7K"
-                    },
-                    "23":{
-                        "dep":"SUTAD8Q"
-                    }
-                }
-            },
-            "TEREZ":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"TEREZ7K"
-                    },
-                    "23":{
-                        "dep":"TEREZ8Q"
-                    }
-                }
-            },
-            "VAVAX":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"VAVAX7A"
-                    },
-                    "23":{
-                        "dep":"VAVAX7B"
+                    "26": {
+                        "dep": "PURZE1E"
                     }
                 }
             }
         }
     },
-    "LIMC":{
-        "elevation":768,
-        "sids":{
-            "AOSTA":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"IBCUC6YxAOSTA7Y"
+    "LICG": {
+        "elevation": 629,
+        "sids": {
+            "ROBET": {
+                "cfl": 4000,
+                "rwys": {
+                    "02": {
+                        "dep": "ROBET1X"
                     },
-                    "17R":{
-                        "dep":"IBCUC6YxAOSTA7Y"
+                    "07": {
+                        "dep": "ROBET1W"
                     },
-                    "35L":{
-                        "dep":"IBCUC6NxAOSTA7Y",
-                        "nap":"IBCUC6BxAOSTA7M"
-                    },
-                    "35R":{
-                        "dep":"DOGUB6TxAOSTA5W",
-                        "nap":"MMP6LxAOSTA5X"
+                    "25": {
+                        "dep": "ROBET1Y"
                     }
                 }
             },
-            "KEMMI":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"NOBKE6XxKEMMI7Z"
+            "RUBRI": {
+                "cfl": 4000,
+                "rwys": {
+                    "02": {
+                        "dep": "RUBRI1X"
                     },
-                    "17R":{
-                        "dep":"NOBKE6XxKEMMI7Z"
-                    }
-                }
-            },
-            "LAGEN":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"FARAK5YxLAGEN5U"
+                    "07": {
+                        "dep": "RUBRI1W"
                     },
-                    "17R":{
-                        "dep":"FARAK5YxLAGEN5U"
-                    },
-                    "35L":{
-                        "dep":"FARAK6NxLAGEN5U",
-                        "nap":"FARAK6BxLAGEN5U"
-                    },
-                    "35R":{
-                        "dep":"DOGUB6TxLAGEN6I",
-                        "nap":"MMP6LxLAGEN9X"
-                    }
-                }
-            },
-            "NEDED":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"FARAK5YxNEDED9U"
-                    },
-                    "17R":{
-                        "dep":"FARAK5YxNEDED9U"
-                    },
-                    "35L":{
-                        "dep":"FARAK6NxNEDED9U",
-                        "nap":"FARAK6BxNEDED9U"
-                    },
-                    "35R":{
-                        "dep":"DOGUB6TxNEDED6I",
-                        "nap":"MMP6LxNEDED9X"
-                    }
-                }
-            },
-            "OSKOR":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"SRN7WxOSKOR6S"
-                    },
-                    "17R":{
-                        "dep":"SRN7WxOSKOR6S"
-                    },
-                    "35L":{
-                        "dep":"IRKED7AxOSKOR6Z"
-                    },
-                    "35R":{
-                        "dep":"SRN6LxOSKOR6S"
-                    }
-                }
-            },
-            "PEPAG":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"SRN7WxPEPAG2Q"
-                    },
-                    "17R":{
-                        "dep":"SRN7WxPEPAG2Q"
-                    },
-                    "35L":{
-                        "dep":"IRKED7AxPEPAG2X"
-                    },
-                    "35R":{
-                        "dep":"SRN6LxPEPAG2Q"
-                    }
-                }
-            },
-            "ROBAS":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"NOBKE6XxROBAS5Z"
-                    },
-                    "17R":{
-                        "dep":"NOBKE6XxROBAS5Z"
-                    },
-                    "35L":{
-                        "dep":"FARAK6NxROBAS5U",
-                        "nap":"FARAK6BxROBAS5U"
-                    },
-                    "35R":{
-                        "dep":"SRN7MxROBAS6Q",
-                        "nap":"SRN6LxROBAS6Q"
-                    }
-                }
-            },
-            "TOP":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"FARAK5YxTOP5U"
-                    },
-                    "17R":{
-                        "dep":"FARAK5YxTOP5U"
-                    },
-                    "35L":{
-                        "dep":"FARAK6NxTOP5U",
-                        "nap":"FARAK6BxTOP5U"
-                    },
-                    "35R":{
-                        "dep":"DOGUB6TxTOP6I",
-                        "nap":"MMP6LxTOP9X"
-                    }
-                }
-            },
-            "VAKON":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"SRN7WxVAKON1Q"
-                    },
-                    "17R":{
-                        "dep":"SRN7WxVAKON1Q"
-                    },
-                    "35L":{
-                        "dep":"IRKED7AxVAKON6X"
-                    },
-                    "35R":{
-                        "dep":"SRN6LxVAKON1Q"
-                    }
-                }
-            },
-            "VOG":{
-                "cfl":5000,
-                "rwys":{
-                    "17L":{
-                        "dep":"NOBKE6XxVOG7Z"
-                    },
-                    "17R":{
-                        "dep":"NOBKE6XxVOG7Z"
-                    },
-                    "35R":{
-                        "dep":"TELVA6LxVOG7J",
-                        "nap":"TELVA7MxVOG7J"
+                    "25": {
+                        "dep": "RUBRI1Y"
                     }
                 }
             }
         }
     },
-    "LIME":{
-        "elevation":782,
-        "sids":{
-            "ARLES":{
-                "cfl":6000,
-                "rwys":{
-                    "10":{
-                        "dep":"LEGLO1RxARLES1D",
-                        "nap":"LEGLO1WxARLES1D"
+    "LICJ": {
+        "elevation": 33,
+        "sids": {
+            "GIANO": {
+                "cfl": 4000,
+                "rwys": {
+                    "02": {
+                        "dep": "GIANO6S"
                     },
-                    "28":{
-                        "dep":"SRN1VxARLES1B",
-                        "nap":"LEGLO1VxARLES1D"
+                    "07": {
+                        "dep": "GIANO6R"
+                    },
+                    "20": {
+                        "dep": "GIANO5Q"
+                    },
+                    "25": {
+                        "dep": "GIANO5Q"
                     }
                 }
             },
-            "DILEB":{
-                "cfl":6000,
-                "rwys":{
-                    "10":{
-                        "dep":"LEGLO1RxDILEB1D",
-                        "nap":"LEGLO1WxDILEB1D"
+            "KAPIL": {
+                "cfl": 4000,
+                "rwys": {
+                    "02": {
+                        "dep": "KAPIL6W"
                     },
-                    "28":{
-                        "dep":"LEGLO1PxDILEB1D",
-                        "nap":"LEGLO1VxDILEB1D"
+                    "07": {
+                        "dep": "KAPIL6U"
+                    },
+                    "20": {
+                        "dep": "KAPIL6T"
+                    },
+                    "25": {
+                        "dep": "KAPIL6T"
                     }
                 }
             },
-            "EKPAL":{
-                "cfl":6000,
-                "rwys":{
-                    "10":{
-                        "dep":"ILFUG1RxEKPAL1S",
-                        "nap":"ILFUG1WxEKPAL1S"
+            "LURON": {
+                "cfl": 4000,
+                "rwys": {
+                    "02": {
+                        "dep": "LURON6S"
                     },
-                    "28":{
-                        "dep":"ILFUG1PxEKPAL1S",
-                        "nap":"ILFUG1VxEKPAL1S"
+                    "07": {
+                        "dep": "LURON6R"
+                    },
+                    "20": {
+                        "dep": "LURON5Q"
+                    },
+                    "25": {
+                        "dep": "LURON5Q"
                     }
                 }
             },
-            "GEN":{
-                "cfl":6000,
-                "rwys":{
-                    "10":{
-                        "dep":"ILFUG1RxGEN1S",
-                        "nap":"ILFUG1WxGEN1S"
+            "PAL": {
+                "cfl": 4000,
+                "rwys": {
+                    "02": {
+                        "dep": "PAL6S"
                     },
-                    "28":{
-                        "dep":"ILFUG1PxGEN1S",
-                        "nap":"ILFUG1VxGEN1S"
+                    "07": {
+                        "dep": "PAL6R"
+                    },
+                    "20": {
+                        "dep": "PAL7Q"
+                    },
+                    "25": {
+                        "dep": "PAL7Q"
                     }
                 }
             },
-            "LOGDI":{
-                "cfl":6000,
-                "rwys":{
-                    "10":{
-                        "dep":"ILFUG1RxLOGDI1S",
-                        "nap":"ILFUG1WxLOGDI1S"
+            "ROSAS": {
+                "cfl": 4000,
+                "rwys": {
+                    "02": {
+                        "dep": "ROSAS5S"
                     },
-                    "28":{
-                        "dep":"ILFUG1PxLOGDI1S",
-                        "nap":"ILFUG1VxLOGDI1S"
+                    "07": {
+                        "dep": "ROSAS6R"
+                    },
+                    "20": {
+                        "dep": "ROSAS6Q"
+                    },
+                    "25": {
+                        "dep": "ROSAS6Q"
                     }
                 }
             },
-            "OMETO":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"LEGLO1RxOMETO1D",
-                        "nap":"LEGLO1WxOMETO1D"
+            "TRP": {
+                "cfl": 4000,
+                "rwys": {
+                    "02": {
+                        "dep": "TRP6W"
                     },
-                    "28":{
-                        "dep":"SRN1VxOMETO1B",
-                        "nap":"LEGLO1VxOMETO1D"
-                    }
-                }
-            },
-            "OSKOR":{
-                "cfl":6000,
-                "rwys":{
-                    "10":{
-                        "dep":"LEGLO1RxOSKOR1F",
-                        "nap":"LEGLO1WxOSKOR1F"
+                    "07": {
+                        "dep": "TRP6U"
                     },
-                    "28":{
-                        "dep":"LEGLO1PxOSKOR1F",
-                        "nap":"LEGLO1VxOSKOR1F"
-                    }
-                }
-            },
-            "PEPAG":{
-                "cfl":6000,
-                "rwys":{
-                    "10":{
-                        "dep":"LEGLO1RxPEPAG1D",
-                        "nap":"LEGLO1WxPEPAG1D"
+                    "20": {
+                        "dep": "TRP5Q"
                     },
-                    "28":{
-                        "dep":"LEGLO1PxPEPAG1D",
-                        "nap":"LEGLO1VxPEPAG1D"
-                    }
-                }
-            },
-            "VOG":{
-                "cfl":6000,
-                "rwys":{
-                    "10":{
-                        "dep":"ILFUG1RxVOG1S",
-                        "nap":"ILFUG1WxVOG1S"
-                    },
-                    "28":{
-                        "dep":"ILFUG1PxVOG1S",
-                        "nap":"ILFUG1VxVOG1S"
+                    "25": {
+                        "dep": "TRP5Q"
                     }
                 }
             }
         }
     },
-    "LIMF":{
-        "elevation":989,
-        "sids":{
-            "ASTIG":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"ASTIG1Y"
+    "LICR": {
+        "elevation": 95,
+        "sids": {
+            "BERMI": {
+                "cfl": 7000,
+                "rwys": {
+                    "15": {
+                        "dep": "BERMI5W"
                     },
-                    "36":{
-                        "dep":"ASTIG1Z"
+                    "29": {
+                        "dep": "BERMI5S"
+                    },
+                    "33": {
+                        "dep": "BERMI5T"
                     }
                 }
             },
-            "GEN":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"TOP1BxGEN2L"
+            "PAZZE": {
+                "cfl": 7000,
+                "rwys": {
+                    "29": {
+                        "dep": "PAZZE1S"
                     },
-                    "36":{
-                        "dep":"SIRLO8AxGEN9N"
+                    "33": {
+                        "dep": "PAZZE1T"
                     }
                 }
             },
-            "IXUSA":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"IXUSA1Y"
+            "RCA": {
+                "cfl": 7000,
+                "rwys": {
+                    "15": {
+                        "dep": "RCA1J"
                     },
-                    "36":{
-                        "dep":"IXUSA1X"
+                    "29": {
+                        "dep": "RCA1G"
+                    },
+                    "33": {
+                        "dep": "RCA1G"
                     }
                 }
             },
-            "KUKEV":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"KUKEV1Y"
-                    },
-                    "36":{
-                        "dep":"KUKEV1X"
-                    }
-                }
-            },
-            "LAGEN":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"LAGEN1Y"
-                    },
-                    "36":{
-                        "dep":"LAGEN1W"
-                    }
-                }
-            },
-            "MMP":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"MMP1Y"
-                    },
-                    "36":{
-                        "dep":"MMP1Z"
-                    }
-                }
-            },
-            "SIRLO":{
-                "cfl":5000,
-                "rwys":{
-                    "36":{
-                        "dep":"SIRLO8A"
-                    }
-                }
-            },
-            "SRN":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"TOP1BxSRN6L"
-                    },
-                    "36":{
-                        "dep":"SIRLO8AxSRN67M"
-                    }
-                }
-            },
-            "TESTO":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"TESTO1Y"
-                    },
-                    "36":{
-                        "dep":"TEST1X"
-                    }
-                }
-            },
-            "TOP":{
-                "cfl":5000,
-                "rwys":{
-                    "18":{
-                        "dep":"TOP1B"
-                    },
-                    "36":{
-                        "dep":"TOP1A"
+            "URCAH": {
+                "cfl": 7000,
+                "rwys": {
+                    "15": {
+                        "dep": "URCAH1W"
                     }
                 }
             }
         }
     },
-    "LIMJ":{
-        "elevation":17,
-        "sids":{
-            "GEN":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"GEN9K"
+    "LIEA": {
+        "elevation": 87,
+        "sids": {
+            "GINOX": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "GINOX6X"
                     },
-                    "28":{
-                        "dep":"GEN9K"
+                    "20": {
+                        "dep": "GINOX6U"
                     }
                 }
             },
-            "LAGEN":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"LAGEN9K"
+            "GOPAT": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "GOPAT6X"
                     },
-                    "28":{
-                        "dep":"LAGEN9K"
+                    "20": {
+                        "dep": "GOPAT6U"
                     }
                 }
             },
-            "UNITA":{
-                "cfl":5000,
-                "rwys":{
-                    "10":{
-                        "dep":"UNITA8K"
+            "KOLUS": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "KOLUS6K"
                     },
-                    "28":{
-                        "dep":"UNITA8K"
-                    }
-                }
-            }
-        }
-    },
-    "LIML":{
-        "elevation":353,
-        "sids":{
-            "ABSEM":{
-                "cfl":6000,
-                "rwys":{
-                    "35":{
-                        "dep":"ABSEM6A"
+                    "20": {
+                        "dep": "KOLUS6G"
                     }
                 }
             },
-            "ARLES":{
-                "cfl":6000,
-                "rwys":{
-                    "17":{
-                        "dep":"MMP7CxARLES9C"
+            "MINKA": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "MINKA6X"
                     },
-                    "35":{
-                        "dep":"SRN6AxARLES2A"
+                    "20": {
+                        "dep": "MINKA6U"
                     }
                 }
             },
-            "DEVOX":{
-                "cfl":5000,
-                "rwys":{
-                    "17":{
-                        "dep":"TOVSA8CxDEVOX6B"
+            "ORVEX": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "ORVEX6X"
                     },
-                    "35":{
-                        "dep":"TOVSA7AxDEVOX6B"
+                    "20": {
+                        "dep": "ORVEX6U"
                     }
                 }
             },
-            "EKPAL":{
-                "cfl":5000,
-                "rwys":{
-                    "17":{
-                        "dep":"TOVSA8CxEKPAL6A"
+            "POULP": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "POULP6X"
                     },
-                    "35":{
-                        "dep":"TOVSA7AxEKPAL6A"
+                    "20": {
+                        "dep": "POULP6U"
                     }
                 }
             },
-            "ELTAR":{
-                "cfl":6000,
-                "rwys":{
-                    "17":{
-                        "dep":"TREVI9DxELTAR6C"
+            "SODIO": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "SODIO6X"
                     },
-                    "35":{
-                        "dep":"RUVAB7AxELTAR6B"
+                    "20": {
+                        "dep": "SODIO6U"
                     }
                 }
             },
-            "GEN":{
-                "cfl":5000,
-                "rwys":{
-                    "17":{
-                        "dep":"TOVSA8CxGEN6Q"
+            "SUPUX": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "SUPUX6X"
                     },
-                    "35":{
-                        "dep":"TOVSA7AxGEN6Q"
-                    }
-                }
-            },
-            "LIMBA":{
-                "cfl":4000,
-                "rwys":{
-                    "17":{
-                        "dep":"LIMBA7C"
-                    }
-                }
-            },
-            "LAGEN":{
-                "cfl":4000,
-                "rwys":{
-                    "35":{
-                        "dep":"SRN6AxLAGEN5A"
-                    }
-                }
-            },
-            "LOGDI":{
-                "cfl":5000,
-                "rwys":{
-                    "17":{
-                        "dep":"TOVSA8CxLOGDI6C"
-                    },
-                    "35":{
-                        "dep":"ABSEM6AxLOGDI7A"
-                    }
-                }
-            },
-            "MMP":{
-                "cfl":4000,
-                "rwys":{
-                    "17":{
-                        "dep":"MMP7C"
-                    }
-                }
-            },
-            "NEDED":{
-                "cfl":6000,
-                "rwys":{
-                    "35":{
-                        "dep":"SRN6AxNEDED5A"
-                    }
-                }
-            },
-            "NESTI":{
-                "cfl":6000,
-                "rwys":{
-                    "17":{
-                        "dep":"TREVI9DxNESTI7C"
-                    },
-                    "35":{
-                        "dep":"RUVAB7AxNESTI6A"
-                    }
-                }
-            },
-            "OMETO":{
-                "cfl":6000,
-                "rwys":{
-                    "17":{
-                        "dep":"MMP7CxOMETO9C"
-                    },
-                    "35":{
-                        "dep":"SRN6AxOMETO6A"
-                    }
-                }
-            },
-            "OSKOR":{
-                "cfl":5000,
-                "rwys":{
-                    "35":{
-                        "dep":"TZO8CxOSKOR7B"
-                    }
-                }
-            },
-            "PEPAG":{
-                "cfl":6000,
-                "rwys":{
-                    "17":{
-                        "dep":"TREVI9DxPEPAG1C"
-                    },
-                    "35":{
-                        "dep":"PEPAG1A"
-                    }
-                }
-            },
-            "SRN":{
-                "cfl":6000,
-                "rwys":{
-                    "35":{
-                        "dep":"SRN6A"
-                    }
-                }
-            },
-            "TOVSA":{
-                "cfl":4000,
-                "rwys":{
-                    "17":{
-                        "dep":"TOVSA8C"
-                    }
-                }
-            },
-            "TREVI":{
-                "cfl":4000,
-                "rwys":{
-                    "17":{
-                        "dep":"TREVI9D"
+                    "20": {
+                        "dep": "SUPUX6U"
                     }
                 }
             }
         }
     },
-    "LIMP":{
-        "elevation":161,
-        "sids":{
-            "BETMU":{
-                "cfl":9000,
-                "rwys":{
-                    "02":{
-                        "dep":"BETMU7Z"
+    "LIEE": {
+        "elevation": 11,
+        "sids": {
+            "CAR": {
+                "cfl": 4000,
+                "rwys": {
+                    "14": {
+                        "dep": "CAR5N"
                     },
-                    "20":{
-                        "dep":"BETMU6W"
+                    "32": {
+                        "dep": "CAR5M"
                     }
                 }
             },
-            "LUPOS":{
-                "cfl":9000,
-                "rwys":{
-                    "02":{
-                        "dep":"LUPOS6Z"
+            "KOVAS": {
+                "cfl": 4000,
+                "rwys": {
+                    "14": {
+                        "dep": "KOVAS5K"
                     },
-                    "20":{
-                        "dep":"LUPOS6W"
+                    "32": {
+                        "dep": "KOVAS5J"
                     }
                 }
             },
-            "MISPO":{
-                "cfl":10000,
-                "rwys":{
-                    "02":{
-                        "dep":"MISPO7Z"
-                    },
-                    "20":{
-                        "dep":"MISPO7T"
-                    }
-                }
-            },
-            "OSBUL":{
-                "cfl":6000,
-                "rwys":{
-                    "02":{
-                        "dep":"OSBUL7N"
-                    },
-                    "20":{
-                        "dep":"OSBUL6T"
+            "LEDRO": {
+                "cfl": 4000,
+                "rwys": {
+                    "32": {
+                        "dep": "LEDRO6E"
                     }
                 }
             }
         }
     },
-    "LIMZ":{
-        "elevation":1267,
-        "sids":{
-            "ABESI":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"ABESI1Q"
+    "LIEO": {
+        "elevation": 37,
+        "sids": {
+            "ATNET": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "ATNET7K"
                     },
-                    "21":{
-                        "dep":"ABESI1Q"
+                    "23": {
+                        "dep": "ATNET8Q"
                     }
                 }
             },
-            "CANNE":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"CANNE1Q"
+            "BATOX": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "BATOX6K"
                     },
-                    "21":{
-                        "dep":"CANNE1Q"
+                    "23": {
+                        "dep": "BATOX8Q"
                     }
                 }
             },
-            "ENOBA":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"ENOBA1C"
+            "INDUM": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "INDUM7K"
                     },
-                    "21":{
-                        "dep":"ENOBA1G"
+                    "23": {
+                        "dep": "INDUM8Q"
                     }
                 }
             },
-            "IXUSA":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"IXUSA1C"
+            "KOLUS": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "KOLUS8A"
                     },
-                    "21":{
-                        "dep":"IXUSA1G"
+                    "23": {
+                        "dep": "KOLUS8B"
                     }
                 }
             },
-            "KUKEV":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"KUKEV1C"
+            "LABOM": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "LABOM7K"
                     },
-                    "21":{
-                        "dep":"KUKEV1G"
+                    "23": {
+                        "dep": "LABOM8Q"
                     }
                 }
             },
-            "LAGEN":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"LAGEN1C"
+            "MINKA": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "MINKA6A"
                     },
-                    "21":{
-                        "dep":"LAGEN1G"
+                    "23": {
+                        "dep": "MINKA6B"
                     }
                 }
             },
-            "LEV":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"LEV6Q"
+            "OKIVA": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "OKIVA7K"
                     },
-                    "21":{
-                        "dep":"LEV6P"
+                    "23": {
+                        "dep": "OKIVA8Q"
                     }
                 }
             },
-            "MMP":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"MMP1B"
+            "OLBEK": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "OLBEK6K"
                     },
-                    "21":{
-                        "dep":"MMP1D"
+                    "23": {
+                        "dep": "OLBEK8Q"
                     }
                 }
             },
-            "SRN":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"SRN1Q"
+            "POZZO": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "POZZO8A"
                     },
-                    "21":{
-                        "dep":"SRN1Q"
+                    "23": {
+                        "dep": "POZZO8B"
                     }
                 }
             },
-            "TOP":{
-                "cfl":6000,
-                "rwys":{
-                    "03":{
-                        "dep":"TOP2C"
+            "SUKUN": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "SUKUN6K"
                     },
-                    "21":{
-                        "dep":"TOP2G"
-                    }
-                }
-            }
-        }
-    },
-    "LIPB":{
-        "elevation":789,
-        "sids":{
-            "ADOSA":{
-                "cfl":12000,
-                "rwys":{
-                    "01":{
-                        "dep":"ADOSA1W"
-                    },
-                    "19":{
-                        "dep":"ADOSA1W"
+                    "23": {
+                        "dep": "SUKUN8Q"
                     }
                 }
             },
-            "ALESE":{
-                "cfl":12000,
-                "rwys":{
-                    "01":{
-                        "dep":"ALESE1W"
+            "SUTAD": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "SUTAD7K"
                     },
-                    "19":{
-                        "dep":"ALESE1W"
+                    "23": {
+                        "dep": "SUTAD8Q"
                     }
                 }
             },
-            "NAXAV":{
-                "cfl":12000,
-                "rwys":{
-                    "01":{
-                        "dep":"NAXAV1W"
+            "TEREZ": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "TEREZ7K"
                     },
-                    "19":{
-                        "dep":"NAXAV1W"
+                    "23": {
+                        "dep": "TEREZ8Q"
                     }
                 }
             },
-            "VIC":{
-                "cfl":12000,
-                "rwys":{
-                    "01":{
-                        "dep":"VIC1W"
+            "VAVAX": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "VAVAX7A"
                     },
-                    "19":{
-                        "dep":"VIC1W"
+                    "23": {
+                        "dep": "VAVAX7B"
                     }
                 }
             }
         }
     },
-    "LIPE":{
-        "elevation":123,
-        "sids":{
-            "LOMED":{
-                "cfl":5000,
-                "rwys":{
-                    "12":{
-                        "dep":"LOMED1J"
+    "LIMC": {
+        "elevation": 768,
+        "sids": {
+            "AOSTA": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "IBCUC6YxAOSTA7Y"
                     },
-                    "30":{
-                        "dep":"LOMED6Z"
-                    }
-                }
-            },
-            "LUMAV":{
-                "cfl":5000,
-                "rwys":{
-                    "12":{
-                        "dep":"LUMAV1K"
+                    "17R": {
+                        "dep": "IBCUC6YxAOSTA7Y"
                     },
-                    "30":{
-                        "dep":"LUMAV7Z"
-                    }
-                }
-            },
-            "LUPOS":{
-                "cfl":5000,
-                "rwys":{
-                    "12":{
-                        "dep":"LUPOS1J",
-                        "nap":"LUPOS1K"
+                    "35L": {
+                        "dep": "IBCUC6NxAOSTA7Y",
+                        "nap": "IBCUC6BxAOSTA7M"
                     },
-                    "30":{
-                        "dep":"LUPOS7Z"
+                    "35R": {
+                        "dep": "DOGUB6TxAOSTA5W",
+                        "nap": "MMP6LxAOSTA5X"
                     }
                 }
             },
-            "PELEG":{
-                "cfl":5000,
-                "rwys":{
-                    "12":{
-                        "dep":"PELEG1K"
+            "KEMMI": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "NOBKE6XxKEMMI7Z"
                     },
-                    "30":{
-                        "dep":"PELEG7Z"
+                    "17R": {
+                        "dep": "NOBKE6XxKEMMI7Z"
                     }
                 }
-            }
-        }
-    },
-    "LIPH":{
-        "elevation":59,
-        "sids":{
-            "ALBET":{
-                "cfl":4000,
-                "rwys":{
-                    "07":{
-                        "dep":"ALBET7F"
+            },
+            "LAGEN": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "FARAK5YxLAGEN5U"
                     },
-                    "25":{
-                        "dep":"ALBET5B"
-                    }
-                }
-            },
-            "INBUT":{
-                "cfl":4000,
-                "rwys":{
-                    "07":{
-                        "dep":"INBUT5A"
+                    "17R": {
+                        "dep": "FARAK5YxLAGEN5U"
                     },
-                    "25":{
-                        "dep":"INBUT5B"
-                    }
-                }
-            },
-            "RAXHO":{
-                "cfl":4000,
-                "rwys":{
-                    "07":{
-                        "dep":"RAXHO5A"
+                    "35L": {
+                        "dep": "FARAK6NxLAGEN5U",
+                        "nap": "FARAK6BxLAGEN5U"
                     },
-                    "25":{
-                        "dep":"RAXHO5B"
+                    "35R": {
+                        "dep": "DOGUB6TxLAGEN6I",
+                        "nap": "MMP6LxLAGEN9X"
                     }
                 }
             },
-            "ROKIB":{
-                "cfl":4000,
-                "rwys":{
-                    "07":{
-                        "dep":"ROKIB5A"
+            "NEDED": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "FARAK5YxNEDED9U"
                     },
-                    "25":{
-                        "dep":"ROKIB5B"
-                    }
-                }
-            },
-            "ROVIG":{
-                "cfl":4000,
-                "rwys":{
-                    "07":{
-                        "dep":"ROVIG5A"
+                    "17R": {
+                        "dep": "FARAK5YxNEDED9U"
                     },
-                    "25":{
-                        "dep":"ROVIG5B"
-                    }
-                }
-            },
-            "VIC":{
-                "cfl":4000,
-                "rwys":{
-                    "07":{
-                        "dep":"VIC7F"
+                    "35L": {
+                        "dep": "FARAK6NxNEDED9U",
+                        "nap": "FARAK6BxNEDED9U"
                     },
-                    "25":{
-                        "dep":"VIC5T"
+                    "35R": {
+                        "dep": "DOGUB6TxNEDED6I",
+                        "nap": "MMP6LxNEDED9X"
                     }
                 }
-            }
-        }
-    },
-    "LIPK":{
-        "elevation":98,
-        "sids":{
-            "AMLON":{
-                "cfl":4000,
-                "rwys":{
-                    "12":{
-                        "dep":"AMLON1T"
+            },
+            "OSKOR": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "SRN7WxOSKOR6S"
                     },
-                    "30":{
-                        "dep":"AMLON1K"
-                    }
-                }
-            },
-            "ASDOR":{
-                "cfl":4000,
-                "rwys":{
-                    "12":{
-                        "dep":"ASDOR1T"
+                    "17R": {
+                        "dep": "SRN7WxOSKOR6S"
                     },
-                    "30":{
-                        "dep":"ASDOR1K"
-                    }
-                }
-            },
-            "GIPUK":{
-                "cfl":4000,
-                "rwys":{
-                    "12":{
-                        "dep":"GIPUK1T"
+                    "35L": {
+                        "dep": "IRKED7AxOSKOR6Z"
                     },
-                    "30":{
-                        "dep":"GIPUK1K"
-                    }
-                }
-            }
-        }
-    },
-    "LIPO":{
-        "elevation":356,
-        "sids":{
-            "ADXEF":{
-                "cfl":4000,
-                "rwys":{
-                    "32":{
-                        "dep":"ADXEF7A"
+                    "35R": {
+                        "dep": "SRN6LxOSKOR6S"
                     }
                 }
             },
-            "AVCUP":{
-                "cfl":4000,
-                "rwys":{
-                    "32":{
-                        "dep":"AVCUP6A"
-                    }
-                }
-            },
-            "AFNEW":{
-                "cfl":4000,
-                "rwys":{
-                    "32":{
-                        "dep":"AFNEW7A"
-                    }
-                }
-            },
-            "EXFIN":{
-                "cfl":4000,
-                "rwys":{
-                    "14":{
-                        "dep":"EXFIN7C"
+            "PEPAG": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "SRN7WxPEPAG2Q"
                     },
-                    "32":{
-                        "dep":"EXFIN7B",
-                        "nap":"EXFIN7A"
-                    }
-                }
-            },
-            "EZRAF":{
-                "cfl":4000,
-                "rwys":{
-                    "14":{
-                        "dep":"EZRAF6A"
-                    }
-                }
-            },
-            "OSBUL":{
-                "cfl":4000,
-                "rwys":{
-                    "14":{
-                        "dep":"OSBUL7H"
+                    "17R": {
+                        "dep": "SRN7WxPEPAG2Q"
                     },
-                    "32":{
-                        "dep":"OSBUL7B",
-                        "nap":"OSBUL7V"
-                    }
-                }
-            },
-            "OSKOR":{
-                "cfl":4000,
-                "rwys":{
-                    "14":{
-                        "dep":"OSKOR7H"
+                    "35L": {
+                        "dep": "IRKED7AxPEPAG2X"
                     },
-                    "32":{
-                        "dep":"OSKOR7U",
-                        "nap":"OSKOR7V"
+                    "35R": {
+                        "dep": "SRN6LxPEPAG2Q"
                     }
                 }
             },
-            "UGHAD":{
-                "cfl":4000,
-                "rwys":{
-                    "32":{
-                        "dep":"UGHAD6A"
+            "ROBAS": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "NOBKE6XxROBAS5Z"
+                    },
+                    "17R": {
+                        "dep": "NOBKE6XxROBAS5Z"
+                    },
+                    "35L": {
+                        "dep": "FARAK6NxROBAS5U",
+                        "nap": "FARAK6BxROBAS5U"
+                    },
+                    "35R": {
+                        "dep": "SRN7MxROBAS6Q",
+                        "nap": "SRN6LxROBAS6Q"
+                    }
+                }
+            },
+            "TOP": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "FARAK5YxTOP5U"
+                    },
+                    "17R": {
+                        "dep": "FARAK5YxTOP5U"
+                    },
+                    "35L": {
+                        "dep": "FARAK6NxTOP5U",
+                        "nap": "FARAK6BxTOP5U"
+                    },
+                    "35R": {
+                        "dep": "DOGUB6TxTOP6I",
+                        "nap": "MMP6LxTOP9X"
+                    }
+                }
+            },
+            "VAKON": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "SRN7WxVAKON1Q"
+                    },
+                    "17R": {
+                        "dep": "SRN7WxVAKON1Q"
+                    },
+                    "35L": {
+                        "dep": "IRKED7AxVAKON6X"
+                    },
+                    "35R": {
+                        "dep": "SRN6LxVAKON1Q"
+                    }
+                }
+            },
+            "VOG": {
+                "cfl": 5000,
+                "rwys": {
+                    "17L": {
+                        "dep": "NOBKE6XxVOG7Z"
+                    },
+                    "17R": {
+                        "dep": "NOBKE6XxVOG7Z"
+                    },
+                    "35R": {
+                        "dep": "TELVA6LxVOG7J",
+                        "nap": "TELVA7MxVOG7J"
                     }
                 }
             }
         }
     },
-    "LIPQ":{
-        "elevation":40,
-        "sids":{
-            "CHI":{
-                "cfl":3000,
-                "rwys":{
-                    "09":{
-                        "dep":"CHI1G"
+    "LIME": {
+        "elevation": 782,
+        "sids": {
+            "ARLES": {
+                "cfl": 6000,
+                "rwys": {
+                    "10": {
+                        "dep": "LEGLO1RxARLES1D",
+                        "nap": "LEGLO1WxARLES1D"
                     },
-                    "27":{
-                        "dep":"CHI1U"
+                    "28": {
+                        "dep": "SRN1VxARLES1B",
+                        "nap": "LEGLO1VxARLES1D"
                     }
                 }
             },
-            "LUPIN":{
-                "cfl":3000,
-                "rwys":{
-                    "09":{
-                        "dep":"LUPIN1M"
+            "DILEB": {
+                "cfl": 6000,
+                "rwys": {
+                    "10": {
+                        "dep": "LEGLO1RxDILEB1D",
+                        "nap": "LEGLO1WxDILEB1D"
                     },
-                    "27":{
-                        "dep":"LUPIN1G"
+                    "28": {
+                        "dep": "LEGLO1PxDILEB1D",
+                        "nap": "LEGLO1VxDILEB1D"
                     }
                 }
             },
-            "RCH":{
-                "cfl":3000,
-                "rwys":{
-                    "09":{
-                        "dep":"RCH5E"
+            "EKPAL": {
+                "cfl": 6000,
+                "rwys": {
+                    "10": {
+                        "dep": "ILFUG1RxEKPAL1S",
+                        "nap": "ILFUG1WxEKPAL1S"
                     },
-                    "27":{
-                        "dep":"RCH1F"
+                    "28": {
+                        "dep": "ILFUG1PxEKPAL1S",
+                        "nap": "ILFUG1VxEKPAL1S"
                     }
                 }
             },
-            "RIFEN":{
-                "cfl":3000,
-                "rwys":{
-                    "09":{
-                        "dep":"RIFEN1G"
+            "GEN": {
+                "cfl": 6000,
+                "rwys": {
+                    "10": {
+                        "dep": "ILFUG1RxGEN1S",
+                        "nap": "ILFUG1WxGEN1S"
                     },
-                    "27":{
-                        "dep":"RIFEN1F"
+                    "28": {
+                        "dep": "ILFUG1PxGEN1S",
+                        "nap": "ILFUG1VxGEN1S"
                     }
                 }
             },
-            "ROSKA":{
-                "cfl":3000,
-                "rwys":{
-                    "09":{
-                        "dep":"ROSKA6E"
+            "LOGDI": {
+                "cfl": 6000,
+                "rwys": {
+                    "10": {
+                        "dep": "ILFUG1RxLOGDI1S",
+                        "nap": "ILFUG1WxLOGDI1S"
                     },
-                    "27":{
-                        "dep":"ROSKA6C"
-                    }
-                }
-            }
-        }
-    },
-    "LIPR":{
-        "elevation":41,
-        "sids":{
-            "AMLON":{
-                "cfl":5000,
-                "rwys":{
-                    "12":{
-                        "dep":"AMLON6S"
-                    },
-                    "30":{
-                        "dep":"AMLON6N"
+                    "28": {
+                        "dep": "ILFUG1PxLOGDI1S",
+                        "nap": "ILFUG1VxLOGDI1S"
                     }
                 }
             },
-            "ANC":{
-                "cfl":5000,
-                "rwys":{
-                    "12":{
-                        "dep":"ANC6S"
+            "OMETO": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "LEGLO1RxOMETO1D",
+                        "nap": "LEGLO1WxOMETO1D"
                     },
-                    "30":{
-                        "dep":"ANC6N"
+                    "28": {
+                        "dep": "SRN1VxOMETO1B",
+                        "nap": "LEGLO1VxOMETO1D"
                     }
                 }
             },
-            "EKTUK":{
-                "cfl":5000,
-                "rwys":{
-                    "12":{
-                        "dep":"EKTUK6S"
+            "OSKOR": {
+                "cfl": 6000,
+                "rwys": {
+                    "10": {
+                        "dep": "LEGLO1RxOSKOR1F",
+                        "nap": "LEGLO1WxOSKOR1F"
                     },
-                    "30":{
-                        "dep":"EKTUK6N"
+                    "28": {
+                        "dep": "LEGLO1PxOSKOR1F",
+                        "nap": "LEGLO1VxOSKOR1F"
                     }
                 }
             },
-            "PELEG":{
-                "cfl":5000,
-                "rwys":{
-                    "12":{
-                        "dep":"PELEG6S"
+            "PEPAG": {
+                "cfl": 6000,
+                "rwys": {
+                    "10": {
+                        "dep": "LEGLO1RxPEPAG1D",
+                        "nap": "LEGLO1WxPEPAG1D"
                     },
-                    "30":{
-                        "dep":"PELEG6P",
-                        "nap":"PELEG6T"
-                    }
-                }
-            }
-        }
-    },
-    "LIPX":{
-        "elevation":240,
-        "sids":{
-            "AGGUF":{
-                "cfl":6000,
-                "rwys":{
-                    "04":{
-                        "dep":"AGGUF5A"
-                    },
-                    "22":{
-                        "dep":"AGGUF6B"
+                    "28": {
+                        "dep": "LEGLO1PxPEPAG1D",
+                        "nap": "LEGLO1VxPEPAG1D"
                     }
                 }
             },
-            "COD":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"COD5G"
+            "VOG": {
+                "cfl": 6000,
+                "rwys": {
+                    "10": {
+                        "dep": "ILFUG1RxVOG1S",
+                        "nap": "ILFUG1WxVOG1S"
                     },
-                    "22":{
-                        "dep":"COD5E"
-                    }
-                }
-            },
-            "ECVAZ":{
-                "cfl":6000,
-                "rwys":{
-                    "04":{
-                        "dep":"ECVAZ7A"
-                    }
-                }
-            },
-            "ITEFE":{
-                "cfl":6000,
-                "rwys":{
-                    "04":{
-                        "dep":"ITEFE7A"
-                    },
-                    "22":{
-                        "dep":"ITEFE6B"
-                    }
-                }
-            },
-            "LEGLO":{
-                "cfl":6000,
-                "rwys":{
-                    "04":{
-                        "dep":"LEGLO7G"
-                    },
-                    "22":{
-                        "dep":"LEGLO8U"
-                    }
-                }
-            },
-            "OSBUL":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"OSBUL7G"
-                    },
-                    "22":{
-                        "dep":"OSBUL6W"
-                    }
-                }
-            },
-            "OTZOM":{
-                "cfl":6000,
-                "rwys":{
-                    "04":{
-                        "dep":"OTZOM7A"
-                    },
-                    "22":{
-                        "dep":"OTZOM6B"
-                    }
-                }
-            },
-            "TUVDE":{
-                "cfl":6000,
-                "rwys":{
-                    "04":{
-                        "dep":"TUVDE57A"
-                    },
-                    "22":{
-                        "dep":"TUVDE6C"
-                    }
-                }
-            },
-            "UPCAL":{
-                "cfl":6000,
-                "rwys":{
-                    "04":{
-                        "dep":"UPCAL7A"
+                    "28": {
+                        "dep": "ILFUG1PxVOG1S",
+                        "nap": "ILFUG1VxVOG1S"
                     }
                 }
             }
         }
     },
-    "LIPY":{
-        "elevation":50,
-        "sids":{
-            "BIDMA":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"BIDMA6F"
+    "LIMF": {
+        "elevation": 989,
+        "sids": {
+            "ASTIG": {
+                "cfl": 5000,
+                "rwys": {
+                    "18": {
+                        "dep": "ASTIG1Y"
                     },
-                    "22":{
-                        "dep":"BIDMA5L"
+                    "36": {
+                        "dep": "ASTIG1Z"
                     }
                 }
             },
-            "ERLIT":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"ERLIT5F"
+            "GEN": {
+                "cfl": 5000,
+                "rwys": {
+                    "18": {
+                        "dep": "TOP1BxGEN2L"
                     },
-                    "22":{
-                        "dep":"ERLIT5L"
+                    "36": {
+                        "dep": "SIRLO8AxGEN9N"
                     }
                 }
             },
-            "GERBU":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"GERBU5F"
+            "IXUSA": {
+                "cfl": 5000,
+                "rwys": {
+                    "18": {
+                        "dep": "IXUSA1Y"
                     },
-                    "22":{
-                        "dep":"GERBU5L"
+                    "36": {
+                        "dep": "IXUSA1X"
                     }
                 }
             },
-            "KEGED":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"KEGED5F"
+            "KUKEV": {
+                "cfl": 5000,
+                "rwys": {
+                    "18": {
+                        "dep": "KUKEV1Y"
                     },
-                    "22":{
-                        "dep":"KEGED5L"
+                    "36": {
+                        "dep": "KUKEV1X"
                     }
                 }
             },
-            "LANLI":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"LANLI7F"
+            "LAGEN": {
+                "cfl": 5000,
+                "rwys": {
+                    "18": {
+                        "dep": "LAGEN1Y"
                     },
-                    "22":{
-                        "dep":"LANLI8L"
+                    "36": {
+                        "dep": "LAGEN1W"
                     }
                 }
             },
-            "MASEG":{
-                "cfl":5000,
-                "rwys":{
-                    "04":{
-                        "dep":"MASEG5F"
+            "MMP": {
+                "cfl": 5000,
+                "rwys": {
+                    "18": {
+                        "dep": "MMP1Y"
                     },
-                    "22":{
-                        "dep":"MASEG5L"
-                    }
-                }
-            }
-        }
-    },
-    "LIPZ":{
-        "elevation":37,
-        "sids":{
-            "AKADO":{
-                "cfl":4000,
-                "rwys":{
-                    "04R":{
-                        "dep":"AKADO6L"
+                    "36": {
+                        "dep": "MMP1Z"
                     }
                 }
             },
-            "CHI":{
-                "cfl":4000,
-                "rwys":{
-                    "04R":{
-                        "dep":"CHI6L"
-                    },
-                    "22L":{
-                        "dep":"CHI6Q"
+            "SIRLO": {
+                "cfl": 5000,
+                "rwys": {
+                    "36": {
+                        "dep": "SIRLO8A"
                     }
                 }
             },
-            "ROKIB":{
-                "cfl":4000,
-                "rwys":{
-                    "04R":{
-                        "dep":"ROKIB6L"
+            "TESTO": {
+                "cfl": 5000,
+                "rwys": {
+                    "18": {
+                        "dep": "TESTO1Y"
                     },
-                    "22L":{
-                        "dep":"ROKIB6Q"
+                    "36": {
+                        "dep": "TEST1X"
                     }
                 }
             },
-            "ROSKA":{
-                "cfl":4000,
-                "rwys":{
-                    "04R":{
-                        "dep":"ROSKA7L"
+            "TOP": {
+                "cfl": 5000,
+                "rwys": {
+                    "18": {
+                        "dep": "TOP1B"
                     },
-                    "22L":{
-                        "dep":"ROSKA6Q"
-                    }
-                }
-            },
-            "VIC":{
-                "cfl":4000,
-                "rwys":{
-                    "04R":{
-                        "dep":"VIC6L"
-                    },
-                    "22L":{
-                        "dep":"VIC6Q"
+                    "36": {
+                        "dep": "TOP1A"
                     }
                 }
             }
         }
     },
-    "LIRA":{
-        "elevation":427,
-        "sids":{
-            "ESINO":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"OST8AxESINO6V"
+    "LIMJ": {
+        "elevation": 17,
+        "sids": {
+            "GEN": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "GEN6F"
                     },
-                    "33":{
-                        "dep":"OST1FxESINO6V"
+                    "28": {
+                        "dep": "GEN6E"
                     }
                 }
             },
-            "GILIO":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"OST8CxGILIO6V"
+            "LAGEN": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "LAGEN6F"
                     },
-                    "33":{
-                        "dep":"OST1FxGILIO6V"
+                    "28": {
+                        "dep": "LAGEN6E"
                     }
                 }
             },
-            "KASCI":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"KASCI1F"
-                    }
-                }
-            },
-            "KONUT":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"OST8AxKONUT6V"
+            "UNITA": {
+                "cfl": 5000,
+                "rwys": {
+                    "10": {
+                        "dep": "UNITA6F"
                     },
-                    "33":{
-                        "dep":"OST1FxKONUT6V"
-                    }
-                }
-            },
-            "OKUNO":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"OKUNO8G"
-                    },
-                    "33":{
-                        "dep":"OST1FxOKUNO6S"
-                    }
-                }
-            },
-            "OST":{
-                "cfl":4000,
-                "rwys":{
-                    "15":{
-                        "dep":"OST8B"
-                    },
-                    "33":{
-                        "dep":"OST1F"
-                    }
-                }
-            },
-            "PEMAR":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "nap":"PEMAR8A"
-                    },
-                    "33":{
-                        "dep":"OST1FxPEMAR6S"
-                    }
-                }
-            },
-            "PEPIX":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"OST8AxPEPIX6V"
-                    },
-                    "33":{
-                        "dep":"OST1FxPEPIX6V"
-                    }
-                }
-            },
-            "PODOX":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"OST8AxPODOX6V"
-                    },
-                    "33":{
-                        "dep":"OST1FxPODOX6V"
-                    }
-                }
-            },
-            "RATIR":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"RATIR8A"
-                    },
-                    "33":{
-                        "dep":"RATIR1F"
-                    }
-                }
-            },
-            "RIFFI":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"RATIR8AxRIFFI6U"
-                    },
-                    "33":{
-                        "dep":"RATIR1FxRIFFI6U"
-                    }
-                }
-            },
-            "SIPRO":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"RATIR8AxSIPRO6U"
-                    },
-                    "33":{
-                        "dep":"RATIR1FxSIPRO6U"
-                    }
-                }
-            },
-            "SOVAN":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"OST8CxSOVAN6V"
-                    },
-                    "33":{
-                        "dep":"OST1FxSOVAN6V"
-                    }
-                }
-            },
-            "TIBER":{
-                "cfl":5000,
-                "rwys":{
-                    "15":{
-                        "dep":"OST8AxTIBER6T"
-                    },
-                    "33":{
-                        "dep":"OST1FxTIBER6T"
+                    "28": {
+                        "dep": "UNITA6E"
                     }
                 }
             }
         }
     },
-    "LIRI":{
-        "elevation":123,
-        "sids":{
-            "AMANO":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"AMANO6C"
-                    },
-                    "23":{
-                        "dep":"AMANO6C"
+    "LIML": {
+        "elevation": 353,
+        "sids": {
+            "ABSEM": {
+                "cfl": 6000,
+                "rwys": {
+                    "35": {
+                        "dep": "ABSEM6A"
                     }
                 }
             },
-            "PEVIR":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"PEVIR6C"
+            "ARLES": {
+                "cfl": 6000,
+                "rwys": {
+                    "17": {
+                        "dep": "MMP7CxARLES9C"
                     },
-                    "23":{
-                        "dep":"PEVIR6C"
+                    "35": {
+                        "dep": "SRN6AxARLES2A"
                     }
                 }
             },
-            "POLIT":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"POLIT6C"
+            "DEVOX": {
+                "cfl": 5000,
+                "rwys": {
+                    "17": {
+                        "dep": "TOVSA8CxDEVOX6B"
                     },
-                    "23":{
-                        "dep":"POLIT6C"
+                    "35": {
+                        "dep": "TOVSA7AxDEVOX6B"
                     }
                 }
             },
-            "SOR":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"SOR6C"
+            "EKPAL": {
+                "cfl": 5000,
+                "rwys": {
+                    "17": {
+                        "dep": "TOVSA8CxEKPAL6A"
                     },
-                    "23":{
-                        "dep":"SOR6C"
+                    "35": {
+                        "dep": "TOVSA7AxEKPAL6A"
                     }
                 }
             },
-            "VARAL":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"VARAL6C"
+            "ELTAR": {
+                "cfl": 6000,
+                "rwys": {
+                    "17": {
+                        "dep": "TREVI9DxELTAR6C"
                     },
-                    "23":{
-                        "dep":"VARAL6C"
+                    "35": {
+                        "dep": "RUVAB7AxELTAR6B"
+                    }
+                }
+            },
+            "GEN": {
+                "cfl": 5000,
+                "rwys": {
+                    "17": {
+                        "dep": "TOVSA8CxGEN6Q"
+                    },
+                    "35": {
+                        "dep": "TOVSA7AxGEN6Q"
+                    }
+                }
+            },
+            "LIMBA": {
+                "cfl": 4000,
+                "rwys": {
+                    "17": {
+                        "dep": "LIMBA7C"
+                    }
+                }
+            },
+            "LAGEN": {
+                "cfl": 4000,
+                "rwys": {
+                    "35": {
+                        "dep": "SRN6AxLAGEN5A"
+                    }
+                }
+            },
+            "LOGDI": {
+                "cfl": 5000,
+                "rwys": {
+                    "17": {
+                        "dep": "TOVSA8CxLOGDI6C"
+                    },
+                    "35": {
+                        "dep": "ABSEM6AxLOGDI7A"
+                    }
+                }
+            },
+            "MMP": {
+                "cfl": 4000,
+                "rwys": {
+                    "17": {
+                        "dep": "MMP7C"
+                    }
+                }
+            },
+            "NEDED": {
+                "cfl": 6000,
+                "rwys": {
+                    "35": {
+                        "dep": "SRN6AxNEDED5A"
+                    }
+                }
+            },
+            "NESTI": {
+                "cfl": 6000,
+                "rwys": {
+                    "17": {
+                        "dep": "TREVI9DxNESTI7C"
+                    },
+                    "35": {
+                        "dep": "RUVAB7AxNESTI6A"
+                    }
+                }
+            },
+            "OMETO": {
+                "cfl": 6000,
+                "rwys": {
+                    "17": {
+                        "dep": "MMP7CxOMETO9C"
+                    },
+                    "35": {
+                        "dep": "SRN6AxOMETO6A"
+                    }
+                }
+            },
+            "OSKOR": {
+                "cfl": 5000,
+                "rwys": {
+                    "35": {
+                        "dep": "TZO8CxOSKOR7B"
+                    }
+                }
+            },
+            "PEPAG": {
+                "cfl": 6000,
+                "rwys": {
+                    "17": {
+                        "dep": "TREVI9DxPEPAG1C"
+                    },
+                    "35": {
+                        "dep": "PEPAG1A"
+                    }
+                }
+            },
+            "SRN": {
+                "cfl": 6000,
+                "rwys": {
+                    "35": {
+                        "dep": "SRN6A"
+                    }
+                }
+            },
+            "TOVSA": {
+                "cfl": 4000,
+                "rwys": {
+                    "17": {
+                        "dep": "TOVSA8C"
+                    }
+                }
+            },
+            "TREVI": {
+                "cfl": 4000,
+                "rwys": {
+                    "17": {
+                        "dep": "TREVI9D"
                     }
                 }
             }
         }
     },
-    "LIRF":{
-        "elevation":14,
-        "sids":{
-            "ESINO":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"SOSAK9CxESINO7H"
+    "LIMP": {
+        "elevation": 161,
+        "sids": {
+            "BETMU": {
+                "cfl": 9000,
+                "rwys": {
+                    "02": {
+                        "dep": "BETMU7Z"
                     },
-                    "16R":{
-                        "dep":"SOSAK9BxESINO7H"
-                    },
-                    "25":{
-                        "dep":"SOSAK5DxESINO7H"
-                    },
-                    "34L":{
-                        "dep":"SOSAK7YxESINO7H"
-                    },
-                    "34R":{
-                        "dep":"SOSAK5XxESINO7H"
+                    "20": {
+                        "dep": "BETMU6W"
                     }
                 }
             },
-            "GILIO":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"NENIG7JxGILIO8G"
+            "LUPOS": {
+                "cfl": 9000,
+                "rwys": {
+                    "02": {
+                        "dep": "LUPOS6Z"
                     },
-                    "16R":{
-                        "dep":"NENIG8KxGILIO8G"
-                    },
-                    "25":{
-                        "dep":"NENIG5AxGILIO8G"
-                    },
-                    "34L":{
-                        "dep":"NENIG7MxGILIO8G"
-                    },
-                    "34R":{
-                        "dep":"NENIG7XxGILIO8G"
+                    "20": {
+                        "dep": "LUPOS6W"
                     }
                 }
             },
-            "GISPA":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XENOL7JxGISPA9A"
+            "MISPO": {
+                "cfl": 10000,
+                "rwys": {
+                    "02": {
+                        "dep": "MISPO7Z"
                     },
-                    "16R":{
-                        "dep":"XENOL7KxGISPA9A"
-                    },
-                    "25":{
-                        "dep":"XENOL5AxGISPA9A"
-                    },
-                    "34L":{
-                        "dep":"XENOL7MxGISPA9A"
-                    },
-                    "34R":{
-                        "dep":"XENOL7XxGISPA9A"
+                    "20": {
+                        "dep": "MISPO7T"
                     }
                 }
             },
-            "KONUT":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"SOSAK9CxKONUT8A"
+            "OSBUL": {
+                "cfl": 6000,
+                "rwys": {
+                    "02": {
+                        "dep": "OSBUL7N"
                     },
-                    "16R":{
-                        "dep":"SOSAK9BxKONUT8A"
-                    },
-                    "25":{
-                        "dep":"SOSAK5DxKONUT8A"
-                    },
-                    "34L":{
-                        "dep":"SOSAK7YxKONUT8A"
-                    },
-                    "34R":{
-                        "dep":"SOSAK5XxKONUT8A"
-                    }
-                }
-            },
-            "NEMBO":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XENOL7JxNEMBO7A"
-                    },
-                    "16R":{
-                        "dep":"XENOL7KxNEMBO7A"
-                    },
-                    "25":{
-                        "dep":"XENOL5AxNEMBO7A"
-                    },
-                    "34L":{
-                        "dep":"XENOL7MxNEMBO7A"
-                    },
-                    "34R":{
-                        "dep":"XENOL7XxNEMBO7A"
-                    }
-                }
-            },
-            "OKUNO":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XIBRI8CxOKUNO5R"
-                    },
-                    "16R":{
-                        "dep":"XIBRI8BxOKUNO5R"
-                    },
-                    "25":{
-                        "dep":"SOSAK5DxOKUNO9B"
-                    },
-                    "34L":{
-                        "dep":"EKLOS8MxOKUNO7C"
-                    },
-                    "34R":{
-                        "dep":"EKLOS8XxOKUNO7C"
-                    }
-                }
-            },
-            "PEPIX":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XIBRI8CxPEPIX9A"
-                    },
-                    "16R":{
-                        "dep":"XIBRI8BxPEPIX9A"
-                    },
-                    "25":{
-                        "dep":"XIBRI5AxPEPIX9A",
-                        "nap":"SOSAK5AxPEPIX9B"
-                    },
-                    "34L":{
-                        "dep":"SOSAK7YxPEPIX9B"
-                    },
-                    "34R":{
-                        "dep":"SOSAK5XxPEPIX9B"
-                    }
-                }
-            },
-            "PODOX":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XENOL7JxPODOX8E"
-                    },
-                    "16R":{
-                        "dep":"XENOL7KxPODOX8E"
-                    },
-                    "25":{
-                        "dep":"XENOL5AxPODOX8E"
-                    },
-                    "34L":{
-                        "dep":"XENOL7MxPODOX8E"
-                    },
-                    "34R":{
-                        "dep":"XENOL7XxPODOX8E"
-                    }
-                }
-            },
-            "RIFFI":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XIBRI8CxRIFFI9G"
-                    },
-                    "16R":{
-                        "dep":"XIBRI8BxRIFFI9G"
-                    },
-                    "25":{
-                        "dep":"XIBRI5AxRIFFI9G",
-                        "nap":"SOSAK5AxRIFFI9H"
-                    },
-                    "34L":{
-                        "dep":"SOSAK7YxRIFFI9H"
-                    },
-                    "34R":{
-                        "dep":"SOSAK5XxRIFFI9H"
-                    }
-                }
-            },
-            "ROTUN":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XIBRI8CxROTUN8A"
-                    },
-                    "16R":{
-                        "dep":"XIBRI8BxROTUN8A"
-                    },
-                    "25":{
-                        "dep":"XIBRI5AxROTUN8A",
-                        "nap":"SOSAK5AxROTUN8B"
-                    },
-                    "34L":{
-                        "dep":"SOSAK7YxROTUN8B"
-                    },
-                    "34R":{
-                        "dep":"SOSAK5XxROTUN8B"
-                    }
-                }
-            },
-            "SIPRO":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XIBRI8CxSIPRO5R"
-                    },
-                    "16R":{
-                        "dep":"XIBRI8BxSIPRO5R"
-                    },
-                    "25":{
-                        "dep":"XIBRI5AxSIPRO5R",
-                        "nap":"SOSAK5AxSIPRO5B"
-                    },
-                    "34L":{
-                        "dep":"EKLOS8MxSIPRO9C"
-                    },
-                    "34R":{
-                        "dep":"EKLOS8XxSIPRO9C"
-                    }
-                }
-            },
-            "SOVAN":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"SOSIV8JxSOVAN7A"
-                    },
-                    "16R":{
-                        "dep":"SOSIV8KxSOVAN7A"
-                    },
-                    "25":{
-                        "dep":"SOSIV5AxSOVAN7A"
-                    },
-                    "34L":{
-                        "dep":"SOSIV7YxSOVAN7A"
-                    },
-                    "34R":{
-                        "dep":"SOSIV7XxSOVAN7A"
-                    }
-                }
-            },
-            "TIBER":{
-                "cfl":4000,
-                "rwys":{
-                    "16L":{
-                        "dep":"XIBRI8CxTIBER5R"
-                    },
-                    "16R":{
-                        "dep":"XIBRI8BxTIBER5R"
-                    },
-                    "25":{
-                        "dep":"XIBRI5AxTIBER5R",
-                        "nap":"SOSAK5AxTIBER9B"
-                    },
-                    "34L":{
-                        "dep":"EKLOS8MxTIBER7C"
-                    },
-                    "34R":{
-                        "dep":"EKLOS8XxTIBER7C"
+                    "20": {
+                        "dep": "OSBUL6T"
                     }
                 }
             }
         }
     },
-    "LIRN":{
-        "elevation":294,
-        "sids":{
-            "AGNIS":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"AGNIS7G"
+    "LIMZ": {
+        "elevation": 1267,
+        "sids": {
+            "ABESI": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "ABESI1Q"
                     },
-                    "24":{
-                        "dep":"AGNIS7G"
+                    "21": {
+                        "dep": "ABESI1Q"
                     }
                 }
             },
-            "ALAXI":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"ALAXI7H"
+            "CANNE": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "CANNE1Q"
                     },
-                    "24":{
-                        "dep":"ALAXI7J",
-                        "nap":"ALAXI1N"
+                    "21": {
+                        "dep": "CANNE1Q"
                     }
                 }
             },
-            "BEDPI":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"BEDPI7H"
+            "ENOBA": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "ENOBA1C"
                     },
-                    "24":{
-                        "dep":"BEDPI7G"
+                    "21": {
+                        "dep": "ENOBA1G"
                     }
                 }
             },
-            "DELER":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"DELER7G"
+            "IXUSA": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "IXUSA1C"
                     },
-                    "24":{
-                        "dep":"DELER7G"
+                    "21": {
+                        "dep": "IXUSA1G"
                     }
                 }
             },
-            "EDOPA":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"EDOPA7G"
+            "KUKEV": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "KUKEV1C"
                     },
-                    "24":{
-                        "dep":"EDOPA7G"
+                    "21": {
+                        "dep": "KUKEV1G"
                     }
                 }
             },
-            "GALTI":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"GALTI7G"
+            "LAGEN": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "LAGEN1C"
                     },
-                    "24":{
-                        "dep":"GALTI7G"
+                    "21": {
+                        "dep": "LAGEN1G"
                     }
                 }
             },
-            "ISKIA":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"ISKIA8J"
+            "LEV": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "LEV6Q"
                     },
-                    "24":{
-                        "dep":"ISKIA8J"
+                    "21": {
+                        "dep": "LEV6P"
                     }
                 }
             },
-            "MALOG":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"MALOG8J"
+            "MMP": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "MMP1B"
                     },
-                    "24":{
-                        "dep":"MALOG8J"
+                    "21": {
+                        "dep": "MMP1D"
                     }
                 }
             },
-            "MOLUX":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"MOLUX8J"
+            "SRN": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "SRN1Q"
                     },
-                    "24":{
-                        "dep":"MOLUX8J"
+                    "21": {
+                        "dep": "SRN1Q"
                     }
                 }
             },
-            "PEVIR":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"PEVIR7G"
+            "TOP": {
+                "cfl": 6000,
+                "rwys": {
+                    "03": {
+                        "dep": "TOP2C"
                     },
-                    "24":{
-                        "dep":"PEVIR7G"
-                    }
-                }
-            },
-            "POLIT":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"POLIT7G"
-                    },
-                    "24":{
-                        "dep":"POLIT7G"
-                    }
-                }
-            },
-            "SIPRO":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"SIPRO7H"
-                    },
-                    "24":{
-                        "dep":"SIPRO7J",
-                        "nap":"SIPRO1N"
-                    }
-                }
-            },
-            "TEA":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"TEA8J"
-                    },
-                    "24":{
-                        "dep":"TEA8J"
-                    }
-                }
-            },
-            "VEXUV":{
-                "cfl":6000,
-                "rwys":{
-                    "06":{
-                        "dep":"VEXUV8G"
-                    },
-                    "24":{
-                        "dep":"VEXUV8G"
+                    "21": {
+                        "dep": "TOP2G"
                     }
                 }
             }
         }
     },
-    "LIRP":{
-        "elevation":6,
-        "sids":{
-            "ASVOL":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"ASVOL5A"
+    "LIPB": {
+        "elevation": 789,
+        "sids": {
+            "ADOSA": {
+                "cfl": 12000,
+                "rwys": {
+                    "01": {
+                        "dep": "ADOSA1W"
+
                     },
-                    "04R":{
-                        "dep":"ASVOL5A"
-                    },
-                    "22L":{
-                        "dep":"ASVOL5C"
-                    },
-                    "22R":{
-                        "dep":"ASVOL5C"
+                    "19": {
+                        "dep": "ADOSA1W"
                     }
                 }
             },
-            "BEROK":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"BEROK7A"
+            "ALESE": {
+                "cfl": 12000,
+                "rwys": {
+                    "01": {
+                        "dep": "ALESE1W"
                     },
-                    "04R":{
-                        "dep":"BEROK7A"
-                    },
-                    "22L":{
-                        "dep":"BEROK7C"
-                    },
-                    "22R":{
-                        "dep":"BEROK7C"
+                    "19": {
+                        "dep": "ALESE1W"
                     }
                 }
             },
-            "BETEN":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"BETEN7A"
+            "NAXAV": {
+                "cfl": 12000,
+                "rwys": {
+                    "01": {
+                        "dep": "NAXAV1W"
                     },
-                    "04R":{
-                        "dep":"BETEN7A"
-                    },
-                    "22L":{
-                        "dep":"BETEN7C"
-                    },
-                    "22R":{
-                        "dep":"BETEN7C"
+                    "19": {
+                        "dep": "NAXAV1W"
                     }
                 }
             },
-            "GINAR":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"GINAR8A"
+            "VIC": {
+                "cfl": 12000,
+                "rwys": {
+                    "01": {
+                        "dep": "VIC1W"
                     },
-                    "04R":{
-                        "dep":"GINAR8A"
-                    },
-                    "22L":{
-                        "dep":"GINAR8C"
-                    },
-                    "22R":{
-                        "dep":"GINAR8C"
-                    }
-                }
-            },
-            "GOVGO":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"GOVGO5A"
-                    },
-                    "04R":{
-                        "dep":"GOVGO5A"
-                    },
-                    "22L":{
-                        "dep":"GOVGO5C"
-                    },
-                    "22R":{
-                        "dep":"GOVGO5C"
-                    }
-                }
-            },
-            "MAREL":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"MAREL8A"
-                    },
-                    "04R":{
-                        "dep":"MAREL8A"
-                    },
-                    "22L":{
-                        "dep":"MAREL8C"
-                    },
-                    "22R":{
-                        "dep":"MAREL8C"
-                    }
-                }
-            },
-            "SPEZI":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"SPEZI7A"
-                    },
-                    "04R":{
-                        "dep":"SPEZI7A"
-                    },
-                    "22L":{
-                        "dep":"SPEZI7C"
-                    },
-                    "22R":{
-                        "dep":"SPEZI7C"
+                    "19": {
+                        "dep": "VIC1W"
                     }
                 }
             }
         }
     },
-    "LIRQ":{
-        "elevation":142,
-        "sids":{
-            "BALUK":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"BALUK6G"
+    "LIPE": {
+        "elevation": 123,
+        "sids": {
+            "LOMED": {
+                "cfl": 5000,
+                "rwys": {
+                    "12": {
+                        "dep": "LOMED1J"
                     },
-                    "23":{
-                        "dep":"BALUK6F"
+                    "30": {
+                        "dep": "LOMED6Z"
                     }
                 }
             },
-            "BIKTU":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"BIKTU6M"
+            "LUMAV": {
+                "cfl": 5000,
+                "rwys": {
+                    "12": {
+                        "dep": "LUMAV1K"
                     },
-                    "23":{
-                        "dep":"BIKTU6M"
+                    "30": {
+                        "dep": "LUMAV7Z"
                     }
                 }
             },
-            "GAVRA":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"GAVRA6M"
+            "LUPOS": {
+                "cfl": 5000,
+                "rwys": {
+                    "12": {
+                        "dep": "LUPOS1J",
+                        "nap": "LUPOS1K"
                     },
-                    "23":{
-                        "dep":"GAVRA6M"
+                    "30": {
+                        "dep": "LUPOS7Z"
                     }
                 }
             },
-            "KUGIX":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"KUGIX6M"
+            "PELEG": {
+                "cfl": 5000,
+                "rwys": {
+                    "12": {
+                        "dep": "PELEG1K"
                     },
-                    "23":{
-                        "dep":"KUGIX6M"
-                    }
-                }
-            },
-            "LOMED":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"LOMED6F"
-                    },
-                    "23":{
-                        "dep":"LOMED6F"
-                    }
-                }
-            },
-            "MAREL":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"MAREL7M"
-                    },
-                    "23":{
-                        "dep":"MAREL7M"
-                    }
-                }
-            },
-            "OKMAP":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"OKMAP6M"
-                    },
-                    "23":{
-                        "dep":"OKMAP6M"
-                    }
-                }
-            },
-            "PRT":{
-                "cfl":6000,
-                "rwys":{
-                    "05":{
-                        "dep":"PRT6F"
-                    },
-                    "23":{
-                        "dep":"PRT6F"
+                    "30": {
+                        "dep": "PELEG7Z"
                     }
                 }
             }
         }
     },
-    "LIRS":{
-        "elevation":15,
-        "sids":{
-            "BAMVU":{
-                "cfl":5000,
-                "rwys":{
-                    "03L":{
-                        "dep":"BAMVU5S"
+    "LIPH": {
+        "elevation": 59,
+        "sids": {
+            "ALBET": {
+                "cfl": 4000,
+                "rwys": {
+                    "07": {
+                        "dep": "ALBET7F"
                     },
-                    "21R":{
-                        "dep":"BAMVU5W"
+                    "25": {
+                        "dep": "ALBET5B"
                     }
                 }
             },
-            "GIKIN":{
-                "cfl":5000,
-                "rwys":{
-                    "03L":{
-                        "dep":"GIKIN7S"
+            "INBUT": {
+                "cfl": 4000,
+                "rwys": {
+                    "07": {
+                        "dep": "INBUT5A"
                     },
-                    "21R":{
-                        "dep":"GIKIN7W"
+                    "25": {
+                        "dep": "INBUT5B"
                     }
                 }
             },
-            "LOMED":{
-                "cfl":5000,
-                "rwys":{
-                    "03L":{
-                        "dep":"LOMED5S"
+            "RAXHO": {
+                "cfl": 4000,
+                "rwys": {
+                    "07": {
+                        "dep": "RAXHO5A"
                     },
-                    "21R":{
-                        "dep":"LOMED5W"
+                    "25": {
+                        "dep": "RAXHO5B"
                     }
                 }
             },
-            "UPADU":{
-                "cfl":5000,
-                "rwys":{
-                    "03L":{
-                        "dep":"UPADU5S"
+            "ROKIB": {
+                "cfl": 4000,
+                "rwys": {
+                    "07": {
+                        "dep": "ROKIB5A"
                     },
-                    "21R":{
-                        "dep":"UPADU5W"
+                    "25": {
+                        "dep": "ROKIB5B"
+                    }
+                }
+            },
+            "ROVIG": {
+                "cfl": 4000,
+                "rwys": {
+                    "07": {
+                        "dep": "ROVIG5A"
+                    },
+                    "25": {
+                        "dep": "ROVIG5B"
+                    }
+                }
+            },
+            "VIC": {
+                "cfl": 4000,
+                "rwys": {
+                    "07": {
+                        "dep": "VIC7F"
+                    },
+                    "25": {
+                        "dep": "VIC5T"
                     }
                 }
             }
         }
     },
-    "LIRZ":{
-        "elevation":697,
-        "sids":{
-            "GITOD":{
-                "cfl":5000,
-                "rwys":{
-                    "01":{
-                        "dep":"GITOD5E"
+    "LIPK": {
+        "elevation": 98,
+        "sids": {
+            "ASDOR": {
+                "cfl": 4000,
+                "rwys": {
+                    "12": {
+                        "dep": "ASDOR1M"
                     },
-                    "19":{
-                        "dep":"GITOD5N"
+                    "30": {
+                        "dep": "ASDOR1W"
                     }
                 }
             },
-            "KATAR":{
-                "cfl":5000,
-                "rwys":{
-                    "01":{
-                        "dep":"KATAR5E"
+            "FOL": {
+                "cfl": 4000,
+                "rwys": {
+                    "12": {
+                        "dep": "FOL1M"
                     },
-                    "19":{
-                        "dep":"KATAR5N"
+                    "30": {
+                        "dep": "FOL1W"
                     }
                 }
             },
-            "LAKOX":{
-                "cfl":5000,
-                "rwys":{
-                    "01":{
-                        "dep":"LAKOX5E"
+            "GIPUK": {
+                "cfl": 4000,
+                "rwys": {
+                    "12": {
+                        "dep": "GIPUK1M"
                     },
-                    "19":{
-                        "dep":"LAKOX5N"
+                    "30": {
+                        "dep": "GIPUK1W"
                     }
                 }
             }
         }
     },
-    "LMML":{
-        "elevation":297,
-        "sids":{
-            "AGARI":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"AGARI2A"
-                    },
-                    "13":{
-                        "dep":"AGARI2B"
-                    },
-                    "23":{
-                        "dep":"AGARI3C"
-                    },
-                    "31":{
-                        "dep":"AGARI2D"
+    "LIPO": {
+        "elevation": 356,
+        "sids": {
+            "ADXEF": {
+                "cfl": 4000,
+                "rwys": {
+                    "32": {
+                        "dep": "ADXEF7A"
                     }
                 }
             },
-            "GODAK":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"GODAK2A"
-                    },
-                    "13":{
-                        "dep":"GODAK2B"
-                    },
-                    "23":{
-                        "dep":"GODAK3C"
-                    },
-                    "31":{
-                        "dep":"GODAK2D"
+            "AVCUP": {
+                "cfl": 4000,
+                "rwys": {
+                    "32": {
+                        "dep": "AVCUP6A"
                     }
                 }
             },
-            "GZO":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"GZO3A"
-                    },
-                    "13":{
-                        "dep":"GZO3B"
-                    },
-                    "23":{
-                        "dep":"GZO3C"
-                    },
-                    "31":{
-                        "dep":"GZO3D"
+            "AFNEW": {
+                "cfl": 4000,
+                "rwys": {
+                    "32": {
+                        "dep": "AFNEW7A"
                     }
                 }
             },
-            "LORED":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"LORED2A"
+            "EXFIN": {
+                "cfl": 4000,
+                "rwys": {
+                    "14": {
+                        "dep": "EXFIN7C"
                     },
-                    "13":{
-                        "dep":"LORED2B"
-                    },
-                    "23":{
-                        "dep":"LORED2C"
-                    },
-                    "31":{
-                        "dep":"LORED2D"
+                    "32": {
+                        "dep": "EXFIN7B",
+                        "nap": "EXFIN7A"
                     }
                 }
             },
-            "OBITA":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"OBITA2A"
-                    },
-                    "13":{
-                        "dep":"OBITA2B"
-                    },
-                    "23":{
-                        "dep":"OBITA2C"
-                    },
-                    "31":{
-                        "dep":"OBITA2D"
+            "EZRAF": {
+                "cfl": 4000,
+                "rwys": {
+                    "14": {
+                        "dep": "EZRAF6A"
                     }
                 }
             },
-            "SUDIK":{
-                "cfl":5000,
-                "rwys":{
-                    "05":{
-                        "dep":"SUDIK2A"
+            "OSBUL": {
+                "cfl": 4000,
+                "rwys": {
+                    "14": {
+                        "dep": "OSBUL7H"
                     },
-                    "13":{
-                        "dep":"SUDIK2B"
+                    "32": {
+                        "dep": "OSBUL7B",
+                        "nap": "OSBUL7V"
+                    }
+                }
+            },
+            "OSKOR": {
+                "cfl": 4000,
+                "rwys": {
+                    "14": {
+                        "dep": "OSKOR7H"
                     },
-                    "23":{
-                        "dep":"SUDIK2C"
-                    },
-                    "31":{
-                        "dep":"SUDIK2D"
+                    "32": {
+                        "dep": "OSKOR7U",
+                        "nap": "OSKOR7V"
+                    }
+                }
+            },
+            "UGHAD": {
+                "cfl": 4000,
+                "rwys": {
+                    "32": {
+                        "dep": "UGHAD6A"
                     }
                 }
             }
         }
     },
-    "LSZA":{
-        "elevation":915,
-        "sids":{
-            "CANNE":{
-                "cfl":9000,
-                "rwys":{
-                    "01":{
-                        "dep":"CANNE1E"
+    "LIPQ": {
+        "elevation": 40,
+        "sids": {
+            "CHI": {
+                "cfl": 3000,
+                "rwys": {
+                    "09": {
+                        "dep": "CHI1G"
                     },
-                    "19":{
-                        "dep":"CANNE1E"
+                    "27": {
+                        "dep": "CHI1U"
                     }
                 }
             },
-            "LEGLO":{
-                "cfl":8000,
-                "rwys":{
-                    "01":{
-                        "dep":"LEGLO1Z"
+            "LUPIN": {
+                "cfl": 3000,
+                "rwys": {
+                    "09": {
+                        "dep": "LUPIN1M"
                     },
-                    "19":{
-                        "dep":"LEGLO1Z"
+                    "27": {
+                        "dep": "LUPIN1G"
                     }
                 }
             },
-            "OMETO":{
-                "cfl":6000,
-                "rwys":{
-                    "01":{
-                        "dep":"OMETO1F"
+            "RCH": {
+                "cfl": 3000,
+                "rwys": {
+                    "09": {
+                        "dep": "RCH5E"
                     },
-                    "19":{
-                        "dep":"OMETO1F"
+                    "27": {
+                        "dep": "RCH1F"
                     }
                 }
             },
-            "PINIK":{
-                "cfl":6000,
-                "rwys":{
-                    "01":{
-                        "dep":"PINIK1A"
+            "RIFEN": {
+                "cfl": 3000,
+                "rwys": {
+                    "09": {
+                        "dep": "RIFEN1G"
                     },
-                    "19":{
-                        "dep":"PINIK1A"
+                    "27": {
+                        "dep": "RIFEN1F"
                     }
                 }
             },
-            "SRN":{
-                "cfl":6000,
-                "rwys":{
-                    "01":{
-                        "dep":"SRN1V"
+            "ROSKA": {
+                "cfl": 3000,
+                "rwys": {
+                    "09": {
+                        "dep": "ROSKA6E"
                     },
-                    "19":{
-                        "dep":"SRN1V"
+                    "27": {
+                        "dep": "ROSKA6C"
+                    }
+                }
+            }
+        }
+    },
+    "LIPR": {
+        "elevation": 41,
+        "sids": {
+            "AMLON": {
+                "cfl": 5000,
+                "rwys": {
+                    "12": {
+                        "dep": "AMLON6S"
+                    },
+                    "30": {
+                        "dep": "AMLON6N"
                     }
                 }
             },
-            "VOG":{
-                "cfl":6000,
-                "rwys":{
-                    "01":{
-                        "dep":"VOG1W"
+            "ANC": {
+                "cfl": 5000,
+                "rwys": {
+                    "12": {
+                        "dep": "ANC6S"
                     },
-                    "19":{
-                        "dep":"VOG1W"
+                    "30": {
+                        "dep": "ANC6N"
+                    }
+                }
+            },
+            "EKTUK": {
+                "cfl": 5000,
+                "rwys": {
+                    "12": {
+                        "dep": "EKTUK6S"
+                    },
+                    "30": {
+                        "dep": "EKTUK6N"
+                    }
+                }
+            },
+            "PELEG": {
+                "cfl": 5000,
+                "rwys": {
+                    "12": {
+                        "dep": "PELEG6S"
+                    },
+                    "30": {
+                        "dep": "PELEG6P",
+                        "nap": "PELEG6T"
+                    }
+                }
+            }
+        }
+    },
+    "LIPX": {
+        "elevation": 240,
+        "sids": {
+            "AGGUF": {
+                "cfl": 6000,
+                "rwys": {
+                    "04": {
+                        "dep": "AGGUF5A"
+                    },
+                    "22": {
+                        "dep": "AGGUF6B"
+                    }
+                }
+            },
+            "COD": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "COD5G"
+                    },
+                    "22": {
+                        "dep": "COD5E"
+                    }
+                }
+            },
+            "ECVAZ": {
+                "cfl": 6000,
+                "rwys": {
+                    "04": {
+                        "dep": "ECVAZ7A"
+                    }
+                }
+            },
+            "ITEFE": {
+                "cfl": 6000,
+                "rwys": {
+                    "04": {
+                        "dep": "ITEFE7A"
+                    },
+                    "22": {
+                        "dep": "ITEFE6B"
+                    }
+                }
+            },
+            "LEGLO": {
+                "cfl": 6000,
+                "rwys": {
+                    "04": {
+                        "dep": "LEGLO7G"
+                    },
+                    "22": {
+                        "dep": "LEGLO8U"
+                    }
+                }
+            },
+            "OSBUL": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "OSBUL7G"
+                    },
+                    "22": {
+                        "dep": "OSBUL6W"
+                    }
+                }
+            },
+            "OTZOM": {
+                "cfl": 6000,
+                "rwys": {
+                    "04": {
+                        "dep": "OTZOM7A"
+                    },
+                    "22": {
+                        "dep": "OTZOM6B"
+                    }
+                }
+            },
+            "TUVDE": {
+                "cfl": 6000,
+                "rwys": {
+                    "04": {
+                        "dep": "TUVDE57A"
+                    },
+                    "22": {
+                        "dep": "TUVDE6C"
+                    }
+                }
+            },
+            "UPCAL": {
+                "cfl": 6000,
+                "rwys": {
+                    "04": {
+                        "dep": "UPCAL7A"
+                    }
+                }
+            }
+        }
+    },
+    "LIPY": {
+        "elevation": 50,
+        "sids": {
+            "BIDMA": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "BIDMA6F"
+                    },
+                    "22": {
+                        "dep": "BIDMA5L"
+                    }
+                }
+            },
+            "ERLIT": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "ERLIT5F"
+                    },
+                    "22": {
+                        "dep": "ERLIT5L"
+                    }
+                }
+            },
+            "GERBU": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "GERBU5F"
+                    },
+                    "22": {
+                        "dep": "GERBU5L"
+                    }
+                }
+            },
+            "KEGED": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "KEGED5F"
+                    },
+                    "22": {
+                        "dep": "KEGED5L"
+                    }
+                }
+            },
+            "LANLI": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "LANLI7F"
+                    },
+                    "22": {
+                        "dep": "LANLI8L"
+                    }
+                }
+            },
+            "MASEG": {
+                "cfl": 5000,
+                "rwys": {
+                    "04": {
+                        "dep": "MASEG5F"
+                    },
+                    "22": {
+                        "dep": "MASEG5L"
+                    }
+                }
+            }
+        }
+    },
+    "LIPZ": {
+        "elevation": 37,
+        "sids": {
+            "AKADO": {
+                "cfl": 4000,
+                "rwys": {
+                    "04R": {
+                        "dep": "AKADO6L"
+                    }
+                }
+            },
+            "CHI": {
+                "cfl": 4000,
+                "rwys": {
+                    "04R": {
+                        "dep": "CHI6L"
+                    },
+                    "22L": {
+                        "dep": "CHI6Q"
+                    }
+                }
+            },
+            "ROKIB": {
+                "cfl": 4000,
+                "rwys": {
+                    "04R": {
+                        "dep": "ROKIB6L"
+                    },
+                    "22L": {
+                        "dep": "ROKIB6Q"
+                    }
+                }
+            },
+            "ROSKA": {
+                "cfl": 4000,
+                "rwys": {
+                    "04R": {
+                        "dep": "ROSKA7L"
+                    },
+                    "22L": {
+                        "dep": "ROSKA6Q"
+                    }
+                }
+            },
+            "VIC": {
+                "cfl": 4000,
+                "rwys": {
+                    "04R": {
+                        "dep": "VIC6L"
+                    },
+                    "22L": {
+                        "dep": "VIC6Q"
+                    }
+                }
+            }
+        }
+    },
+    "LIRA": {
+        "elevation": 427,
+        "sids": {
+            "ESINO": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "OST8AxESINO6V"
+                    },
+                    "33": {
+                        "dep": "OST1FxESINO6V"
+                    }
+                }
+            },
+            "GILIO": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "OST8CxGILIO6V"
+                    },
+                    "33": {
+                        "dep": "OST1FxGILIO6V"
+                    }
+                }
+            },
+            "KASCI": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "KASCI1F"
+                    }
+                }
+            },
+            "KONUT": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "OST8AxKONUT6V"
+                    },
+                    "33": {
+                        "dep": "OST1FxKONUT6V"
+                    }
+                }
+            },
+            "OKUNO": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "OKUNO8G"
+                    },
+                    "33": {
+                        "dep": "OST1FxOKUNO6S"
+                    }
+                }
+            },
+            "OST": {
+                "cfl": 4000,
+                "rwys": {
+                    "15": {
+                        "dep": "OST8B"
+                    },
+                    "33": {
+                        "dep": "OST1F"
+                    }
+                }
+            },
+            "PEMAR": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "nap": "PEMAR8A"
+                    },
+                    "33": {
+                        "dep": "OST1FxPEMAR6S"
+                    }
+                }
+            },
+            "PEPIX": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "OST8AxPEPIX6V"
+                    },
+                    "33": {
+                        "dep": "OST1FxPEPIX6V"
+                    }
+                }
+            },
+            "PODOX": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "OST8AxPODOX6V"
+                    },
+                    "33": {
+                        "dep": "OST1FxPODOX6V"
+                    }
+                }
+            },
+            "RATIR": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "RATIR8A"
+                    },
+                    "33": {
+                        "dep": "RATIR1F"
+                    }
+                }
+            },
+            "RIFFI": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "RATIR8AxRIFFI6U"
+                    },
+                    "33": {
+                        "dep": "RATIR1FxRIFFI6U"
+                    }
+                }
+            },
+            "SIPRO": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "RATIR8AxSIPRO6U"
+                    },
+                    "33": {
+                        "dep": "RATIR1FxSIPRO6U"
+                    }
+                }
+            },
+            "SOVAN": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "OST8CxSOVAN6V"
+                    },
+                    "33": {
+                        "dep": "OST1FxSOVAN6V"
+                    }
+                }
+            },
+            "TIBER": {
+                "cfl": 5000,
+                "rwys": {
+                    "15": {
+                        "dep": "OST8AxTIBER6T"
+                    },
+                    "33": {
+                        "dep": "OST1FxTIBER6T"
+                    }
+                }
+            }
+        }
+    },
+    "LIRI": {
+        "elevation": 123,
+        "sids": {
+            "AMANO": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "AMANO6C"
+                    },
+                    "23": {
+                        "dep": "AMANO6C"
+                    }
+                }
+            },
+            "PEVIR": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "PEVIR6C"
+                    },
+                    "23": {
+                        "dep": "PEVIR6C"
+                    }
+                }
+            },
+            "POLIT": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "POLIT6C"
+                    },
+                    "23": {
+                        "dep": "POLIT6C"
+                    }
+                }
+            },
+            "SOR": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "SOR6C"
+                    },
+                    "23": {
+                        "dep": "SOR6C"
+                    }
+                }
+            },
+            "VARAL": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "VARAL6C"
+                    },
+                    "23": {
+                        "dep": "VARAL6C"
+                    }
+                }
+            }    
+        }
+    },
+    "LIRF": {
+        "elevation": 14,
+        "sids": {
+            "ESINO": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "SOSAK9CxESINO7H"
+                    },
+                    "16R": {
+                        "dep": "SOSAK9BxESINO7H"
+                    },
+                    "25": {
+                        "dep": "SOSAK5DxESINO7H"
+                    },
+                    "34L": {
+                        "dep": "SOSAK7YxESINO7H"
+                    },
+                    "34R": {
+                        "dep": "SOSAK5XxESINO7H"
+                    }
+                }
+            },
+            "GILIO": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "NENIG7JxGILIO8G"
+                    },
+                    "16R": {
+                        "dep": "NENIG8KxGILIO8G"
+                    },
+                    "25": {
+                        "dep": "NENIG5AxGILIO8G"
+                    },
+                    "34L": {
+                        "dep": "NENIG7MxGILIO8G"
+                    },
+                    "34R": {
+                        "dep": "NENIG7XxGILIO8G"
+                    }
+                }
+            },
+            "GISPA": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XENOL7JxGISPA9A"
+                    },
+                    "16R": {
+                        "dep": "XENOL7KxGISPA9A"
+                    },
+                    "25": {
+                        "dep": "XENOL5AxGISPA9A"
+                    },
+                    "34L": {
+                        "dep": "XENOL7MxGISPA9A"
+                    },
+                    "34R": {
+                        "dep": "XENOL7XxGISPA9A"
+                    }
+                }
+            },
+            "KONUT": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "SOSAK9CxKONUT8A"
+                    },
+                    "16R": {
+                        "dep": "SOSAK9BxKONUT8A"
+                    },
+                    "25": {
+                        "dep": "SOSAK5DxKONUT8A"
+                    },
+                    "34L": {
+                        "dep": "SOSAK7YxKONUT8A"
+                    },
+                    "34R": {
+                        "dep": "SOSAK5XxKONUT8A"
+                    }
+                }
+            },
+            "NEMBO": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XENOL7JxNEMBO7A"
+                    },
+                    "16R": {
+                        "dep": "XENOL7KxNEMBO7A"
+                    },
+                    "25": {
+                        "dep": "XENOL5AxNEMBO7A"
+                    },
+                    "34L": {
+                        "dep": "XENOL7MxNEMBO7A"
+                    },
+                    "34R": {
+                        "dep": "XENOL7XxNEMBO7A"
+                    }
+                }
+            },
+            "OKUNO": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XIBRI8CxOKUNO5R"
+                    },
+                    "16R": {
+                        "dep": "XIBRI8BxOKUNO5R"
+                    },
+                    "25": {
+                        "dep": "SOSAK5DxOKUNO9B"
+                    },
+                    "34L": {
+                        "dep": "EKLOS8MxOKUNO7C"
+                    },
+                    "34R": {
+                        "dep": "EKLOS8XxOKUNO7C"
+                    }
+                }
+            },
+            "PEPIX": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XIBRI8CxPEPIX9A"
+                    },
+                    "16R": {
+                        "dep": "XIBRI8BxPEPIX9A"
+                    },
+                    "25": {
+                        "dep": "XIBRI5AxPEPIX9A",
+                        "nap": "SOSAK5AxPEPIX9B"
+                    },
+                    "34L": {
+                        "dep": "SOSAK7YxPEPIX9B"
+                    },
+                    "34R": {
+                        "dep": "SOSAK5XxPEPIX9B"
+                    }
+                }
+            },
+            "PODOX": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XENOL7JxPODOX8E"
+                    },
+                    "16R": {
+                        "dep": "XENOL7KxPODOX8E"
+                    },
+                    "25": {
+                        "dep": "XENOL5AxPODOX8E"
+                    },
+                    "34L": {
+                        "dep": "XENOL7MxPODOX8E"
+                    },
+                    "34R": {
+                        "dep": "XENOL7XxPODOX8E"
+                    }
+                }
+            },
+            "RIFFI": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XIBRI8CxRIFFI9G"
+                    },
+                    "16R": {
+                        "dep": "XIBRI8BxRIFFI9G"
+                    },
+                    "25": {
+                        "dep": "XIBRI5AxRIFFI9G",
+                        "nap": "SOSAK5AxRIFFI9H"
+                    },
+                    "34L": {
+                        "dep": "SOSAK7YxRIFFI9H"
+                    },
+                    "34R": {
+                        "dep": "SOSAK5XxRIFFI9H"
+                    }
+                }
+            },
+            "ROTUN": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XIBRI8CxROTUN8A"
+                    },
+                    "16R": {
+                        "dep": "XIBRI8BxROTUN8A"
+                    },
+                    "25": {
+                        "dep": "XIBRI5AxROTUN8A",
+                        "nap": "SOSAK5AxROTUN8B"
+                    },
+                    "34L": {
+                        "dep": "SOSAK7YxROTUN8B"
+                    },
+                    "34R": {
+                        "dep": "SOSAK5XxROTUN8B"
+                    }
+                }
+            },
+            "SIPRO": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XIBRI8CxSIPRO5R"
+                    },
+                    "16R": {
+                        "dep": "XIBRI8BxSIPRO5R"
+                    },
+                    "25": {
+                        "dep": "XIBRI5AxSIPRO5R",
+                        "nap": "SOSAK5AxSIPRO5B"
+                    },
+                    "34L": {
+                        "dep": "EKLOS8MxSIPRO9C"
+                    },
+                    "34R": {
+                        "dep": "EKLOS8XxSIPRO9C"
+                    }
+                }
+            },
+            "SOVAN": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "SOSIV8JxSOVAN7A"
+                    },
+                    "16R": {
+                        "dep": "SOSIV8KxSOVAN7A"
+                    },
+                    "25": {
+                        "dep": "SOSIV5AxSOVAN7A"
+                    },
+                    "34L": {
+                        "dep": "SOSIV7YxSOVAN7A"
+                    },
+                    "34R": {
+                        "dep": "SOSIV7XxSOVAN7A"
+                    }
+                }
+            },
+            "TIBER": {
+                "cfl": 4000,
+                "rwys": {
+                    "16L": {
+                        "dep": "XIBRI8CxTIBER5R"
+                    },
+                    "16R": {
+                        "dep": "XIBRI8BxTIBER5R"
+                    },
+                    "25": {
+                        "dep": "XIBRI5AxTIBER5R",
+                        "nap": "SOSAK5AxTIBER9B"
+                    },
+                    "34L": {
+                        "dep": "EKLOS8MxTIBER7C"
+                    },
+                    "34R": {
+                        "dep": "EKLOS8XxTIBER7C"
+                    }
+                }
+            }
+        }
+    },
+    "LIRN": {
+        "elevation": 294,
+        "sids": {
+            "AGNIS": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "AGNIS7G"
+                    },
+                    "24": {
+                        "dep": "AGNIS7G"
+                    }
+                }
+            },
+            "ALAXI": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "ALAXI7H"
+                    },
+                    "24": {
+                        "dep": "ALAXI7J",
+                        "nap": "ALAXI1N"
+                    }
+                }
+            },
+            "BEDPI": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "BEDPI7H"
+                    },
+                    "24": {
+                        "dep": "BEDPI7G"
+                    }
+                }
+            },
+            "DELER": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "DELER7G"
+                    },
+                    "24": {
+                        "dep": "DELER7G"
+                    }
+                }
+            },
+            "EDOPA": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "EDOPA7G"
+                    },
+                    "24": {
+                        "dep": "EDOPA7G"
+                    }
+                }
+            },
+            "GALTI": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "GALTI7G"
+                    },
+                    "24": {
+                        "dep": "GALTI7G"
+                    }
+                }
+            },
+            "ISKIA": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "ISKIA8J"
+                    },
+                    "24": {
+                        "dep": "ISKIA8J"
+                    }
+                }
+            },
+            "MALOG": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "MALOG8J"
+                    },
+                    "24": {
+                        "dep": "MALOG8J"
+                    }
+                }
+            },
+            "MOLUX": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "MOLUX8J"
+                    },
+                    "24": {
+                        "dep": "MOLUX8J"
+                    }
+                }
+            },
+            "PEVIR": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "PEVIR7G"
+                    },
+                    "24": {
+                        "dep": "PEVIR7G"
+                    }
+                }
+            },
+            "POLIT": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "POLIT7G"
+                    },
+                    "24": {
+                        "dep": "POLIT7G"
+                    }
+                }
+            },
+            "SIPRO": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "SIPRO7H"
+                    },
+                    "24": {
+                        "dep": "SIPRO7J",
+                        "nap": "SIPRO1N"
+                    }
+                }
+            },
+            "TEA": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "TEA8J"
+                    },
+                    "24": {
+                        "dep": "TEA8J"
+                    }
+                }
+            },
+            "VEXUV": {
+                "cfl": 6000,
+                "rwys": {
+                    "06": {
+                        "dep": "VEXUV8G"
+                    },
+                    "24": {
+                        "dep": "VEXUV8G"
+                    }
+                }
+            }
+        }
+    },
+    "LIRP": {
+        "elevation": 6,
+        "sids": {
+            "ASVOL": {
+                "cfl": 4000,
+                "rwys": {
+                    "04L": {
+                        "dep": "ASVOL5A"
+                    },
+                    "04R": {
+                        "dep": "ASVOL5A"
+                    },
+                    "22L": {
+                        "dep": "ASVOL5C"
+                    },
+                    "22R": {
+                        "dep": "ASVOL5C"
+                    }
+                }
+            },
+            "BEROK": {
+                "cfl": 4000,
+                "rwys": {
+                    "04L": {
+                        "dep": "BEROK7A"
+                    },
+                    "04R": {
+                        "dep": "BEROK7A"
+                    },
+                    "22L": {
+                        "dep": "BEROK7C"
+                    },
+                    "22R": {
+                        "dep": "BEROK7C"
+                    }
+                }
+            },
+            "BETEN": {
+                "cfl": 4000,
+                "rwys": {
+                    "04L": {
+                        "dep": "BETEN7A"
+                    },
+                    "04R": {
+                        "dep": "BETEN7A"
+                    },
+                    "22L": {
+                        "dep": "BETEN7C"
+                    },
+                    "22R": {
+                        "dep": "BETEN7C"
+                    }
+                }
+            },
+            "GINAR": {
+                "cfl": 4000,
+                "rwys": {
+                    "04L": {
+                        "dep": "GINAR8A"
+                    },
+                    "04R": {
+                        "dep": "GINAR8A"
+                    },
+                    "22L": {
+                        "dep": "GINAR8C"
+                    },
+                    "22R": {
+                        "dep": "GINAR8C"
+                    }
+                }
+            },
+            "GOVGO": {
+                "cfl": 4000,
+                "rwys": {
+                    "04L": {
+                        "dep": "GOVGO5A"
+                    },
+                    "04R": {
+                        "dep": "GOVGO5A"
+                    },
+                    "22L": {
+                        "dep": "GOVGO5C"
+                    },
+                    "22R": {
+                        "dep": "GOVGO5C"
+                    }
+                }
+            },
+            "MAREL": {
+                "cfl": 4000,
+                "rwys": {
+                    "04L": {
+                        "dep": "MAREL8A"
+                    },
+                    "04R": {
+                        "dep": "MAREL8A"
+                    },
+                    "22L": {
+                        "dep": "MAREL8C"
+                    },
+                    "22R": {
+                        "dep": "MAREL8C"
+                    }
+                }
+            },
+            "SPEZI": {
+                "cfl": 4000,
+                "rwys": {
+                    "04L": {
+                        "dep": "SPEZI7A"
+                    },
+                    "04R": {
+                        "dep": "SPEZI7A"
+                    },
+                    "22L": {
+                        "dep": "SPEZI7C"
+                    },
+                    "22R": {
+                        "dep": "SPEZI7C"
+                    }
+                }
+            }
+        }
+    },
+    "LIRQ": {
+        "elevation": 142,
+        "sids": {
+            "BALUK": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "BALUK6G"
+                    },
+                    "23": {
+                        "dep": "BALUK6F"
+                    }
+                }
+            },
+            "BIKTU": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "BIKTU6M"
+                    },
+                    "23": {
+                        "dep": "BIKTU6M"
+                    }
+                }
+            },
+            "GAVRA": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "GAVRA6M"
+                    },
+                    "23": {
+                        "dep": "GAVRA6M"
+                    }
+                }
+            },
+            "KUGIX": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "KUGIX6M"
+                    },
+                    "23": {
+                        "dep": "KUGIX6M"
+                    }
+                }
+            },
+            "LOMED": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "LOMED6F"
+                    },
+                    "23": {
+                        "dep": "LOMED6F"
+                    }
+                }
+            },
+            "MAREL": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "MAREL7M"
+                    },
+                    "23": {
+                        "dep": "MAREL7M"
+                    }
+                }
+            },
+            "OKMAP": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "OKMAP6M"
+                    },
+                    "23": {
+                        "dep": "OKMAP6M"
+                    }
+                }
+            },
+            "PRT": {
+                "cfl": 6000,
+                "rwys": {
+                    "05": {
+                        "dep": "PRT6F"
+                    },
+                    "23": {
+                        "dep": "PRT6F"
+                    }
+                }
+            }
+        }
+    },
+    "LIRS": {
+        "elevation": 15,
+        "sids": {
+            "BAMVU": {
+                "cfl": 5000,
+                "rwys": {
+                    "03L": {
+                        "dep": "BAMVU5S"
+                    },
+                    "21R": {
+                        "dep": "BAMVU5W"
+                    }
+                }
+            },
+            "GIKIN": {
+                "cfl": 5000,
+                "rwys": {
+                    "03L": {
+                        "dep": "GIKIN7S"
+                    },
+                    "21R": {
+                        "dep": "GIKIN7W"
+                    }
+                }
+            },
+            "LOMED": {
+                "cfl": 5000,
+                "rwys": {
+                    "03L": {
+                        "dep": "LOMED5S"
+                    },
+                    "21R": {
+                        "dep": "LOMED5W"
+                    }
+                }
+            },
+            "UPADU": {
+                "cfl": 5000,
+                "rwys": {
+                    "03L": {
+                        "dep": "UPADU5S"
+                    },
+                    "21R": {
+                        "dep": "UPADU5W"
+                    }
+                }
+            }
+        }
+    },
+    "LIRZ": {
+        "elevation": 697,
+        "sids": {
+            "GITOD": {
+                "cfl": 5000,
+                "rwys": {
+                    "01": {
+                        "dep": "GITOD5E"
+                    },
+                    "19": {
+                        "dep": "GITOD5N"
+                    }
+                }
+            },
+            "KATAR": {
+                "cfl": 5000,
+                "rwys": {
+                    "01": {
+                        "dep": "KATAR5E"
+                    },
+                    "19": {
+                        "dep": "KATAR5N"
+                    }
+                }
+            },
+            "LAKOX": {
+                "cfl": 5000,
+                "rwys": {
+                    "01": {
+                        "dep": "LAKOX5E"
+                    },
+                    "19": {
+                        "dep": "LAKOX5N"
+                    }
+                }
+            }
+        }
+    },
+    "LMML": {
+        "elevation": 297,
+        "sids": {
+            "AGARI": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "AGARI2A"
+                    },
+                    "13": {
+                        "dep": "AGARI2B"
+                    },
+                    "23": {
+                        "dep": "AGARI3C"
+                    },
+                    "31": {
+                        "dep": "AGARI2D"
+                    }
+                }
+            },
+            "GODAK": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "GODAK2A"
+                    },
+                    "13": {
+                        "dep": "GODAK2B"
+                    },
+                    "23": {
+                        "dep": "GODAK3C"
+                    },
+                    "31": {
+                        "dep": "GODAK2D"
+                    }
+                }
+            },
+            "GZO": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "GZO3A"
+                    },
+                    "13": {
+                        "dep": "GZO3B"
+                    },
+                    "23": {
+                        "dep": "GZO3C"
+                    },
+                    "31": {
+                        "dep": "GZO3D"
+                    }
+                }
+            },
+            "LORED": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "LORED2A"
+                    },
+                    "13": {
+                        "dep": "LORED2B"
+                    },
+                    "23": {
+                        "dep": "LORED2C"
+                    },
+                    "31": {
+                        "dep": "LORED2D"
+                    }
+                }
+            },
+            "OBITA": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "OBITA2A"
+                    },
+                    "13": {
+                        "dep": "OBITA2B"
+                    },
+                    "23": {
+                        "dep": "OBITA2C"
+                    },
+                    "31": {
+                        "dep": "OBITA2D"
+                    }
+                }
+            },
+            "SUDIK": {
+                "cfl": 5000,
+                "rwys": {
+                    "05": {
+                        "dep": "SUDIK2A"
+                    },
+                    "13": {
+                        "dep": "SUDIK2B"
+                    },
+                    "23": {
+                        "dep": "SUDIK2C"
+                    },
+                    "31": {
+                        "dep": "SUDIK2D"
+                    }
+                }
+            }
+        }
+    },
+    "LSZA": {
+        "elevation": 915,
+        "sids": {
+            "CANNE": {
+                "cfl": 9000,
+                "rwys": {
+                    "01": {
+                        "dep": "CANNE1E"
+                    },
+                    "19": {
+                        "dep": "CANNE1E"
+                    }
+                }
+            },
+            "LEGLO": {
+                "cfl": 8000,
+                "rwys": {
+                    "01": {
+                        "dep": "LEGLO1Z"
+                    },
+                    "19": {
+                        "dep": "LEGLO1Z"
+                    }
+                }
+            },
+            "OMETO": {
+                "cfl": 6000,
+                "rwys": {
+                    "01": {
+                        "dep": "OMETO1F"
+                    },
+                    "19": {
+                        "dep": "OMETO1F"
+                    }
+                }
+            },
+            "PINIK": {
+                "cfl": 6000,
+                "rwys": {
+                    "01": {
+                        "dep": "PINIK1A"
+                    },
+                    "19": {
+                        "dep": "PINIK1A"
+                    }
+                }
+            },
+            "SRN": {
+                "cfl": 6000,
+                "rwys": {
+                    "01": {
+                        "dep": "SRN1V"
+                    },
+                    "19": {
+                        "dep": "SRN1V"
+                    }
+                }
+            },
+            "VOG": {
+                "cfl": 6000,
+                "rwys": {
+                    "01": {
+                        "dep": "VOG1W"
+                    },
+                    "19": {
+                        "dep": "VOG1W"
                     }
                 }
             }
