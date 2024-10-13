@@ -1,0 +1,83 @@
+{
+    "discord_appid": "1282725812889714749",
+    "discord_presence_large_image_key" : "es",
+    "discord_presence_small_image_key" : "ttrks",
+    "sweatbox_bypass" : false,
+    "states" : {
+        "idle": {
+            "presence_small_image_key": "radar",
+            "presence_large_image_key" : "es",
+            "state" : "",
+            "details" : "Idle",
+            "presence_small_image_text" : "Idle",
+            "presence_large_image_text" : ""
+        },
+        "playback": {
+            "presence_small_image_key": "radar",
+            "presence_large_image_key" : "es",
+            "state" : "",
+            "details" : "Playback",
+            "presence_small_image_text" : "",
+            "presence_large_image_text" : ""
+        },
+        "sweatbox": {
+            "presence_small_image_key": "radar",
+            "presence_large_image_key" : "es",
+            "state" : "sweating someone",
+            "details" : "Sweatbox",
+            "presence_small_image_text" : "",
+            "presence_large_image_text" : ""
+        },
+        "direct": {
+            "presence_small_image_key": "",
+            "presence_large_image_key" : "",
+            "state" : "",
+            "details" : "",
+            "presence_small_image_text" : "",
+            "presence_large_image_text" : "",
+            
+            "if_observer" : {
+				"presence_small_image_key": "radar",
+				"presence_large_image_key" : "es",
+                "state" : "Aircraft in range: {total_inrange}",
+                "details" : "Observing as {callsign}",
+                "presence_small_image_text" : "",
+                "presence_large_image_text" : ""
+            },
+            
+            "if_controller": {
+				"presence_small_image_key": "radar",
+				"presence_large_image_key" : "es",
+                "state" : "Controlling ({current_tracked} of {total_inrange})",
+                "details" : "{rcallsign} {frequency}MHz",
+                "presence_small_image_text" : "Total tracks: {total_tracked}",
+                "presence_large_image_text" : "{callsign}"
+            },
+            
+            "if_supervisor": {
+				"presence_small_image_key": "radar",
+				"presence_large_image_key" : "es",
+                "state" : "",
+                "details" : "",
+                "presence_small_image_text" : "",
+                "presence_large_image_text" : ""
+            }
+        }
+    },
+    "radio_callsigns": {
+        "config": {
+            "load_from_ese": true,
+            "path_to_ese" : "../../../"
+        },
+        "custom" : [
+            {
+                "callsign": "^HECC_CTR$",
+                "rcallsign" : "Cairo Control Bandbox"
+            },
+            {
+                "callsign": "^HECC_(\\d+)(?:_)CTR$",
+                "rcallsign" : "Cairo Control ACC $0"
+            }
+        ]
+    }
+}
