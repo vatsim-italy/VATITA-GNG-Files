@@ -2598,7 +2598,8 @@
                         "dep":"SOSAK9BxESINO7H"
                     },
                     "25":{
-                        "dep":"SOSAK5DxESINO7H"
+                        "dep":"SOSAK5AxESINO7H",
+                        "nap":"SOSAK5DxESINO7H"
                     },
                     "34L":{
                         "dep":"SOSAK7YxESINO7H"
@@ -2658,7 +2659,8 @@
                         "dep":"SOSAK9BxKONUT8A"
                     },
                     "25":{
-                        "dep":"SOSAK5DxKONUT8A"
+                        "dep":"SOSAK5AxKONUT8A",
+                        "nap":"SOSAK5DxKONUT8A"
                     },
                     "34L":{
                         "dep":"SOSAK7YxKONUT8A"
@@ -2698,7 +2700,8 @@
                         "dep":"XIBRI8BxOKUNO5R"
                     },
                     "25":{
-                        "dep":"SOSAK5DxOKUNO9B"
+                        "dep":"XIBRI5AxOKUNO5R",
+                        "nap":"SOSAK5DxOKUNO9B"                       
                     },
                     "34L":{
                         "dep":"EKLOS8MxOKUNO7C"
@@ -2719,7 +2722,7 @@
                     },
                     "25":{
                         "dep":"XIBRI5AxPEPIX9A",
-                        "nap":"SOSAK5AxPEPIX9B"
+                        "nap":"SOSAK5DxPEPIX9B"
                     },
                     "34L":{
                         "dep":"SOSAK7YxPEPIX9B"
@@ -2760,7 +2763,7 @@
                     },
                     "25":{
                         "dep":"XIBRI5AxRIFFI9G",
-                        "nap":"SOSAK5AxRIFFI9H"
+                        "nap":"SOSAK5DxRIFFI9H"
                     },
                     "34L":{
                         "dep":"SOSAK7YxRIFFI9H"
@@ -2781,7 +2784,7 @@
                     },
                     "25":{
                         "dep":"XIBRI5AxROTUN8A",
-                        "nap":"SOSAK5AxROTUN8B"
+                        "nap":"SOSAK5DxROTUN8B"
                     },
                     "34L":{
                         "dep":"SOSAK7YxROTUN8B"
@@ -2802,7 +2805,7 @@
                     },
                     "25":{
                         "dep":"XIBRI5AxSIPRO5R",
-                        "nap":"SOSAK5AxSIPRO5B"
+                        "nap":"SOSAK5DxSIPRO5B"
                     },
                     "34L":{
                         "dep":"EKLOS8MxSIPRO9C"
@@ -2843,7 +2846,7 @@
                     },
                     "25":{
                         "dep":"XIBRI5AxTIBER5R",
-                        "nap":"SOSAK5AxTIBER9B"
+                        "nap":"SOSAK5DxTIBER9B"
                     },
                     "34L":{
                         "dep":"EKLOS8MxTIBER7C"
