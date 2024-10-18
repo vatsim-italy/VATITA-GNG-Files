@@ -2613,16 +2613,16 @@
                 "cfl":4000,
                 "rwys":{
                     "16L":{
-                        "dep":"NENIG7JxGILIO8G"
+                        "dep":"NENIG8CxGILIO8G"
                     },
                     "16R":{
-                        "dep":"NENIG8KxGILIO8G"
+                        "dep":"NENIG8BxGILIO8G"
                     },
                     "25":{
                         "dep":"NENIG5AxGILIO8G"
                     },
                     "34L":{
-                        "dep":"NENIG7MxGILIO8G"
+                        "dep":"NENIG6YxGILIO8G"
                     },
                     "34R":{
                         "dep":"NENIG7XxGILIO8G"
@@ -2642,10 +2642,10 @@
                         "dep":"XENOL5AxGISPA9A"
                     },
                     "34L":{
-                        "dep":"XENOL7MxGISPA9A"
+                        "dep":"XENOL7YxGISPA9A"
                     },
                     "34R":{
-                        "dep":"XENOL7XxGISPA9A"
+                        "dep":"XENOL7KxGISPA9A"
                     }
                 }
             },
@@ -2683,10 +2683,10 @@
                         "dep":"XENOL5AxNEMBO7A"
                     },
                     "34L":{
-                        "dep":"XENOL7MxNEMBO7A"
+                        "dep":"XENOL7YxNEMBO7A"
                     },
                     "34R":{
-                        "dep":"XENOL7XxNEMBO7A"
+                        "dep":"XENOL7KxNEMBO7A"
                     }
                 }
             },
@@ -2694,10 +2694,10 @@
                 "cfl":4000,
                 "rwys":{
                     "16L":{
-                        "dep":"XIBRI8CxOKUNO5R"
+                        "dep":"XIBRI8CxOKUNO6A"
                     },
                     "16R":{
-                        "dep":"XIBRI8BxOKUNO5R"
+                        "dep":"XIBRI8BxOKUNO9B"
                     },
                     "25":{
                         "dep":"XIBRI5AxOKUNO5R",
@@ -2718,7 +2718,7 @@
                         "dep":"XIBRI8CxPEPIX9A"
                     },
                     "16R":{
-                        "dep":"XIBRI8BxPEPIX9A"
+                        "dep":"XIBRI8BxPEPIX9B"
                     },
                     "25":{
                         "dep":"XIBRI5AxPEPIX9A",
@@ -2745,10 +2745,10 @@
                         "dep":"XENOL5AxPODOX8E"
                     },
                     "34L":{
-                        "dep":"XENOL7MxPODOX8E"
+                        "dep":"XENOL7YxPODOX8E"
                     },
                     "34R":{
-                        "dep":"XENOL7XxPODOX8E"
+                        "dep":"XENOL7KxPODOX8E"
                     }
                 }
             },
@@ -2780,7 +2780,7 @@
                         "dep":"XIBRI8CxROTUN8A"
                     },
                     "16R":{
-                        "dep":"XIBRI8BxROTUN8A"
+                        "dep":"XIBRI8BxROTUN8B"
                     },
                     "25":{
                         "dep":"XIBRI5AxROTUN8A",
@@ -2798,17 +2798,17 @@
                 "cfl":4000,
                 "rwys":{
                     "16L":{
-                        "dep":"XIBRI8CxSIPRO5R"
+                        "dep":"XIBRI8CxSIPRO6A"
                     },
                     "16R":{
-                        "dep":"XIBRI8BxSIPRO5R"
+                        "dep":"XIBRI8BxSIPRO5B"
                     },
                     "25":{
                         "dep":"XIBRI5AxSIPRO5R",
                         "nap":"SOSAK5DxSIPRO5B"
                     },
                     "34L":{
-                        "dep":"EKLOS8MxSIPRO9C"
+                        "dep":"SOSAK7YxSIPRO5B"
                     },
                     "34R":{
                         "dep":"EKLOS8XxSIPRO9C"
@@ -2819,10 +2819,10 @@
                 "cfl":4000,
                 "rwys":{
                     "16L":{
-                        "dep":"SOSIV8JxSOVAN7A"
+                        "dep":"SOSIV7CxSOVAN7A"
                     },
                     "16R":{
-                        "dep":"SOSIV8KxSOVAN7A"
+                        "dep":"SOSIV7QxSOVAN7A"
                     },
                     "25":{
                         "dep":"SOSIV5AxSOVAN7A"
@@ -2839,17 +2839,17 @@
                 "cfl":4000,
                 "rwys":{
                     "16L":{
-                        "dep":"XIBRI8CxTIBER5R"
+                        "dep":"XIBRI8CxTIBER6A"
                     },
                     "16R":{
-                        "dep":"XIBRI8BxTIBER5R"
+                        "dep":"XIBRI8BxTIBER9B"
                     },
                     "25":{
                         "dep":"XIBRI5AxTIBER5R",
                         "nap":"SOSAK5DxTIBER9B"
                     },
                     "34L":{
-                        "dep":"EKLOS8MxTIBER7C"
+                        "dep":"SOSAK7YxTIBER9B"
                     },
                     "34R":{
                         "dep":"EKLOS8XxTIBER7C"
