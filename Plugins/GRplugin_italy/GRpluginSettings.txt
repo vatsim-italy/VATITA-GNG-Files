@@ -207,6 +207,7 @@ Airport_Runway_Closed_Arr=04L
 Airport_Runway_Closed_Dep=04L
 
 System_RIM=0
+System_CVM=0
 
 [LIRF]
 
