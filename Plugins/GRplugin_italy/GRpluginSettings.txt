@@ -124,7 +124,7 @@ Color_SelectedLabelBorder_Gnd=255,255,255
 Color_SelectedLabelFill_Gnd=40,40,40
 
 // STATES
-System_State_OnFreq=ON FREQ
+System_State_OnFreq=READY
 System_State_StartUp=STUP
 System_State_Push=PUSH
 System_State_Taxi_In=  TAXI
