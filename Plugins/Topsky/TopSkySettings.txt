@@ -1,6 +1,6 @@
 Maps_Font=EuroScope
 //Shortcuts
-Shortcut_Map_Target=1,CTA / TMA\Controlled Airspace
+Shortcut_Map_Target=1,CTA / ATZ\Controlled Airspace
 Shortcut_Map_Target=2,FIS\VRP LIXX
 Shortcut_Map_Target=3,STANDS\STANDS
 
