@@ -1,0 +1,57 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20241004184256-241001-0001.sct
+SECTORTITLE:LIXX-Italy_20241004184256-241001-0001.sct
+Free Text:LIPH Parkings\101:freetext
+Free Text:LIPH Parkings\102:freetext
+Free Text:LIPH Parkings\103:freetext
+Free Text:LIPH Parkings\104:freetext
+Free Text:LIPH Parkings\105:freetext
+Free Text:LIPH Parkings\106:freetext
+Free Text:LIPH Parkings\107:freetext
+Free Text:LIPH Parkings\108:freetext
+Free Text:LIPH Parkings\109:freetext
+Free Text:LIPH Parkings\110:freetext
+Free Text:LIPH Parkings\211:freetext
+Free Text:LIPH Parkings\212:freetext
+Free Text:LIPH Parkings\213:freetext
+Free Text:LIPH Parkings\214:freetext
+Free Text:LIPH Parkings\215:freetext
+Free Text:LIPH Parkings\216:freetext
+Free Text:LIPH Parkings\217:freetext
+Free Text:LIPH Parkings\218:freetext
+Free Text:LIPH Taxiway\A:freetext
+Free Text:LIPH Taxiway\B:freetext
+Free Text:LIPH Taxiway\D:freetext
+Free Text:LIPH Taxiway\D:freetext
+Free Text:LIPH Taxiway\D:freetext
+Free Text:LIPH Taxiway\D:freetext
+Free Text:LIPH Taxiway\D1:freetext
+Free Text:LIPH Taxiway\D2:freetext
+Free Text:LIPH Taxiway\D3:freetext
+Free Text:LIPH Taxiway\D4:freetext
+Free Text:LIPH Taxiway\E:freetext
+Free Text:LIPH Taxiway\E:freetext
+Free Text:LIPH Taxiway\E1:freetext
+Free Text:LIPH Taxiway\E2:freetext
+Free Text:LIPH Taxiway\Mil.A.:freetext
+Geo:LIPH Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:19.00000
+TAGFAMILY:Italy CTR
+WINDOWAREA:45.639703:12.177227:45.659753:12.210923
+PLUGIN:Ground Radar plugin:AirportElevation:7
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIPZ
+PLUGIN:TopSky plugin:NoDraw:1
