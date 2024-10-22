@@ -2613,19 +2613,19 @@
                 "cfl":4000,
                 "rwys":{
                     "16L":{
-                        "dep":"NENIG8CxGILIO8G"
+                        "dep":"NENIG8CxGILIO9G"
                     },
                     "16R":{
-                        "dep":"NENIG8BxGILIO8G"
+                        "dep":"NENIG8BxGILIO9G"
                     },
                     "25":{
-                        "dep":"NENIG5AxGILIO8G"
+                        "dep":"NENIG5AxGILIO9G"
                     },
                     "34L":{
-                        "dep":"NENIG6YxGILIO8G"
+                        "dep":"NENIG6YxGILIO9G"
                     },
                     "34R":{
-                        "dep":"NENIG7XxGILIO8G"
+                        "dep":"NENIG7XxGILIO9G"
                     }
                 }
             },
