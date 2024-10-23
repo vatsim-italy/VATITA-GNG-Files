@@ -2736,19 +2736,19 @@
                 "cfl":4000,
                 "rwys":{
                     "16L":{
-                        "dep":"XENOL7JxPODOX8E"
+                        "dep":"XENOL7JxPODOX9E"
                     },
                     "16R":{
-                        "dep":"XENOL7KxPODOX8E"
+                        "dep":"XENOL7KxPODOX9E"
                     },
                     "25":{
-                        "dep":"XENOL5AxPODOX8E"
+                        "dep":"XENOL5AxPODOX9E"
                     },
                     "34L":{
-                        "dep":"XENOL7YxPODOX8E"
+                        "dep":"XENOL7YxPODOX9E"
                     },
                     "34R":{
-                        "dep":"XENOL7KxPODOX8E"
+                        "dep":"XENOL7KxPODOX9E"
                     }
                 }
             },
