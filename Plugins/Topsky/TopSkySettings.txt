@@ -256,7 +256,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-CPDLC_AutoAcceptLogon=1
+CPDLC_AutoAcceptLogon=0
 
 Divergence_CLAM_DelayTime=180
 Divergence_RAM_DCT_DelayTime=180
