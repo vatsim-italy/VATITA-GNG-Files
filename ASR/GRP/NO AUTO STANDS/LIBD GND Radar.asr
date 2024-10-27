@@ -3,67 +3,6 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Free Text:LIBD Parkings\101:freetext
-Free Text:LIBD Parkings\102:freetext
-Free Text:LIBD Parkings\103:freetext
-Free Text:LIBD Parkings\104:freetext
-Free Text:LIBD Parkings\105:freetext
-Free Text:LIBD Parkings\106:freetext
-Free Text:LIBD Parkings\107:freetext
-Free Text:LIBD Parkings\109:freetext
-Free Text:LIBD Parkings\110:freetext
-Free Text:LIBD Parkings\111:freetext
-Free Text:LIBD Parkings\112:freetext
-Free Text:LIBD Parkings\113:freetext
-Free Text:LIBD Parkings\114:freetext
-Free Text:LIBD Parkings\115:freetext
-Free Text:LIBD Parkings\201:freetext
-Free Text:LIBD Parkings\202:freetext
-Free Text:LIBD Parkings\203:freetext
-Free Text:LIBD Parkings\204:freetext
-Free Text:LIBD Parkings\205:freetext
-Free Text:LIBD Parkings\301:freetext
-Free Text:LIBD Parkings\302:freetext
-Free Text:LIBD Parkings\303:freetext
-Free Text:LIBD Parkings\304:freetext
-Free Text:LIBD Parkings\305:freetext
-Free Text:LIBD Parkings\306:freetext
-Free Text:LIBD Parkings\307:freetext
-Free Text:LIBD Parkings\308:freetext
-Free Text:LIBD Parkings\309:freetext
-Free Text:LIBD Parkings\310:freetext
-Free Text:LIBD Parkings\311:freetext
-Free Text:LIBD Parkings\312:freetext
-Free Text:LIBD Parkings\313:freetext
-Free Text:LIBD Parkings\401:freetext
-Free Text:LIBD Parkings\402:freetext
-Free Text:LIBD Taxiway\A:freetext
-Free Text:LIBD Taxiway\B:freetext
-Free Text:LIBD Taxiway\C:freetext
-Free Text:LIBD Taxiway\D:freetext
-Free Text:LIBD Taxiway\E:freetext
-Free Text:LIBD Taxiway\F:freetext
-Free Text:LIBD Taxiway\G:freetext
-Free Text:LIBD Taxiway\L:freetext
-Free Text:LIBD Taxiway\N:freetext
-Free Text:LIBD Taxiway\P:freetext
-Free Text:LIBD Taxiway\Q:freetext
-Free Text:LIBD Taxiway\Q:freetext
-Free Text:LIBD Taxiway\Q:freetext
-Free Text:LIBD Taxiway\Q:freetext
-Free Text:LIBD Taxiway\Q:freetext
-Free Text:LIBD Taxiway\Q:freetext
-Free Text:LIBD Taxiway\Q:freetext
-Free Text:LIBD Taxiway\Q:freetext
-Free Text:LIBD Taxiway\Q1:freetext
-Free Text:LIBD Taxiway\T:freetext
-Free Text:LIBD Taxiway\T:freetext
-Free Text:LIBD Taxiway\T:freetext
-Free Text:LIBD Taxiway\T1:freetext
-Free Text:LIBD Taxiway\T2:freetext
-Free Text:LIBD Taxiway\T3:freetext
-Free Text:LIBD Taxiway\T4:freetext
-Geo:LIBD Groundlayout:
 SHOWC:1
 SHOWSB:0
 BELOW:0
