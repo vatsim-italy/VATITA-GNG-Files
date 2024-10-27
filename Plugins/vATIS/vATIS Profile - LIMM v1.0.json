@@ -25,7 +25,7 @@
         {
           "id": "6d94bccd-95a7-4cb1-b8e4-2979c26499be",
           "name": "35L+35R",
-          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35 LEFT AND 35 RIGHT. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
+          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35L AND 35R. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -33,7 +33,7 @@
         {
           "id": "3ddb0206-37e4-4c06-8cf2-f34bda5e71a3",
           "name": "35L",
-          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35 LEFT. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
+          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35L. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -42,7 +42,7 @@
           "id": "545eaa56-7767-429a-9214-52c1965f776a",
           "name": "35R",
           "airportConditions": "",
-          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35 RIGHT. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
+          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35R. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -50,7 +50,7 @@
         {
           "id": "bc1e5940-b924-46c5-9902-c66686da1599",
           "name": "17L",
-          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 17 LEFT. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
+          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 17L. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -58,7 +58,7 @@
         {
           "id": "ddf0444b-9166-4112-8bb3-dda11d56fcf2",
           "name": "35L LVP",
-          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35 LEFT. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "THIS IS MALPENSA ATIS ARR INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35L. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -124,7 +124,13 @@
         {
           "description": "",
           "ordinal": 4,
-          "text": "RVR: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
+          "text": "RVR RWY 35L: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 5,
+          "text": "RVR RWY 35R: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
           "enabled": false
         }
       ],
@@ -428,7 +434,7 @@
         {
           "id": "2f21b9b9-2815-40ae-8b29-f307759018fa",
           "name": "35R LVP",
-          "template": "THIS IS MALPENSA ATIS DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE: 35 RIGHT. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "THIS IS MALPENSA ATIS DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE: 35R. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -486,7 +492,13 @@
         {
           "description": "",
           "ordinal": 4,
-          "text": "RVR: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
+          "text": "RVR RWY 35L: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 5,
+          "text": "RVR RWY 35R: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
           "enabled": false
         }
       ],
@@ -1122,7 +1134,7 @@
           "description": "",
           "ordinal": 1,
           "text": "RUNWAY CONDITIONS: CODE SIX. SIX. SIX. CONTAMINANT: DRY. DRY. DRY. ",
-          "enabled": false
+          "enabled": true
         },
         {
           "description": "",
@@ -1685,7 +1697,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}",
-            "voice": "LUGANO INFORMATION {letter|word}"
+            "voice": "LUUGAANO INFORMATION {letter|word}"
           }
         }
       }
@@ -2650,7 +2662,7 @@
         {
           "id": "a014391e-2319-46c3-973a-0eed625d72ad",
           "name": "35L(D) 35R(A)",
-          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. ARRIVAL RWY IN USE: 35 RIGHT. DEPARTURE RWY IN USE: 35 LEFT. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
+          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. ARRIVAL RWY IN USE: 35R. DEPARTURE RWY IN USE: 35L. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -2658,7 +2670,7 @@
         {
           "id": "63f60084-478d-422d-8f7c-39899e3d7709",
           "name": "35L(A) 35R(D)",
-          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. ARRIVAL RWY IN USE: 35 LEFT. DEPARTURE RWY IN USE: 35 RIGHT. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
+          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. ARRIVAL RWY IN USE: 35L. DEPARTURE RWY IN USE: 35R. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -2666,7 +2678,7 @@
         {
           "id": "4caa868b-d20e-48b7-9f5b-64fb8688ea6c",
           "name": "17L(D) 17R(A)",
-          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: RNP ZULU. ARRIVAL RWY IN USE: 17 RIGHT. DEPARTURE RWY IN USE: 17 LEFT. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
+          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: RNP ZULU. ARRIVAL RWY IN USE: 17R. DEPARTURE RWY IN USE: 17L. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -2674,7 +2686,7 @@
         {
           "id": "01d322dc-cefd-4052-8da0-c13a51d5122b",
           "name": "NIGHT CONFIG - 35L(A) 17R(D)",
-          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. ARRIVAL RWY IN USE: 35 LEFT. DEPARTURE RWY IN USE: 17 RIGHT. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
+          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. ARRIVAL RWY IN USE: 35L. DEPARTURE RWY IN USE: 17R. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -2682,7 +2694,7 @@
         {
           "id": "323bba06-b2bb-48be-ba2e-3ddb5c6d111a",
           "name": "35L(A+D)",
-          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35 LEFT. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
+          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. RWY IN USE: 35L. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -2690,7 +2702,7 @@
         {
           "id": "dba2a134-1a6f-40f7-b2dc-7090658c1a94",
           "name": "35L(A) 35R(D) LVP",
-          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. ARRIVAL RWY IN USE: 35 LEFT. DEPARTURE RWY IN USE: 35 RIGHT. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "THIS IS MALPENSA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU. ARRIVAL RWY IN USE: 35L. DEPARTURE RWY IN USE: 35R. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -2752,7 +2764,13 @@
         {
           "description": "",
           "ordinal": 4,
-          "text": "RVR: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
+          "text": "RVR RWY 35L: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 5,
+          "text": "RVR RWY 35R: TOUCHDOWN: X METERS. MIDPOINT: X METERS. STOP END: X METERS.",
           "enabled": false
         }
       ],
@@ -2761,7 +2779,7 @@
           "description": "",
           "ordinal": 1,
           "text": "OPERATIONAL INFORMATION: DATALINK CLEARANCE AVAILABLE ON LIMC.",
-          "enabled": true
+          "enabled": false
         },
         {
           "description": "",
@@ -3361,7 +3379,7 @@
         {
           "id": "62f16db6-d3a4-48c8-b23b-7be94a6d772c",
           "name": "04R",
-          "template": "THIS IS VENEZIA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU RWY 04R. RWY IN USE: 04 RIGHT. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
+          "template": "THIS IS VENEZIA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU RWY 04R. RWY IN USE: 04R. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
           "externalGenerator": {
             "enabled": false,
             "url": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
@@ -3373,7 +3391,7 @@
         {
           "id": "e2ea56ae-8fba-4f52-9e16-aa956e371155",
           "name": "22L",
-          "template": "THIS IS VENEZIA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: RNP RWY 22L. RWY IN USE: 22 LEFT. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
+          "template": "THIS IS VENEZIA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: RNP RWY 22L. RWY IN USE: 22L. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "url": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
@@ -3384,7 +3402,7 @@
         {
           "id": "ac22072b-2c98-494c-ae30-1508c0ac455e",
           "name": "04R LVP",
-          "template": "THIS IS VENEZIA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU RWY 04R. RWY IN USE: 04 RIGHT. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "THIS IS VENEZIA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH: ILS ZULU RWY 04R. RWY IN USE: 04R. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "url": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
@@ -3394,7 +3412,16 @@
           }
         }
       ],
-      "contractions": [],
+      "contractions": [
+        {
+          "string": "04R",
+          "spoken": "ZERO FOUR RIGHT"
+        },
+        {
+          "string": "22L",
+          "spoken": "TWO TWO LEFT"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "description": "",
@@ -4003,7 +4030,7 @@
         {
           "id": "a5dcc1f7-df10-4910-8f10-596fa9b70df3",
           "name": "04R",
-          "template": "THIS IS PISA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE: 04 RIGHT. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
+          "template": "THIS IS PISA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE: 04R. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -4011,7 +4038,7 @@
         {
           "id": "c60eda3f-b688-4dfd-9fb0-5e92a4c28644",
           "name": "22L",
-          "template": "THIS IS PISA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE: 22 LEFT. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
+          "template": "THIS IS PISA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE: 22L. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -4019,7 +4046,7 @@
         {
           "id": "3aae9b6a-34c9-4dee-9310-1239ab53a349",
           "name": "NIGHT CONFIG - 04R(A) 22L(D)",
-          "template": "THIS IS PISA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. ARRIVAL RWY IN USE: 04 RIGHT. DEPARTURE RWY IN USE: 22 LEFT. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
+          "template": "THIS IS PISA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. ARRIVAL RWY IN USE: 04R. DEPARTURE RWY IN USE: 22L. [ARPT_COND]. [TL]. [WX]. [NOTAMS]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -4027,7 +4054,7 @@
         {
           "id": "9f4018f6-cf50-4972-9926-537ce6ece46e",
           "name": "04R LVP",
-          "template": "THIS IS PISA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE: 04 RIGHT. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "THIS IS PISA ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE: 04R. RUNWAY CONDITIONS: CODE FIVE. FIVE. FIVE. CONTAMINANT: WET .WET. WET. [TL]. OPERATIONAL INFORMATION: LOW VISIBILITY PROCEDURES IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
