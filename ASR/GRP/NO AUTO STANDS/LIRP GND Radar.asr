@@ -1,69 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20240717174204-240701-0007.sct
-SECTORTITLE:LIXX-Italy_20240717174204-240701-0007.sct
-Free Text:LIRP Parkings\10:freetext
-Free Text:LIRP Parkings\11:freetext
-Free Text:LIRP Parkings\12:freetext
-Free Text:LIRP Parkings\13:freetext
-Free Text:LIRP Parkings\14:freetext
-Free Text:LIRP Parkings\15:freetext
-Free Text:LIRP Parkings\16:freetext
-Free Text:LIRP Parkings\17:freetext
-Free Text:LIRP Parkings\20:freetext
-Free Text:LIRP Parkings\21:freetext
-Free Text:LIRP Parkings\22:freetext
-Free Text:LIRP Parkings\23:freetext
-Free Text:LIRP Parkings\24:freetext
-Free Text:LIRP Parkings\25:freetext
-Free Text:LIRP Parkings\26:freetext
-Free Text:LIRP Parkings\27:freetext
-Free Text:LIRP Parkings\28:freetext
-Free Text:LIRP Parkings\29:freetext
-Free Text:LIRP Parkings\30:freetext
-Free Text:LIRP Parkings\31:freetext
-Free Text:LIRP Parkings\32:freetext
-Free Text:LIRP Parkings\33:freetext
-Free Text:LIRP Parkings\34:freetext
-Free Text:LIRP Parkings\35:freetext
-Free Text:LIRP Parkings\36:freetext
-Free Text:LIRP Parkings\37:freetext
-Free Text:LIRP Parkings\38:freetext
-Free Text:LIRP Parkings\39:freetext
-Free Text:LIRP Parkings\40:freetext
-Free Text:LIRP Parkings\41:freetext
-Free Text:LIRP Parkings\42:freetext
-Free Text:LIRP Parkings\43:freetext
-Free Text:LIRP Parkings\44:freetext
-Free Text:LIRP Parkings\50:freetext
-Free Text:LIRP Parkings\51:freetext
-Free Text:LIRP Parkings\52:freetext
-Free Text:LIRP Parkings\53:freetext
-Free Text:LIRP Parkings\54:freetext
-Free Text:LIRP Parkings\55:freetext
-Free Text:LIRP Taxiway\A:freetext
-Free Text:LIRP Taxiway\AA1:freetext
-Free Text:LIRP Taxiway\AA2:freetext
-Free Text:LIRP Taxiway\B:freetext
-Free Text:LIRP Taxiway\C:freetext
-Free Text:LIRP Taxiway\D:freetext
-Free Text:LIRP Taxiway\E:freetext
-Free Text:LIRP Taxiway\E1:freetext
-Free Text:LIRP Taxiway\F:freetext
-Free Text:LIRP Taxiway\MIL_A:freetext
-Free Text:LIRP Taxiway\O:freetext
-Free Text:LIRP Taxiway\O:freetext
-Free Text:LIRP Taxiway\O:freetext
-Free Text:LIRP Taxiway\P:freetext
-Free Text:LIRP Taxiway\P:freetext
-Free Text:LIRP Taxiway\P:freetext
-Free Text:LIRP Taxiway\R:freetext
-Free Text:LIRP Taxiway\R:freetext
-Free Text:LIRP Taxiway\R:freetext
-Free Text:LIRP Taxiway\R:freetext
-Free Text:LIRP Taxiway\TO:freetext
-Geo:LIRP Groundlayout:
+SECTORFILE:
+SECTORTITLE:
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -76,8 +15,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:52.50000
-TAGFAMILY:Italy
-WINDOWAREA:43.673466:10.356738:43.699833:10.424208
+TAGFAMILY:Italy CTR
+WINDOWAREA:43.676582:10.364631:43.698697:10.418607
 PLUGIN:Ground Radar plugin:AirportElevation:6
 PLUGIN:Ground Radar plugin:AirportRadius:3
 PLUGIN:Ground Radar plugin:GroundMode:LIRP
