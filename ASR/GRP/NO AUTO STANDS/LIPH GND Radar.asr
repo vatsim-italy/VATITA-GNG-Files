@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20241004184256-241001-0001.sct
-SECTORTITLE:LIXX-Italy_20241004184256-241001-0001.sct
+SECTORFILE:
+SECTORTITLE:
 Free Text:LIPH Parkings\101:freetext
 Free Text:LIPH Parkings\102:freetext
 Free Text:LIPH Parkings\103:freetext

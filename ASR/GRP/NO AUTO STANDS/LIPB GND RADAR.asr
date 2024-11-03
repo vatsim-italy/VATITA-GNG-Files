@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\loren\AppData\Roaming\EuroScope\LIXX-Italy_20240911174641-240901-0004.sct
-SECTORTITLE:LIXX-Italy_20240911174641-240901-0004.sct
+SECTORFILE:
+SECTORTITLE:
 SHOWC:1
 SHOWSB:0
 BELOW:0
