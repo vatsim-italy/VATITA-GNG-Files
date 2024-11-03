@@ -3022,20 +3022,20 @@
     "LIRP":{
         "elevation":6,
         "sids":{
-            "ASVOL":{
+            "AKUTO":{
                 "cfl":4000,
                 "rwys":{
                     "04L":{
-                        "dep":"ASVOL5A"
+                        "dep":"AKUTO6B"
                     },
-                    "04R":{
-                        "dep":"ASVOL5A"
+                   "04R":{
+                        "dep":"AKUTO6B"
                     },
                     "22L":{
-                        "dep":"ASVOL5C"
+                        "dep":"AKUTO6F"
                     },
                     "22R":{
-                        "dep":"ASVOL5C"
+                        "dep":"AKUTO6F"
                     }
                 }
             },
@@ -3043,33 +3043,16 @@
                 "cfl":4000,
                 "rwys":{
                     "04L":{
-                        "dep":"BEROK7A"
+                        "dep":"BEROK6B"
                     },
                     "04R":{
-                        "dep":"BEROK7A"
+                        "dep":"BEROK6B"
                     },
                     "22L":{
-                        "dep":"BEROK7C"
+                        "dep":"BEROK6F"
                     },
                     "22R":{
-                        "dep":"BEROK7C"
-                    }
-                }
-            },
-            "BETEN":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"BETEN7A"
-                    },
-                    "04R":{
-                        "dep":"BETEN7A"
-                    },
-                    "22L":{
-                        "dep":"BETEN7C"
-                    },
-                    "22R":{
-                        "dep":"BETEN7C"
+                        "dep":"BEROK6F"
                     }
                 }
             },
@@ -3077,50 +3060,16 @@
                 "cfl":4000,
                 "rwys":{
                     "04L":{
-                        "dep":"GINAR8A"
+                        "dep":"GINAR6B"
                     },
                     "04R":{
-                        "dep":"GINAR8A"
+                        "dep":"GINAR6B"
                     },
                     "22L":{
-                        "dep":"GINAR8C"
+                        "dep":"GINAR6F"
                     },
                     "22R":{
-                        "dep":"GINAR8C"
-                    }
-                }
-            },
-            "GOVGO":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"GOVGO5A"
-                    },
-                    "04R":{
-                        "dep":"GOVGO5A"
-                    },
-                    "22L":{
-                        "dep":"GOVGO5C"
-                    },
-                    "22R":{
-                        "dep":"GOVGO5C"
-                    }
-                }
-            },
-            "MAREL":{
-                "cfl":4000,
-                "rwys":{
-                    "04L":{
-                        "dep":"MAREL8A"
-                    },
-                    "04R":{
-                        "dep":"MAREL8A"
-                    },
-                    "22L":{
-                        "dep":"MAREL8C"
-                    },
-                    "22R":{
-                        "dep":"MAREL8C"
+                        "dep":"GINAR6F"
                     }
                 }
             },
@@ -3128,16 +3077,16 @@
                 "cfl":4000,
                 "rwys":{
                     "04L":{
-                        "dep":"SPEZI7A"
+                        "dep":"SPEZI6B"
                     },
                     "04R":{
-                        "dep":"SPEZI7A"
+                        "dep":"SPEZI6B"
                     },
                     "22L":{
-                        "dep":"SPEZI7C"
+                        "dep":"SPEZI6F"
                     },
                     "22R":{
-                        "dep":"SPEZI7C"
+                        "dep":"SPEZI6F"
                     }
                 }
             }
