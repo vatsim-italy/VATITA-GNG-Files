@@ -567,7 +567,7 @@
         {
           "description": "PDC",
           "ordinal": 7,
-          "text": "PDC LOGON CODE: LIRF",
+          "text": "PDC LOGON CODE LIRF",
           "enabled": false
         },
         {
@@ -4519,7 +4519,7 @@
         {
           "description": "PDC",
           "ordinal": 6,
-          "text": "PDC LOGON CODE: LIRF",
+          "text": "PDC LOGON CODE LIRF",
           "enabled": false
         },
         {
