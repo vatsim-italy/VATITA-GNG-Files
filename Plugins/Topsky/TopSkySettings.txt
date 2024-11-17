@@ -172,7 +172,7 @@ HTTP_SIGMET_Server=http://aviationweather.gov/
 HTTP_TAF_Server=https://aviationweather.gov/
 Airspace_NOTAM_Add=LIMM,LIRR,LIBB
 
-RDF_Mode=-1
+RDF_Mode=2
 RDF_Accuracy=0.0
 RDF_Accuracy_Degrees=0.0
 RDF_Floor=-500
