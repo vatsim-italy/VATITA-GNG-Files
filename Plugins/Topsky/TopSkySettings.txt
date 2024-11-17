@@ -3,6 +3,7 @@ Maps_Font=EuroScope
 Shortcut_Map_Target=1,CTA / ATZ\Controlled Airspace
 Shortcut_Map_Target=2,FIS\VRP LIXX
 Shortcut_Map_Target=3,STANDS\STANDS
+Shortcut_Map_Target=4,LIP\LIPK STARs RNAV 30
 
 //Cursors
 System_GUI_Scale_Cursors=0.7
@@ -136,7 +137,7 @@ Color_TSA_Active=93,138,195
 Color_TSA_Border_Highlight=0,0,0
 Color_TSA_Filter=0,0,255
 Color_TSA_Preactive=132,142,139
-Color_Unconcerned=192,192,192
+Color_Unconcerned=239,224,42
 Color_Unknown=239,224,42
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
@@ -171,7 +172,7 @@ HTTP_SIGMET_Server=http://aviationweather.gov/
 HTTP_TAF_Server=https://aviationweather.gov/
 Airspace_NOTAM_Add=LIMM,LIRR,LIBB
 
-RDF_Mode=2
+RDF_Mode=-1
 RDF_Accuracy=0.0
 RDF_Accuracy_Degrees=0.0
 RDF_Floor=-500
