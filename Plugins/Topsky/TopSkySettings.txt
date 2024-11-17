@@ -207,7 +207,7 @@ MTCD_DeAcknowledge=3
 MTCD_Filter_Dep=3
 MTCD_Sep_Lat=5
 
-Track_HistoryDots=4
+Track_HistoryDots=5
 Track_PredictionLine=0
 Track_TextSize=1
 Track_TextSize_2_Ratio=0.8
