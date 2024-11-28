@@ -23,6 +23,10 @@ PROFILE:LIMM_EN_CTR:300:6
 ATIS2:Milano Radar - CPDLC LIMN [FL285+]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
+PROFILE:LIMM_U_CTR:300:6
+ATIS2:Milano Radar - CPDLC LIMM [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector map.vatsim.net
 PROFILE:LIMM_WN_CTR:300:6
 ATIS2:Milano Radar - CPDLC LIMW [FL285+]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
@@ -207,12 +211,36 @@ PROFILE:LIMM_ASW_APP:150:5
 ATIS2:Milano Radar 
 ATIS3:Controlling aiports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMC_F_APP:150:5
+PROFILE:LIMM_MAR_APP:150:5
 ATIS2:Milano Radar 
 ATIS3:Controlling aiports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIML_F_APP:150:5
+PROFILE:LIMM_LAR_APP:150:5
 ATIS2:Milano Radar 
 ATIS3:Controlling aiports within Milano TMA
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIMM_ANW_APP:150:5
+ATIS2:Milano Radar 
+ATIS3:Controlling aiports within Milano TMA
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIPZ_SE0_APP:150:5
+ATIS2:Padova Radar 
+ATIS3:Controlling LIPZ and LIPQ if CE0 offline
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIPQ_CE0_APP:150:5
+ATIS2:Padova Radar 
+ATIS3:Controlling LIPQ and LIPG
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIMF_WN0_APP:150:5
+ATIS2:Milano Radar 
+ATIS3:Controlling LIMF and LIMZ
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIPX_ES0_APP:150:5
+ATIS2:Milano Radar 
+ATIS3:Controlling LIPX and LIPO
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIPX_EE1_APP:150:5
+ATIS2:Milano Radar 
+ATIS3:Controlling LIPX and LIPO
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 END
