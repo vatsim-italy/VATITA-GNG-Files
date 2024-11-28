@@ -3,6 +3,7 @@ Maps_Font=EuroScope
 Shortcut_Map_Target=1,CTA / ATZ\Controlled Airspace
 Shortcut_Map_Target=2,FIS\VRP LIXX
 Shortcut_Map_Target=3,STANDS\STANDS
+Shortcut_Map_Target=4,LIP\LIPK STARs RNAV 30
 
 //Cursors
 System_GUI_Scale_Cursors=0.7
@@ -206,7 +207,7 @@ MTCD_DeAcknowledge=3
 MTCD_Filter_Dep=3
 MTCD_Sep_Lat=5
 
-Track_HistoryDots=4
+Track_HistoryDots=5
 Track_PredictionLine=0
 Track_TextSize=1
 Track_TextSize_2_Ratio=0.8

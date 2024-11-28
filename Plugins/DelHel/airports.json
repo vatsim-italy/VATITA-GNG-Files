@@ -2338,7 +2338,7 @@
                 "cfl":4000,
                 "rwys":{
                     "04R":{
-                        "dep":"ROKIB6L"
+                        "dep":"ROKIB8X"
                     },
                     "22L":{
                         "dep":"ROKIB6Q"
@@ -2360,7 +2360,7 @@
                 "cfl":4000,
                 "rwys":{
                     "04R":{
-                        "dep":"VIC6L"
+                        "dep":"VIC8X"
                     },
                     "22L":{
                         "dep":"VIC6Q"
