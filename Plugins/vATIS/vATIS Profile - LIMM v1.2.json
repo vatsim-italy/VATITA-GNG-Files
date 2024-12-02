@@ -500,6 +500,12 @@
           "ordinal": 5,
           "text": "RVR RWY 35R TOUCHDOWN X METERS. MIDPOINT X METERS. STOP END X METERS.",
           "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 6,
+          "text": "ALL DEPARTING TRAFFIC CONTACT MALPENSA OPERATIONS ON 131.880 FOR RELEASE BEFORE REQUESTING STARTUP.",
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -2771,6 +2777,12 @@
           "description": "",
           "ordinal": 5,
           "text": "RVR RWY 35R TOUCHDOWN X METERS. MIDPOINT X METERS. STOP END X METERS.",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 6,
+          "text": "ALL DEPARTING TRAFFIC CONTACT MALPENSA OPERATIONS ON 131.880 FOR RELEASE BEFORE REQUESTING STARTUP.",
           "enabled": false
         }
       ],
