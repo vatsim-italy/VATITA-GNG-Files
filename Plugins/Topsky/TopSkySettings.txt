@@ -323,6 +323,10 @@ List_Sector_Informed = 1
 List_Sector_Redundant = 1
 List_Sector_Concerned = 1
 
+[_APP]
+
+Window_CPDLC_Current=0,1,600
+
 [LIPP_]
 
 Window_SmallQNHTL_ICAO=LIPZ
