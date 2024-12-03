@@ -327,6 +327,27 @@ List_Sector_Concerned = 1
 
 Window_CPDLC_Current=0,1,600
 
+[_DEL]
+
+Window_CARD=0,1565,755
+
+[_GND]
+
+Window_CARD=0,1565,755
+
+[_TWR]
+
+Window_CPDLC_Current=0,1,600
+
+Window_CARD=0,1565,755
+
+[_OBS]
+
+Window_CPDLC_Current=0,1,600
+
+Window_CARD=0,1565,755
+
+
 [LIPP_]
 
 Window_SmallQNHTL_ICAO=LIPZ
