@@ -1,0 +1,186 @@
+{
+    "LICJ": {
+        "elevation": 65,
+        "runways": "07,25,02,20",
+        "transAlt": 5000,
+        "maxInitialClimb": 4000,
+        "appSI": "CJA,SU1",
+        "sids": {
+            "GIANO": {
+                "1": {
+                    "designator": "S",
+                    "rwy": "02",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "R",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "Q",
+                    "rwy": "20,25",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "4": {
+                    "designator": "A",
+                    "rwy": "02,20,07,25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "KAPIL": {
+                "1": {
+                    "designator": "W",
+                    "rwy": "02",
+                    "initial": 4000,
+                    "prio": 99
+                },
+                "2": {
+                    "designator": "U",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "prio": 99
+                },
+                "3": {
+                    "designator": "T",
+                    "rwy": "20,25",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "4": {
+                    "designator": "A",
+                    "rwy": "02,20,07,25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "LURON": {
+                "1": {
+                    "designator": "S",
+                    "rwy": "02",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "R",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "Q",
+                    "rwy": "20,25",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "4": {
+                    "designator": "A",
+                    "rwy": "02,20,07,25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "PAL": {
+                "1": {
+                    "designator": "S",
+                    "rwy": "02",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "R",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "Q",
+                    "rwy": "20,25",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "4": {
+                    "designator": "A",
+                    "rwy": "02,20,07,25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                },
+                "5": {
+                    "designator": "B",
+                    "rwy": "02,20,07,25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "ROSAS": {
+                "1": {
+                    "designator": "S",
+                    "rwy": "02",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "R",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "Q",
+                    "rwy": "20,25",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "02,20,07,25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "TRP": {
+                "1": {
+                    "designator": "W",
+                    "rwy": "02",
+                    "initial": 4000,
+                    "prio": 99
+                },
+                "2": {
+                    "designator": "U",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "prio": 99
+                },
+                "3": {
+                    "designator": "Q",
+                    "rwy": "20,25",
+                    "initial": 4000,
+                    "prio": 1
+                },
+                "4": {
+                    "designator": "T",
+                    "rwy": "25",
+                    "initial": 4000,
+                    "prio": 99
+                },
+                "5": {
+                    "designator": "A",
+                    "rwy": "02,20,07,25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            }
+        }            
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "LIPX": {
+        "elevation": 240,
+        "runways": "04,22",
+        "transAlt": 6000,
+        "maxInitialClimb": 6000,
+        "appSI": "MES0,EE1,MES,MEN",
+        "sids": {
+        "ECVAZ": {
+            "1": {
+                "designator": "A",
+                "rwy": "04",
+                "initial": 6000,
+                "prio": 1
+            }
+        },
+            "AGGUF": {
+                "1":{
+                "designator": "A",
+                "rwy": "04",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                },
+                "2": {
+                "designator": "B",
+                "rwy": "22",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+            },
+            "ITEFE": {
+                "1": {
+                "designator": "A",
+                "rwy": "04",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                },
+                "2": {
+                "designator": "B",
+                "rwy": "22",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+            },
+            "LEGLO": {
+            "1": {
+                "designator": "G",
+                "rwy": "04",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "S",
+                "rwy": "04",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "3": {
+                "designator": "U",
+                "rwy": "22",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            }
+        },
+            "OSBUL": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "04",
+                    "initial": 5000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "M",
+                    "rwy": "04",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "W",
+                    "rwy": "22",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                }
+            },
+                "OTZOM": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "04",
+                    "initial": 6000,
+                    "prio": 1 
+                },
+                "2": {
+                    "designator": "C",
+                    "rwy": "04",
+                    "initial": 6000,
+                    "prio": 99 
+                },
+                "3": {
+                    "designator": "B",
+                    "rwy": "22",
+                    "initial": 6000,
+                    "prio": 1 
+                }
+            },
+            "TUVDE": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "04",
+                    "initial": 6000,
+                    "prio": 1 
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "04",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "3": {
+                    "designator": "C",
+                    "rwy": "22",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "UPCAL": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "04",
+                    "initial": 6000,
+                    "prio": 1 
+                }
+            },
+            "UVNIB": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "04",
+                    "initial": 6000,
+                    "prio": 1 
+                }
+            }
+        }
+    }
+}

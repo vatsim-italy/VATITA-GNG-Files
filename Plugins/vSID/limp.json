@@ -1,0 +1,80 @@
+{
+    "LIMP": {
+        "elevation": 161,
+        "runways": "02,20",
+        "transAlt": 10000,
+        "maxInitialClimb": 11000,
+        "appSI": "MPA,MES,MEN,MWS,MWN,MMM",
+        "sids": {
+        "LUPOS": {
+            "1": {
+                "designator": "Z",
+                "rwy": "02",
+                "initial": 11000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "W",
+                "rwy": "20",
+                "initial": 11000,
+                "prio": 1 
+            }
+        },
+            "BETMU": {
+                "1": {
+                    "designator": "Z",
+                    "rwy": "02",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "W",
+                    "rwy": "20",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                }    
+            },
+            "MISPO": {
+                "1": {
+                    "designator": "Z",
+                    "rwy": "02",
+                    "initial": 8000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "W",
+                    "rwy": "20",
+                    "initial": 8000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99 
+                },
+                "3": {
+                    "designator": "T",
+                    "rwy": "20",
+                    "initial": 8000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                }     
+            },
+            "OSBUL": {
+                "1": {
+                    "designator": "N",
+                    "rwy": "02",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "T",
+                    "rwy": "20",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                } 
+            }
+        }
+    }
+}

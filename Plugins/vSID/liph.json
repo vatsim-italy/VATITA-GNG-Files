@@ -1,0 +1,128 @@
+{
+    "LIPH": {
+        "elevation": 59,
+        "runways": "07,25",
+        "transAlt": 6000,
+        "maxInitialClimb": 4000,
+        "appSI": "PHA,PSD,PCE,PNE",
+        "sids": {
+            "ALBET": {
+                "1": {
+                    "designator": "F",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "INBUT": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "RAXHO": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "C",
+                    "rwy": "25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                }
+            },
+            "ROKIB": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "C",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                },
+                "3": {
+                    "designator": "B",
+                    "rwy": "25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "ROVIG": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                }
+            },
+            "VIC": {
+                "1": {
+                    "designator": "P",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                },
+                "2": {
+                    "designator": "F",
+                    "rwy": "07",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "T",
+                    "rwy": "25",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            }
+        }            
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "LIMZ": {
+        "elevation": 1267,
+        "runways": "03,21",
+        "transAlt": 6000,
+        "maxInitialClimb": 6000,
+        "appSI": "MFA,MWN,MWS,MEN",
+        "sids": {
+        "ENOBA": {
+            "1": {
+                "designator": "C",
+                "rwy": "03",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "G",
+                "rwy": "21",
+                "initial": 6000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "Q",
+                "rwy": "03,21",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            }
+        },
+            "IXUSA": {
+                "1":{
+                "designator": "C",
+                "rwy": "03",
+                "initial": 6000,
+                "prio": 1
+                },
+                "2": {
+                "designator": "G",
+                "rwy": "21",
+                "initial": 6000,
+                "prio": 1
+                },
+                "3": {
+                "designator": "Q",
+                "rwy": "03,21",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+            },
+            "KUKEV": {
+                "1": {
+                "designator": "C",
+                "rwy": "03",
+                "initial": 6000,
+                "prio": 1
+                },
+                "2": {
+                "designator": "G",
+                "rwy": "21",
+                "initial": 6000,
+                "prio": 1
+                },
+                "3": {
+                "designator": "Q",
+                "rwy": "03,21",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+            },
+            "LAGEN": {
+            "1": {
+                "designator": "C",
+                "rwy": "03",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "G",
+                "rwy": "21",
+                "initial": 6000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "Q",
+                "rwy": "03,21",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            }
+        },
+        "MMP": {
+            "1": {
+                "designator": "B",
+                "rwy": "03",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "D",
+                "rwy": "21",
+                "initial": 6000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "Q",
+                "rwy": "03,21",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            }
+        },
+        "TOP": {
+            "1": {
+                "designator": "C",
+                "rwy": "03",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "G",
+                "rwy": "21",
+                "initial": 6000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "Q",
+                "rwy": "03,21",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            }
+        }
+        }
+    }
+}

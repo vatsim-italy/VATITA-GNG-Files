@@ -1,0 +1,142 @@
+{
+    "LIRQ": {
+        "elevation": 142,
+        "runways": "05,23",
+        "transAlt": 6000,
+        "maxInitialClimb": 6000,
+        "appSI": "RQA,NW1,NN1,NE1",
+        "sids": {
+            "BALUK": {
+                "1": {
+                    "designator": "F",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "prio": 99
+                },
+                "2": {
+                    "designator": "G",
+                    "rwy": "05",
+                    "initial": 6000,
+                    "prio": 99
+                },
+                "3": {
+                    "designator": "M",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "4": {
+                    "designator": "H",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "5": {
+                    "designator": "C",
+                    "rwy": "05",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                }
+            },
+            "LOMED": {
+                "1": {
+                    "designator": "F",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "H",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "PRT": {
+                "1": {
+                    "designator": "F",
+                    "rwy": "05,23",
+                    "initial": 4000,
+                    "prio": 1
+                }
+            },
+            "BIKTU": {
+                "1": {
+                    "designator": "M",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "H",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "GAVRA": {
+                "1": {
+                    "designator": "M",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "H",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "KUGIX": {
+                "1": {
+                    "designator": "M",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "H",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "MAREL": {
+                "1": {
+                    "designator": "M",
+                    "rwy": "05,23",
+                    "initial": 4000,
+                    "prio": 99
+                },
+                "2": {
+                    "designator": "H",
+                    "rwy": "05,23",
+                    "initial": 6000,
+                    "prio": 1
+                }
+            },
+        "OKMAP": {
+            "1": {
+                "designator": "M",
+                "rwy": "05,23",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "H",
+                "rwy": "05,23",
+                "initial": 6000,
+                "prio": 1
+
+            }
+           }
+       }            
+    }
+}

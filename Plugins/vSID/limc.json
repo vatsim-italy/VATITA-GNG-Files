@@ -1,0 +1,419 @@
+{
+    "LIMC": {
+        "elevation": 768,
+        "runways": "17L,17R,35L,35R",
+        "transAlt": 6000,
+        "maxInitialClimb": 6000,
+        "appSI": "ANE,MEN",
+        "sids": {
+            "DOGUB6TXAOSTA5W": {
+                "1": {
+					"wpt": "AOSTA",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+			},
+			"DOGUB6TXLAGEN6I": {
+                "1": {
+					"wpt": "LAGEN",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+			},
+			"DOGUB6TXNEDED6I": {
+                "1": {
+					"wpt": "NEDED",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+			},
+			"DOGUB6TXTOP6I": {
+                "1": {
+					"wpt": "TOP",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+			},
+			"DOGUB6TXROBAS5W": {
+                "1": {
+					"wpt": "ROBAS",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 2
+                }
+			},
+			"MMP6LXAOSTA5X": {
+                "1": {
+					"wpt": "AOSTA",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 3
+                }
+			},
+			"MMP6LXTOP9X": {
+                "1": {
+					"wpt": "TOP",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 3
+                }
+			},
+			"MMP6LXNEDED9X": {
+                "1": {
+					"wpt": "NEDED",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 3
+                }
+			},
+			"MMP6LXLAGEN9X": {
+                "1": {
+					"wpt": "LAGEN",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 3
+                }
+			},
+			"MMP6SXAOSTA5X": {
+                "1": {
+					"wpt": "AOSTA",
+                    "rwy": "35R",
+                    "initial": 4000,
+					"acftType": {"A321": false, "A21N": false, "A32B": false},
+					"wtc": "LM",
+                    "prio": 2
+                }
+			},
+			"MMP6SXTOP9X": {
+                "1": {
+					"wpt": "TOP",
+                    "rwy": "35R",
+                    "initial": 4000,
+					"acftType": {"A321": false, "A21N": false, "A32B": false},
+					"wtc": "LM",
+                    "prio": 2
+                }
+			},
+			"MMP6SXNEDED9X": {
+                "1": {
+					"wpt": "NEDED",
+                    "rwy": "35R",
+                    "initial": 4000,
+					"acftType": {"A321": false, "A21N": false, "A32B": false},
+					"wtc": "LM",
+                    "prio": 2
+                }
+			},
+			"MMP6SXLAGEN9X": {
+                "1": {
+					"wpt": "LAGEN",
+                    "rwy": "35R",
+                    "initial": 4000,
+					"acftType": {"A321": false, "A21N": false, "A32B": false},
+					"wtc": "LM",
+                    "prio": 2
+                }
+			},
+			"SRN6LXPEPAG2Q": {
+                "1": {
+					"wpt": "PEPAG",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 2
+                }
+			},
+			"SRN6LXOSKOR6S": {
+                "1": {
+					"wpt": "OSKOR",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 2
+                }
+			},
+			"SRN6LXVAKON1Q": {
+                "1": {
+					"wpt": "VAKON",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 2
+                }
+			},
+			"SRN6LXROBAS6Q": {
+                "1": {
+					"wpt": "ROBAS",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+			},
+			"SRN6SXPEPAG2Q": {
+                "1": {
+					"wpt": "PEPAG",
+                    "rwy": "35R",
+                    "initial": 4000,
+					"acftType": {"A321": false, "A21N": false, "A32B": false},
+					"wtc": "LM",
+                    "prio": 1
+                }
+			},
+			"SRN6SXOSKOR6S": {
+                "1": {
+					"wpt": "OSKOR",
+                    "rwy": "35R",
+                    "initial": 4000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false},
+					"wtc": "LM",
+                    "prio": 1
+                }
+			},
+			"SRN6SXVAKON1Q": {
+                "1": {
+					"wpt": "VAKON",
+                    "rwy": "35R",
+                    "initial": 4000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false},
+					"wtc": "LM",
+                    "prio": 1
+                }
+			},
+			"SRN6SXROBAS6Q": {
+                "1": {
+					"wpt": "ROBAS",
+                    "rwy": "35R",
+                    "initial": 4000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false},
+					"wtc": "LM",
+                    "prio": 1
+                }
+			},
+			"TELVA6LXOSKOR6P": {
+                "1": {
+					"wpt": "OSKOR",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+			"TELVA6LXROBAS5J": {
+                "1": {
+					"wpt": "ROBAS",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+			"TELVA6LXVOG7J": {
+                "1": {
+					"wpt": "VOG",
+                    "rwy": "35R",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+			"TELVA6SXOSKOR6P": {
+                "1": {
+					"wpt": "OSKOR",
+                    "rwy": "35R",
+                    "initial": 4000,
+                    "prio": 99
+                }
+			},
+			"TELVA6SXROBAS5J": {
+                "1": {
+					"wpt": "ROBAS",
+                    "rwy": "35R",
+                    "initial": 4000,
+                    "prio": 99
+                }
+			},
+			"TELVA6SXVOG7J": {
+                "1": {
+					"wpt": "VOG",
+                    "rwy": "35R",
+                    "initial": 4000,
+                    "prio": 99
+                }
+			},
+            "IRKED1BXOSKOR6Z": {
+                "1": {
+                    "wpt": "OSKOR",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "prio":1
+                }
+            },
+            "IRKED1BXPEPAG2X": {
+                "1": {
+                    "wpt": "PEPAG",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "prio":1
+                }
+            },
+            "IRKED1BXROBAS5Y": {
+                "1": {
+                    "wpt": "ROBAS",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "prio":4
+                }
+            },
+            "IRKED1BXVAKON6X": {
+                "1": {
+                    "wpt": "VAKON",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "prio":1
+                }
+            },
+            "FARAK6NXLAGEN5U": {
+                "1": {
+                    "wpt": "LAGEN",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false, "E170": false, "E175": false, "E190": false, "E195": false, "E290": false, "E295": false},
+                    "wtc": "LM",
+                    "prio":2
+                }
+            },
+            "FARAK1MXLAGEN5U": {
+                "1": {
+                    "wpt": "LAGEN",
+                    "rwy": "35L",
+                    "initial": 6000,
+                    "prio":3
+                }
+            },
+            "FARAK6NXNEDED9U": {
+                "1": {
+                    "wpt": "NEDED",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false, "E170": false, "E175": false, "E190": false, "E195": false, "E290": false, "E295": false},
+                    "wtc": "LM",
+                    "prio":2
+                }
+            },
+            "FARAK1MXNEDED9U": {
+                "1": {
+                    "wpt": "NEDED",
+                    "rwy": "35L",
+                    "initial": 6000,
+                    "prio":3
+                }
+            },
+            "FARAK6NXOSKOR5M": {
+                "1": {
+                    "wpt": "OSKOR",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false, "E170": false, "E175": false, "E190": false, "E195": false, "E290": false, "E295": false},
+                    "wtc": "LM",
+                    "prio":2
+                }
+            },
+            "FARAK1MXOSKOR5M": {
+                "1": {
+                    "wpt": "NEDED",
+                    "rwy": "35L",
+                    "initial": 6000,
+                    "prio":3
+                }
+            },
+            "FARAK6NXROBAS5U": {
+                "1": {
+                    "wpt": "ROBAS",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false, "E170": false, "E175": false, "E190": false, "E195": false, "E290": false, "E295": false},
+                    "wtc": "LM",
+                    "prio":2
+                }
+            },
+            "FARAK1MXROBAS5U": {
+                "1": {
+                    "wpt": "ROBAS",
+                    "rwy": "35L",
+                    "initial": 6000,
+                    "prio":3
+                }
+            },
+            "FARAK6NXTOP5U":{
+                "1": {
+                    "wpt": "TOP",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false, "E170": false, "E175": false, "E190": false, "E195": false, "E290": false, "E295": false},
+                    "wtc": "LM",
+                    "prio": 2
+                }
+            },
+            "FARAK1MXTOP5U":{
+                "1": {
+                    "wpt": "TOP",
+                    "rwy": "35L",
+                    "initial": 6000,
+                    "prio":3
+                }
+            },
+            "FARAK6NXVAKON6M":{
+                "1": {
+                    "wpt": "VAKON",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false, "E170": false, "E175": false, "E190": false, "E195": false, "E290": false, "E295": false},
+                    "wtc": "LM",
+                    "prio":2
+                }
+            },
+            "FARAK1MXVAKON6M":{
+                "1": {
+                    "wpt": "VAKON",
+                    "rwy": "35L",
+                    "initial": 6000,
+                    "prio":3
+                }
+            },
+            "IBCUC6NXAOSTA7Y":{
+                "1": {
+                    "wpt": "AOSTA",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false, "E170": false, "E175": false, "E190": false, "E195": false, "E290": false, "E295": false},
+                    "wtc": "LM",
+                    "prio":1
+                }
+            },
+            "IBCUC1MXAOSTA7M":{
+                "1": {
+                    "wpt": "AOSTA",
+                    "rwy": "35L",
+                    "initial": 6000,
+                    "prio":2
+                }
+            },
+            "NELAB6NXAOSTA7L":{
+                "1": {
+                    "wpt": "AOSTA",
+                    "rwy": "35L",
+                    "initial": 5000,
+                    "acftType": {"A321": false, "A21N": false, "A32B": false, "E170": false, "E175": false, "E190": false, "E195": false, "E290": false, "E295": false},
+                    "wtc": "LM",
+                    "prio":2
+                }
+            },
+            "NELAB1MXAOSTA7L":{
+                "1": {
+                    "wpt": "AOSTA",
+                    "rwy": "35L",
+                    "initial": 6000,
+                    "prio":3
+                }
+            }           
+        }
+    }
+}

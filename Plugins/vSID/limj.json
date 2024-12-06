@@ -1,0 +1,75 @@
+{
+    "LIMJ": {
+        "elevation": 13,
+        "runways": "10,28",
+        "transAlt": 7000,
+        "maxInitialClimb": 5000,
+        "appSI": "MJA,MWS,MEN",
+        "sids": {
+        "GEN": {
+            "1": {
+                "designator": "F",
+                "rwy": "10",
+                "initial": 5000,
+                "prio": 99
+            },
+            "2": {
+                "designator": "E",
+                "rwy": "28",
+                "initial": 5000,
+                "prio": 99
+            },
+            "3": {
+                "designator": "K",
+                "rwy": "10,28",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1  
+            }
+        },
+            "LAGEN": {
+            "1": {
+                "designator": "F",
+                "rwy": "10",
+                "initial": 5000,
+                "prio": 99
+            },
+            "2": {
+                "designator": "E",
+                "rwy": "28",
+                "initial": 5000,
+                "prio": 99
+            },
+            "3": {
+                "designator": "K",
+                "rwy": "10,28",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        },
+            "UNITA": {
+                "1": {
+                    "designator": "F",
+                    "rwy": "10",
+                    "initial": 5000,
+                    "prio": 99
+                },
+                "2": {
+                    "designator": "E",
+                    "rwy": "28",
+                    "initial": 5000,
+                    "prio": 99
+                },
+                "3": {
+                    "designator": "K",
+                   "rwy": "10,28",
+                   "initial": 5000,
+                   "equip": {"NON-RNAV": true},
+                   "prio": 1 
+                }
+            }
+        }
+    }
+}
+
