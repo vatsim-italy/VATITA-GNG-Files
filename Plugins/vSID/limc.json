@@ -280,7 +280,7 @@
                     "prio":2
                 }
             },
-            "FARAK1MXLAGEN5U": {
+            "FARAK6BXLAGEN5U": {
                 "1": {
                     "wpt": "LAGEN",
                     "rwy": "35L",
@@ -298,7 +298,7 @@
                     "prio":2
                 }
             },
-            "FARAK1MXNEDED9U": {
+            "FARAK6BXNEDED9U": {
                 "1": {
                     "wpt": "NEDED",
                     "rwy": "35L",
@@ -316,7 +316,7 @@
                     "prio":2
                 }
             },
-            "FARAK1MXOSKOR5M": {
+            "FARAK6BXOSKOR5M": {
                 "1": {
                     "wpt": "NEDED",
                     "rwy": "35L",
@@ -334,7 +334,7 @@
                     "prio":2
                 }
             },
-            "FARAK1MXROBAS5U": {
+            "FARAK6BXROBAS5U": {
                 "1": {
                     "wpt": "ROBAS",
                     "rwy": "35L",
@@ -352,7 +352,7 @@
                     "prio": 2
                 }
             },
-            "FARAK1MXTOP5U":{
+            "FARAK6BXTOP5U":{
                 "1": {
                     "wpt": "TOP",
                     "rwy": "35L",
@@ -370,7 +370,7 @@
                     "prio":2
                 }
             },
-            "FARAK1MXVAKON6M":{
+            "FARAK6BXVAKON6M":{
                 "1": {
                     "wpt": "VAKON",
                     "rwy": "35L",
