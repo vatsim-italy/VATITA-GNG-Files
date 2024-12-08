@@ -1,0 +1,138 @@
+{
+    "LIBR": {
+        "elevation": 46,
+        "runways": "31,13,23,05",
+        "transAlt": 5000,
+        "maxInitialClimb": 3000,
+        "appSI": "BRA,BBB",
+        "sids": {
+        "GOKEL": {
+            "1": {
+                "designator": "C",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+            }
+        },
+            "TIGRA": {
+                "1":{
+                "designator": "C",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+                }
+            },
+            "XAPAT": {
+                "1": {
+                "designator": "C",
+                "rwy": "31",
+                "initial": 3000,
+                "prio": 1
+                }
+            },
+            "ABADI": {
+            "1": {
+                "designator": "G",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+            }
+        },
+        "DOLON": {
+            "1":{
+                "designator": "G",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1  
+            },
+            "2": {
+                "designator": "J",
+                "rwy": "31",
+                "initial": 3000,
+                "prio": 1
+            }
+        },
+        "ENOXA": {
+            "1": {
+                "designator": "G",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "J",
+                "rwy": "31",
+                "initial": 3000,
+                "prio": 1
+            }
+        },
+        "FASAN": {
+            "1": {
+                "designator": "G",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "J",
+                "rwy": "31",
+                "initial": 3000,
+                "prio": 1
+            }
+        },
+        "NUCRE": {
+            "1": {
+                "designator": "G",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+            }
+        },
+        "ORSOM": {
+            "1": {
+                "designator": "G",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+            }
+        },
+        "ROBOT": {
+            "1": {
+                "designator": "G",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "J",
+                "rwy": "31",
+                "initial": 3000,
+                "prio": 1 
+            }
+        },
+        "TROTA": {
+            "1": {
+                "designator": "G",
+                "rwy": "13",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "J",
+                "rwy": "31",
+                "initial": 3000,
+                "prio": 1
+            }
+        },
+        "KAPPO": {
+            "1": {
+                "designator": "J",
+                "rwy": "31",
+                "initial": 3000,
+                "prio": 1
+            }
+        }
+        }
+    }
+}
+

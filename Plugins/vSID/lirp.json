@@ -1,0 +1,139 @@
+{
+    "LIRP": {
+        "elevation": 6,
+        "runways": "04R,04L,22L,22R",
+        "transAlt": 6000,
+        "maxInitialClimb": 4000,
+        "appSI": "RPA,NW1,NE1",
+        "sids": {
+            "AKUTO": {
+                "1": {
+                    "designator": "B",
+                    "rwy": "04R,04L",
+                    "initial": 4000,
+                    "prio":1
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "04R,04L",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true},    
+                    "prio":1
+                },
+                "3": {
+                    "designator": "F",
+                    "rwy": "22L,22R",
+                    "initial": 4000,   
+                    "prio":1
+                },
+                "4": {
+                    "designator": "C",
+                    "rwy": "22L,22R",
+                    "initial": 4000,   
+                    "equip": {"NON-RNAV": true}, 
+                    "prio":1
+                }                
+            },
+            "BEROK": {
+				"1": {
+					"designator": "B",
+					"rwy": "04R,04L",
+					"initial": 4000,
+					"prio": 1                    
+				},
+				"2": {
+					"designator": "A",
+					"rwy": "04R,04L",
+					"initial": 4000,
+                    "equip": {"NON-RNAV": true}, 
+					"prio": 1                    
+				},
+                "3": {
+					"designator": "F",
+					"rwy": "22L,22R",
+					"initial": 4000,
+					"prio": 1                    
+				},
+                "4": {
+					"designator": "C",
+					"rwy": "22L,22R",
+					"initial": 4000,
+                    "equip": {"NON-RNAV": true}, 
+					"prio": 1                    
+				}
+            },
+            "GINAR": {
+				"1": {
+					"designator": "B",
+					"rwy": "04R,04L",
+					"initial": 4000,
+					"prio": 1                    
+				},
+                "2": {
+					"designator": "A",
+					"rwy": "04R,04L",
+					"initial": 4000,
+                    "equip": {"NON-RNAV": true}, 
+					"prio": 1                    
+				},
+                "3": {
+					"designator": "F",
+					"rwy": "22L,22R",
+					"initial": 4000,
+					"prio": 1                    
+				},
+                "4": {
+					"designator": "C",
+					"rwy": "22L,22R",
+					"initial": 4000,
+                    "equip": {"NON-RNAV": true}, 
+					"prio": 1                    
+				}
+            },
+            "SPEZI": {
+				"1": {
+					"designator": "B",
+					"rwy": "04R,04L",
+					"initial": 4000,
+					"prio": 1                    
+				},
+                "2": {
+					"designator": "A",
+					"rwy": "04R,04L",
+					"initial": 4000,
+                    "equip": {"NON-RNAV": true}, 
+					"prio": 1                    
+				},
+                "3": {
+					"designator": "F",
+					"rwy": "22L,22R",
+					"initial": 4000,
+					"prio": 1                    
+				},
+                "4": {
+					"designator": "C",
+					"rwy": "22L,22R",
+					"initial": 4000,
+                    "equip": {"NON-RNAV": true}, 
+					"prio": 1                    
+				}
+            },
+            "VANXI": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "04R,04L",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true}, 
+                    "prio": 99 
+                },
+                "2": {
+                    "designator": "A",
+                    "rwy": "22L,22R",
+                    "initial": 4000,
+                    "equip": {"NON-RNAV": true}, 
+                    "prio": 99 
+                }
+            }
+        }
+    }
+}

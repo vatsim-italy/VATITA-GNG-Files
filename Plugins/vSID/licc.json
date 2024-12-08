@@ -1,0 +1,174 @@
+{
+    "LICC": {
+        "elevation": 39,
+        "runways": "08,26",
+        "transAlt": 7000,
+        "maxInitialClimb": 6000,
+        "appSI": "CCA,ES1,SU1",
+        "sids": {
+        "ALUDU": {
+            "1": {
+                "designator": "K",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "Y",
+                "rwy": "26",
+                "initial": 6000,
+                "prio": 1 
+            },
+            "3": {
+               "designator": "A",
+                "rwy": "08",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            },
+            "4": {
+               "designator": "B",
+                "rwy": "26",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1  
+            }
+        },
+            "LIBRO": {
+                "1":{
+                "designator": "K",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
+                },
+                "2": {
+                "designator": "Y",
+                "rwy": "26",
+                "initial": 6000,
+                "prio": 1
+                },
+                "3": {
+                "designator": "A",
+                "rwy": "08",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+                },
+                "4": {
+               "designator": "B",
+                "rwy": "26",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+            },
+            "NELDA": {
+                "1": {
+                "designator": "K",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
+                },
+                "2": {
+                "designator": "Y",
+                "rwy": "26",
+                "initial": 6000,
+                "prio": 1
+                },
+                "3": {
+                "designator": "A",
+                "rwy": "08",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                },
+                "4": {
+                "designator": "B",
+                "rwy": "26",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+            },
+            "PEKOD": {
+            "1": {
+                "designator": "PEKOD5KxBUDIN5B",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "Y",
+                "rwy": "26",
+                "initial": 6000,
+                "prio": 99
+            },
+            "3": {
+                "designator": "A",
+                "rwy": "08",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "4": {
+               "designator": "B",
+                "rwy": "26",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 99
+            }
+        },
+            "PIMOR": {
+                "1": {
+                    "designator": "K",
+                    "rwy": "08",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "Y",
+                    "rwy": "26",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "A",
+                    "rwy": "08",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "4": {
+                    "designator": "B",
+                    "rwy": "26",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                }
+            },
+                "UXUTA": {
+                "1": {
+                    "designator": "Y",
+                    "rwy": "26",
+                    "initial": 6000,
+                    "prio": 1 
+                }
+            },
+            "RCA": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "08",
+                    "initial": 6000,
+                    "prio": 99 
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "26",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                }
+            }
+        }
+    }
+}

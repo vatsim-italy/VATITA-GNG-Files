@@ -1,0 +1,55 @@
+{
+    "LIPS": {
+        "elevation": 136,
+        "runways": "08,26",
+        "transAlt": 6000,
+        "maxInitialClimb": 13000,
+        "appSI": "PHA,PCE,PNE",
+        "sids": {
+            "CHI": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "26",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "08",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "VIC": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "26",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "08",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "TACAN3": {
+                "1": {
+                    "wpt": "CHARE",
+                    "rwy": "26,08",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "TACAN4": {
+                "1": {
+                    "wpt": "MOPIP",
+                    "rwy": "26,08",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            }
+        }
+    }
+}
