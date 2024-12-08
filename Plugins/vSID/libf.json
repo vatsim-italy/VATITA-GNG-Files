@@ -27,10 +27,12 @@
                 "initial": 10000,
                 "prio": 1
             },
+            "2": {
             "designator": "B",
                 "rwy": "33",
                 "initial": 10000,
                 "prio": 1
+            }
         },
             "EKTOL": {
                 "1": {
@@ -39,11 +41,12 @@
                 "initial": 10000,
                 "prio": 1
             },
+            "2": {
             "designator": "B",
                 "rwy": "33",
                 "initial": 10000,
                 "prio": 1
-
+            }
         }
         }
     }
