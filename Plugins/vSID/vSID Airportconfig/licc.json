@@ -95,7 +95,7 @@
                 "designator": "Y",
                 "rwy": "26",
                 "initial": 6000,
-                "prio": 99
+                "prio": 1
             },
             "2": {
                 "designator": "A",
@@ -110,6 +110,12 @@
                 "initial": 6000,
                 "equip": {"NON-RNAV": true},
                 "prio": 99
+            },
+            "4": {
+                "designator": "K",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
             }
         },
             "PIMOR": {
@@ -168,7 +174,7 @@
 					"wpt": "BUDIN",
                     "rwy": "08",
                     "initial": 6000,
-                    "prio": 1
+                    "prio": 3
                 }
 			}
         }
