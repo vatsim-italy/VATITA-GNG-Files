@@ -1,0 +1,67 @@
+{
+    "LICG": {
+        "elevation": 629,
+        "runways": "07,25,02,20",
+        "transAlt": 5000,
+        "maxInitialClimb": 4000,
+        "appSI": "CGA,SU1",
+        "sids": {
+        "ROBET": {
+            "1": {
+                "designator": "W",
+                "rwy": "07",
+                "initial": 4000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "Y",
+                "rwy": "25",
+                "initial": 4000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "A",
+                "rwy": "07",
+                "initial": 4000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "4": {
+                "designator": "B",
+                "rwy": "25",
+                "initial": 4000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            }
+        },
+            "RUBRI": {
+                "1":{
+                "designator": "W",
+                "rwy": "07",
+                "initial": 4000,
+                "prio": 1
+                },
+                "2": {
+                "designator": "Y",
+                "rwy": "25",
+                "initial": 4000,
+                "prio": 1
+                },
+                "3": {
+                "designator": "A",
+                "rwy": "07",
+                "initial": 4000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                },
+                "4": {
+                "designator": "B",
+                "rwy": "25",
+                "initial": 4000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+            }
+        }
+    }
+}

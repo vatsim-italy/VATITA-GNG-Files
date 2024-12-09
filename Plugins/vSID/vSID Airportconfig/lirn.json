@@ -1,0 +1,219 @@
+{
+    "LIRN": {
+        "elevation": 294,
+        "runways": "06,24",
+        "transAlt": 8000,
+        "maxInitialClimb": 6000,
+        "appSI": "US0,US1,US2,TS1,NE1",
+        "sids": {
+        "AGNIS": {
+            "1": {
+                "designator": "G",
+                "rwy": "06,24",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "J",
+                "rwy": "06,24",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+        },
+            "ALAXI": {
+            "1": {
+                "designator": "N",
+                "rwy": "24",
+                "initial": 6000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "J",
+                "rwy": "24",
+                "initial": 6000,
+                "prio": 3
+            },
+            "3": {
+                "designator": "G",
+                "rwy": "06",
+                "initial": 6000,
+                "prio": 1
+            }
+        },
+            "BEDPI": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "H",
+                    "rwy": "06",
+                    "initial": 6000,
+                    "prio": 1
+                }
+            },
+            "DELER": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "EDOPA": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+            "GALTI": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "prio":1
+                },
+                "2": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":1
+                }
+            },
+            "PEVIR": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "prio":1
+                },
+                "2": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":1
+                }
+            },
+            "ISKIA": {
+                "1": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":1
+                }
+            },
+            "POLIT": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "prio":1
+                },
+                "2": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":1
+                }
+            },
+            "MALOG": {
+                "1": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":1
+                }
+            },
+            "MOLUX": {
+                "1": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":1
+                }
+            },
+            "SIPRO": {
+                "1": {
+                    "designator": "N",
+                    "rwy": "24",
+                    "initial": 6000,
+                    "prio":1
+                },
+                "2": {
+                    "designator": "J",
+                    "rwy": "24",
+                    "initial": 6000,
+                    "prio":3
+                },
+                "3": {
+                    "designator": "G",
+                    "rwy": "06",
+                    "initial": 6000,
+                    "prio":1
+                },
+                "4": {
+                    "designator": "H",
+                    "rwy": "06",
+                    "initial": 6000,
+                    "prio":99
+                }
+            },
+            "VEXUV": {
+                "1": {
+                    "designator": "G",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "prio":1
+                }
+            },
+            "TEA": {
+                "1": {
+                    "designator": "J",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":1
+                },
+                "2": {
+                    "designator": "K",
+                    "rwy": "06,24",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":99
+                },
+                "3": {
+                    "designator": "L",
+                    "rwy": "06",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio":3
+                }
+            }
+        }
+    }
+}

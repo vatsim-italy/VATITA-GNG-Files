@@ -1,0 +1,193 @@
+{
+    "LMML": {
+        "elevation": 297,
+        "runways": "13,31,23,05",
+        "transAlt": 5000,
+        "maxInitialClimb": 5000,
+        "appSI": "MMA,MMC",
+        "sids": {
+        "AGARI": {
+            "1": {
+                "designator": "A",
+                "rwy": "05",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "2": {
+                "designator": "B",
+                "rwy": "13",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            },
+            "3": {
+                "designator": "C",
+                "rwy": "23",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "4": {
+                "designator": "D",
+                "rwy": "31",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            }
+        },
+            "GODAK": {
+            "1": {
+                "designator": "A",
+                "rwy": "05",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "2": {
+                "designator": "B",
+                "rwy": "13",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "3": {
+                "designator": "C",
+                "rwy": "23",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "4": {
+                "designator": "D",
+                "rwy": "31",
+                "initial": 5000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            }
+        },
+            "GZO": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "05",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "13",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "3": {
+                    "designator": "C",
+                    "rwy": "23",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "4": {
+                    "designator": "D",
+                    "rwy": "31",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            },
+                "OBITA": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "05",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "13",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "3": {
+                    "designator": "C",
+                    "rwy": "23",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "4": {
+                    "designator": "D",
+                    "rwy": "31",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                }
+            },
+            "SUDIK": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "05",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "13",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "3": {
+                    "designator": "C",
+                    "rwy": "23",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "4": {
+                    "designator": "D",
+                    "rwy": "31",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                }
+            },
+            "VESOD": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "05",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "2": {
+                    "designator": "B",
+                    "rwy": "13",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
+                },
+                "3": {
+                    "designator": "C",
+                    "rwy": "23",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                },
+                "4": {
+                    "designator": "D",
+                    "rwy": "31",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                }
+            }
+        }
+    }
+}
+
+
