@@ -1,0 +1,487 @@
+{
+    "LIML": {
+        "elevation": 353,
+        "runways": "17,35",
+        "transAlt": 6000,
+        "maxInitialClimb": 5000,
+        "appSI": "LAR,ADE,ANE,MEN",
+        "sids": {
+        "TOVSA7AXDEVOX6B": {
+                "1": {
+					"wpt": "DEVOX",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+			"TOVSA8CXDEVOX6B": {
+                "1": {
+					"wpt": "DEVOX",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "TOVSA7AXGEN7V": {
+                "1": {
+					"wpt": "GEN",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "prio": 1
+                }
+			},
+            "TOVSA8CXGEN7V": {
+                "1": {
+					"wpt": "GEN",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "prio": 1
+                }
+			},
+            "TOVSA7AXGEN6Q": {
+                "1": {
+					"wpt": "GEN",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+            "TOVSA8CXGEN6Q": {
+                "1": {
+					"wpt": "GEN",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+            "TOVSA7AXEKPAL6A": {
+                "1": {
+					"wpt": "EKPAL",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "TOVSA8CXEKPAL6A": {
+                "1": {
+					"wpt": "EKPAL",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "RUVAB7AXELTAR6B": {
+                "1": {
+					"wpt": "ELTAR",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "RUVAB6BXELTAR6B": {
+                "1": {
+					"wpt": "ELTAR",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "RUVAB7AXNESTI6A": {
+                "1": {
+					"wpt": "NESTI",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "RUVAB6BXNESTI6A": {
+                "1": {
+					"wpt": "NESTI",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "TZO8CXOSKOR8B": {
+                "1": {
+					"wpt": "OSKOR",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "prio": 1
+                }
+			},
+            "TZO8CXPEPAG1B": {
+                "1": {
+					"wpt": "PEPAG",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 1
+                }
+			},
+            "SRN6AXARLES2A": {
+                "1": {
+					"wpt": "ARLES",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 1
+                }
+			},
+            "SRN6AXOMETO5A": {
+                "1": {
+					"wpt": "OMETO",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 1
+                }
+			},
+            "SRN6AXNEDED5A": {
+                "1": {
+					"wpt": "NEDED",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "SRN6AXLAGEN5A": {
+                "1": {
+					"wpt": "LAGEN",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "SRN9DXNEDED5A": {
+                "1": {
+					"wpt": "NEDED",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "SRN9DXLAGEN5A": {
+                "1": {
+					"wpt": "LAGEN",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "SRN9DXARLES2A": {
+                "1": {
+					"wpt": "ARLES",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "SRN9DXOMETO6A": {
+                "1": {
+					"wpt": "OMETO",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "TREVI9DXNESTI7C": {
+                "1": {
+					"wpt": "NESTI",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "TREVI9DXELTAR6C": {
+                "1": {
+					"wpt": "ELTAR",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "TREVI9DXPEPAG1C": {
+                "1": {
+					"wpt": "PEPAG",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "prio": 1
+                }
+			},
+            "MMP7CXARLES9C": {
+                "1": {
+					"wpt": "ARLES",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "prio": 1
+                }
+			},
+            "MMP7CXOMETO9C": {
+                "1": {
+					"wpt": "OMETO",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "prio": 1
+                }
+			},
+            "LIMBA7CXEKPAL6C": {
+                "1": {
+					"wpt": "EKPAL",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "ABSEM6AXOSKOR6D": {
+                "1": {
+					"wpt": "OSKOR",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "ABSEM6AXLOGDI7A": {
+                "1": {
+					"wpt": "LOGDI",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "TOVSA8CXLOGDI6C": {
+                "1": {
+					"wpt": "LOGDI",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
+                }
+			},
+            "TOVSA6JXEKPAL6A": {
+                "1": {
+					"wpt": "EKPAL",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "TOVSA6JXGEN7V": {
+                "1": {
+					"wpt": "GEN",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+            "TOVSA6JXGEN6Q": {
+                "1": {
+					"wpt": "GEN",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+            "TOVSA6JXDEVOX6B": {
+                "1": {
+					"wpt": "DEVOX",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "ABSEM6JXLOGDI7A": {
+                "1": {
+					"wpt": "LOGDI",
+                    "rwy": "35",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "ABSEM6JXOSKOR6D": {
+                "1": {
+					"wpt": "OSKOR",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "TZO7JXOSKOR6B": {
+                "1": {
+					"wpt": "OSKOR",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "TZO7JXPEPAG1B": {
+                "1": {
+					"wpt": "PEPAG",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "RUVAB6JXNESTI6A": {
+                "1": {
+					"wpt": "NESTI",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "RUVAB6JXELTAR6B": {
+                "1": {
+					"wpt": "ELTAR",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "SRN7JXARLES2A": {
+                "1": {
+					"wpt": "ARLES",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "SRN7JXOMETO6A": {
+                "1": {
+					"wpt": "OMETO",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "TOVSA6XXLOGDI6C": {
+                "1": {
+					"wpt": "LOGDI",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "TOVSA6XXEKPAL6A": {
+                "1": {
+					"wpt": "EKPAL",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "TOVSA6XXGEN6Q": {
+                "1": {
+					"wpt": "GEN",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+            "TOVSA6XXGEN7V": {
+                "1": {
+					"wpt": "GEN",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "prio": 99
+                }
+			},
+            "TOVSA6XXDEVOX6B": {
+                "1": {
+					"wpt": "DEVOX",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "LIMBA6XXEKPAL6C": {
+                "1": {
+					"wpt": "EKPAL",
+                    "rwy": "17",
+                    "initial": 5000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "TREVI6XXPEPAG1C": {
+                "1": {
+					"wpt": "PEPAG",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "TREVI6XXNESTI7C": {
+                "1": {
+					"wpt": "NESTI",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "TREVI6XXELTAR6C": {
+                "1": {
+					"wpt": "ELTAR",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": false},
+                    "prio": 99
+                }
+			},
+            "MMP7XXARLES9C": {
+                "1": {
+					"wpt": "ARLES",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "MMP7XXOMETO9C": {
+                "1": {
+					"wpt": "OMETO",
+                    "rwy": "17",
+                    "initial": 6000,
+                    "prio": 99
+                }
+			},
+            "PEPAG": {
+                "1": {
+                    "designator": "A",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 1 
+                },
+                "2": {
+                    "designator": "J",
+                    "rwy": "35",
+                    "initial": 6000,
+                    "prio": 99 
+                }
+            }
+        }
+    }
+}
