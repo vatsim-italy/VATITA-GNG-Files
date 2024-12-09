@@ -115,21 +115,18 @@
                     "designator": "G",
                     "rwy": "29,33",
                     "initial": 7000,
-                    "equip": {"NON-RNAV": true},
                     "prio": 1
                 },
                 "3": {
                     "designator": "A",
                     "rwy": "29,15,33",
                     "initial": 7000,
-                    "equip": {"NON-RNAV": true},
                     "prio": 99
                 },
                 "4": {
                     "designator": "Y",
                     "rwy": "29,15,33",
                     "initial": 7000,
-                    "equip": {"NON-RNAV": true},
                     "prio": 99
                 }
             }  
