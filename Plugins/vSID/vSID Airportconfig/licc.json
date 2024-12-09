@@ -92,25 +92,19 @@
             },
             "PEKOD": {
             "1": {
-                "designator": "PEKOD5KxBUDIN5B",
-                "rwy": "08",
-                "initial": 6000,
-                "prio": 1
-            },
-            "2": {
                 "designator": "Y",
                 "rwy": "26",
                 "initial": 6000,
                 "prio": 99
             },
-            "3": {
+            "2": {
                 "designator": "A",
                 "rwy": "08",
                 "initial": 6000,
                 "equip": {"NON-RNAV": true},
                 "prio": 1
             },
-            "4": {
+            "3": {
                "designator": "B",
                 "rwy": "26",
                 "initial": 6000,
@@ -168,7 +162,15 @@
                     "equip": {"NON-RNAV": true},
                     "prio": 99
                 }
-            }
+            },
+            "PEKOD5KXBUDIN5B": {
+                "1": {
+					"wpt": "BUDIN",
+                    "rwy": "08",
+                    "initial": 6000,
+                    "prio": 1
+                }
+			}
         }
     }
 }
