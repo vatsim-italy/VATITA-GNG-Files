@@ -327,6 +327,8 @@ List_Sector_Concerned = 1
 
 Window_CPDLC_Current=0,1,600
 
+FlightLeg_AutoShow=0
+
 [_DEL]
 
 Window_CARD=0,1565,755
@@ -340,6 +342,8 @@ Window_CARD=0,1565,755
 Window_CPDLC_Current=0,1,600
 
 Window_CARD=0,1565,755
+
+FlightLeg_AutoShow=0
 
 [_OBS]
 
