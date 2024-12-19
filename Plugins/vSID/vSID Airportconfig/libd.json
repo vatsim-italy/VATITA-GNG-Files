@@ -1,0 +1,286 @@
+{
+    "LIBD": {
+        "elevation": 193,
+        "runways": "07,25",
+        "transAlt": 5000,
+        "maxInitialClimb": 3000,
+        "appSI": "BRA,BBB",
+        "sids": {
+        "BANAV": {
+            "1": {
+                "designator": "W",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1 
+            },
+            "3": {
+               "designator": "A",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            },
+            "4": {
+                "designator": "B",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        },
+            "DIVKU": {
+                "1":{
+                "designator": "W",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 1
+                },
+                "2": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+                },
+                "3": {
+                "designator": "A",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                }
+            },
+            "EKMUR": {
+                "1": {
+                "designator": "W",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 1
+                },
+                "2": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+                },
+                "3": {
+                "designator": "C",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+                },
+                "4": {
+                "designator": "B",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+                }
+            },
+            "FASAN": {
+            "1": {
+                "designator": "W",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "L",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "4": {
+                "designator": "M",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        },
+        "PERAV": {
+            "1":{
+                "designator": "W",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 1  
+            },
+            "2": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "D",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "4": {
+                "designator": "E",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        },
+        "PISIP": {
+            "1": {
+                "designator": "W",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "A",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "4": {
+                "designator": "B",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        },
+        "TOPNO": {
+            "1": {
+                "designator": "W",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "Y",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 3
+            },
+            "3": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+            },
+            "4": {
+                "designator": "C",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "5": {
+                "designator": "A",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "6": {
+                "designator": "E",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            },
+            "7": {
+                "designator": "B",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        },
+        "VURKE": {
+            "1": {
+                "designator": "W",
+                "rwy": "07",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+            },
+            "3": {
+                "designator": "A",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "4": {
+                "designator": "B",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        },
+        "DOLON": {
+            "1": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "C",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            },
+            "3": {
+                "designator": "Q",
+                "rwy": "25",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        },
+        "LUXIL": {
+            "1": {
+                "designator": "Z",
+                "rwy": "25",
+                "initial": 3000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "A",
+                "rwy": "07",
+                "initial": 3000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            }
+        }
+        }
+    }
+}
+

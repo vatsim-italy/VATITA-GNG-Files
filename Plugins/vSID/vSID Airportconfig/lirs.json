@@ -1,0 +1,67 @@
+{
+    "LIRS": {
+        "elevation": 20,
+        "runways": "03L,21R",
+        "transAlt": 6000,
+        "maxInitialClimb": 5000,
+        "appSI": "RSA,NW1,NE1",
+        "sids": {
+            "BAMVU": {
+                "1": {
+                    "designator": "S",
+                    "rwy": "03L",
+                    "initial": 5000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "W",
+                    "rwy": "21R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+            },
+            "GIKIN": {
+                "1": {
+                    "designator": "S",
+                    "rwy": "03L",
+                    "initial": 5000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "W",
+                    "rwy": "21R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+            },
+            "LOMED": {
+                "1": {
+                    "designator": "S",
+                    "rwy": "03L",
+                    "initial": 5000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "W",
+                    "rwy": "21R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+            },
+            "UPADU": {
+                "1": {
+                    "designator": "S",
+                    "rwy": "03L",
+                    "initial": 5000,
+                    "prio": 1
+                },
+                "2": {
+                    "designator": "W",
+                    "rwy": "21R",
+                    "initial": 5000,
+                    "prio": 1
+                }
+            }   
+        }            
+    }
+}
