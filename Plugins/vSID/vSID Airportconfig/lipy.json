@@ -4,6 +4,7 @@
         "runways": "04,22",
         "transAlt": 6000,
         "maxInitialClimb": 5000,
+        "enableRVSids": false,
         "appSI": "PYA,PSD,PCE,PNE",
         "sids": {
         "BIDMA": {

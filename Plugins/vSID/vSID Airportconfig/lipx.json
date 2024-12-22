@@ -4,6 +4,7 @@
         "runways": "04,22",
         "transAlt": 6000,
         "maxInitialClimb": 6000,
+        "enableRVSids": false,
         "appSI": "MES0,EE1,MES,MEN",
         "sids": {
         "ECVAZ": {

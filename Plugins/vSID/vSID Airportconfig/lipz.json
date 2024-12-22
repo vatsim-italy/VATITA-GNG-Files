@@ -4,6 +4,7 @@
         "runways": "04R,04L,22L,22R",
         "transAlt": 6000,
         "maxInitialClimb": 4000,
+		"enableRVSids": false,
         "appSI": "PZA,PCE,PNE",
         "sids": {
             "AKADO": {

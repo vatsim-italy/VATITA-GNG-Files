@@ -4,6 +4,7 @@
         "runways": "01,19",
         "transAlt": 10000,
         "maxInitialClimb": 12000,
+        "enableRVSids": false,
         "appSI": "PBI,PNE",
         "sids": {
         "ADOSA": {

@@ -4,6 +4,7 @@
         "runways": "07,25,02,20",
         "transAlt": 5000,
         "maxInitialClimb": 4000,
+        "enableRVSids": false,
         "appSI": "CGA,SU1",
         "sids": {
         "ROBET": {

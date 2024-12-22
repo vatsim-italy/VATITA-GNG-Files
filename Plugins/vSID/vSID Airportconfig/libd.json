@@ -4,6 +4,7 @@
         "runways": "07,25",
         "transAlt": 5000,
         "maxInitialClimb": 3000,
+        "enableRVSids": false,
         "appSI": "BRA,BBB",
         "sids": {
         "BANAV": {

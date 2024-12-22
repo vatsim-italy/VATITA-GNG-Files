@@ -4,6 +4,7 @@
         "runways": "31L,13R",
         "transAlt": 6000,
         "maxInitialClimb": 4000,
+        "enableRVSids": false,
         "appSI": "MES0,EE1,MES,MEN",
         "sids": {
             "GOLF1": {

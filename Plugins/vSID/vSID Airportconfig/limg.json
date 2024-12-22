@@ -4,6 +4,7 @@
         "runways": "09",
         "transAlt": 7000,
         "maxInitialClimb": 5000,
+        "enableRVSids": false,
         "appSI": "MJA,MWS,MEN",
         "sids": {
             "GEN": {

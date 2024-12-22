@@ -4,6 +4,7 @@
         "runways": "10,28",
         "transAlt": 6000,
         "maxInitialClimb": 5000,
+        "enableRVSids": false,
         "appSI": "ES0,ES1,SU1,NE7",
         "sids": {
         "CDC": {

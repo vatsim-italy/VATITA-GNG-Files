@@ -4,6 +4,7 @@
         "runways": "08,26",
         "transAlt": 4000,
         "maxInitialClimb": 6000,
+        "enableRVSids": false,
         "appSI": "CDA,MMC",
         "sids": {
         "AGMUB": {

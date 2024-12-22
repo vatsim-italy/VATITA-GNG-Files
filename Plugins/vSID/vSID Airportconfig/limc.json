@@ -4,7 +4,8 @@
         "runways": "17L,17R,35L,35R",
         "transAlt": 6000,
         "maxInitialClimb": 6000,
-        "appSI": "ANE,MEN",
+        "enableRVSids": false,
+        "appSI": "ANW,ANE,MEN",
         "sids": {
             "DOGUB6TXAOSTA5W": {
                 "1": {

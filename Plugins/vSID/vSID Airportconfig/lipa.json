@@ -4,6 +4,7 @@
         "runways": "05,23",
         "transAlt": 6000,
         "maxInitialClimb": 13000,
+        "enableRVSids": false,
         "appSI": "PAA,PCE,PNE",
         "sids": {
             "ADRI2A": {

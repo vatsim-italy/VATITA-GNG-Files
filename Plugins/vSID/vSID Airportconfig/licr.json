@@ -4,6 +4,7 @@
         "runways": "11,29,15,33",
         "transAlt": 7000,
         "maxInitialClimb": 7000,
+        "enableRVSids": false,
         "appSI": "CRA,ES1,SU1",
         "sids": {
             "PAZZE": {

@@ -4,6 +4,7 @@
         "runways": "01,19",
         "transAlt": 6000,
         "maxInitialClimb": 9000,
+        "enableRVSids": false,
         "appSI": "ANE,MEN",
         "sids": {
         "CANNE": {

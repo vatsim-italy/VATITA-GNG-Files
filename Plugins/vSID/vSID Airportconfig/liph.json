@@ -4,6 +4,7 @@
         "runways": "07,25",
         "transAlt": 6000,
         "maxInitialClimb": 4000,
+        "enableRVSids": false,
         "appSI": "PHA,PSD,PCE,PNE",
         "sids": {
             "ALBET": {

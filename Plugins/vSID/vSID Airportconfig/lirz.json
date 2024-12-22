@@ -4,6 +4,7 @@
         "runways": "01,19",
         "transAlt": 6000,
         "maxInitialClimb": 5000,
+        "enableRVSids": false,
         "appSI": "RZA,NN1,NW1,NE1",
         "sids": {
         "GITOD": {

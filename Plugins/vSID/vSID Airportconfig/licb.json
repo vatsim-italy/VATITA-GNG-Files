@@ -4,6 +4,7 @@
         "runways": "05,23",
         "transAlt": 7000,
         "maxInitialClimb": 9000,
+        "enableRVSids": false,
         "appSI": "CCA,SU1",
         "sids": {
         "ENEPA": {

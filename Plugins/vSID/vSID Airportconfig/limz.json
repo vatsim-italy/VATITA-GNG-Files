@@ -4,7 +4,8 @@
         "runways": "03,21",
         "transAlt": 6000,
         "maxInitialClimb": 6000,
-        "appSI": "MFA,MWN,MWS,MEN",
+        "enableRVSids": false,
+        "appSI": "WN0,MWN,MWS,MEN",
         "sids": {
         "ENOBA": {
             "1": {

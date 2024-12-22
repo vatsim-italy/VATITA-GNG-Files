@@ -4,6 +4,7 @@
         "runways": "05,23",
         "transAlt": 6000,
         "maxInitialClimb": 5000,
+        "enableRVSids": false,
         "appSI": "EW0,EW1,SU1",
         "sids": {
             "BATOX": {

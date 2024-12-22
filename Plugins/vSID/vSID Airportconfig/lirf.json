@@ -5,6 +5,7 @@
         "transAlt": 6000,
         "maxInitialClimb": 4000,
         "customRules": {"ipa": false},
+        "enableRVSids": false,
         "appSI": "PN1,TW1,OV1,NW1,NE1",
         "sids": {
             "SOSIV5AXSOVAN7A": {

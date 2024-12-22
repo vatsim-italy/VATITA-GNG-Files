@@ -4,6 +4,7 @@
         "runways": "08,26",
         "transAlt": 6000,
         "maxInitialClimb": 13000,
+        "enableRVSids": false,
         "appSI": "PHA,PCE,PNE",
         "sids": {
             "CHI": {

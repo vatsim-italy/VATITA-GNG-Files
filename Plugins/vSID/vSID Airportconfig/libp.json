@@ -4,6 +4,7 @@
         "runways": "04,22",
         "transAlt": 6000,
         "maxInitialClimb": 6000,
+        "enableRVSids": false,
         "appSI": "BPA,NC1,TS1,NE1",
         "sids": {
         "ASPIR": {

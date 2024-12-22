@@ -4,6 +4,7 @@
         "runways": "13,31,23,05",
         "transAlt": 5000,
         "maxInitialClimb": 5000,
+        "enableRVSids": false,
         "appSI": "MMA,MMC",
         "sids": {
         "AGARI": {

@@ -4,6 +4,7 @@
         "runways": "11,29",
         "transAlt": 6000,
         "maxInitialClimb": 5000,
+        "enableRVSids": false,
         "appSI": "PEA,PSD,PCE,PNE",
         "sids": {
             "AMLON": {

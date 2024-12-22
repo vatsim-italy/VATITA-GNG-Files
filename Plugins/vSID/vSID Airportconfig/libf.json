@@ -4,6 +4,7 @@
         "runways": "15,33",
         "transAlt": 7000,
         "maxInitialClimb": 11000,
+        "enableRVSids": false,
         "appSI": "BAA,BBB",
         "sids": {
         "DOGUS": {

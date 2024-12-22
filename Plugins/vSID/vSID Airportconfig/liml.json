@@ -4,6 +4,7 @@
         "runways": "17,35",
         "transAlt": 6000,
         "maxInitialClimb": 5000,
+        "enableRVSids": false,
         "appSI": "LAR,ADE,ANE,MEN",
         "sids": {
         "TOVSA7AXDEVOX6B": {

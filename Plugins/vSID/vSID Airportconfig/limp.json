@@ -4,6 +4,7 @@
         "runways": "02,20",
         "transAlt": 10000,
         "maxInitialClimb": 11000,
+        "enableRVSids": false,
         "appSI": "MPA,MES,MEN,MWS,MWN,MMM",
         "sids": {
         "LUPOS": {

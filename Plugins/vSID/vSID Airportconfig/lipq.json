@@ -4,6 +4,7 @@
         "runways": "09,27",
         "transAlt": 6000,
         "maxInitialClimb": 4000,
+        "enableRVSids": false,
         "appSI": "CE0,SE0,PCE,PNE",
         "sids": {
         "LUPIN": {

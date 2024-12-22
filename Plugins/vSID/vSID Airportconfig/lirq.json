@@ -4,6 +4,7 @@
         "runways": "05,23",
         "transAlt": 6000,
         "maxInitialClimb": 6000,
+        "enableRVSids": false,
         "appSI": "RQA,NW1,NN1,NE1",
         "sids": {
             "BALUK": {

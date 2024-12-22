@@ -4,6 +4,7 @@
         "runways": "10,28",
         "transAlt": 6000,
         "maxInitialClimb": 6000,
+        "enableRVSids": false,
         "appSI": "ADE,ANE,MEN",
         "sids": {
         "LEGLO1VXDILEB1D": {

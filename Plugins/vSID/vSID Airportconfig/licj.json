@@ -4,6 +4,7 @@
         "runways": "07,25,02,20",
         "transAlt": 5000,
         "maxInitialClimb": 4000,
+        "enableRVSids": false,
         "appSI": "CJA,SU1",
         "sids": {
             "GIANO": {
