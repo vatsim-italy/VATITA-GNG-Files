@@ -1,0 +1,84 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LICA Parkings\1:freetext
+Free Text:LICA Parkings\10:freetext
+Free Text:LICA Parkings\101:freetext
+Free Text:LICA Parkings\102:freetext
+Free Text:LICA Parkings\103:freetext
+Free Text:LICA Parkings\104:freetext
+Free Text:LICA Parkings\105:freetext
+Free Text:LICA Parkings\106:freetext
+Free Text:LICA Parkings\107:freetext
+Free Text:LICA Parkings\108:freetext
+Free Text:LICA Parkings\109:freetext
+Free Text:LICA Parkings\11:freetext
+Free Text:LICA Parkings\110:freetext
+Free Text:LICA Parkings\111:freetext
+Free Text:LICA Parkings\12:freetext
+Free Text:LICA Parkings\13:freetext
+Free Text:LICA Parkings\14:freetext
+Free Text:LICA Parkings\15:freetext
+Free Text:LICA Parkings\16:freetext
+Free Text:LICA Parkings\17:freetext
+Free Text:LICA Parkings\18:freetext
+Free Text:LICA Parkings\19:freetext
+Free Text:LICA Parkings\2:freetext
+Free Text:LICA Parkings\20:freetext
+Free Text:LICA Parkings\21:freetext
+Free Text:LICA Parkings\3:freetext
+Free Text:LICA Parkings\4:freetext
+Free Text:LICA Parkings\5:freetext
+Free Text:LICA Parkings\6:freetext
+Free Text:LICA Parkings\7:freetext
+Free Text:LICA Parkings\8:freetext
+Free Text:LICA Parkings\9:freetext
+Free Text:LICA Taxiway\A1:freetext
+Free Text:LICA Taxiway\A2:freetext
+Free Text:LICA Taxiway\B:freetext
+Free Text:LICA Taxiway\C:freetext
+Free Text:LICA Taxiway\D:freetext
+Free Text:LICA Taxiway\E:freetext
+Free Text:LICA Taxiway\E:freetext
+Free Text:LICA Taxiway\G:freetext
+Free Text:LICA Taxiway\H:freetext
+Free Text:LICA Taxiway\J:freetext
+Free Text:LICA Taxiway\K:freetext
+Free Text:LICA Taxiway\L:freetext
+Free Text:LICA Taxiway\S:freetext
+Free Text:LICA Taxiway\S:freetext
+Free Text:LICA Taxiway\S:freetext
+Free Text:LICA Taxiway\S:freetext
+Free Text:LICA Taxiway\S:freetext
+Free Text:LICA Taxiway\S:freetext
+Free Text:LICA Taxiway\S1:freetext
+Free Text:LICA Taxiway\S2:freetext
+Free Text:LICA Taxiway\S3:freetext
+Free Text:LICA Taxiway\T:freetext
+Free Text:LICA Taxiway\T:freetext
+Free Text:LICA Taxiway\T:freetext
+Free Text:LICA Taxiway\T:freetext
+Free Text:LICA Taxiway\U:freetext
+Free Text:LICA Taxiway\U:freetext
+Free Text:LICA Taxiway\W:freetext
+Geo:LICA Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:6.00000
+TAGFAMILY:Italy CTR
+WINDOWAREA:38.899351:16.223156:38.915795:16.264609
+PLUGIN:Ground Radar plugin:AirportElevation:46
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LICA
+PLUGIN:TopSky plugin:NoDraw:1
