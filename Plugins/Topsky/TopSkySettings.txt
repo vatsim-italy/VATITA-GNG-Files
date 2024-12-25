@@ -269,7 +269,6 @@ Label_Alt_Digits=2
 Label_AFL_ForceNautical=1
 Label_AHDG_HideDctIfCOPX=0
 Label_ASP_Digits=3
-Label_GS_Digits=2
 Label_CFL_DefaultValue=1
 Label_COP_MaxChars=5
 Label_SI_ShowFreq=1
@@ -280,8 +279,30 @@ Label_DAPs=0
 Label_Rev_Highlight_Delta_ETN=3
 Label_Alt_Digits=2
 Label_UseTransferInColor=1
-Label_WTC_Highlight_WTC=HJ
 Label_N_Default=0
+
+Label_FCOP_MaxChars=5
+Label_FText_MaxChars_List=10
+
+Label_SQ_Default=0000
+Label_ATYP_Default=0000
+Label_WTC_Default=1100
+Label_GS_Default=1111
+Label_ADES_Default=1100
+Label_COPN_Default=1111
+Label_COPX_Default=1111
+Label_NRAC_Default=0000
+Label_XFL_Default=1110
+Label_AHDG_Default=0100
+Label_ASP_Default=1110
+Label_PEL_Default=0000
+Label_TSSR_Default=0000
+Label_RFL_Default=0000
+Label_NPT_Default=0000
+Label_FCOPX_Default=1111
+Label_OFL_Default=0000
+Label_AMA_Default=0000
+Label_TOG_Default=0000
 
 WXR_Latitude=43
 WXR_Latitude_Max=47.5
@@ -354,6 +375,7 @@ Window_CARD=0,1565,755
 
 [LIPP_]
 
+Airspace_AOR_Airports=LIM,LIL,LIP,LID,LIRQ,LIRP
 Window_SmallQNHTL_ICAO=LIPZ
 
 [LIMM_]
