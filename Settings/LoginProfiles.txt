@@ -201,27 +201,27 @@ ATIS3:Controlling LICA + LIBC
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ANE_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling aiports within Milano TMA
+ATIS3:Controlling airports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ADE_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling aiports within Milano TMA
+ATIS3:Controlling airports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ASW_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling aiports within Milano TMA
+ATIS3:Controlling airports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_MAR_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling aiports within Milano TMA
+ATIS3:Controlling airports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_LAR_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling aiports within Milano TMA
+ATIS3:Controlling airports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ANW_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling aiports within Milano TMA
+ATIS3:Controlling airports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPZ_SE0_APP:150:5
 ATIS2:Padova Radar 

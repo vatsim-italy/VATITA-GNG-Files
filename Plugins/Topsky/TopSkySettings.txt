@@ -155,17 +155,17 @@ Color_WM_Frame=88,95,99
 
 Equip_UseCodes=1
 
-Malrt_Misap=MISAP-
-Malrt_Inbound_EST=EST-
-Malrt_Irregular=IRREG-
+Malrt_Misap=MISAP
+Malrt_Inbound_EST=EST
+Malrt_Irregular=IRREG
 
 Airspace_AOR_Airports=LI,LM
 Airspace_AOR_Positions=LI,LM
 Airspace_ModeS_Code_VFR=1000
-Airspace_No_DUPE_Codes=7000,1200,1000
+Airspace_No_DUPE_Codes=7000,1000
 Airspace_SIGMET_Areas=LIMM,LIRR,LIBB
-Airspace_ASSR_AutoAssign_Type=2
-Airspace_ASSR_AutoAssign_AcceptCurrent=1
+Airspace_ASSR_Type=2
+Airspace_ASSR_AutoAssign_Type=1
 HTTP_NOTAM_Server=https://www.notams.faa.gov/
 Airspace_NOTAM_Remove=EDMM,LSAS,LOVV,LFMM,LJLA,LDZO,LSZH,LOWW,LFMN,LDZA,LOWI,EDDM
 HTTP_SIGMET_Server=http://aviationweather.gov/
@@ -269,9 +269,8 @@ Label_Alt_Digits=2
 Label_AFL_ForceNautical=1
 Label_AHDG_HideDctIfCOPX=0
 Label_ASP_Digits=3
-Label_GS_Digits=2
 Label_CFL_DefaultValue=1
-Label_COP_MaxChars=5
+Label_COP_MaxChars=3
 Label_SI_ShowFreq=1
 Label_Extended_MaxChars=45
 Label_SI_ShowFreq=1
@@ -280,8 +279,30 @@ Label_DAPs=0
 Label_Rev_Highlight_Delta_ETN=3
 Label_Alt_Digits=2
 Label_UseTransferInColor=1
-Label_WTC_Highlight_WTC=HJ
 Label_N_Default=0
+
+Label_FCOP_MaxChars=5
+Label_FText_MaxChars_List=10
+
+Label_SQ_Default=0000
+Label_ATYP_Default=0000
+Label_WTC_Default=1100
+Label_GS_Default=1111
+Label_ADES_Default=1100
+Label_COPN_Default=1111
+Label_COPX_Default=1111
+Label_NRAC_Default=0000
+Label_XFL_Default=1110
+Label_AHDG_Default=0100
+Label_ASP_Default=1110
+Label_PEL_Default=0000
+Label_TSSR_Default=0000
+Label_RFL_Default=0000
+Label_NPT_Default=0000
+Label_FCOPX_Default=1111
+Label_OFL_Default=0000
+Label_AMA_Default=0000
+Label_TOG_Default=0000
 
 WXR_Latitude=43
 WXR_Latitude_Max=47.5
@@ -323,8 +344,38 @@ List_Sector_Informed = 1
 List_Sector_Redundant = 1
 List_Sector_Concerned = 1
 
+[_APP]
+
+Window_CPDLC_Current=0,1,600
+
+FlightLeg_AutoShow=0
+
+[_DEL]
+
+Window_CARD=0,1565,755
+
+[_GND]
+
+Window_CARD=0,1565,755
+
+[_TWR]
+
+Window_CPDLC_Current=0,1,600
+
+Window_CARD=0,1565,755
+
+FlightLeg_AutoShow=0
+
+[_OBS]
+
+Window_CPDLC_Current=0,1,600
+
+Window_CARD=0,1565,755
+
+
 [LIPP_]
 
+Airspace_AOR_Airports=LIM,LIL,LIP,LID,LIRQ,LIRP
 Window_SmallQNHTL_ICAO=LIPZ
 
 [LIMM_]
