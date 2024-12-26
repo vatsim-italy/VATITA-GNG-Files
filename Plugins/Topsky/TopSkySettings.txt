@@ -155,9 +155,9 @@ Color_WM_Frame=88,95,99
 
 Equip_UseCodes=1
 
-Malrt_Misap=MISAP-
-Malrt_Inbound_EST=EST-
-Malrt_Irregular=IRREG-
+Malrt_Misap=MISAP
+Malrt_Inbound_EST=EST
+Malrt_Irregular=IRREG
 
 Airspace_AOR_Airports=LI,LM
 Airspace_AOR_Positions=LI,LM
