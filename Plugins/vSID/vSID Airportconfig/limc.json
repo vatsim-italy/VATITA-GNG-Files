@@ -239,7 +239,7 @@
                     "prio": 99
                 }
 			},
-            "IRKED1BXOSKOR6Z": {
+            "IRKED7AXOSKOR6Z": {
                 "1": {
                     "wpt": "OSKOR",
                     "rwy": "35L",
@@ -247,7 +247,7 @@
                     "prio":1
                 }
             },
-            "IRKED1BXPEPAG2X": {
+            "IRKED7AXPEPAG2X": {
                 "1": {
                     "wpt": "PEPAG",
                     "rwy": "35L",
@@ -255,7 +255,7 @@
                     "prio":1
                 }
             },
-            "IRKED1BXROBAS5Y": {
+            "IRKED7AXROBAS5Y": {
                 "1": {
                     "wpt": "ROBAS",
                     "rwy": "35L",
@@ -263,7 +263,7 @@
                     "prio":4
                 }
             },
-            "IRKED1BXVAKON6X": {
+            "IRKED7AXVAKON6X": {
                 "1": {
                     "wpt": "VAKON",
                     "rwy": "35L",
@@ -389,7 +389,7 @@
                     "prio":1
                 }
             },
-            "IBCUC1MXAOSTA7M":{
+            "IBCUC6AXAOSTA7M":{
                 "1": {
                     "wpt": "AOSTA",
                     "rwy": "35L",
@@ -407,7 +407,7 @@
                     "prio":2
                 }
             },
-            "NELAB1MXAOSTA7L":{
+            "NELAB6AXAOSTA7L":{
                 "1": {
                     "wpt": "AOSTA",
                     "rwy": "35L",
