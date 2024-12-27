@@ -20,7 +20,9 @@
 					"wpt": "DILEB",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "LEGLO1VXOSKOR1F": {
@@ -36,7 +38,9 @@
 					"wpt": "OSKOR",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "LEGLO1VXPEPAG1D": {
@@ -52,7 +56,9 @@
 					"wpt": "PEPAG",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "SRN1VXARLES1B": {
@@ -76,7 +82,9 @@
 					"wpt": "ARLES",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "SRN1VXOMETO1B": {
@@ -100,7 +108,9 @@
 					"wpt": "OMETO",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "ILFUG1VXVOG1S": {
@@ -116,7 +126,9 @@
 					"wpt": "VOG",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "ILFUG1VXGEN1S": {
@@ -132,7 +144,9 @@
 					"wpt": "GEN",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "ILFUG1VXEKPAL1S": {
@@ -148,7 +162,9 @@
 					"wpt": "EKPAL",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "ILFUG1VXLEGLO1S": {
@@ -164,7 +180,9 @@
 					"wpt": "LEGLO",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "wtc": "HJ",
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "TZO1VXEKPAL7V": {
@@ -180,7 +198,8 @@
 					"wpt": "EKPAL",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "TZO1VXVOG7U": {
@@ -196,7 +215,8 @@
 					"wpt": "VOG",
                     "rwy": "10",
                     "initial": 4000,
-                    "prio": 5
+                    "equip": {"NON-RNAV": false},
+                    "prio": 1
                 }
 			},
             "ILFUG1PXVOG1S": {
@@ -385,7 +405,7 @@
                     "rwy": "10",
                     "initial": 4000,
                     "wtc": "LM",
-                    "prio": 1
+                    "prio": 99
                 }
 			},
             "LEGLO1RXOSKOR1F": {
@@ -394,7 +414,7 @@
                     "rwy": "10",
                     "initial": 4000,
                     "wtc": "LM",
-                    "prio": 1
+                    "prio": 99
                 }
 			},
             "LEGLO1RXPEPAG1D": {
@@ -403,7 +423,7 @@
                     "rwy": "10",
                     "initial": 4000,
                     "wtc": "LM",
-                    "prio": 1
+                    "prio": 99
                 }
 			},
             "LEGLO1RXARLES1D": {
@@ -412,7 +432,7 @@
                     "rwy": "10",
                     "initial": 4000,
                     "wtc": "LM",
-                    "prio": 1
+                    "prio": 99
                 }
 			},
             "LEGLO1RXOMETO1D": {
@@ -421,7 +441,7 @@
                     "rwy": "10",
                     "initial": 4000,
                     "wtc": "LM",
-                    "prio": 1
+                    "prio": 99
                 }
 			},
             "ILFUG1RXVOG1S": {
@@ -430,7 +450,7 @@
                     "rwy": "10",
                     "initial": 4000,
                     "wtc": "LM",
-                    "prio": 1
+                    "prio": 99
                 }
 			},
             "ILFUG1RXGEN1S": {
@@ -439,7 +459,7 @@
                     "rwy": "10",
                     "initial": 4000,
                     "wtc": "LM",
-                    "prio": 1
+                    "prio": 99
                 }
 			},
             "ILFUG1RXEKPAL1S": {
@@ -448,7 +468,7 @@
                     "rwy": "10",
                     "initial": 4000,
                     "wtc": "LM",
-                    "prio": 1
+                    "prio": 99
                 }
 			},
             "SRN1ZXARLES1R": {
@@ -537,7 +557,7 @@
 					"wpt": "ARLES",
                     "rwy": "10",
                     "initial": 4000,
-                    "equip": {"NON-RNAV": true},
+                    "wtc": "LM",
                     "prio": 1
                 }
 			},
@@ -546,7 +566,7 @@
 					"wpt": "OMETO",
                     "rwy": "10",
                     "initial": 4000,
-                    "equip": {"NON-RNAV": true},
+                    "wtc": "LM",
                     "prio": 1
                 }
 			},
@@ -555,7 +575,7 @@
 					"wpt": "PEPAG",
                     "rwy": "10",
                     "initial": 4000,
-                    "equip": {"NON-RNAV": true},
+                    "wtc": "LM",
                     "prio": 1
                 }
 			},
@@ -564,7 +584,7 @@
 					"wpt": "DILEB",
                     "rwy": "10",
                     "initial": 4000,
-                    "equip": {"NON-RNAV": true},
+                    "wtc": "LM",
                     "prio": 1
                 }
 			},
@@ -573,7 +593,7 @@
 					"wpt": "OSKOR",
                     "rwy": "10",
                     "initial": 4000,
-                    "equip": {"NON-RNAV": true},
+                    "wtc": "LM",
                     "prio": 1
                 }
 			},
@@ -582,7 +602,7 @@
 					"wpt": "ROBAS",
                     "rwy": "10",
                     "initial": 4000,
-                    "equip": {"NON-RNAV": true},
+                    "wtc": "LM",
                     "prio": 1
                 }
 			},
@@ -591,7 +611,7 @@
 					"wpt": "VOG",
                     "rwy": "10",
                     "initial": 4000,
-                    "equip": {"NON-RNAV": true},
+                    "wtc": "LM",
                     "prio": 1
                 }
 			}
