@@ -1254,8 +1254,7 @@
                 "cfl":6000,
                 "rwys":{
                     "10":{
-                        "dep":"ILFUG1RxVOG1S",
-                        "nap":"ILFUG1WxVOG1S"
+                        "dep":"ILFUG1RxVOG1S"
                     },
                     "28":{
                         "dep":"ILFUG1PxVOG1S",
@@ -1521,17 +1520,6 @@
                     },
                     "35":{
                         "dep":"RUVAB7AxNESTI6A"
-                    }
-                }
-            },
-            "OMETO":{
-                "cfl":6000,
-                "rwys":{
-                    "17":{
-                        "dep":"MMP7CxOMETO9C"
-                    },
-                    "35":{
-                        "dep":"SRN6AxOMETO6A"
                     }
                 }
             },
