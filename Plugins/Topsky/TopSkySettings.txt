@@ -394,13 +394,11 @@ Window_SmallQNHTL_ICAO=LIRF
 Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
 CPDLC_PDC_Auto=1
-Window_CARD=0,1565,755
 
 [LIRF]
 Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
 CPDLC_PDC_Auto=1
-Window_CARD=0,1565,755
 
 
 
