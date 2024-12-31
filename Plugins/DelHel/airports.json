@@ -1047,7 +1047,7 @@
                         "dep":"SRN7WxOSKOR6S"
                     },
                     "35L":{
-                        "dep":"IRKED1BxOSKOR6Z"
+                        "dep":"IRKED7AxOSKOR6Z"
                     },
                     "35R":{
                         "dep":"SRN6LxOSKOR6S"
@@ -1064,7 +1064,7 @@
                         "dep":"SRN7WxPEPAG2Q"
                     },
                     "35L":{
-                        "dep":"IRKED1BxPEPAG2X"
+                        "dep":"IRKED7AxPEPAG2X"
                     },
                     "35R":{
                         "dep":"SRN6LxPEPAG2Q"
@@ -1119,7 +1119,7 @@
                         "dep":"SRN7WxVAKON1Q"
                     },
                     "35L":{
-                        "dep":"IRKED1BxVAKON6X"
+                        "dep":"IRKED7AxVAKON6X"
                     },
                     "35R":{
                         "dep":"SRN6LxVAKON1Q"
@@ -1254,8 +1254,7 @@
                 "cfl":6000,
                 "rwys":{
                     "10":{
-                        "dep":"ILFUG1RxVOG1S",
-                        "nap":"ILFUG1WxVOG1S"
+                        "dep":"ILFUG1RxVOG1S"
                     },
                     "28":{
                         "dep":"ILFUG1PxVOG1S",
@@ -1521,17 +1520,6 @@
                     },
                     "35":{
                         "dep":"RUVAB7AxNESTI6A"
-                    }
-                }
-            },
-            "OMETO":{
-                "cfl":6000,
-                "rwys":{
-                    "17":{
-                        "dep":"MMP7CxOMETO9C"
-                    },
-                    "35":{
-                        "dep":"SRN6AxOMETO6A"
                     }
                 }
             },
