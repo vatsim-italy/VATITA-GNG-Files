@@ -107,7 +107,7 @@
           "description": "",
           "ordinal": 1,
           "text": "RUNWAY CONDITIONS CODE SIX. SIX. SIX. CONTAMINANT DRY. DRY. DRY. ",
-          "enabled": false
+          "enabled": true
         },
         {
           "description": "",
@@ -138,7 +138,7 @@
         {
           "description": "",
           "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -468,6 +468,10 @@
         {
           "string": "17R",
           "spoken": "ONE SEVEN RIGHT"
+        },
+        {
+          "string": "VACDM.VATITA.NET",
+          "spoken": "V A C D M DOT VATITA DOT NET"
         }
       ],
       "airportConditionDefinitions": [
@@ -475,7 +479,7 @@
           "description": "",
           "ordinal": 1,
           "text": "RUNWAY CONDITIONS CODE SIX. SIX. SIX. CONTAMINANT DRY. DRY. DRY. ",
-          "enabled": false
+          "enabled": true
         },
         {
           "description": "",
@@ -512,13 +516,19 @@
         {
           "description": "",
           "ordinal": 2,
-          "text": "OPERATIONAL INFORMATION DATALINK CLEARANCE AVAILABLE ON LIMC.",
-          "enabled": false
+          "text": "OPERATIONAL INFORMATION.",
+          "enabled": true
         },
         {
           "description": "",
           "ordinal": 2,
-          "text": "OPERATIONAL INFORMATION",
+          "text": "DATALINK CLEARANCE AVAILABLE ON LIMC.",
+          "enabled": true
+        },
+        {
+          "description": "",
+          "ordinal": 4,
+          "text": "ALL DEPARTING TRAFFIC CONTACT MALPENSA OPERATIONS ON 131.880 FOR RELEASE BEFORE REQUESTING STARTUP.\r\n",
           "enabled": false
         }
       ],
@@ -835,7 +845,7 @@
         {
           "description": "",
           "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -1171,7 +1181,7 @@
         {
           "description": "",
           "ordinal": 2,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -1467,7 +1477,7 @@
         {
           "description": "",
           "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -1790,7 +1800,7 @@
         {
           "description": "",
           "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -2054,6 +2064,7 @@
         {
           "id": "a2649220-b932-421f-8dc6-bddf8fdafd69",
           "name": "36",
+          "airportConditions": "",
           "template": "THIS IS TORINO ATIS ARR AND DEP INFORMATION [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APPROACH ILS ZULU. RWY IN USE 36. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
@@ -2082,7 +2093,7 @@
           "description": "",
           "ordinal": 1,
           "text": "RUNWAY CONDITIONS CODE SIX. SIX. SIX. CONTAMINANT DRY. DRY. DRY. ",
-          "enabled": false
+          "enabled": true
         },
         {
           "description": "",
@@ -2107,7 +2118,7 @@
         {
           "description": "",
           "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -2404,7 +2415,7 @@
         {
           "description": "",
           "ordinal": 2,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -2789,14 +2800,14 @@
       "notamDefinitions": [
         {
           "description": "",
-          "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION DATALINK CLEARANCE AVAILABLE ON LIMC.",
+          "ordinal": 2,
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         },
         {
           "description": "",
-          "ordinal": 2,
-          "text": "OPERATIONAL INFORMATION ",
+          "ordinal": 3,
+          "text": "DATALINK CLEARANCE AVAILABLE ON LIMC.",
           "enabled": false
         }
       ],
@@ -3127,7 +3138,7 @@
         {
           "description": "",
           "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -3470,7 +3481,7 @@
         {
           "description": "",
           "ordinal": 2,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -3788,7 +3799,7 @@
         {
           "description": "",
           "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
@@ -4120,7 +4131,7 @@
         {
           "description": "",
           "ordinal": 1,
-          "text": "OPERATIONAL INFORMATION ",
+          "text": "OPERATIONAL INFORMATION.",
           "enabled": false
         }
       ],
