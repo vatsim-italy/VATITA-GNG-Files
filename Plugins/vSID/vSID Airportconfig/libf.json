@@ -1,0 +1,54 @@
+{
+    "LIBF": {
+        "elevation": 267,
+        "runways": "15,33",
+        "transAlt": 7000,
+        "maxInitialClimb": 11000,
+        "enableRVSids": false,
+        "appSI": "BAA,BBB",
+        "sids": {
+        "DOGUS": {
+            "1": {
+                "designator": "A",
+                "rwy": "15",
+                "initial": 11000,
+                "prio": 1
+            },
+            "2": {
+                "designator": "B",
+                "rwy": "33",
+                "initial": 11000,
+                "prio": 1
+            }
+        },
+            "URIPI": {
+                "1":{
+                "designator": "A",
+                "rwy": "15",
+                "initial": 10000,
+                "prio": 1
+            },
+            "2": {
+            "designator": "B",
+                "rwy": "33",
+                "initial": 10000,
+                "prio": 1
+            }
+        },
+            "EKTOL": {
+                "1": {
+                "designator": "A",
+                "rwy": "15",
+                "initial": 10000,
+                "prio": 1
+            },
+            "2": {
+            "designator": "B",
+                "rwy": "33",
+                "initial": 10000,
+                "prio": 1
+            }
+        }
+        }
+    }
+}  
