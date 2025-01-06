@@ -1001,6 +1001,11 @@
           "variableName": "CC",
           "text": "CC",
           "voice": "CONDITIONS CODE"
+        },
+        {
+          "variableName": "LGT",
+          "text": "LGT",
+          "voice": "LIGHT"
         }
       ],
       "airportConditionDefinitions": [
@@ -1407,7 +1412,7 @@
           "name": "35 ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "@LIML @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE 35. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -1415,7 +1420,7 @@
         {
           "id": "b95bc77e-28f7-4c10-a3c7-d49b910464c5",
           "name": "17",
-          "template": "@LIML @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE 17. [ARPT_COND]. [TL]. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIML @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE 17. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -1431,7 +1436,7 @@
         {
           "id": "60af6fcb-9d8a-482e-9a93-364f99481ed0",
           "name": "35 RNP",
-          "template": "@LIML @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP RNP RWY 35. RWY IN USE 35. [ARPT_COND]. [TL]. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIML @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP RNP RWY 35. RWY IN USE 35. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
@@ -1441,7 +1446,7 @@
         {
           "variableName": "LIML",
           "text": "LIML",
-          "voice": "THIS IS LINÀTEH."
+          "voice": "THIS IS LINÀAATEH."
         },
         {
           "variableName": "ARR",
@@ -1487,6 +1492,46 @@
           "variableName": "CC",
           "text": "CC",
           "voice": "CONDITIONS CODE"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "METERS"
+        },
+        {
+          "variableName": "ABV",
+          "text": "ABV",
+          "voice": "ABOVE"
+        },
+        {
+          "variableName": "BLW",
+          "text": "BLW",
+          "voice": "BELOW"
+        },
+        {
+          "variableName": "BTN",
+          "text": "BTN",
+          "voice": "BETWEEN"
+        },
+        {
+          "variableName": "LGT",
+          "text": "LGT",
+          "voice": "LIGHT"
+        },
+        {
+          "variableName": "MOD",
+          "text": "MOD",
+          "voice": "MODERATE"
+        },
+        {
+          "variableName": "SEV",
+          "text": "SEV",
+          "voice": "SEVERE"
+        },
+        {
+          "variableName": "FL",
+          "text": "FL",
+          "voice": "FLIGHT LEVEL"
         }
       ],
       "airportConditionDefinitions": [
@@ -1519,7 +1564,7 @@
         },
         {
           "text": "AIRPORT INFORMATION.",
-          "ordinal": 1,
+          "ordinal": 2,
           "enabled": false
         }
       ]

@@ -352,7 +352,7 @@
           "name": "12 ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP ILS @Z RWY 12. RWY IN USE 12. [ARPT_COND]. [TL]. [WX]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP ILS @Z RWY 12. RWY IN USE 12. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "url": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
@@ -363,7 +363,7 @@
         {
           "id": "92b65da4-21b7-43eb-b038-959cb94b32d5",
           "name": "30 ILS",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP ILS RWY 30. RWY IN USE 30. [ARPT_COND]. [TL]. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP ILS RWY 30. RWY IN USE 30. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "url": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
@@ -376,7 +376,7 @@
           "name": "NIGHT CONFIG - 12(A) 30(D)",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP ILS Z RWY 12. ARRIVAL RWY IN USE 12. DEPARTURE RWY IN USE 30. [ARPT_COND]. [TL]. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. ",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP ILS Z RWY 12. ARRIVAL RWY IN USE 12. DEPARTURE RWY IN USE 30. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -392,7 +392,7 @@
         {
           "id": "d38f7fd9-a25a-4871-92f6-7d6a5ed1c07f",
           "name": "12 RNP",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP RNP RWY 12. RWY IN USE 12. [ARPT_COND]. [TL]. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP RNP RWY 12. RWY IN USE 12. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "url": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
@@ -403,7 +403,7 @@
         {
           "id": "b5a7b528-efb3-47bd-ab46-b130e467543d",
           "name": "30 RNP",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP RNP RWY 30. RWY IN USE 30. [ARPT_COND]. [TL]. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP RNP RWY 30. RWY IN USE 30. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "url": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
@@ -462,6 +462,36 @@
           "variableName": "CC",
           "text": "CC",
           "voice": "CONDITIONS CODE"
+        },
+        {
+          "variableName": "ABV",
+          "text": "ABV",
+          "voice": "ABOVE"
+        },
+        {
+          "variableName": "BLW",
+          "text": "BLW",
+          "voice": "BELOW"
+        },
+        {
+          "variableName": "BTN",
+          "text": "BTN",
+          "voice": "BETWEEN"
+        },
+        {
+          "variableName": "LGT",
+          "text": "LGT",
+          "voice": "LIGHT"
+        },
+        {
+          "variableName": "MOD",
+          "text": "MOD",
+          "voice": "MODERATE"
+        },
+        {
+          "variableName": "SEV",
+          "text": "SEV",
+          "voice": "SEVERE"
         }
       ],
       "airportConditionDefinitions": [
@@ -941,6 +971,36 @@
           "variableName": "CC",
           "text": "CC",
           "voice": "CONDITIONS CODE"
+        },
+        {
+          "variableName": "ABV",
+          "text": "ABV",
+          "voice": "ABOVE"
+        },
+        {
+          "variableName": "BLW",
+          "text": "BLW",
+          "voice": "BELOW"
+        },
+        {
+          "variableName": "BTN",
+          "text": "BTN",
+          "voice": "BETWEEN"
+        },
+        {
+          "variableName": "LGT",
+          "text": "LGT",
+          "voice": "LIGHT"
+        },
+        {
+          "variableName": "MOD",
+          "text": "MOD",
+          "voice": "MODERATE"
+        },
+        {
+          "variableName": "SEV",
+          "text": "SEV",
+          "voice": "SEVERE"
         }
       ],
       "airportConditionDefinitions": [
