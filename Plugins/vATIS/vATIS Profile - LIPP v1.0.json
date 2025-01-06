@@ -54,12 +54,12 @@
           },
           "variableDirection": {
             "template": {
-              "text": "{wind} VRB BTN {wind_vmin}/ AND {wind_vmax}/",
+              "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
               "voice": "DIRECTION VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES."
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 1,
             "template": {
               "text": "WIND CALM",
               "voice": "WIND CALM."
@@ -550,12 +550,12 @@
           },
           "variableDirection": {
             "template": {
-              "text": "{wind} VRB BTN {wind_vmin}/ AND {wind_vmax}/",
+              "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
               "voice": "DIRECTION VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES."
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 1,
             "template": {
               "text": "WIND CALM",
               "voice": "WIND CALM."

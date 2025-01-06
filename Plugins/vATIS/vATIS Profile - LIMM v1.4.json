@@ -54,12 +54,12 @@
           },
           "variableDirection": {
             "template": {
-              "text": "{wind} VRB BTN {wind_vmin}/ AND {wind_vmax}/ ",
+              "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/ ",
               "voice": "DIRECTION VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES."
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 1,
             "template": {
               "text": "WIND CALM",
               "voice": "WIND CALM."
@@ -358,6 +358,8 @@
         {
           "id": "3ddb0206-37e4-4c06-8cf2-f34bda5e71a3",
           "name": "35L",
+          "airportConditions": "",
+          "notams": "",
           "template": "@LIMC @ARR @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE ^35L. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
@@ -579,12 +581,12 @@
           },
           "variableDirection": {
             "template": {
-              "text": "{wind} VRB BTN {wind_vmin}/ AND {wind_vmax}/ ",
+              "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/ ",
               "voice": "DIRECTION VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES."
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 1,
             "template": {
               "text": "WIND CALM",
               "voice": "WIND CALM."
@@ -1107,12 +1109,12 @@
           },
           "variableDirection": {
             "template": {
-              "text": "{wind} VRB BTN {wind_vmin}/ AND {wind_vmax}/ ",
+              "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/ ",
               "voice": "DIRECTION VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES."
             }
           },
           "calm": {
-            "calmWindSpeed": 2,
+            "calmWindSpeed": 1,
             "template": {
               "text": "WIND CALM",
               "voice": "WIND CALM."
