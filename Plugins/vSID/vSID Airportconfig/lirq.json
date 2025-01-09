@@ -7,137 +7,153 @@
         "enableRVSids": false,
         "appSI": "RQA,NW1,NN1,NE1",
         "sids": {
+            "initial": 6000,
             "BALUK": {
-                "1": {
-                    "designator": "F",
+                "F": {
+                    "1":{
                     "rwy": "05,23",
-                    "initial": 6000,
                     "prio": 99
+                    }
                 },
-                "2": {
-                    "designator": "G",
-                    "rwy": "05",
-                    "initial": 6000,
-                    "prio": 99
+                "G": {
+                    "1":{
+                        "rwy": "05",
+                        "prio": 99
+                    }
                 },
-                "3": {
-                    "designator": "M",
+                "M": {
+                    "1":{
+                        "rwy": "05,23",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
                     "rwy": "05,23",
-                    "initial": 6000,
-                    "prio": 1
-                },
-                "4": {
-                    "designator": "H",
-                    "rwy": "05,23",
-                    "initial": 6000,
                     "equip": {"NON-RNAV": true},
                     "prio": 1
+                    }
                 },
-                "5": {
-                    "designator": "C",
+                "C": {
+                    "1":{
                     "rwy": "05",
-                    "initial": 6000,
                     "equip": {"NON-RNAV": true},
                     "prio": 99
+                    }
                 }
             },
             "LOMED": {
-                "1": {
-                    "designator": "F",
+                "F": {
+                    "1":{
                     "rwy": "05,23",
-                    "initial": 6000,
                     "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "H",
+                "G": {
+                    "1":{
                     "rwy": "05,23",
-                    "initial": 6000,
                     "equip": {"NON-RNAV": true},
                     "prio": 1
+                    }
                 }
             },
             "PRT": {
-                "1": {
-                    "designator": "F",
-                    "rwy": "05,23",
-                    "initial": 4000,
-                    "prio": 1
+                "F": {
+                    "1":{
+                        "rwy": "05,23",
+                        "initial": 4000,                        
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
                 }
             },
             "BIKTU": {
-                "1": {
-                    "designator": "M",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "prio": 1
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "H",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
                 }
             },
             "GAVRA": {
-                "1": {
-                    "designator": "M",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "prio": 1
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "H",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
                 }
             },
             "KUGIX": {
-                "1": {
-                    "designator": "M",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "prio": 1
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "H",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
                 }
             },
             "MAREL": {
-                "1": {
-                    "designator": "M",
-                    "rwy": "05,23",
-                    "initial": 4000,
-                    "prio": 99
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "H",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "prio": 1
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
                 }
             },
-        "OKMAP": {
-            "1": {
-                "designator": "M",
-                "rwy": "05,23",
-                "initial": 6000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "H",
-                "rwy": "05,23",
-                "initial": 6000,
-                "prio": 1
-
+            "OKMAP": {
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
+                }
             }
-           }
-       }            
+        }
     }
 }
+
+
+            
+
+                
