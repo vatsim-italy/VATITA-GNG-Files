@@ -7,48 +7,51 @@
         "enableRVSids": false,
         "appSI": "BAA,BBB",
         "sids": {
-        "DOGUS": {
-            "1": {
-                "designator": "A",
-                "rwy": "15",
+            "DOGUS": {
                 "initial": 11000,
-                "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "15",
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "33",
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "B",
-                "rwy": "33",
-                "initial": 11000,
-                "prio": 1
-            }
-        },
             "URIPI": {
-                "1":{
-                "designator": "A",
-                "rwy": "15",
                 "initial": 10000,
-                "prio": 1
+                "A": {
+                    "1":{
+                        "rwy": "15",
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "33",
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-            "designator": "B",
-                "rwy": "33",
-                "initial": 10000,
-                "prio": 1
-            }
-        },
             "EKTOL": {
-                "1": {
-                "designator": "A",
-                "rwy": "15",
                 "initial": 10000,
-                "prio": 1
-            },
-            "2": {
-            "designator": "B",
-                "rwy": "33",
-                "initial": 10000,
-                "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "15",
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "33",
+                        "prio": 1
+                    }
+                }
             }
-        }
         }
     }
 }  

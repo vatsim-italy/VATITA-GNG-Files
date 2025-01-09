@@ -7,147 +7,149 @@
         "enableRVSids": false,
         "appSI": "BPA,NC1,TS1,NE1",
         "sids": {
-        "ASPIR": {
-            "1": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
+            "initial": 6000,
+            "ASPIR": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 99 
+                    }
+                },
+                "S": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 99 
+                    }
+                }
             },
-            "2": {
-                "designator": "G",
-                "rwy": "22",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
+            "ERPOG": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 99 
+                    }
+                },
+                "S": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 99 
+                    }
+                }
             },
-            "3": {
-               "designator": "R",
-                "rwy": "04",
-                "initial": 6000,
-                "prio": 99 
+            "INKIM": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 99 
+                    }
+                },
+                "S": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 99 
+                    }
+                }
             },
-            "4": {
-                "designator": "S",
-                "rwy": "22",
-                "initial": 6000,
-                "prio": 99 
-            }
-        },
-        "ERPOG": {
-            "1": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
+            "OTRET": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 99 
+                    }
+                },
+                "S": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 99 
+                    }
+                }
             },
-            "2": {
-                "designator": "G",
-                "rwy": "22",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-               "designator": "R",
-                "rwy": "04",
-                "initial": 6000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "S",
-                "rwy": "22",
-                "initial": 6000,
-                "prio": 99 
-            }
-        },
-        "INKIM": {
-            "1": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            },
-            "2": {
-                "designator": "G",
-                "rwy": "22",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-               "designator": "R",
-                "rwy": "04",
-                "initial": 6000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "S",
-                "rwy": "22",
-                "initial": 6000,
-                "prio": 99 
-            }
-        },
-        "OTRET": {
-            "1": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            },
-            "2": {
-                "designator": "G",
-                "rwy": "22",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-               "designator": "R",
-                "rwy": "04",
-                "initial": 6000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "S",
-                "rwy": "22",
-                "initial": 6000,
-                "prio": 99 
-            }
-        },
-        "SUTOB": {
-            "1": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            },
-            "2": {
-                "designator": "G",
-                "rwy": "22",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-               "designator": "R",
-                "rwy": "04",
-                "initial": 6000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "S",
-                "rwy": "22",
-                "initial": 6000,
-                "prio": 99 
+            "SUTOB": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "2": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "R": {
+                    "3": {
+                        "rwy": "04",
+                        "prio": 99 
+                    }
+                },
+                "S": {
+                    "4": {
+                        "rwy": "22",
+                        "prio": 99 
+                    }
+                }
             }
         }
     }
 }
-}
+
  
