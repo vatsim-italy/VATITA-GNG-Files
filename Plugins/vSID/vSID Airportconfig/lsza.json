@@ -7,75 +7,86 @@
         "enableRVSids": false,
         "appSI": "ANE,MEN",
         "sids": {
-        "CANNE": {
-            "1": {
-                "designator": "E",
-                "rwy": "01,19",
-                "initial": 9000,
-                "prio": 1
+            "initial": 9000,
+            "CANNE": {
+                "E": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 99
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 99,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
             },
-            "2": {
-                "designator": "Z",
-                "rwy": "01,19",
-                "initial": 9000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            },
-            "3": {
-                "designator": "U",
-                "rwy": "01,19",
-                "initial": 9000,
-                "equip": {"NON-RNAV": true},
-                "prio": 99
-            }
-        },
             "LEGLO": {
-                "1":{
-                "designator": "Z",
-                "rwy": "01,F19",
-                "initial": 8000,
-                "prio": 1
+                "Z": {
+                    "1": {
+                        "rwy": "01,19",
+                        "initial": 8000,
+                        "prio": 1,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
                 }
             },
             "OMETO": {
-                "1": {
-                "designator": "E",
-                "rwy": "01,19",
-                "initial": 6000,
-                "prio": 1
+                "E": {
+                    "1": {
+                        "rwy": "01,19",
+                        "initial": 6000,
+                        "prio": 1
+                    }
                 },
-                "2": {
-                "designator": "F",
-                "rwy": "01,19",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
+                "F": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "initial": 6000,
+                        "equip": {"NON-RNAV": true}
+                    }
                 }
             },
             "PINIK": {
-            "1": {
-                "designator": "A",
-                "rwy": "01,19",
-                "initial": 6000,
-                "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "initial": 6000,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
+            },
+            "SRN": {
+                "V": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "initial": 6000,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
+            },
+            "VOG": {
+                "W": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "initial": 6000,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
             }
-        },
-        "SRN": {
-            "1": {
-                "designator": "V",
-                "rwy": "01,19",
-                "initial": 6000,
-                "prio": 1
-            }
-        },
-        "VOG": {
-            "1": {
-                "designator": "W",
-                "rwy": "01,19",
-                "initial": 6000,
-                "prio": 1
-            }
-        }
         }
     }
 }
