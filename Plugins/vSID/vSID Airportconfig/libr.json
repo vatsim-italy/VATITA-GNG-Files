@@ -7,132 +7,133 @@
         "enableRVSids": false,
         "appSI": "BRA,BBB",
         "sids": {
-        "GOKEL": {
-            "1": {
-                "designator": "C",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
-            }
-        },
+            "initial": 3000,
+            "GOKEL": {
+                "C": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                }
+            },
             "TIGRA": {
-                "1":{
-                "designator": "C",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
+                "C": {
+                    "1":{
+                        "rwy": "13",
+                        "prio": 1
+                    }
                 }
             },
             "XAPAT": {
-                "1": {
-                "designator": "C",
-                "rwy": "31",
-                "initial": 3000,
-                "prio": 1
+                "C": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1
+                    }
                 }
             },
             "ABADI": {
-            "1": {
-                "designator": "G",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
-            }
-        },
-        "DOLON": {
-            "1":{
-                "designator": "G",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1  
+                "G": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "J",
-                "rwy": "31",
-                "initial": 3000,
-                "prio": 1
-            }
-        },
-        "ENOXA": {
-            "1": {
-                "designator": "G",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
+            "DOLON": {
+                "G": {
+                    "1":{
+                        "rwy": "13",
+                        "prio": 1  
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "J",
-                "rwy": "31",
-                "initial": 3000,
-                "prio": 1
-            }
-        },
-        "FASAN": {
-            "1": {
-                "designator": "G",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
+            "ENOXA": {
+                "G": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "J",
-                "rwy": "31",
-                "initial": 3000,
-                "prio": 1
-            }
-        },
-        "NUCRE": {
-            "1": {
-                "designator": "G",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
-            }
-        },
-        "ORSOM": {
-            "1": {
-                "designator": "G",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
-            }
-        },
-        "ROBOT": {
-            "1": {
-                "designator": "G",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
+            "FASAN": {
+                "G": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "J",
-                "rwy": "31",
-                "initial": 3000,
-                "prio": 1 
-            }
-        },
-        "TROTA": {
-            "1": {
-                "designator": "G",
-                "rwy": "13",
-                "initial": 3000,
-                "prio": 1
+            "NUCRE": {
+                "G": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "J",
-                "rwy": "31",
-                "initial": 3000,
-                "prio": 1
+            "ORSOM": {
+                "G": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                }
+            },
+            "ROBOT": {
+                "G": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1 
+                    }
+                }
+            },
+            "TROTA": {
+                "G": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                }
+            },
+            "KAPPO": {
+                "J": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                }
             }
-        },
-        "KAPPO": {
-            "1": {
-                "designator": "J",
-                "rwy": "31",
-                "initial": 3000,
-                "prio": 1
-            }
-        }
         }
     }
 }
