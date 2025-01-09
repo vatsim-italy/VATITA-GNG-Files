@@ -1,0 +1,203 @@
+{
+    "LIRA": {
+        "elevation": 427,
+        "runways": "15,33",
+        "transAlt": 6000,
+        "maxInitialClimb": 8000,
+        "customRules": {"RF34": false},
+        "enableRVSids": false,
+        "timezone": "Europe/Berlin",
+        "appSI": "PN1,PS1,AET,TW1,OV1,NW1,NE1",
+        "sids": {
+            "initial": 5000,
+            "OST": {
+                "trans": {"ESINO": "V", "GILIO": "V", "KONUT": "V", "PEPIX": "V", "PODOX": "V", "SOVAN": "V", "TIBER": "V"},
+                "W": {
+                    "1":{
+                        "rwy": "15",
+                        "timeFrom": 6,
+                        "timeTo": 12,
+                        "prio": 2
+                    }
+                },
+                "Z": {
+                    "1":{
+                        "rwy": "15",
+                        "prio": 2
+                    }
+                },
+                "X": {
+                    "1": {
+                        "rwy": "15",
+                        "climbvia": true,
+                        "customRule": "RF34",
+                        "timeFrom": 6,
+                        "timeTo": 12,
+                        "prio": 1
+                    },
+                    "2": {
+                        "rwy": "15",
+                        "climbvia": true,
+                        "customRule": "RF34",
+                        "timeFrom": 6,
+                        "timeTo": 12,
+                        "trans": {"RIFFI": "V"},
+                        "prio": 1
+                    },
+                    "3": {
+                        "rwy": "15",
+                        "climbvia": true,
+                        "customRule": "RF34",
+                        "timeFrom": 6,
+                        "timeTo": 12,
+                        "trans": {"OKUNO": "S", "PEMAR": "S"},
+                        "prio": 1
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "rwy": "15",
+                        "climbvia": true,
+                        "customRule": "RF34",
+                        "prio": 1
+                    },
+                    "2": {
+                        "rwy": "15",
+                        "climbvia": true,
+                        "customRule": "RF34",
+                        "trans": {"RIFFI": "V", "SIPRO": "V"},
+                        "prio": 1
+                    },
+                    "3": {
+                        "rwy": "15",
+                        "climbvia": true,
+                        "customRule": "RF34",
+                        "timeFrom": 6,
+                        "timeTo": 12,
+                        "trans": {"OKUNO": "S", "PEMAR": "S"},
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "15",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 2
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "15",
+                        "climbvia": true,
+                        "customRule": "RF34",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "33",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "33",
+                        "prio": 1
+                    }
+                }
+            },
+            "RATIR": {              
+                "trans": {"RIFFI": "U", "SIPRO": "U"},
+                "W": {
+                    "1":{
+                        "rwy": "15",
+                        "timeFrom": 6,
+                        "timeTo": 12,
+                        "prio": 2
+                    }
+                },
+                "Z": {
+                    "1":{
+                        "rwy": "15",
+                        "prio": 2
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "33",
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "15",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 2
+                    }
+                }
+            },
+            "KASCI": {
+                "trans": {"PEMAR": "T", "SIPRO": "T", "TIBER": "T"},
+                "F": {
+                    "1": {
+                        "rwy": "33",
+                        "prio": 1
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "33",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "OKUNO": {
+                "initial": 8000,
+                "trans": {},
+                "W": {
+                    "1":{
+                        "rwy": "15",
+                        "timeFrom": 6,
+                        "timeTo": 12,
+                        "prio": 2
+                    }
+                },
+                "Z": {
+                    "1":{
+                        "rwy": "15",
+                        "prio": 2
+                    }
+                }
+            },
+            "PEMAR": {
+                "initial": 8000,
+                "trans": {},
+                "W": {
+                    "1":{
+                        "rwy": "15",
+                        "timeFrom": 6,
+                        "timeTo": 12,
+                        "prio": 2
+                    }
+                },
+                "Z": {
+                    "1":{
+                        "rwy": "15",
+                        "prio": 2
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+                

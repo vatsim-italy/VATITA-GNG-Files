@@ -3,85 +3,86 @@
         "elevation": 123,
         "runways": "05,23",
         "transAlt": 8000,
-        "maxInitialClimb": 6000,
+        "maxInitialClimb": 10000,
         "enableRVSids": false,
         "appSI": "US0,US1,US2,TS1,NE1",
         "sids": {
-        "AMANO": {
-            "1": {
-                "designator": "C",
-                "rwy": "05,23",
-                "initial": 6000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "E",
-                "rwy": "05,23",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-                }
-        },
-            "PEVIR": {
-            "1": {
-                "designator": "C",
-                "rwy": "05,23",
-                "initial": 6000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "E",
-                "rwy": "05,23",
-                "initial": 6000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            }
-        },
-            "POLIT": {
-                "1": {
-                    "designator": "C",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "prio": 1
+            "initial": 6000,      
+            "AMANO": {
+                "C": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "E",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "E": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1,
+                        "equip": {"NON-RNAV": true}
+                    }
+                }
+            },
+            "PEVIR": {
+                "C": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1,
+                        "equip": {"NON-RNAV": true}
+                    }
+                }
+            },  
+            "POLIT": {
+                "C": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1,
+                        "equip": {"NON-RNAV": true}
+                    }
                 }
             },
             "SOR": {
-                "1": {
-                    "designator": "C",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "prio": 1
+                "C": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "E",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "E": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1,
+                        "equip": {"NON-RNAV": true}
+                    }
                 }
-            },
+            }, 
             "VARAL": {
-                "1": {
-                    "designator": "C",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "prio": 1
+                "C": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "E",
-                    "rwy": "05,23",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "E": {
+                    "1": {
+                        "rwy": "05,23",
+                        "prio": 1,
+                        "equip": {"NON-RNAV": true}
+                    }
                 }
             }
         }
-     }
-}
+    }
+}           
