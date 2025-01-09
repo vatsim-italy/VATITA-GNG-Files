@@ -7,176 +7,177 @@
         "enableRVSids": false,
         "appSI": "CCA,ES1,SU1",
         "sids": {
-            "initial": 6000,
-            "ALUDU": {
-                "K": {
-                    "1": {
-                        "rwy": "08",
-                        "prio": 1
-                    }
-                },
-                "Y": {
-                    "1": {
-                        "rwy": "26",
-                        "prio": 1 
-                    }
-                },
-                "A": {
-                    "1": {
-                        "rwy": "08",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1 
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "26",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1  
-                    }
-                }
+        "ALUDU": {
+            "1": {
+                "designator": "K",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
             },
+            "2": {
+                "designator": "Y",
+                "rwy": "26",
+                "initial": 6000,
+                "prio": 1 
+            },
+            "3": {
+               "designator": "A",
+                "rwy": "08",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
+            },
+            "4": {
+               "designator": "B",
+                "rwy": "26",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1  
+            }
+        },
             "LIBRO": {
-                "K": {
-                    "1":{
-                        "rwy": "08",
-                        "prio": 1
-                        }
+                "1":{
+                "designator": "K",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
                 },
-                "Y": {
-                    "1": {
-                        "rwy": "26",
-                        "prio": 1
-                    }
+                "2": {
+                "designator": "Y",
+                "rwy": "26",
+                "initial": 6000,
+                "prio": 1
                 },
-                "A": {
-                    "1": {
-                        "rwy": "08",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1 
-                    }
+                "3": {
+                "designator": "A",
+                "rwy": "08",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1 
                 },
-                "B": {
-                    "1": {
-                    "rwy": "26",
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                    }
+                "4": {
+               "designator": "B",
+                "rwy": "26",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
                 }
             },
             "NELDA": {
-                "K": {
-                    "1": {
-                        "rwy": "08",
-                        "prio": 1
-                    }
+                "1": {
+                "designator": "K",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
                 },
-                "Y": {
-                    "1": {
-                        "rwy": "26",
-                        "prio": 1
-                    }
+                "2": {
+                "designator": "Y",
+                "rwy": "26",
+                "initial": 6000,
+                "prio": 1
                 },
-                "A": {
-                    "1": {
-                        "rwy": "08",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1
-                    }
+                "3": {
+                "designator": "A",
+                "rwy": "08",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
                 },
-                "B": {
-                    "1": {
-                        "rwy": "26",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1
-                    }
+                "4": {
+                "designator": "B",
+                "rwy": "26",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
                 }
             },
             "PEKOD": {
-                "Y": {
-                    "1": {
-                        "rwy": "26",
-                        "prio": 1
-                    }
-                },
-                "A": {
-                    "1": {
-                        "rwy": "08",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 3
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "26",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 99
-                    }
-                },
-                "K": {
-                    "1": {
-                        "rwy": "08",
-                        "prio": 2
-                    },
-                    "2": {
-                        "rwy": "08",
-                        "trans":{"BUDIN": "B"},
-                        "prio": 1
-                    }
-                }
+            "1": {
+                "designator": "Y",
+                "rwy": "26",
+                "initial": 6000,
+                "prio": 1
             },
+            "2": {
+                "designator": "A",
+                "rwy": "08",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 1
+            },
+            "3": {
+               "designator": "B",
+                "rwy": "26",
+                "initial": 6000,
+                "equip": {"NON-RNAV": true},
+                "prio": 99
+            },
+            "4": {
+                "designator": "K",
+                "rwy": "08",
+                "initial": 6000,
+                "prio": 1
+            }
+        },
             "PIMOR": {
-                "K": {
-                    "1": {
-                        "rwy": "08",
-                        "prio": 1
-                    }
+                "1": {
+                    "designator": "K",
+                    "rwy": "08",
+                    "initial": 6000,
+                    "prio": 1
                 },
-                "Y": {
-                    "1": {
-                        "rwy": "26",
-                        "prio": 1
-                    }
+                "2": {
+                    "designator": "Y",
+                    "rwy": "26",
+                    "initial": 6000,
+                    "prio": 1
                 },
-                "A": {
-                    "1": {
-                        "rwy": "08",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1 
-                    }
+                "3": {
+                    "designator": "A",
+                    "rwy": "08",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1 
                 },
-                "B": {
-                    "1": {
-                        "rwy": "26",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 99
-                    }
+                "4": {
+                    "designator": "B",
+                    "rwy": "26",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
                 }
             },
-            "UXUTA": {
-                "A": {
-                    "1": {
-                        "designator": "Y",
-                        "rwy": "26",
-                        "prio": 1 
-                    }
+                "UXUTA": {
+                "1": {
+                    "designator": "Y",
+                    "rwy": "26",
+                    "initial": 6000,
+                    "prio": 1 
                 }
             },
             "RCA": {
-                "A": {
-                    "1": {
-                        "rwy": "08",
-                        "prio": 99 
-                    }
+                "1": {
+                    "designator": "A",
+                    "rwy": "08",
+                    "initial": 6000,
+                    "prio": 99 
                 },
-                "B": {
-                    "1": {
-                        "rwy": "26",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 99
-                    }
+                "2": {
+                    "designator": "B",
+                    "rwy": "26",
+                    "initial": 6000,
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
                 }
-            }
+            },
+            "PEKOD5KXBUDIN5B": {
+                "1": {
+					"wpt": "BUDIN",
+                    "rwy": "08",
+                    "initial": 6000,
+                    "prio": 3
+                }
+			}
         }
     }
 }
