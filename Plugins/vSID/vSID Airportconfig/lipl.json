@@ -11,25 +11,25 @@
                 "1": {
                     "wpt": "LORIS",
                     "rwy": "31L,13R",
-                    "equip": {"NON-RNAV": true},
+                    "equip": {"RNAV": true, "NON-RNAV": true},
                     "prio": 1
-                }
+                }    
             },
             "GOLF3": {
                 "1": {
                     "wpt": "ROZHU",
                     "rwy": "31L,13R",
-                    "equip": {"NON-RNAV": true},
+                    "equip": {"RNAV": true, "NON-RNAV": true},
                     "prio": 1
-                }
+                }    
             },
             "GOLF4": {
                 "1": {
                     "wpt": "BRAVO",
                     "rwy": "31L,13R",
-                    "equip": {"NON-RNAV": true},
+                    "equip": {"RNAV": true, "NON-RNAV": true},
                     "prio": 1
-                }
+                }    
             }
         }
     }

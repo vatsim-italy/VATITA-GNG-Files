@@ -7,91 +7,94 @@
         "enableRVSids": false,
         "appSI": "PEA,PSD,PCE,PNE",
         "sids": {
-        "AMLON": {
-            "1": {
-                "designator": "T",
-                "rwy": "12",
-                "initial": 5000,
-                "prio": 1
+            "initial": 5000,
+            "AMLON": {
+                "T": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "30",
+                        "prio": 1
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "30",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "K",
-                "rwy": "30",
-                "initial": 5000,
-                "prio": 1
-            },
-            "3": {
-                "designator": "Q",
-                "rwy": "12",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1  
-            },
-            "4": {
-                "designator": "R",
-                "rwy": "30",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            }
-        },
             "ASDOR": {
-            "1": {
-                "designator": "T",
-                "rwy": "12",
-                "initial": 5000,
-                "prio": 1
+                "T": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "30",
+                        "prio": 1
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "30",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "K",
-                "rwy": "30",
-                "initial": 5000,
-                "prio": 1
-            },
-            "3": {
-                "designator": "Q",
-                "rwy": "12",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "4": {
-                "designator": "R",
-                "rwy": "30",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            }
-        },
             "GIPUK": {
-                "1": {
-                    "designator": "T",
-                    "rwy": "12",
-                    "initial": 5000,
-                    "prio": 1
+                "T": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "K",
-                    "rwy": "30",
-                    "initial": 5000,
-                    "prio": 1
+                "K": {
+                    "1": {
+                        "rwy": "30",
+                        "prio": 1
+                    }
                 },
-                "3": {
-                    "designator": "Q",
-                    "rwy": "12",
-                    "initial": 5000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1 
+                "Q": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
                 },
-                "4": {
-                    "designator": "R",
-                    "rwy": "30",
-                    "initial": 5000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1  
+                "R": {
+                    "1": {
+                        "rwy": "30",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
                 }
             }
         }
     }
 }
+            
+
 

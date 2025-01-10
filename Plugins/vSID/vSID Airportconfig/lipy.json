@@ -7,167 +7,176 @@
         "enableRVSids": false,
         "appSI": "PYA,PSD,PCE,PNE",
         "sids": {
-        "BIDMA": {
-            "1": {
-                "designator": "M",
-                "rwy": "04",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
+            "initial": 5000,
+            "BIDMA": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "M": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "H",
-                "rwy": "04",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 99
+            "LANLI": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
-            "3": {
-                "designator": "J",
-                "rwy": "22",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
+            "MASEG": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
-            "4": {
-                "designator": "K",
-                "rwy": "22",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 99 
+            "ERLIT": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                }
             },
-            "5": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 5000,
-                "prio": 99 
-            },
-            "6": {
-                "designator": "L",
-                "rwy": "22",
-                "initial": 5000,
-                "prio": 99
-            }
-        },
-        "LANLI": {
-            "1": {
-                "designator": "H",
-                "rwy": "04",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            },
-            "2": {
-                "designator": "J",
-                "rwy": "22",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 5000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "L",
-                "rwy": "22",
-                "initial": 5000,
-                "prio": 99
-            }
-        },
-        "MASEG": {
-            "1": {
-                "designator": "H",
-                "rwy": "04",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            },
-            "2": {
-                "designator": "J",
-                "rwy": "22",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 5000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "L",
-                "rwy": "22",
-                "initial": 5000,
-                "prio": 99
-            }
-        },
-        "ERLIT": {
-            "1": {
-                "designator": "H",
-                "rwy": "04",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            },
-            "2": {
-                "designator": "J",
-                "rwy": "22",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 5000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "L",
-                "rwy": "22",
-                "initial": 5000,
-                "prio": 99
-            },
-            "5": {
-                "designator": "K",
-                "rwy": "22",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 99 
-            }
-        },
-        "GERBU": {
-            "1": {
-                "designator": "H",
-                "rwy": "04",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1
-            },
-            "2": {
-                "designator": "J",
-                "rwy": "22",
-                "initial": 5000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-                "designator": "F",
-                "rwy": "04",
-                "initial": 5000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "L",
-                "rwy": "22",
-                "initial": 5000,
-                "prio": 99
+            "GERBU": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             }
         }
     }
 }
-}
+
+
+
+                                      

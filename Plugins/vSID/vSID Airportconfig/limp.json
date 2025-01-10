@@ -7,74 +7,80 @@
         "enableRVSids": false,
         "appSI": "MPA,MES,MEN,MWS,MWN,MMM",
         "sids": {
-        "LUPOS": {
-            "1": {
-                "designator": "Z",
-                "rwy": "02",
-                "initial": 11000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "W",
-                "rwy": "20",
-                "initial": 11000,
-                "prio": 1 
-            }
-        },
-            "BETMU": {
-                "1": {
-                    "designator": "Z",
-                    "rwy": "02",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+            "initial": 6000,
+            "LUPOS": {
+                "Z": {
+                    "1": {
+                        "rwy": "02",
+                        "initial": 11000,
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "20",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1 
-                }    
+                "W": {
+                    "1": {
+                        "rwy": "20",
+                        "initial": 11000,
+                        "prio": 1
+                    }
+                }
+            },
+            "BETMU": {
+                "Z": {
+                    "1": {
+                        "rwy": "02",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "1": {
+                        "rwy": "20",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
             "MISPO": {
-                "1": {
-                    "designator": "Z",
-                    "rwy": "02",
-                    "initial": 8000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "Z": {
+                    "1": {
+                        "rwy": "02",
+                        "initial": 8000,
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "W",
-                    "rwy": "20",
-                    "initial": 8000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 99 
+                "W": {
+                    "1": {
+                        "rwy": "20",
+                        "initial": 11000,
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 99
+                    }
                 },
-                "3": {
-                    "designator": "T",
-                    "rwy": "20",
-                    "initial": 8000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1 
-                }     
+                "T": {
+                    "1": {
+                        "rwy": "20",
+                        "initial": 11000,
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
             "OSBUL": {
-                "1": {
-                    "designator": "N",
-                    "rwy": "02",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "N": {
+                    "1": {
+                        "rwy": "02",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "T",
-                    "rwy": "20",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1 
-                } 
+                "T": {
+                    "1": {
+                        "rwy": "20",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             }
         }
     }

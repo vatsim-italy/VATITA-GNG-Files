@@ -8,38 +8,42 @@
         "appSI": "PHA,PCE,PNE",
         "sids": {
             "CHI": {
-                "1": {
-                    "designator": "A",
-                    "rwy": "26",
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "26",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "B",
-                    "rwy": "08",
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "B": {
+                    "1": {
+                        "rwy": "08",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 }
             },
             "VIC": {
-                "1": {
-                    "designator": "A",
-                    "rwy": "26",
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "A": {
+                    "1": {
+                        "rwy": "26",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 },
-                "2": {
-                    "designator": "B",
-                    "rwy": "08",
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
+                "B": {
+                    "1": {
+                        "rwy": "08",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
                 }
             },
             "TACAN3": {
                 "1": {
                     "wpt": "CHARE",
                     "rwy": "26,08",
-                    "equip": {"NON-RNAV": true},
+                    "equip": {"RNAV": true, "NON-RNAV": true},
                     "prio": 1
                 }
             },
@@ -47,7 +51,7 @@
                 "1": {
                     "wpt": "MOPIP",
                     "rwy": "26,08",
-                    "equip": {"NON-RNAV": true},
+                    "equip": {"RNAV": true, "NON-RNAV": true},
                     "prio": 1
                 }
             }

@@ -7,75 +7,77 @@
         "enableRVSids": false,
         "appSI": "PBI,PNE",
         "sids": {
-        "ADOSA": {
-            "1": {
-                "designator": "W",
-                "rwy": "01,19",
-                "initial": 12000,
-                "prio": 1
+            "initial": 12000,
+            "ADOSA": {
+                "W": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1
+                    }        
+                },
+                "A": {
+                    "1": {
+                        "rwy": "01,19",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }        
+                }
             },
-            "2": {
-                "designator": "A",
-                "rwy": "01,19",
-                "initial": 12000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
+            "ALESE": {
+                "W": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1
+                    }        
+                },
+                "A": {
+                    "1": {
+                        "rwy": "01,19",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }        
+                }
+            },
+            "NAXAV": {
+                "W": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1
+                    }        
+                },
+                "A": {
+                    "1": {
+                        "rwy": "01,19",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }        
+                }
+            },
+            "VIC": {
+                "W": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1
+                    }        
+                },
+                "A": {
+                    "1": {
+                        "rwy": "01,19",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }        
+                },
+                "B": {
+                    "1": {
+                        "rwy": "01,19",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }        
+                }
             }
-        },
-        "ALESE": {
-            "1": {
-                "designator": "W",
-                "rwy": "01,19",
-                "initial": 12000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "A",
-                "rwy": "01,19",
-                "initial": 12000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            }
-        },
-        "NAXAV": {
-            "1": {
-                "designator": "W",
-                "rwy": "01,19",
-                "initial": 12000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "B",
-                "rwy": "01,19",
-                "initial": 12000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            }
-        },
-        "VIC": {
-            "1": {
-                "designator": "W",
-                "rwy": "01,19",
-                "initial": 12000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "A",
-                "rwy": "01,19",
-                "initial": 12000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "3": {
-                "designator": "B",
-                "rwy": "01,19",
-                "initial": 12000,
-                "equip": {"NON-RNAV": true},
-                "prio": 99 
-            }
-		}
         }
     }
 }
 
- 
+
+

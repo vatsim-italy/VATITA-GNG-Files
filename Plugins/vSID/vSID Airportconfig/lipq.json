@@ -7,194 +7,198 @@
         "enableRVSids": false,
         "appSI": "CE0,SE0,PCE,PNE",
         "sids": {
-        "LUPIN": {
-            "1": {
-                "designator": "M",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 1
+            "initial": 4000,
+            "LUPIN": {
+                "M": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "N": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 99
+                    }
+                },
+                "P": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
-            "2": {
-                "designator": "G",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 1 
+            "RCH": {
+                "G": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
-            "3": {
-                "designator": "N",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 99 
+            "RIFEN": {
+                "F": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "N": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 99
+                    }
+                },
+                "M": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
-            "4": {
-                "designator": "P",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 99 
+            "CHI": {
+                "U": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 99
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "T": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             },
-            "5": {
-                "designator": "L",
-                "rwy": "09",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "6": {
-                "designator": "H",
-                "rwy": "27",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
+            "ROSKA": {
+                "C": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 99
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
             }
-        },
-        "RCH": {
-            "1": {
-                "designator": "G",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "F",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 1 
-            },
-            "3": {
-                "designator": "L",
-                "rwy": "09",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "4": {
-                "designator": "H",
-                "rwy": "27",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            }
-        },
-        "RIFEN": {
-            "1": {
-                "designator": "G",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "F",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 1 
-            },
-            "3": {
-                "designator": "L",
-                "rwy": "09",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "4": {
-                "designator": "H",
-                "rwy": "27",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "5": {
-                "designator": "M",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 99 
-            },
-            "6": {
-                "designator": "N",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 99 
-            }
-        },
-        "CHI": {
-            "1": {
-                "designator": "G",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "U",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 1 
-            },
-            "3": {
-                "designator": "Y",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "K",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 99 
-            },
-            "5": {
-                "designator": "T",
-                "rwy": "09",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "6": {
-                "designator": "J",
-                "rwy": "27",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            }
-        },
-        "ROSKA": {
-            "1": {
-                "designator": "E",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 1
-            },
-            "2": {
-                "designator": "C",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 1 
-            },
-            "3": {
-                "designator": "G",
-                "rwy": "27",
-                "initial": 4000,
-                "prio": 99 
-            },
-            "4": {
-                "designator": "B",
-                "rwy": "09",
-                "initial": 4000,
-                "prio": 99 
-            },
-            "5": {
-                "designator": "F",
-                "rwy": "09",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            },
-            "6": {
-                "designator": "A",
-                "rwy": "27",
-                "initial": 4000,
-                "equip": {"NON-RNAV": true},
-                "prio": 1 
-            }
-        }
         }
     }
 }
+
+
+
