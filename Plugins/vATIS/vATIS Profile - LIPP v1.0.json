@@ -492,6 +492,11 @@
           "variableName": "SEV",
           "text": "SEV",
           "voice": "SEVERE"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "METERS"
         }
       ],
       "airportConditionDefinitions": [
@@ -511,9 +516,9 @@
           "enabled": false
         },
         {
-          "text": "RVR. @TDZ - @M. @MID - @M. @END - @M.",
+          "text": "RVR. @TDZ *800 @M. @MID *1000 @M. @END *1100 @M.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -523,7 +528,7 @@
           "enabled": false
         },
         {
-          "text": "AIRPORT INFORMATION. TAXIWAY F CLOSED DUE TO WIP.",
+          "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
           "enabled": false
         }
@@ -1001,6 +1006,11 @@
           "variableName": "SEV",
           "text": "SEV",
           "voice": "SEVERE"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "METERS"
         }
       ],
       "airportConditionDefinitions": [
@@ -1012,7 +1022,7 @@
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "NON USARE RWY CC CON LVP",
@@ -1020,7 +1030,7 @@
           "enabled": false
         },
         {
-          "text": "RVR. @TDZ - @M. @MID - @M. @END - @M.",
+          "text": "RVR. @TDZ - @M. @MID -- @M. @END - @M.",
           "ordinal": 4,
           "enabled": false
         }
