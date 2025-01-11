@@ -16,20 +16,20 @@
                     }
                 },
                 "Y": {
-                    "2": {
+                    "1": {
                         "rwy": "25",
                         "prio": 1
                     }
                 },
                 "A": {
-                    "3": {
+                    "1": {
                         "rwy": "07",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "B": {
-                    "4": {
+                    "1": {
                         "rwy": "25",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
@@ -44,20 +44,20 @@
                     }
                 },
                 "Y": {
-                    "2": {
+                    "1": {
                         "rwy": "25",
                         "prio": 1
                     }
                 },
                 "A": {
-                    "3": {
+                    "1": {
                         "rwy": "07",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "B": {
-                    "4": {
+                    "1": {
                         "rwy": "25",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
