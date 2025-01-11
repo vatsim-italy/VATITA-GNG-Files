@@ -3,7 +3,7 @@
         "elevation": 768,
         "runways": "17L,17R,35L,35R",
         "transAlt": 6000,
-        "maXInitialClimb": 7000,
+        "maxInitialClimb": 7000,
         "enableRVSids": false,
         "appSI": "",
         "sids": {
