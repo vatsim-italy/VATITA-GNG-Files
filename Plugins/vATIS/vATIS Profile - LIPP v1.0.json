@@ -232,23 +232,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW {altitude}",
+              "text": "FEW {convective} {altitude}FT",
               "voice": "few {altitude} feet"
             },
             "SCT": {
-              "text": "SCT {altitude}{convective}",
+              "text": "SCT {convective} {altitude}FT",
               "voice": "scattered {altitude} {convective} feet"
             },
             "BKN": {
-              "text": "BKN {altitude}{convective}",
+              "text": "BKN {convective} {altitude}FT",
               "voice": "broken {altitude} {convective} feet"
             },
             "OVC": {
-              "text": "OVC {altitude}{convective}",
+              "text": "OVC {convective} {altitude}FT",
               "voice": "overcast {altitude} {convective} feet"
             },
             "VV": {
-              "text": "VV {altitude}",
+              "text": "VV {altitude}FT",
               "voice": "vertical visibility obscured {altitude} feet"
             },
             "NSC": {
@@ -273,7 +273,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CLD {clouds}FT",
+            "text": "CLD {clouds}",
             "voice": "CLOUDS: {clouds}"
           }
         },
@@ -516,9 +516,9 @@
           "enabled": false
         },
         {
-          "text": "RVR. @TDZ *800 @M. @MID *1000 @M. @END *1100 @M.",
+          "text": "RVR. @TDZ - @M. @MID - @M. @END - @M.",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -763,23 +763,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW {altitude}",
+              "text": "FEW {convective} {altitude}FT",
               "voice": "few {altitude} feet"
             },
             "SCT": {
-              "text": "SCT {altitude}{convective}",
+              "text": "SCT {convective} {altitude}FT",
               "voice": "scattered {altitude} {convective} feet"
             },
             "BKN": {
-              "text": "BKN {altitude}{convective}",
+              "text": "BKN {convective} {altitude}FT",
               "voice": "broken {altitude} {convective} feet"
             },
             "OVC": {
-              "text": "OVC {altitude}{convective}",
+              "text": "OVC {convective} {altitude}FT",
               "voice": "overcast {altitude} {convective} feet"
             },
             "VV": {
-              "text": "VV {altitude}",
+              "text": "VV {altitude}FT",
               "voice": "vertical visibility obscured {altitude} feet"
             },
             "NSC": {
@@ -804,7 +804,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CLD {clouds}FT",
+            "text": "CLD {clouds}",
             "voice": "CLOUDS: {clouds}"
           }
         },
@@ -1022,7 +1022,7 @@
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "NON USARE RWY CC CON LVP",
