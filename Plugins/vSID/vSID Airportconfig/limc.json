@@ -5,7 +5,7 @@
         "transAlt": 6000,
         "maxInitialClimb": 7000,
         "enableRVSids": false,
-        "appSI": "",
+        "appSI": "ANW,ANE,MEN",
         "sids": {
             "IRKED": {
 				"initial": 5000,
