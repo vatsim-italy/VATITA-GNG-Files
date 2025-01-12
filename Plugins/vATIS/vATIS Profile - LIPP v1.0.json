@@ -296,8 +296,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|123}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|123} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -354,10 +354,7 @@
           "notams": "",
           "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. TYPE OF APP ILS @Z RWY 12. RWY IN USE 12. [ARPT_COND]. [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false,
-            "url": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
-            "arrival": "12",
-            "departure": "12"
+            "enabled": false
           }
         },
         {
@@ -827,8 +824,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|7}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|7} HECTOPASCALS."
           }
         },
         "transitionLevel": {

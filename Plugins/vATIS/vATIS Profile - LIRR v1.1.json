@@ -296,8 +296,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|14}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|14} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -900,8 +900,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|14}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|14} HECTOPASCALS."
           }
         },
         "transitionLevel": {

@@ -296,8 +296,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|768}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|768} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -828,8 +828,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|768}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|768} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -1367,8 +1367,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|353}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|353} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -1873,8 +1873,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|782}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|782} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -2764,8 +2764,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|240}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|240} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -3271,8 +3271,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|989}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|989} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -3770,8 +3770,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA ",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|13}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|13} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -4733,8 +4733,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|142}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|142} HECTOPASCALS."
           }
         },
         "transitionLevel": {
@@ -5219,8 +5219,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} HPA",
-            "voice": "QNH {altimeter} HECTOPASCALS"
+            "text": "QNH {altimeter}HPA QFE {qfe|6}HPA",
+            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|6} HECTOPASCALS."
           }
         },
         "transitionLevel": {
