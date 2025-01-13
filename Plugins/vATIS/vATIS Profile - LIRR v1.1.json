@@ -511,7 +511,7 @@
         {
           "text": "RWY @COND. RWY ^16L @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.\r\nRWY @COND. RWY ^16R @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY @COND. RWY ^16L @CC 5. 5. 5. CONTAMINANT WET .WET. WET. RWY ^16R @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -1116,7 +1116,7 @@
         {
           "text": "RWY @COND. RWY 25 @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY @COND. RWY 25 @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -1126,7 +1126,7 @@
         {
           "text": "RWY @COND. RWY ^16R @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY @COND. RWY ^16R @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
