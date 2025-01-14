@@ -1,620 +1,214 @@
 {
     "LIME": {
         "elevation": 782,
-        "runways": "10,28,12,30",
+        "runways": "10,28",
         "transAlt": 6000,
         "maxInitialClimb": 6000,
         "enableRVSids": false,
         "appSI": "ADE,ANE,MEN",
         "sids": {
-        "LEGLO1VXDILEB1D": {
-                "1": {
-					"wpt": "DILEB",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-			"LEGLO1WXDILEB1D": {
-                "1": {
-					"wpt": "DILEB",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "LEGLO1VXOSKOR1F": {
-                "1": {
-					"wpt": "OSKOR",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "LEGLO1WXOSKOR1F": {
-                "1": {
-					"wpt": "OSKOR",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "LEGLO1VXPEPAG1D": {
-                "1": {
-					"wpt": "PEPAG",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "LEGLO1WXPEPAG1D": {
-                "1": {
-					"wpt": "PEPAG",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "SRN1VXARLES1B": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 3
-                }
-			},
-            "LEGLO1VXARLES1D": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "LEGLO1WXARLES1D": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "SRN1VXOMETO1B": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "28",
-                    "initial": 5000,
-                    "prio": 3
-                }
-			},
-            "LEGLO1VXOMETO1D": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "LEGLO1WXOMETO1D": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "ILFUG1VXVOG1S": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "ILFUG1WXVOG1D": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "ILFUG1VXGEN1S": {
-                "1": {
-					"wpt": "GEN",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "ILFUG1WXGEN1S": {
-                "1": {
-					"wpt": "GEN",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "ILFUG1VXEKPAL1S": {
-                "1": {
-					"wpt": "EKPAL",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "ILFUG1WXEKPAL1S": {
-                "1": {
-					"wpt": "EKPAL",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "ILFUG1VXLEGLO1S": {
-                "1": {
-					"wpt": "LEGLO",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "ILFUG1WXLEGLO1S": {
-                "1": {
-					"wpt": "LEGLO",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "HJ",
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "TZO1VXEKPAL7V": {
-                "1": {
-					"wpt": "EKPAL",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "TZO1WXEKPAL7V": {
-                "1": {
-					"wpt": "EKPAL",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "TZO1VXVOG7U": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "prio": 5
-                }
-			},
-            "TZO1WXVOG7U": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": false},
-                    "prio": 1
-                }
-			},
-            "ILFUG1PXVOG1S": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "ILFUG1QXVOG1S": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "ILFUG1PXGEN1S": {
-                "1": {
-					"wpt": "GEN",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "ILFUG1QXGEN1S": {
-                "1": {
-					"wpt": "GEN",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "ILFUG1PXEKPAL1S": {
-                "1": {
-					"wpt": "EKPAL",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "ILFUG1QXEKPAL1S": {
-                "1": {
-					"wpt": "EKPAL",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "ILFUG1PXLOGDI1S": {
-                "1": {
-					"wpt": "LOGDI",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "ILFUG1QXLOGDI1S": {
-                "1": {
-					"wpt": "LOGDI",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1PXDILEB1D": {
-                "1": {
-					"wpt": "DILEB",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "LEGLO1QXDILEB1D": {
-                "1": {
-					"wpt": "DILEB",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1PXOSKOR1F": {
-                "1": {
-					"wpt": "OSKOR",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "LEGLO1QXOSKOR1F": {
-                "1": {
-					"wpt": "OSKOR",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1PXPEPAG1D": {
-                "1": {
-					"wpt": "PEPAG",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "LEGLO1QXPEPAG1D": {
-                "1": {
-					"wpt": "PEPAG",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1PXARLES1D": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "LEGLO1QXARLES1D": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1PXOMETO1D": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "LEGLO1QXOMETO1D": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "TZO7PXEKPAL7V": {
-                "1": {
-					"wpt": "EKPAL",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "TZO7PXVOG7U": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "LEGLO1RXDILEB1D": {
-                "1": {
-					"wpt": "DILEB",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1RXOSKOR1F": {
-                "1": {
-					"wpt": "OSKOR",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1RXPEPAG1D": {
-                "1": {
-					"wpt": "PEPAG",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1RXARLES1D": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "LEGLO1RXOMETO1D": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "ILFUG1RXVOG1S": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "ILFUG1RXGEN1S": {
-                "1": {
-					"wpt": "GEN",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "ILFUG1RXEKPAL1S": {
-                "1": {
-					"wpt": "EKPAL",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 99
-                }
-			},
-            "SRN1ZXARLES1R": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "28",
-                    "initial": 6000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "SRN1ZXOMETO1R": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "28",
-                    "initial": 5000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "BRL1ZXARLES1K": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "28",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "BRL1ZXOMETO1K": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "28",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "BRL1ZXPEPAG1K": {
-                "1": {
-					"wpt": "PEPAG",
-                    "rwy": "28",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "BRL1ZXDILEB1K": {
-                "1": {
-					"wpt": "DILEB",
-                    "rwy": "28",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "BRL1ZXOSKOR1K": {
-                "1": {
-					"wpt": "OSKOR",
-                    "rwy": "28",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "ILFUG1ZXROBAS1K": {
-                "1": {
-					"wpt": "ROBAS",
-                    "rwy": "28",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "ILFUG1ZXVOG1K": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "28",
-                    "initial": 4000,
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                }
-			},
-            "BRL2YXARLES1K": {
-                "1": {
-					"wpt": "ARLES",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "BRL2YXOMETO1K": {
-                "1": {
-					"wpt": "OMETO",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "BRL2YXPEPAG1K": {
-                "1": {
-					"wpt": "PEPAG",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "BRL2YXDILEB1K": {
-                "1": {
-					"wpt": "DILEB",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "BRL2YXOSKOR1K": {
-                "1": {
-					"wpt": "OSKOR",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "ILFUG2YXROBAS1K": {
-                "1": {
-					"wpt": "ROBAS",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			},
-            "ILFUG2YXVOG1K": {
-                "1": {
-					"wpt": "VOG",
-                    "rwy": "10",
-                    "initial": 4000,
-                    "wtc": "LM",
-                    "prio": 1
-                }
-			}
+            "initial": 6000,
+            "LEGLO": {
+                "trans": {"OSKOR": "F", "PEPAG": "D", "DILEB": "D", "ARLES": "D", "OMETO": "D"},
+                "P": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 1,
+                        "wtc": "LM"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "10",
+                        "initial": 4000,
+                        "prio": 1,
+                        "wtc": "LM"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "rwy": "10",
+                        "initial": 4000,
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
+                }
+            },
+            "ILFUG": {
+                "trans": {"LOGDI": "S", "EKPAL": "S", "GEN": "S", "VOG": "S"},
+                "P": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 1,
+                        "wtc": "LM"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "10",
+                        "initial": 4000,
+                        "prio": 1,
+                        "wtc": "LM"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "rwy": "10",
+                        "initial": 4000,
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 1,
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "trans": {"ROBAS": "K", "VOG": "K"}
+                    },
+                    "2": {
+                        "rwy": "28",
+                        "prio": 1,
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "trans": {},
+                        "dest": {"LIML": true}
+                    }                      
+                },
+                "Y": {
+                    "1": {
+                        "rwy": "10",
+                        "prio": 1,
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "trans": {"ROBAS": "K", "VOG": "K"}
+                    },
+                    "2": {
+                        "rwy": "10",
+                        "prio": 1,
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "trans": {},
+                        "dest": {"LIML": true}
+                    }  
+                }
+            },
+            "TZO": {
+                "trans": {"VOG": "U", "EKPAL": "V"},
+                "P": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 1,
+                        "wtc": "LM"
+                    },
+                    "2": {
+                        "rwy": "28",
+                        "trans": {},
+                        "dest": {"LIML": true},
+                        "prio": 1,
+                        "wtc": "LM"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 1,
+                        "wtc": "HJ"                        
+                    },
+                    "2": {
+                        "rwy": "28",
+                        "trans": {},
+                        "dest": {"LIML": true},
+                        "prio": 1,
+                        "wtc": "HJ"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "rwy": "10",
+                        "initial": 4000,
+                        "prio": 1
+                    },
+                    "2": {
+                        "rwy": "10",
+                        "trans": {},
+                        "dest": {"LIML": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "SRN": {
+                "initial": 5000,
+                "trans": {"ARLES": "R", "OMETO": "R"},
+                "Z": {
+                    "1": {
+                        "rwy": "28",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 2
+                    },
+                    "2": {
+                        "rwy": "28",
+                        "trans": {},
+                        "dest": {"LIMC": true},
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 99
+                    },
+                    "2": {
+                        "rwy": "28",
+                        "trans": {},
+                        "dest": {"LIMC": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "BRL": {
+                "initial": 4000,
+                "trans": {"OSKOR": "K", "PEPAG": "K", "DILEB": "K", "ARLES": "K", "OMETO": "K"},
+                "Z": {
+                    "1": {
+                        "rwy": "28",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "rwy": "10",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
         }
     }
 }
+
+
+
+
+                
+                    
+
+
+
