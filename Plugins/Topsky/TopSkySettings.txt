@@ -34,6 +34,7 @@ System_TaxiTime=8
 System_FPASD=0
 System_ProxySounds=0
 System_RefreshInterval_AHDG/QDM=250
+System_TransferConfirmation=0
 
 Setup_COOPANS=1
 
