@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "name": "LIRR v1.3",
-  "id": "6dee98a6-8dab-4b9a-a182-d6f9e1d37e61",
+  "name": "LIRR v1.1",
+  "id": "803122e1-0b20-4e5e-9d65-06101f62f6b2",
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -511,7 +511,7 @@
         {
           "text": "RWY @COND. RWY ^16L @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.\r\nRWY @COND. RWY ^16R @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @COND. RWY ^16L @CC 5. 5. 5. CONTAMINANT WET .WET. WET. RWY ^16R @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -571,38 +571,33 @@
           "enabled": false
         },
         {
-          "text": "RWY 25 AND 07 CLOSED DUE TO @WIP.",
+          "text": "DEPENDENT PARALLEL ILS APPS IN PROGRESS. THE RUNWAY IN USE RWY ^16L AND RWY ^16R SHALL BE ASSIGNED BY ROMA RADAR.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEPENDENT PARALLEL ILS APPS IN PROGRESS. THE RUNWAY IN USE RWY ^16L AND RWY ^16R SHALL BE ASSIGNED BY ROMA RADAR.",
+          "text": "INDEPENDENT PARALLEL ILS APPS IN PROGRESS. THE RUNWAY IN USE RWY ^16L AND RWY ^16R SHALL BE ASSIGNED BY ROMA RADAR.",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "INDEPENDENT PARALLEL ILS APPS IN PROGRESS. THE RUNWAY IN USE RWY ^16L AND RWY ^16R SHALL BE ASSIGNED BY ROMA RADAR.",
+          "text": "DEPENDENT PARALLEL ILS APPS IN PROGRESS. THE RWY IN USE ^34L AND RWY ^34R SHALL BE ASSIGNED BY ROMA RADAR.",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "DEPENDENT PARALLEL ILS APPS IN PROGRESS. THE RWY IN USE ^34L AND RWY ^34R SHALL BE ASSIGNED BY ROMA RADAR.",
+          "text": "INDEPENDENT PARALLEL ILS APPS IN PROGRESS. THE RWY IN USE ^34L AND RWY ^34R SHALL BE ASSIGNED BY ROMA RADAR.",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "INDEPENDENT PARALLEL ILS APPS IN PROGRESS. THE RWY IN USE ^34L AND RWY ^34R SHALL BE ASSIGNED BY ROMA RADAR.",
+          "text": "REDUCED RWY SEPARATION MINIMA PROCEDURES IN PROGRESS.",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "REDUCED RWY SEPARATION MINIMA PROCEDURES IN PROGRESS.",
-          "ordinal": 8,
-          "enabled": false
-        },
-        {
           "text": "STANDARD 1 MEANS MONITOR FIUME GROUND ON FREQUENCY 121.90, CONTINUE TAXI VIA TWY D AND HOLD SHORT OF TWY EG.",
-          "ordinal": 9,
+          "ordinal": 8,
           "enabled": false
         }
       ]
@@ -1116,7 +1111,7 @@
         {
           "text": "RWY @COND. RWY 25 @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @COND. RWY 25 @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -1126,7 +1121,7 @@
         {
           "text": "RWY @COND. RWY ^16R @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @COND. RWY ^16R @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -1176,33 +1171,23 @@
           "enabled": false
         },
         {
-          "text": "RWY 25 AND 07 CLOSED DUE TO @WIP.",
+          "text": "REDUCED RWY SEPARATION MINIMA PROCEDURES IN PROGRESS.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "REDUCED RWY SEPARATION MINIMA PROCEDURES IN PROGRESS.",
+          "text": "PILOTS MAY REQUEST RWY 16R FOR DEPARTURE.",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "PILOTS MAY REQUEST RWY 16R.",
+          "text": "PILOTS MAY REQUEST RWY 34L FOR DEPARTURE.",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "PILOTS MAY REQUEST RWY 34L.",
+          "text": "DATALINK CLEARANCE AVAILABLE.",
           "ordinal": 6,
-          "enabled": false
-        },
-        {
-          "text": "FOR DEPARTING TRAFFIC FIRST CONTACT WITH ROMA DIRECTOR ON FREQUENCY 131.250.",
-          "ordinal": 7,
-          "enabled": false
-        },
-        {
-          "text": "ALL PILOTS SHALL REPORT TO FIUME GROUND IF ABLE TO DEPART FROM @BC OR @BD INTERSECTION AFTER PUSHBACK.",
-          "ordinal": 8,
           "enabled": false
         }
       ]

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "LIMM v1.4",
-  "id": "c54e7896-e346-4075-90d8-d38ef09bde17",
+  "id": "3a3b716f-f7fe-493d-9dda-9bbba4861877",
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -489,7 +489,7 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY. ",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -1023,7 +1023,7 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY. ",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -1058,19 +1058,24 @@
       ],
       "notamDefinitions": [
         {
-          "text": "AIRPORT INFORMATION. BEFORE START-UP CONTACT MALPENSA OPERATIONS ON 131.880 TO BE RELEASED BY THE AIRPORT OPERATOR.",
+          "text": "OPERATIONAL INFORMATION.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "OPERATIONAL INFORMATION.",
+          "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
+          "enabled": true
+        },
+        {
+          "text": "BEFORE START-UP CONTACT MALPENSA OPERATIONS ON 131.880 TO BE RELEASED BY THE AIRPORT OPERATOR.",
+          "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 3,
-          "enabled": false
+          "text": "DATALINK CLEARANCE AVAILABLE.",
+          "ordinal": 4,
+          "enabled": true
         }
       ]
     },
