@@ -9,11 +9,16 @@
         "sids": {
             "IRKED": {
 				"initial": 5000,
-				"trans": {"PEPAG": "X", "OSKOR": "Z", "ROBAS": "Y", "VAKON": "X"},
+				"trans": {"PEPAG": "X", "OSKOR": "Z", "VAKON": "X"},
                 "A": {
 					"1":{
 						"rwy": "35L",
 						"prio": 1
+					},
+					"2":{
+						"rwy": "35L",
+						"trans": {"ROBAS": "Y"},
+						"prio": 5
 					}
                 },
 				"E": {
@@ -21,6 +26,11 @@
 						"rwy": "35L",
 						"equip": {"NON-RNAV": true},
 						"prio": 1
+					},
+					"2":{
+						"rwy": "35L",
+						"trans": {"ROBAS": "Y"},
+						"prio": 5
 					}
                 }
 			},
