@@ -29,6 +29,19 @@ Settings	SettingsfileADCS	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileTAXIIN	\LIXX\Settings\italyCTR.txt
 Settings	Settingsfile	\LIXX\Settings\GeneralSettings_topsky.txt
 Settings	alias	\LIXX\Alias\alias.txt
+Plugins	Plugin0	\LIXX\Plugins\Topsky\TopSky.dll
+Plugins	Plugin0Display0	Standard ES radar screen
+Plugins	Plugin0Display1	Ground Radar display
+Plugins	Plugin1	\LIXX\Plugins\GRplugin_italy\GRplugin.dll
+Plugins	Plugin1Display0	Ground Radar display
+Plugins	Plugin1Display1	Standard ES radar screen
+Plugins	Plugin2	\LIXX\Plugins\Discord Rich Presence\DiscordEuroscope.dll
+Plugins	Plugin3	\LIXX\Plugins\vACDM\vACDM.dll
+Plugins	Plugin3Display0	Ground Radar display
+Plugins	Plugin3Display1	Standard ES radar screen
+Plugins	Plugin4	\LIXX\Plugins\vSID\vSID Plugin\vSID.dll
+Plugins	Plugin4Display0	Ground Radar display
+Plugins	Plugin4Display1	Standard ES radar screen
 Sounds	Sound0	\LIXX\Sounds\handoffreq.wav
 Sounds	Sound1	\LIXX\Sounds\handoffacc.wav
 Sounds	Sound2	\LIXX\Plugins\Topsky\TopSkySoundSTCA.wav
@@ -49,20 +62,6 @@ Sounds	Sound16	\LIXX\Sounds\handoff_refused.wav
 Sounds	Sound17	\LIXX\Sounds\pointout.wav
 Voice	PPPT	1900544
 Voice	SPPT	2752512
-Plugins	Plugin0	\LIXX\Plugins\Topsky\TopSky.dll
-Plugins	Plugin0Display0	Standard ES radar screen
-Plugins	Plugin2Display1	Standard ES radar screen
-Plugins	Plugin0Display1	Ground Radar display
-Plugins	Plugin1Display1	SMR radar display
-Plugins	Plugin3	\LIXX\Plugins\vACDM\vACDM.dll
-Plugins	Plugin3Display0	Ground Radar display
-Plugins	Plugin4	\LIXX\Plugins\vSID\vSID Plugin\vSID.dll
-Plugins	Plugin4Display0	Ground Radar display
-Plugins	Plugin4Display1	Standard ES radar screen
-Plugins	Plugin1	\LIXX\Plugins\Discord Rich Presence\DiscordEuroscope.dll
-Plugins	Plugin2	\LIXX\Plugins\GRplugin_italy\GRplugin.dll
-Plugins	Plugin2Display0	Ground Radar display
-Plugins	Plugin3Display1	Standard ES radar screen
 TeamSpeakVccs	Ts3NickName	ATC_STATION
 TeamSpeakVccs	PlaybackMode	Windows Audio Session
 TeamSpeakVccs	PlaybackDevice	Altoparlanti (Realtek High Definition Audio)
