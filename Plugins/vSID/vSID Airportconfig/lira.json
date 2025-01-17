@@ -11,7 +11,7 @@
         "sids": {
             "initial": 5000,
             "OST": {
-                "trans": {"ESINO": "V", "GILIO": "V", "KONUT": "V", "PEPIX": "V", "PODOX": "V", "SOVAN": "V", "TIBER": "V"},
+                "trans": {"ESINO": "V", "GILIO": "V", "KONUT": "V", "PEPIX": "V", "PODOX": "V", "SOVAN": "V", "TIBER": "S"},
                 "W": {
                     "1":{
                         "rwy": "15",
@@ -65,7 +65,7 @@
                         "rwy": "15",
                         "climbvia": true,
                         "customRule": "RF34",
-                        "trans": {"RIFFI": "V", "SIPRO": "V"},
+                        "trans": {"RIFFI": "V", "SIPRO": "S"},
                         "prio": 1
                     },
                     "3": {
