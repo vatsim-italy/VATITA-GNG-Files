@@ -10,7 +10,7 @@ Settings	airportcoords	\LIXX\NavData\icao.txt
 Settings	SettingsfileSYMBOLOGY	\LIXX\Settings\SymbologySettings_topsky.txt
 Settings	SettingsfileVOICE	\LIXX\Settings\VoiceChannels.txt
 Settings	SettingsfilePROFILE	\LIXX\Settings\LoginProfiles.txt
-Settings	SettingsfileTAGS	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileTAGS	\LIXX\Settings\TAGS.txt
 Settings	SettingsfileSIL	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileSEL	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileDEP	\LIXX\Settings\DepartureList_topsky.txt
