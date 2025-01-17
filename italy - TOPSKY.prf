@@ -14,7 +14,7 @@ Settings	SettingsfileTAGS	\LIXX\Settings\TAGS.txt
 Settings	SettingsfileSIL	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileSEL	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileDEP	\LIXX\Settings\DepartureList_topsky.txt
-Settings	SettingsfileARR	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileARR	\LIXX\Settings\ArrivalList.txt
 Settings	SettingsfileFP	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfilePLUGINS	\LIXX\Settings\Plugins.txt
 Settings	SettingsfileSCREEN	\LIXX\Settings\ScreenSettings.txt
