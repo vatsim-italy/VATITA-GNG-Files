@@ -376,19 +376,14 @@ Window_CARD=0,1565,755
 
 [LIPP_]
 
-Airspace_AOR_Airports=LIM,LIL,LIP,LID,LIRQ,LIRP
 Window_SmallQNHTL_ICAO=LIPZ
 
 [LIMM_]
 
-Airspace_AOR_Airports=LIM,LIL,LIP,LID,LIRQ,LIRP
-Airspace_AOR_Positions=LIM,LIL,LIP,LID,LIRQ,LIRP
 Window_SmallQNHTL_ICAO=LIMC
 
 [LIRR_]
 
-Airspace_AOR_Airports=LIR,LIC,LIE,LIA,LMML
-Airspace_AOR_Positions=LIR,LIC,LIE,LIA,LMML
 Window_SmallQNHTL_ICAO=LIRF
 
 [LIMC]
