@@ -291,7 +291,7 @@
 			},
 			"DOGUB": {
 				"trans": {"AOSTA": "W", "LAGEN": "I", "NEDED": "I", "TOP": "I"},
-				"initial": 6000,
+				"initial": 5000,
                 "T": {
 					"1":{
 						"rwy": "35R",
