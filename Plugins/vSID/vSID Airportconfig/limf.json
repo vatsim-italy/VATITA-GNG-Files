@@ -128,6 +128,12 @@
                         "rwy": "36",
                         "equip": {"NON-RNAV": true},  
                         "prio": 1
+                    },
+                    "2": {
+                        "rwy": "36",
+                        "trans": {},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
                     }
                 },
                 "B": {
@@ -135,6 +141,13 @@
                         "rwy": "18",
                         "initial": 4000, 
                         "equip": {"NON-RNAV": true},  
+                        "prio": 1
+                    },
+                    "2": {
+                        "rwy": "18",
+                        "trans": {},
+                        "initial": 4000, 
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
                 }
