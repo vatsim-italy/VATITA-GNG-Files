@@ -164,6 +164,11 @@
 						"rwy": "35L",
 						"trans": {"AOSTA": "M", "PEPAG": "V"},
 						"prio": 99
+					},
+					"3":{
+						"rwy": "35L",
+						"trans": {"AOSTA": "T"},
+						"prio": 99
 					}
                 },
 				"B": {
@@ -175,6 +180,11 @@
 					"2":{
 						"rwy": "35L",
 						"trans": {"AOSTA": "M", "PEPAG": "V"},
+						"prio": 99
+					},
+					"3":{
+						"rwy": "35L",
+						"trans": {"AOSTA": "T"},
 						"prio": 99
 					}
                 },
@@ -189,6 +199,11 @@
 					"2":{
 						"rwy": "35L",
 						"trans": {"AOSTA": "M", "PEPAG": "V"},
+						"prio": 99
+					},
+					"3":{
+						"rwy": "35L",
+						"trans": {"AOSTA": "T"},
 						"prio": 99
 					}
                 },
@@ -223,38 +238,21 @@
 					"initial": 6000,
 					"1":{
 						"rwy": "35L",
-						"trans": {"AOSTA": "J"},
-						"prio": 1
-					},
-					"2":{
-						"rwy": "35L",
 						"trans": {"AOSTA": "L"},
-						"prio": 99
+						"prio": 1
 					}
                 },
 				"B": {
 					"initial": 6000,
-					"1":{
-						"rwy": "35L",
-						"trans": {"AOSTA": "J"},
-						"prio": 99
-					},
 					"2":{
 						"rwy": "35L",
 						"trans": {"AOSTA": "L"},
-						"prio": 99
+						"prio": 1
 					}
                 },
 				"N": {
 					"initial": 5000,
 					"1":{
-						"rwy": "35L",
-						"trans": {"AOSTA": "J"},
-						"wtc": "LM",
-						"acftType": {"A321": false, "A32B": false, "A21N": false, "E170": false, "E175": false, "E190": false, "E195": false, "E295": false},
-						"prio": 1
-					},
-					"2":{
 						"rwy": "35L",
 						"trans": {"AOSTA": "M"},
 						"prio": 99
@@ -266,11 +264,6 @@
 						"rwy": "17L,17R",
 						"trans": {"AOSTA": "J"},
 						"prio": 1
-					},
-					"2":{
-						"rwy": "17L,17R",
-						"trans": {"AOSTA": "M"},
-						"prio": 99
 					}
                 }
 			},
