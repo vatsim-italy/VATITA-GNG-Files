@@ -106,7 +106,7 @@
 					"1":{
 						"rwy": "35R",
 						"initial": 5000,
-						"prio": 3
+						"prio": 99
 					}
                 },
 				"M": {
@@ -114,7 +114,7 @@
 						"rwy": "35R",
 						"initial": 4000,
 						"acftType": {"E170": true, "E175": true, "E190": true, "E195": true, "E295": true},
-						"prio": 1
+						"prio": 99
 					}
                 },
 				"S": {
@@ -123,7 +123,7 @@
 						"initial": 4000,
 						"acftType": {"A321": false, "A32B": false, "A21N": false},
 						"wtc": "LM",
-						"prio": 2
+						"prio": 99
 					}
                 },
 				"G": {
@@ -131,7 +131,7 @@
 						"rwy": "35R",
 						"initial": 5000,
 						"equip": {"NON-RNAV": true},
-						"prio": 2
+						"prio": 99
 					}
                 },
 				"H": {
@@ -140,7 +140,7 @@
 						"initial": 5000,
 						"equip": {"NON-RNAV": true},
 						"wtc": "LM",
-						"prio": 1
+						"prio": 99
 					}
                 },
 				"W": {
@@ -148,7 +148,7 @@
 						"rwy": "17L,17R",
 						"initial": 4000,
 						"trans": {"AOSTA": "K", "LAGEN": "X", "NEDED": "X", "TOP": "X"},
-						"prio": 1
+						"prio": 99
 					}
                 }
 			},
