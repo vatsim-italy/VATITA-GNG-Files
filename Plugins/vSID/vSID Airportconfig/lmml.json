@@ -1,0 +1,198 @@
+{
+    "LMML": {
+        "elevation": 297,
+        "runways": "13,31,23,05",
+        "transAlt": 5000,
+        "maxInitialClimb": 5000,
+        "enableRVSids": false,
+        "appSI": "MMA,MMC",
+        "sids": {
+            "initial": 5000,
+            "AGARI": {
+                "A": {
+                    "1": {
+                        "rwy": "05",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "23",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "GODAK": {
+                "A": {
+                    "1": {
+                        "rwy": "05",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "23",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "GZO": {
+                "A": {
+                    "1": {
+                        "rwy": "05",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "23",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "OBITA": {
+                "A": {
+                    "1": {
+                        "rwy": "05",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "23",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "SUDIK": {
+                "A": {
+                    "1": {
+                        "rwy": "05",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "23",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "VESOD": {
+                "A": {
+                    "1": {
+                        "rwy": "05",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "23",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+                        

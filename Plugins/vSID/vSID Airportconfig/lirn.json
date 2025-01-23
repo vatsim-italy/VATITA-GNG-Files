@@ -1,0 +1,217 @@
+{
+    "LIRN": {
+        "elevation": 294,
+        "runways": "06,24",
+        "transAlt": 8000,
+        "maxInitialClimb": 6000,
+        "enableRVSids": false,
+        "appSI": "US0,US1,US2,TS1,NE1",
+        "sids": {
+            "initial": 6000,
+            "AGNIS": {
+                "G": {
+                    "1": {
+                        "rwy": "06,24",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "ALAXI": {
+                "G": {
+                    "1": {
+                        "rwy": "06",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "06",
+                        "prio": 99
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "24",
+                        "prio": 1
+                    }
+                }
+            },
+            "BEDPI": {
+                "G": {
+                    "1": {
+                        "rwy": "06,24",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "06",
+                        "prio": 1
+                    }
+                }
+            },
+            "DELER": {
+                "G": {
+                    "1": {
+                        "rwy": "06,24",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "EDOPA": {
+                "G": {
+                    "1": {
+                        "rwy": "06,24",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "GALTI": {
+                "G": {
+                    "1": {
+                        "rwy": "06,24",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "PEVIR": {
+                "G": {
+                    "1": {
+                        "rwy": "06,24",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "ISKIA": {
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "POLIT": {
+                "G": {
+                    "1": {
+                        "rwy": "06,24",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "MALOG": {
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "MOLUX": {
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "SIPRO": {
+                "N": {
+                    "1": {
+                        "rwy": "24",
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "24",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "06",
+                        "prio": 1
+                    }
+                }
+            },
+            "VEXUV": {
+                "G": {
+                    "1": {
+                        "rwy": "06,24",
+                        "prio": 1
+                    }
+                }
+            },
+            "TEA": {
+                "L": {
+                    "1": {
+                        "rwy": "06",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "06,24",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 99
+                    }
+                }
+            }
+        }
+    }
+}
+

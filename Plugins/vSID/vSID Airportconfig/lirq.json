@@ -1,0 +1,159 @@
+{
+    "LIRQ": {
+        "elevation": 142,
+        "runways": "05,23",
+        "transAlt": 6000,
+        "maxInitialClimb": 6000,
+        "enableRVSids": false,
+        "appSI": "RQA,NW1,NN1,NE1",
+        "sids": {
+            "initial": 6000,
+            "BALUK": {
+                "F": {
+                    "1":{
+                    "rwy": "05,23",
+                    "prio": 99
+                    }
+                },
+                "G": {
+                    "1":{
+                        "rwy": "05",
+                        "prio": 99
+                    }
+                },
+                "M": {
+                    "1":{
+                        "rwy": "05,23",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                    "rwy": "05,23",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                    }
+                },
+                "C": {
+                    "1":{
+                    "rwy": "05",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 99
+                    }
+                }
+            },
+            "LOMED": {
+                "F": {
+                    "1":{
+                    "rwy": "05,23",
+                    "prio": 1
+                    }
+                },
+                "G": {
+                    "1":{
+                    "rwy": "05,23",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
+                    }
+                }
+            },
+            "PRT": {
+                "F": {
+                    "1":{
+                        "rwy": "05,23",
+                        "initial": 4000,                        
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
+                }
+            },
+            "BIKTU": {
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
+                }
+            },
+            "GAVRA": {
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
+                }
+            },
+            "KUGIX": {
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
+                }
+            },
+            "MAREL": {
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
+                }
+            },
+            "OKMAP": {
+                "M": {
+                    "1":{
+                        "rwy": "05,23",                      
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                        "rwy": "05,23",
+                        "equip": {"NON-RNAV": true},                       
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+            
+
+                

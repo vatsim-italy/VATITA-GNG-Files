@@ -1,0 +1,141 @@
+{
+    "LIRP": {
+        "elevation": 6,
+        "runways": "04R,04L,22L,22R",
+        "transAlt": 6000,
+        "maxInitialClimb": 4000,
+        "enableRVSids": false,
+        "appSI": "RPA,NW1,NE1",
+        "sids": {
+            "initial": 4000,
+            "AKUTO": {
+                "B": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "22R,22L",
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "22R,22L",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "BEROK": {
+                "B": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "22R,22L",
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "22R,22L",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "GINAR": {
+                "B": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "22R,22L",
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "22R,22L",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "SPEZI": {
+                "B": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "22R,22L",
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "22R,22L",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "VANXI": {
+                "A": {
+                    "1": {
+                        "rwy": "04R,04L",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "22L,22R",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 99
+                    }
+                }
+            }
+        }
+    }
+}

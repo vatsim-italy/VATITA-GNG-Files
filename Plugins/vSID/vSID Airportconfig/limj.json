@@ -1,0 +1,77 @@
+{
+    "LIMJ": {
+        "elevation": 13,
+        "runways": "10,28",
+        "transAlt": 7000,
+        "maxInitialClimb": 5000,
+        "enableRVSids": false,
+        "appSI": "MJA,MWS,MEN",
+        "sids": {
+            "initial": 5000,
+            "GEN": {
+                "F": {
+                    "1": {
+                        "rwy": "10",
+                        "prio": 99
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 99
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "10,28",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "LAGEN": {
+                "F": {
+                    "1": {
+                        "rwy": "10",
+                        "prio": 99
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 99
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "10,28",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "UNITA": {
+                "F": {
+                    "1": {
+                        "rwy": "10",
+                        "prio": 99
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "28",
+                        "prio": 99
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "10,28",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}
+

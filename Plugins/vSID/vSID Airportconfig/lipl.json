@@ -1,0 +1,36 @@
+{
+    "LIPL": {
+        "elevation": 333,
+        "runways": "31L,13R",
+        "transAlt": 6000,
+        "maxInitialClimb": 4000,
+        "enableRVSids": false,
+        "appSI": "MES0,EE1,MES,MEN",
+        "sids": {
+            "GOLF1": {
+                "1": {
+                    "wpt": "LORIS",
+                    "rwy": "31L,13R",
+                    "equip": {"RNAV": true, "NON-RNAV": true},
+                    "prio": 1
+                }    
+            },
+            "GOLF3": {
+                "1": {
+                    "wpt": "ROZHU",
+                    "rwy": "31L,13R",
+                    "equip": {"RNAV": true, "NON-RNAV": true},
+                    "prio": 1
+                }    
+            },
+            "GOLF4": {
+                "1": {
+                    "wpt": "BRAVO",
+                    "rwy": "31L,13R",
+                    "equip": {"RNAV": true, "NON-RNAV": true},
+                    "prio": 1
+                }    
+            }
+        }
+    }
+}

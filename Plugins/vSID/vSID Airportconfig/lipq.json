@@ -1,0 +1,204 @@
+{
+    "LIPQ": {
+        "elevation": 40,
+        "runways": "09,27",
+        "transAlt": 6000,
+        "maxInitialClimb": 4000,
+        "enableRVSids": false,
+        "appSI": "CE0,SE0,PCE,PNE",
+        "sids": {
+            "initial": 4000,
+            "LUPIN": {
+                "M": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "N": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 99
+                    }
+                },
+                "P": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "RCH": {
+                "G": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "RIFEN": {
+                "F": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "N": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 99
+                    }
+                },
+                "M": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "CHI": {
+                "U": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 99
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "T": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "ROSKA": {
+                "C": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "27",
+                        "prio": 99
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "27",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

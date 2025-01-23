@@ -1,0 +1,87 @@
+{
+    "LIMP": {
+        "elevation": 161,
+        "runways": "02,20",
+        "transAlt": 10000,
+        "maxInitialClimb": 11000,
+        "enableRVSids": false,
+        "appSI": "MPA,MES,MEN,MWS,MWN,MMM",
+        "sids": {
+            "initial": 6000,
+            "LUPOS": {
+                "Z": {
+                    "1": {
+                        "rwy": "02",
+                        "initial": 11000,
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "1": {
+                        "rwy": "20",
+                        "initial": 11000,
+                        "prio": 1
+                    }
+                }
+            },
+            "BETMU": {
+                "Z": {
+                    "1": {
+                        "rwy": "02",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "1": {
+                        "rwy": "20",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "MISPO": {
+                "Z": {
+                    "1": {
+                        "rwy": "02",
+                        "initial": 8000,
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "1": {
+                        "rwy": "20",
+                        "initial": 11000,
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "T": {
+                    "1": {
+                        "rwy": "20",
+                        "initial": 11000,
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "OSBUL": {
+                "N": {
+                    "1": {
+                        "rwy": "02",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "T": {
+                    "1": {
+                        "rwy": "20",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}

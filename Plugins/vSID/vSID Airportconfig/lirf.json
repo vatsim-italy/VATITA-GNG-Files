@@ -1,0 +1,351 @@
+{
+    "LIRF": {
+        "elevation": 14,
+        "runways": "25,07,16L,16R,34L,34R",
+        "transAlt": 6000,
+        "maxInitialClimb": 4000,
+        "customRules": {"ipa": false},
+        "enableRVSids": false,
+        "appSI": "PN1,TW1,OV1,NW1,NE1",
+        "sids": {
+            "initial": 4000,
+            "SOSIV": {
+                "trans": {"SOVAN": "A"},
+                "A": {
+					"1":{
+						"rwy": "25",
+						"prio": 2
+					}
+                },
+                "L": {
+					"1":{
+						"rwy": "25",
+						"climbvia": true,
+                        "customRule": "ipa",
+                        "actArrRwy": {"any": "16L,16R"},
+						"prio": 1
+					}
+                },
+                "W": {
+					"1":{
+						"rwy": "16R",
+						"prio": 99
+					}
+                },
+                "B": {
+					"1":{
+						"rwy": "16R",
+						"prio": 99
+					}
+                },
+                "K": {
+					"1":{
+						"rwy": "16R",
+						"climbvia": true,
+                        "customRule": "ipa",
+                        "actArrRwy": {"any": "16L,16R"},
+						"prio": 1
+					}
+                },
+                "Q": {
+					"1":{
+						"rwy": "16R",
+						"prio": 2
+					}
+                },
+                "C": {
+					"1":{
+						"rwy": "16L",
+						"prio": 1
+					}
+                },
+                "J": {
+					"1":{
+						"rwy": "16L",
+						"prio": 99
+					}
+                },
+                "Y": {
+					"1":{
+						"rwy": "34L",
+						"prio": 1
+					}
+                },
+                "Z": {
+					"1":{
+						"rwy": "34L",
+						"prio": 99
+					}
+                },
+                "X": {
+					"1":{
+						"rwy": "34R",
+						"prio": 1
+					}
+                }
+			},
+            "NENIG": {
+                "trans": {"GILIO": "G"},
+                "A": {
+					"1":{
+						"rwy": "25",
+						"prio": 2
+					}
+                },
+                "L": {
+					"1":{
+						"rwy": "25",
+						"climbvia": true,
+                        "customRule": "ipa",
+                        "actArrRwy": {"any": "16L,16R"},
+						"prio": 1
+					}
+                },
+                "W": {
+					"1":{
+						"rwy": "16R",
+						"prio": 99
+					}
+                },
+                "B": {
+					"1":{
+						"rwy": "16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+						"prio": 2
+					}
+                },
+                "K": {
+					"1":{
+						"rwy": "16R",
+						"climbvia": true,
+                        "customRule": "ipa",
+                        "actArrRwy": {"any": "16L,16R"},
+						"prio": 1
+					}
+                },
+                "C": {
+					"1":{
+						"rwy": "16L",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+						"prio": 1
+					}
+                },
+                "J": {
+					"1":{
+						"rwy": "16L",
+						"prio": 99
+					}
+                },
+                "Y": {
+					"1":{
+						"rwy": "34L",
+						"prio": 2
+					}
+                },
+                "M": {
+					"1":{
+						"rwy": "34L",
+						"climbvia": true,
+						"customRule": "ipa",
+                        "actArrRwy": {"any": "34L,34R"},
+                        "prio": 1
+					}
+                },
+                "X": {
+					"1":{
+						"rwy": "34R",
+						"prio": 1
+					}
+                }
+			},
+            "XENOL": {
+                "trans": {"GISPA": "A", "NEMBO": "A", "PODOX": "E"},
+                "A": {
+					"1":{
+						"rwy": "25",
+						"prio": 2
+					}
+                },
+                "L": {
+					"1":{
+						"rwy": "25",
+						"climbvia": true,
+                        "customRule": "ipa",
+                        "actArrRwy": {"any": "16L,16R"},
+						"prio": 1
+					}
+                },
+                "W": {
+					"1":{
+						"rwy": "16R",
+						"prio": 99
+					}
+                },
+                "B": {
+					"1":{
+						"rwy": "16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+						"prio": 2
+					}
+                },
+                "K": {
+					"1":{
+						"rwy": "16R",
+						"prio": 1
+					}
+                },
+                "C": {
+					"1":{
+						"rwy": "16L",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+						"prio": 2
+					}
+                },
+                "J": {
+					"1":{
+						"rwy": "16L",
+						"prio": 1
+					}
+                },
+                "M": {
+					"1":{
+						"rwy": "34L",
+						"climbvia": true,
+						"customRule": "ipa",
+                        "actArrRwy": {"any": "34L,34R"},
+                        "prio": 1
+					}
+                },
+                "Y": {
+					"1":{
+						"rwy": "34L",
+						"prio": 2
+					}
+                },
+                "R": {
+					"1":{
+						"rwy": "25",
+						"climbvia": true,
+						"customRule": "ipa",
+                        "actArrRwy": {"any": "34L,34R"},
+                        "prio": 1
+					}
+                },
+                "X": {
+					"1":{
+						"rwy": "34R",
+						"prio": 1
+					}
+                }
+			},
+            "SOSAK": {
+                "trans": {"ESINO": "H", "KONUT": "A", "OKUNO": "B", "PEPIX": "B", "RIFFI": "H", "ROTUN": "B", "SIPRO": "B", "TIBER": "B"},
+                "A": {
+					"1":{
+						"rwy": "25",
+                        "actArrRwy": {"any": "16L,16R"},
+						"prio": 1
+					}
+                },
+                "D": {
+					"1":{
+						"rwy": "25",
+                        "actArrRwy": {"any": "34L,34R"},
+						"prio": 1
+					}
+                },
+                "B": {
+					"1":{
+						"rwy": "16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+						"prio": 1
+					}
+                },
+                "C": {
+					"1":{
+						"rwy": "16L",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+						"prio": 1
+					}
+                },
+                "M": {
+					"1":{
+						"rwy": "34L",
+						"climbvia": true,
+						"customRule": "ipa",
+                        "actArrRwy": {"any": "34L,34R"},
+                        "prio": 1
+					}
+                },
+                "Y": {
+					"1":{
+						"rwy": "34L",
+						"prio": 2
+					}
+                },
+                "R": {
+					"1":{
+						"rwy": "25",
+						"climbvia": true,
+						"customRule": "ipa",
+                        "actArrRwy": {"any": "34L,34R"},
+                        "prio": 1
+					}
+                },
+                "X": {
+					"1":{
+						"rwy": "34R",
+						"prio": 1
+					}
+                }
+			},
+            "XIBRI": {
+                "trans": {"OKUNO": "A", "PEPIX": "A", "RIFFI": "G", "ROTUN": "A", "SIPRO": "A", "TIBER": "A"},
+                "A": {
+					"1":{
+						"rwy": "25",
+                        "trans": {"OKUNO": "R", "PEPIX": "A", "RIFFI": "G", "ROTUN": "A", "SIPRO": "R", "TIBER": "R"},
+						"prio": 1
+					}
+                },
+                "B": {
+					"1":{
+						"rwy": "16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+						"prio": 1
+					}
+                },
+                "C": {
+					"1":{
+						"rwy": "16L",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+						"prio": 1
+					}
+                }
+			},
+            "EKLOS": {
+                "trans": {"OKUNO": "C", "SIPRO": "C", "TIBER": "C"},
+                "R": {
+					"1":{
+						"rwy": "25",
+						"prio": 99
+					}
+                },
+                "M": {
+					"1":{
+						"rwy": "34L",
+						"prio": 1
+					}
+                },
+                "X": {
+					"1":{
+						"rwy": "34R",
+						"prio": 1
+					}
+                }
+			}
+        }
+    }
+}
+
+

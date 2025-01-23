@@ -1,0 +1,92 @@
+{
+    "LSZA": {
+        "elevation": 915,
+        "runways": "01,19",
+        "transAlt": 6000,
+        "maxInitialClimb": 9000,
+        "enableRVSids": false,
+        "appSI": "ANE,MEN",
+        "sids": {
+            "initial": 9000,
+            "CANNE": {
+                "E": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 99
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 99,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
+            },
+            "LEGLO": {
+                "Z": {
+                    "1": {
+                        "rwy": "01,19",
+                        "initial": 8000,
+                        "prio": 1,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
+            },
+            "OMETO": {
+                "E": {
+                    "1": {
+                        "rwy": "01,19",
+                        "initial": 6000,
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "initial": 6000,
+                        "equip": {"NON-RNAV": true}
+                    }
+                }
+            },
+            "PINIK": {
+                "A": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "initial": 6000,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
+            },
+            "SRN": {
+                "V": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "initial": 6000,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
+            },
+            "VOG": {
+                "W": {
+                    "1": {
+                        "rwy": "01,19",
+                        "prio": 1,
+                        "initial": 6000,
+                        "equip": {"RNAV": true, "NON-RNAV": true}
+                    }
+                }
+            }
+        }
+    }
+}

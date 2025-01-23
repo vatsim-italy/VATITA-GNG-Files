@@ -1,0 +1,155 @@
+{
+    "LICR": {
+        "elevation": 95,
+        "runways": "11,29,15,33",
+        "transAlt": 7000,
+        "maxInitialClimb": 7000,
+        "enableRVSids": false,
+        "appSI": "CRA,ES1,SU1",
+        "sids": {
+            "initial": 7000,
+            "PAZZE": {
+                "T": {
+                    "1": {
+                        "designator": "T",
+                        "rwy": "33",
+                        "prio": 1
+                    }
+                },
+                "S": {
+                    "1": {
+                        "designator": "S",
+                        "rwy": "29",
+                        "prio": 1
+                    }
+                },
+                "P": {
+                    "1": {
+                        "designator": "P",
+                        "rwy": "33",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "designator": "F",
+                        "rwy": "29",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "designator": "A",
+                        "rwy": "29,33",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                }
+            },
+            "URCAH": {
+                "W": {
+                    "1": {
+                        "designator": "W",
+                        "rwy": "15",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "designator": "H",
+                        "rwy": "15",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "designator": "A",
+                        "rwy": "15",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                }
+            },
+            "BERMI": {
+                "T": {
+                    "1": {
+                        "designator": "T",
+                        "rwy": "33",
+                        "prio": 1
+                    }
+                },
+                "S": {
+                    "1": {
+                        "designator": "S",
+                        "rwy": "29",
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "1": {
+                        "designator": "W",
+                        "rwy": "15",
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "designator": "F",
+                        "rwy": "15",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "designator": "E",
+                        "rwy": "29,33",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "designator": "A",
+                        "rwy": "29,15,33",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                }
+            },
+            "RCA": {
+                "J": {
+                    "1": {
+                        "designator": "J",
+                        "rwy": "15",
+                        "prio": 1
+                    }
+                },
+                "G": {
+                    "1": {
+                        "designator": "G",
+                        "rwy": "29,33",
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "designator": "A",
+                        "rwy": "29,15,33",
+                        "prio": 99
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "designator": "Y",
+                        "rwy": "29,15,33",
+                        "prio": 99
+                    }
+                }
+            }  
+        }            
+    }
+}

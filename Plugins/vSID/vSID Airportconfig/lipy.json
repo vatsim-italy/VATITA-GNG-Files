@@ -1,0 +1,182 @@
+{
+    "LIPY": {
+        "elevation": 50,
+        "runways": "04,22",
+        "transAlt": 6000,
+        "maxInitialClimb": 5000,
+        "enableRVSids": false,
+        "appSI": "PYA,PSD,PCE,PNE",
+        "sids": {
+            "initial": 5000,
+            "BIDMA": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "M": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                }
+            },
+            "LANLI": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "MASEG": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "ERLIT": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                }
+            },
+            "GERBU": {
+                "F": {
+                    "1": {
+                        "rwy": "04",
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "22",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "04",
+                        "initial": 4000,
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "22",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+                                      

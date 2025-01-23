@@ -1,0 +1,39 @@
+{
+    "LIMG": {
+        "elevation": 149,
+        "runways": "09",
+        "transAlt": 7000,
+        "maxInitialClimb": 10000,
+        "enableRVSids": false,
+        "appSI": "MJA,MWS,MEN",
+        "sids": {
+            "GEN": {
+                "T": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "UNITA": {
+                "T": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "LAGEN": {
+                "T": {
+                    "1": {
+                        "rwy": "09",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}

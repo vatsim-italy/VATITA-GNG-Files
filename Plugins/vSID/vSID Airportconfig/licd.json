@@ -1,0 +1,111 @@
+{
+    "LICD": {
+        "elevation": 66,
+        "runways": "08,26",
+        "transAlt": 4000,
+        "maxInitialClimb": 6000,
+        "enableRVSids": false,
+        "appSI": "CDA,MMC",
+        "sids": {
+            "initial": 6000,
+            "AGMUB": {
+                "M": {
+                    "1": {
+                        "rwy": "08",
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 1
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "rwy": "08",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "X": {
+                    "1": {
+                        "rwy": "26",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "EMCOL": {
+                "M": {
+                    "1":{
+                        "rwy": "08",
+                        "prio": 1
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "rwy": "08",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "PURZE": {
+                "M": {
+                    "1": {
+                        "rwy": "08",
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 1
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 3
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 3
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "rwy": "08",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "X": {
+                    "1": {
+                        "rwy": "26",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "LICDE": {
+                "E": {
+                    "1": {
+                        "rwy": "26",
+                        "prio": 1
+                    }
+                },
+                "X": {
+                    "1": {
+                        "rwy": "26",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}

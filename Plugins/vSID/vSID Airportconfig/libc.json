@@ -1,0 +1,84 @@
+{
+    "LIBC": {
+        "elevation": 522,
+        "runways": "17,35",
+        "transAlt": 6000,
+        "maxInitialClimb": 4000,
+        "enableRVSids": false,
+        "appSI": "CAA,ES1,SU1,BBB",
+        "sids": {
+            "initial": 4000,
+            "CDC": {
+                "L": {
+                    "1": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
+                },
+                "W": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1 
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "17",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "35",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                }
+            },
+            "ADREN": {
+                "G": {
+                    "1":{
+                        "rwy": "17",
+                        "prio": 1
+                        }
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1
+                        }
+                    }
+                },
+            "APVAR": {
+                "G": {
+                    "1": {
+                        "rwy": "17",
+                        "prio": 1
+                        }
+                },
+                "D": {
+                    "2": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
+                },
+            "GEMVI": {
+                "G": {
+                    "1": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "2": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}
+

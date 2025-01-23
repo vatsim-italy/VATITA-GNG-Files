@@ -1,0 +1,138 @@
+{
+    "LIPE": {
+        "elevation": 123,
+        "runways": "12,30",
+        "transAlt": 6000,
+        "maxInitialClimb": 5000,
+        "enableRVSids": false,
+        "appSI": "PEA,PSD,PCE,PNE",
+        "sids": {
+            "initial": 5000,
+            "LOMED": {
+                "J": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 99
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "30",
+                        "prio": 1
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "LUMAV": {
+                "K": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 1
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "30",
+                        "prio": 1
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "LUPOS": {
+                "J": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 1
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 99
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "30",
+                        "prio": 1
+                    }
+                }
+            },
+            "PELEG": {
+                "J": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 99
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "12",
+                        "prio": 1
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "30",
+                        "prio": 1
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "12",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}
+
+
