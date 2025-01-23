@@ -72,7 +72,7 @@ m_SimulateRadars:0
 m_AllowCorrelatedTAGDown:1
 m_ShowDetailedOverUntagged:1
 m_ShowRectAroundFPTrack:1
-m_ShowRectAroundASEL:1
+m_ShowRectAroundASEL:0
 m_VatsimStatusURL:http://status.vatsim.net/
 m_OverrideWhoIsOnlineURL:0
 m_ShowVFRFlightPlanTrack:0

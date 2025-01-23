@@ -34,6 +34,7 @@ System_TaxiTime=8
 System_FPASD=0
 System_ProxySounds=0
 System_RefreshInterval_AHDG/QDM=250
+System_TransferConfirmation=0
 
 Setup_COOPANS=1
 
@@ -375,25 +376,25 @@ Window_CARD=0,1565,755
 
 [LIPP_]
 
-Airspace_AOR_Airports=LIM,LIL,LIP,LID,LIRQ,LIRP
 Window_SmallQNHTL_ICAO=LIPZ
 
 [LIMM_]
 
-Airspace_AOR_Airports=LIM,LIL,LIP,LID,LIRQ,LIRP
-Airspace_AOR_Positions=LIM,LIL,LIP,LID,LIRQ,LIRP
 Window_SmallQNHTL_ICAO=LIMC
 
 [LIRR_]
 
-Airspace_AOR_Airports=LIR,LIC,LIE,LIA,LMML
-Airspace_AOR_Positions=LIR,LIC,LIE,LIA,LMML
 Window_SmallQNHTL_ICAO=LIRF
 
 [LIMC]
-Window_CPDLC_Current=1,1,600
+Window_CPDLC_Current=1,1350,48
+Window_CPDLC_Setting=1,1,248
+CPDLC_PDC_Auto=1
 
-
+[LIRF]
+Window_CPDLC_Current=1,1350,48
+Window_CPDLC_Setting=1,1,248
+CPDLC_PDC_Auto=1
 
 
 

@@ -10,11 +10,11 @@ Settings	airportcoords	\LIXX\NavData\icao.txt
 Settings	SettingsfileSYMBOLOGY	\LIXX\Settings\SymbologySettings_topsky.txt
 Settings	SettingsfileVOICE	\LIXX\Settings\VoiceChannels.txt
 Settings	SettingsfilePROFILE	\LIXX\Settings\LoginProfiles.txt
-Settings	SettingsfileTAGS	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileTAGS	\LIXX\Settings\TAGS.txt
 Settings	SettingsfileSIL	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileSEL	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileDEP	\LIXX\Settings\DepartureList_topsky.txt
-Settings	SettingsfileARR	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileARR	\LIXX\Settings\ArrivalList.txt
 Settings	SettingsfileFP	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfilePLUGINS	\LIXX\Settings\Plugins.txt
 Settings	SettingsfileSCREEN	\LIXX\Settings\ScreenSettings.txt
@@ -29,6 +29,19 @@ Settings	SettingsfileADCS	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileTAXIIN	\LIXX\Settings\italyCTR.txt
 Settings	Settingsfile	\LIXX\Settings\GeneralSettings_topsky.txt
 Settings	alias	\LIXX\Alias\alias.txt
+Plugins	Plugin0	\LIXX\Plugins\Topsky\TopSky.dll
+Plugins	Plugin0Display0	Standard ES radar screen
+Plugins	Plugin0Display1	Ground Radar display
+Plugins	Plugin1	\LIXX\Plugins\GRplugin_italy\GRplugin.dll
+Plugins	Plugin1Display0	Ground Radar display
+Plugins	Plugin1Display1	Standard ES radar screen
+Plugins	Plugin2	\LIXX\Plugins\Discord Rich Presence\DiscordEuroscope.dll
+Plugins	Plugin3	\LIXX\Plugins\vACDM\vACDM.dll
+Plugins	Plugin3Display0	Ground Radar display
+Plugins	Plugin3Display1	Standard ES radar screen
+Plugins	Plugin4	\LIXX\Plugins\vSID\vSID Plugin\vSID.dll
+Plugins	Plugin4Display0	Ground Radar display
+Plugins	Plugin4Display1	Standard ES radar screen
 Sounds	Sound0	\LIXX\Sounds\handoffreq.wav
 Sounds	Sound1	\LIXX\Sounds\handoffacc.wav
 Sounds	Sound2	\LIXX\Plugins\Topsky\TopSkySoundSTCA.wav
@@ -49,16 +62,6 @@ Sounds	Sound16	\LIXX\Sounds\handoff_refused.wav
 Sounds	Sound17	\LIXX\Sounds\pointout.wav
 Voice	PPPT	1900544
 Voice	SPPT	2752512
-Plugins	Plugin1	\LIXX\Plugins\VCH\VCH.dll
-Plugins	Plugin1Display0	Standard ES radar screen
-Plugins	Plugin2	\LIXX\Plugins\DelHel\DelHel.dll
-Plugins	Plugin2Display0	DelHel
-Plugins	Plugin0	\LIXX\Plugins\Topsky\TopSky.dll
-Plugins	Plugin0Display0	Standard ES radar screen
-Plugins	Plugin2Display1	Standard ES radar screen
-Plugins	Plugin0Display1	Ground Radar display
-Plugins	Plugin1Display1	SMR radar display
-Plugins	Plugin2Display2	SMR radar display
 TeamSpeakVccs	Ts3NickName	ATC_STATION
 TeamSpeakVccs	PlaybackMode	Windows Audio Session
 TeamSpeakVccs	PlaybackDevice	Altoparlanti (Realtek High Definition Audio)
@@ -69,8 +72,6 @@ TeamSpeakVccs	Ts3DialogTop	181
 TeamSpeakVccs	Ts3DialogRight	1139
 TeamSpeakVccs	Ts3DialogBottom	754
 TeamSpeakVccs	Ts3G2APtt	3670016
-Plugins	Plugin3	\LIXX\Plugins\GRplugin_italy\GRplugin.dll
-Plugins	Plugin3Display0	Ground Radar display
 LastSession	server	AUTOMATIC
 LastSession	atis_freq3	118000
 TeamSpeakVccs	Ts3G2GPtt	3670016
