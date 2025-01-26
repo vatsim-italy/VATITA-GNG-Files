@@ -169,6 +169,8 @@ List_Outbound_ExpiryTime=300
 //AIRPORT SPECIFIC SETTINGS
 
 [LIMC]
+
+GroundLabel_Filter_NoState=1
 Airport_Runway_Buffer_LVP=35L:150
 Airport_Runway_Buffer_LVP=35R:205
 
@@ -208,6 +210,7 @@ System_CVM=0
 
 [LIRF]
 
+GroundLabel_Filter_NoState=1
 Color_Arrival=255,255,255
 Color_Departure=255,255,0
 Color_Unknown=0,255,255
