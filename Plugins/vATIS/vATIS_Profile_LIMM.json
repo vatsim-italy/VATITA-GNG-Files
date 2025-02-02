@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LIMM v1.4",
   "id": "b7ab6bac-19ee-4f7f-b691-4e585af2d3ea",
+  "updateUrl": "https://cdn.vatita.net/vatis/vATIS_Profile_LIMM.json",
+  "updateSerial": 2025020201,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
