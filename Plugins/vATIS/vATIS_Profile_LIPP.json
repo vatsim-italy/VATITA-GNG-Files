@@ -2,8 +2,8 @@
   "version": 1,
   "name": "LIPP v1.0",
   "id": "cf26dc40-0632-472e-8dcc-44fbeef6f6be",
-  "updateUrl": "https://cdn.vatita.net/vatis/vATIS_Profile_LIPP.json",
-  "updateSerial": 2025020201,
+  "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIPP.json",
+  "updateSerial": 2025021501,
   "stations": [
     {
       "id": "fa2257bb-38a3-413b-b95e-3c39ad0f0acf",

@@ -2,8 +2,8 @@
   "version": 1,
   "name": "LIBB v1.2",
   "id": "e7be4d7a-a36d-4c6f-96c8-7c6cee5c95df",
-  "updateUrl": "https://cdn.vatita.net/vatis/vATIS_Profile_LIBB.json",
-  "updateSerial": 2025020201,
+  "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIBB.json",
+  "updateSerial": 2025021501,
   "stations": [
     {
       "id": "625904f8-6f8c-4839-b981-4885c0a0de16",
