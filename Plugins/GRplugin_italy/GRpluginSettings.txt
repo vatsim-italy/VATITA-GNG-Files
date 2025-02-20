@@ -193,6 +193,10 @@ Airport_Runway_End=35L:N045.36.39.177:E008.43.42.075
 Color_Arrival=0,255,0
 Color_Departure=0,188,255
 
+Shortcut_Map_Target=3,LIML SMR\STANDS
+
+Window_APP_Rotation=95
+
 [LIPZ]
 Airport_Runway_Buffer=04R:150
 Airport_Runway_Buffer_LVP=04R:150
@@ -204,6 +208,8 @@ Airport_Runway_Closed_Dep=04L
 
 System_RIM=0
 System_CBM=0
+
+Shortcut_Map_Target=3,LIPZ SMR\STANDS
 
 [LIRF]
 
@@ -220,12 +226,15 @@ Window_APP_Rotation=347
 Airport_Runway_End=28:N045.39.51.899:E009.43.31.789
 Airport_Runway_End=10:N045.40.15.754:E009.41.23.100
 
+
 [LIMF]
 
 Window_APP_Rotation=267
 
 Airport_Runway_End=36:N045.11.09.120:E007.38.55.451
 Airport_Runway_End=18:N045.12.56.263:E007.39.02.149
+
+Shortcut_Map_Target=3,LIMF SMR\LIMF SMR STANDS
 
 [LIRN]
 
@@ -241,9 +250,7 @@ Window_APP_Rotation=334
 Airport_Runway_End=12:N044.32.29.720:E011.16.18.195
 Airport_Runway_End=30:N044.31.46.880:E011.18.16.800
 
-[LIML]
-
-Window_APP_Rotation=95
+Shortcut_Map_Target=3,LIPE SMR\STANDS
 
 [LICJ]
 
