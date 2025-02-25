@@ -1927,7 +1927,7 @@
           "name": "35L LVP",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE ^35R. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE ^35L. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
           }
