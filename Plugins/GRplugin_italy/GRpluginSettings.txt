@@ -226,6 +226,8 @@ Window_APP_Rotation=347
 Airport_Runway_End=28:N045.39.51.899:E009.43.31.789
 Airport_Runway_End=10:N045.40.15.754:E009.41.23.100
 
+Shortcut_Map_Target=3,LIME SMR\LIME Stand Labels
+
 
 [LIMF]
 
@@ -243,6 +245,8 @@ Window_APP_Rotation=32
 Airport_Runway_End=24:N040.53.32.558:E014.18.14.947
 Airport_Runway_End=06:N040.52.47.024:E014.16.38.613
 
+Shortcut_Map_Target=3,LIRN SMR\LIRN Stand Labels
+
 [LIPE]
 
 Window_APP_Rotation=334
@@ -257,9 +261,13 @@ Shortcut_Map_Target=3,LIPE SMR\STANDS
 Airport_Runway_End=25:N038.11.10.801:E013.07.20.121
 Airport_Runway_End=07:N038.10.25.843:E013.05.06.538
 
+Shortcut_Map_Target=3,LICJ SMR\LICJ Stand Labels
+
 [LIEO]
 
 Airport_Runway_End=05:N040.53.31.627:E009.30.18.337
+
+Shortcut_Map_Target=3,LIEO SMR\LIEO Stand Labels
 
 [LIBR]
 
@@ -270,6 +278,8 @@ Airport_Runway_End=13:N040.40.32.282:E017.55.32.861
 
 Airport_Runway_End=08:N037.27.55.892:E015.03.04.192
 Airport_Runway_End=26:N037.28.04.854:E015.04.51.956
+
+Shortcut_Map_Target=3,LICC SMR\LICC Stand Labels
 
 [LIMP]
 
@@ -304,6 +314,10 @@ Airport_Runway_End=22:N045.24.22.085:E010.54.13.429
 Airport_Runway_End=04R:N043.40.23.123:E010.22.59.813
 Airport_Runway_End=22L:N043.41.40.392:E010.24.19.252
 
+Shortcut_Map_Target=3,LIRP SMR\LIRP Stand Labels
+
 [LIRQ]
 
 Airport_Runway_End=23:N043.48.52.907:E011.12.44.323
+
+Shortcut_Map_Target=3,LIRQ SMR\LIRQ Stand Labels
