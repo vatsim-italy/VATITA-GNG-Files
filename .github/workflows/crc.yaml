@@ -41,7 +41,7 @@ jobs:
     - name: Create or switch to crc-updates branch
       run: |
         git fetch origin
-        git checkout -b crc-updates origin/main || git checkout crc-updates
+        git checkout -B crc-updates origin/main  # Create or reset the branch to main
 
     - name: Pull latest changes from main
       run: |
