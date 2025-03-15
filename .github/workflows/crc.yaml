@@ -34,10 +34,13 @@ jobs:
           echo "$crc  $file" >> ./ignore/crc_checksums.txt
         done
 
-    - name: Commit and push changes
+    - name: Commit changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add ./ignore/crc_checksums.txt
         git commit -m "Update CRC checksums"
+
+    - name: Push changes to main branch
+      run: |
         git push https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git main
