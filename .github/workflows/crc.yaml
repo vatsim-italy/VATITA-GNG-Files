@@ -40,8 +40,7 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add ./ignore/crc_checksums.txt
         git commit -m "Update CRC checksums"
-        git remote add origin https://<TOKEN>@github.com/vatsim-italy/VATITA-GNG-Files
-
+        git remote add origin https://${{ secrets.GH_TOKEN }}>@github.com/vatsim-italy/VATITA-GNG-Files
 
     - name: Push changes to main branch
       run: |
