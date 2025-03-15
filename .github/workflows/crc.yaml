@@ -1,0 +1,43 @@
+name: Generate CRC for Files
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger on pull request to the main branch
+
+jobs:
+  generate-crc:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'  # Use Python 3.9
+
+    - name: Install required packages
+      run: |
+        python -m pip install --upgrade pip
+        pip install crcmod
+
+    - name: Generate CRC for files
+      run: |
+        mkdir -p ./ignore
+        find . -type f -not -path "./.git/*" -not -path "./ignore/*" | while read file; do
+          crc=$(python -c "import crcmod; crc32 = crcmod.predefined.Crc('crc-32'); crc32.update(open('$file', 'rb').read()); print(crc32.hexdigest())")
+          echo "$crc  $file" >> ./ignore/crc_checksums.txt
+        done
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add ./ignore/crc_checksums.txt
+        git commit -m "Update CRC checksums"
+        git push
