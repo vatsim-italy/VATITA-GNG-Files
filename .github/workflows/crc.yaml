@@ -33,7 +33,7 @@ jobs:
     - name: Generate CRC for files
       run: |
         mkdir -p ./ignore
-        find . -type f -not -path "./list/*" -not -path "./.git/*" -not -path "./ignore/*" | while read file; do
+        find . -type f -not -path "./.github/*" -not -path "./.git/*" -not -path "./ignore/*" | while read file; do
           crc=$(python -c "import crcmod; crc32 = crcmod.predefined.Crc('crc-32'); crc32.update(open('$file', 'rb').read()); print(crc32.hexdigest())")
           echo "$crc  $file" >> ./ignore/crc_checksums.txt
         done
