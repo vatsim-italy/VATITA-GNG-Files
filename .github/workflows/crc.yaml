@@ -36,6 +36,7 @@ jobs:
 
     - name: Push changes to a new branch
       run: |
+        git pull origin main
         git push https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:crc-updates
 
     - name: Create Pull Request
