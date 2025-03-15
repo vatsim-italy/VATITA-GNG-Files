@@ -1,0 +1,216 @@
+1C1FF0D6  ./Sounds/supervisor_message.wav
+7E812DD7  ./Sounds/broadcast.wav
+2E4B45AF  ./Sounds/conflict_alert.wav
+906A0EC7  ./Sounds/new_atis.wav
+8D1132B6  ./Sounds/ongoing_manual.wav
+0798EE63  ./Sounds/guardmessage.wav
+4ACF6A44  ./Sounds/ongoing_refused.wav
+9C6BC70E  ./Sounds/error.wav
+CFE761AD  ./Sounds/disconnected.wav
+3079E9E2  ./Sounds/handoff_refused.wav
+34169D61  ./Sounds/ongoing_request.wav
+5532C984  ./Sounds/override.wav
+8D854568  ./Sounds/handoffacc.wav
+CE1102EE  ./Sounds/reminder.wav
+8FCF4BDD  ./Sounds/radiomessage.wav
+9926CE9E  ./Sounds/atcmessage.wav
+D4391203  ./Sounds/flightstripadd.wav
+30EBFCA9  ./Sounds/pointout.wav
+9DC2A0A4  ./Sounds/ongoing_accepted.wav
+737AACF2  ./Sounds/handoffreq.wav
+432B3148  ./Sounds/chatmessage.wav
+2F30E9EC  ./Sounds/startup.wav
+2298C0DD  ./Sounds/intercomcall.wav
+9554B766  ./Sounds/connected.wav
+5AEA5CE8  ./Sounds/conflictalert.wav
+D4B9E5A8  ./Plugins/Bookings Plugin/VATCANBookings.dll
+11144721  ./Plugins/Readme.txt
+01C197BD  ./Plugins/vACDM/vacdm.txt
+F790B1E8  ./Plugins/vACDM/vACDM.dll
+03A29303  ./Plugins/vATIS/vATIS_Profile_LIRR.json
+238BB8AA  ./Plugins/vATIS/vATIS_Profile_LIPP.json
+C1936A96  ./Plugins/vATIS/vATIS_Profile_LIMM.json
+A7BCC402  ./Plugins/vATIS/README.txt
+124F4869  ./Plugins/vATIS/vATIS_Profile_LIBB.json
+DA4547C8  ./Plugins/RDF/RDFPlugin.dll
+B0F365F9  ./Plugins/GRplugin_italy/ICAO_Aircraft.json
+61E6861D  ./Plugins/GRplugin_italy/GRpluginOperatorInfo.txt
+43348E4E  ./Plugins/GRplugin_italy/GRplugin.dll
+B94E848A  ./Plugins/GRplugin_italy/GRpluginStands.txt
+FF1C82F7  ./Plugins/GRplugin_italy/GRpluginSettings.txt
+B42366B9  ./Plugins/GRplugin_italy/GRPluginMaps.txt
+E8173F55  ./Plugins/GRplugin_italy/GRpluginCargoCallsigns.txt
+CE90758A  ./Plugins/GRplugin_italy/Doc/Ground Radar plugin for EuroScope - Developer Guide.pdf
+9C265741  ./Plugins/GRplugin_italy/Doc/Ground Radar plugin for EuroScope - General.pdf
+DB863DA8  ./Plugins/GRplugin_italy/Doc/Ground Radar plugin for EuroScope - Version History.pdf
+CEED7AC6  ./Plugins/GRplugin_italy/ICAO_Airlines.txt
+CA0E1DE8  ./Plugins/DiscordRP/DiscordEuroscope_config.json
+930F90EF  ./Plugins/DiscordRP/DiscordEuroscope.dll
+B5195E48  ./Plugins/vSID/vSID Plugin/vSIDConfig.json
+B5195E48  ./Plugins/vSID/vSID Plugin/vSidConfig.json
+06F48234  ./Plugins/vSID/vSID Plugin/vSID.dll
+09062294  ./Plugins/vSID/vSID Plugin/ICAO_Aircraft.json
+568C8638  ./Plugins/vSID/vSID Plugin/RNAV_List.json
+21D33173  ./Plugins/vSID/vSID Airportconfig/limc.json
+7663D2FC  ./Plugins/vSID/vSID Airportconfig/lips.json
+45070CC7  ./Plugins/vSID/vSID Airportconfig/licb.json
+D6392F05  ./Plugins/vSID/vSID Airportconfig/lipl.json
+F509D4B1  ./Plugins/vSID/vSID Airportconfig/lica.json
+FB102D98  ./Plugins/vSID/vSID Airportconfig/limg.json
+BA88F7A0  ./Plugins/vSID/vSID Airportconfig/lipa.json
+8B6F7691  ./Plugins/vSID/vSID Airportconfig/limj.json
+329A99DA  ./Plugins/vSID/vSID Airportconfig/lirq.json
+0EDA3BE2  ./Plugins/vSID/vSID Airportconfig/lipz.json
+088AA36D  ./Plugins/vSID/vSID Airportconfig/licc.json
+27ACE2BA  ./Plugins/vSID/vSID Airportconfig/limf.json
+983EF6AC  ./Plugins/vSID/vSID Airportconfig/limz.json
+735BF0FE  ./Plugins/vSID/vSID Airportconfig/lipe.json
+645BBA36  ./Plugins/vSID/vSID Airportconfig/lirs.json
+A4206A6D  ./Plugins/vSID/vSID Airportconfig/lirz.json
+BFDBBCB5  ./Plugins/vSID/vSID Airportconfig/libd.json
+F287946A  ./Plugins/vSID/vSID Airportconfig/lmml.json
+6ADC5AB1  ./Plugins/vSID/vSID Airportconfig/licj.json
+22B55726  ./Plugins/vSID/vSID Airportconfig/lsza.json
+BE34505D  ./Plugins/vSID/vSID Airportconfig/licr.json
+825D03B1  ./Plugins/vSID/vSID Airportconfig/limp.json
+3777E6CF  ./Plugins/vSID/vSID Airportconfig/lirp.json
+2C7147F8  ./Plugins/vSID/vSID Airportconfig/libc.json
+9B03BE7E  ./Plugins/vSID/vSID Airportconfig/libr.json
+AC4AE921  ./Plugins/vSID/vSID Airportconfig/lipc.json
+929B246A  ./Plugins/vSID/vSID Airportconfig/lirf.json
+E48850EA  ./Plugins/vSID/vSID Airportconfig/liee.json
+EEA0ACBD  ./Plugins/vSID/vSID Airportconfig/liri.json
+F62D677E  ./Plugins/vSID/vSID Airportconfig/libf.json
+DE7EE671  ./Plugins/vSID/vSID Airportconfig/lipk.json
+46311E0D  ./Plugins/vSID/vSID Airportconfig/lime.json
+AA011F83  ./Plugins/vSID/vSID Airportconfig/libp.json
+56B40EE6  ./Plugins/vSID/vSID Airportconfig/lieo.json
+63074BB4  ./Plugins/vSID/vSID Airportconfig/lipb.json
+EF0BE991  ./Plugins/vSID/vSID Airportconfig/licd.json
+21402CA7  ./Plugins/vSID/vSID Airportconfig/lipy.json
+756968C3  ./Plugins/vSID/vSID Airportconfig/lipq.json
+9FEC0F70  ./Plugins/vSID/vSID Airportconfig/lipo.json
+DEE6BA9B  ./Plugins/vSID/vSID Airportconfig/liea.json
+05E6CC2F  ./Plugins/vSID/vSID Airportconfig/lira.json
+34C74982  ./Plugins/vSID/vSID Airportconfig/lipx.json
+6F1914C0  ./Plugins/vSID/vSID Airportconfig/liml.json
+99AB647A  ./Plugins/vSID/vSID Airportconfig/licg.json
+731250B9  ./Plugins/vSID/vSID Airportconfig/liph.json
+4E9C96D9  ./Plugins/vSID/vSID Airportconfig/lirn.json
+5B377E96  ./Plugins/vSID/vSID Airportconfig/lipr.json
+1756923E  ./Plugins/Topsky/version.txt
+76A338DF  ./Plugins/Topsky/TopSkySSRcodes.txt
+34169D61  ./Plugins/Topsky/TopSkySoundCoord.wav
+12A78489  ./Plugins/Topsky/TopSkyMaps.txt
+2E4B45AF  ./Plugins/Topsky/TopSkySoundAPW.wav
+11C36DA4  ./Plugins/Topsky/TopSkyCursorArrowLeft.cur
+162877F4  ./Plugins/Topsky/TopSky.dll
+00000000  ./Plugins/Topsky/TopSkySettingsLocal.txt
+E896EBF3  ./Plugins/Topsky/TopSkyCPDLC.txt
+9DC2A0A4  ./Plugins/Topsky/TopSkySoundCoordACP.wav
+4ACF6A44  ./Plugins/Topsky/TopSkySoundCoordRJC.wav
+ECE2F3FC  ./Plugins/Topsky/TopSkyCPDLCHoppieCode.txt
+18D8C727  ./Plugins/Topsky/Documentation/TopSky plugin for EuroScope - Version History.pdf
+31798FB0  ./Plugins/Topsky/Documentation/Controller/Setup A/TopSky plugin for EuroScope - Coordination - A.pdf
+BA42540B  ./Plugins/Topsky/Documentation/Controller/Setup A/TopSky plugin for EuroScope - General - A.pdf
+F4638C58  ./Plugins/Topsky/Documentation/Controller/Setup A/TopSky plugin for EuroScope - Data Link Functions - A.pdf
+74204822  ./Plugins/Topsky/Documentation/Controller/Setup B (COOPANS)/TopSky plugin for EuroScope - Coordination - B.pdf
+AD40EBCE  ./Plugins/Topsky/Documentation/Controller/Setup B (COOPANS)/TopSky plugin for EuroScope - Data Link Functions - B.pdf
+F5364A72  ./Plugins/Topsky/Documentation/Controller/Setup B (COOPANS)/TopSky plugin for EuroScope - General - B.pdf
+EE4629E6  ./Plugins/Topsky/Documentation/Developer/Settings  - Setup A/Lists.txt
+A94DA5B6  ./Plugins/Topsky/Documentation/Developer/Settings  - Setup A/Plugins.txt
+5BC4E807  ./Plugins/Topsky/Documentation/Developer/Settings  - Setup A/Tags.txt
+392A065F  ./Plugins/Topsky/Documentation/Developer/readme.txt
+11C36DA4  ./Plugins/Topsky/Documentation/Developer/CursorsWhite/TopSkyCursorArrowLeft.cur
+1B7E597F  ./Plugins/Topsky/Documentation/Developer/CursorsWhite/TopSkyCursorArrowRight.cur
+6BC3F34B  ./Plugins/Topsky/Documentation/Developer/CursorsWhite/TopSkyCursorResize.cur
+F5FD6EB3  ./Plugins/Topsky/Documentation/Developer/CursorsWhite/TopSkyCursorMove.cur
+10994758  ./Plugins/Topsky/Documentation/Developer/CursorsWhite/TopSkyCursorCross.cur
+718CC6C3  ./Plugins/Topsky/Documentation/Developer/CursorsWhite/TopSkyCursorStop.cur
+8B74E1BD  ./Plugins/Topsky/Documentation/Developer/CursorsBlack/TopSkyCursorArrowLeft.cur
+C51F5A62  ./Plugins/Topsky/Documentation/Developer/CursorsBlack/TopSkyCursorArrowRight.cur
+C8C9E759  ./Plugins/Topsky/Documentation/Developer/CursorsBlack/TopSkyCursorResize.cur
+49D1A34F  ./Plugins/Topsky/Documentation/Developer/CursorsBlack/TopSkyCursorMove.cur
+41FB0514  ./Plugins/Topsky/Documentation/Developer/CursorsBlack/TopSkyCursorCross.cur
+1E979A02  ./Plugins/Topsky/Documentation/Developer/CursorsBlack/TopSkyCursorStop.cur
+53CC5E96  ./Plugins/Topsky/Documentation/Developer/TopSky plugin for EuroScope - Developer Guide.pdf
+9AEBA219  ./Plugins/Topsky/Documentation/Developer/Settings  - Setup B (COOPANS)/Lists.txt
+12833E38  ./Plugins/Topsky/Documentation/Developer/Settings  - Setup B (COOPANS)/Plugins.txt
+22C664B0  ./Plugins/Topsky/Documentation/Developer/Settings  - Setup B (COOPANS)/Tags.txt
+70703244  ./Plugins/Topsky/Documentation/Developer/TopSky_Developer_Guide_Settings.xlsx
+18D02E6A  ./Plugins/Topsky/ICAO_Aircraft.json
+6F75A4EA  ./Plugins/Topsky/TopSkyAreas.txt
+EFA7F06B  ./Plugins/Topsky/TopSkyViews.txt
+1B7E597F  ./Plugins/Topsky/TopSkyCursorArrowRight.cur
+332CB152  ./Plugins/Topsky/ICAO_Airports.txt
+6BC3F34B  ./Plugins/Topsky/TopSkyCursorResize.cur
+F89E98F9  ./Plugins/Topsky/TopSkySTCA.txt
+DE7A5570  ./Plugins/Topsky/TopSkySoundCPDLC.wav
+32D0AFB5  ./Plugins/Topsky/TopSkySymbols.txt
+F5FD6EB3  ./Plugins/Topsky/TopSkyCursorMove.cur
+2E4B45AF  ./Plugins/Topsky/TopSkySoundSTCA.wav
+6E1EB28B  ./Plugins/Topsky/TopSkyAreasWIP.txt
+5D55112A  ./Plugins/Topsky/TopSkySettings.txt
+10994758  ./Plugins/Topsky/TopSkyCursorCross.cur
+D7432E34  ./Plugins/Topsky/ICAO_Airlines.txt
+5AF1B438  ./Plugins/Topsky/TopSkyAirspace.txt
+718CC6C3  ./Plugins/Topsky/TopSkyCursorStop.cur
+39E70EA0  ./Plugins/Topsky/ICAO_Aircraft.txt
+888360E0  ./Settings/OriginalPlaneList.txt
+D272D1E6  ./Settings/SymbologySettings_topsky.txt
+018A2F7B  ./Settings/ScreenSettings.txt
+C18B7450  ./Settings/TAGS.txt
+A8D4F148  ./Settings/ADCSectorList.txt
+0EC924DE  ./Settings/LoginProfiles.txt
+C5C71020  ./Settings/ConflictList.txt
+A1A40462  ./Settings/TakeOffList.txt
+0C559073  ./Settings/SectorExitList.txt
+1E0D5B84  ./Settings/StartupList.txt
+AA98CB73  ./Settings/italyCTR.txt
+B910E552  ./Settings/VCCS.txt
+969C0C1F  ./Settings/Plugins.txt
+1E8E81F1  ./Settings/PilotingList.txt
+37B90020  ./Settings/FlightPlanList.txt
+81F4EB1C  ./Settings/ArrivalList.txt
+DEE6804B  ./Settings/DepartureList_topsky.txt
+D4AE25A3  ./Settings/TaxiInList.txt
+F94AB918  ./Settings/GeneralSettings_topsky.txt
+D1C1649F  ./Settings/SectorInboundList.txt
+493393C5  ./Settings/TaxiOutList.txt
+D175337E  ./ASR/GRP/NO AUTO STANDS/LIPQ GND Radar.asr
+809B0168  ./ASR/GRP/NO AUTO STANDS/LIMP GND Radar.asr
+4EFADF56  ./ASR/GRP/NO AUTO STANDS/LICA GND Radar.asr
+8BB874A7  ./ASR/GRP/NO AUTO STANDS/LSZA GND Radar.asr
+4938C4FF  ./ASR/GRP/NO AUTO STANDS/LIBR GND Radar.asr
+616A572E  ./ASR/GRP/NO AUTO STANDS/LIRP GND Radar.asr
+E58D9E54  ./ASR/GRP/NO AUTO STANDS/LIPH GND Radar.asr
+234EAA02  ./ASR/GRP/NO AUTO STANDS/LIRQ GND Radar.asr
+FB3A8CE5  ./ASR/GRP/NO AUTO STANDS/LIMZ GND Radar.asr
+7DC61E94  ./ASR/GRP/NO AUTO STANDS/LIPK GND Radar.asr
+9C197315  ./ASR/GRP/NO AUTO STANDS/LIPB GND RADAR.asr
+569E20D1  ./ASR/GRP/NO AUTO STANDS/LIPX GND Radar.asr
+DFDA417C  ./ASR/GRP/NO AUTO STANDS/LIPO GND Radar.asr
+07DC9055  ./ASR/GRP/NO AUTO STANDS/LIRA GND Radar.asr
+1AE1A588  ./ASR/GRP/NO AUTO STANDS/LIPY GND Radar.asr
+3B2DAB64  ./ASR/GRP/NO AUTO STANDS/LIPA GND Radar.asr
+7733106F  ./ASR/GRP/NO AUTO STANDS/LIBD GND Radar.asr
+770B8628  ./ASR/GRP/NO AUTO STANDS/LIPR GND Radar.asr
+C1CF0C70  ./ASR/GRP/LMML GND Radar.asr
+C3D3749D  ./ASR/GRP/LIRF GND Radar.asr
+6256E449  ./ASR/GRP/LIMC GND Radar.asr
+D4AB2C68  ./ASR/GRP/LIML GND Radar.asr
+DC3D0B18  ./ASR/GRP/LIEE GND Radar.asr
+2235692B  ./ASR/GRP/LIRN GND Radar.asr
+5E7569B5  ./ASR/GRP/LIPZ GND Radar.asr
+774D656E  ./ASR/GRP/LIEO GND Radar.asr
+113965B6  ./ASR/GRP/LIMJ GND Radar.asr
+F3CBD7C6  ./ASR/GRP/LIPE GND Radar.asr
+8A964A85  ./ASR/GRP/LICC GND Radar.asr
+7A59D1F6  ./ASR/GRP/LIME GND Radar.asr
+30AF9C9D  ./ASR/GRP/LIMF GND RADAR.asr
+13A5B500  ./ASR/GRP/LICJ GND Radar.asr
+3D6C4EBA  ./ASR/TOPSKY/TOPSKY.asr
+C1E5ECA9  ./italy - TOPSKY.prf
+CBC572B1  ./VERSION.txt
+ECAB6AFC  ./.github/workflows/crc.yaml
+F0B533A7  ./Alias/alias.txt
