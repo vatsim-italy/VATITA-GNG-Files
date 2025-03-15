@@ -1,6 +1,7 @@
 name: Generate CRC for Files
 
 on:
+  workflow_dispatch:  # Allow manual triggering
   push:
     branches:
       - main  # Trigger on push to the main branch
@@ -15,6 +16,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GH_TOKEN }}  # Use the PAT for authentication
+        fetch-depth: 0  # Fetch all history for all branches
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -29,15 +33,30 @@ jobs:
     - name: Generate CRC for files
       run: |
         mkdir -p ./ignore
-        find . -type f -not -path "./.git/*" -not -path "./ignore/*" | while read file; do
+        find . -type f -not -path "./list/*" -not -path "./.git/*" -not -path "./ignore/*" | while read file; do
           crc=$(python -c "import crcmod; crc32 = crcmod.predefined.Crc('crc-32'); crc32.update(open('$file', 'rb').read()); print(crc32.hexdigest())")
           echo "$crc  $file" >> ./ignore/crc_checksums.txt
         done
 
-    - name: Push changes to a new branch
+    - name: Create or switch to crc-updates branch
       run: |
-        git pull crc-updates
-        git push https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:crc-updates
+        git fetch origin
+        git checkout -b crc-updates origin/main || git checkout crc-updates
+
+    - name: Pull latest changes from main
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git pull origin main
+
+    - name: Commit changes
+      run: |
+        git add ./ignore/crc_checksums.txt
+        git commit -m "Update CRC checksums"
+
+    - name: Push changes to crc-updates branch
+      run: |
+        git push origin crc-updates
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5
