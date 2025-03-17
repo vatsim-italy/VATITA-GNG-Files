@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "name": "LIMM v1.5",
+  "name": "LIMM v1.5.1",
   "id": "b7ab6bac-19ee-4f7f-b691-4e585af2d3ea",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 2025031701,
+  "updateSerial": 2025031702,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -33,13 +33,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd} GUST {wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd} GUST {wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust} KNOTS."
             }
           },
@@ -1839,7 +1839,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -1948,7 +1948,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
@@ -2121,7 +2121,7 @@
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "NON USARE RWY CC CON LVP",
@@ -2190,13 +2190,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd} GUST {wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd} GUST {wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust} KNOTS."
             }
           },
@@ -3996,7 +3996,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -4105,7 +4105,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
@@ -4288,7 +4288,7 @@
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "NON USARE RWY CC CON LVP",
@@ -4325,7 +4325,7 @@
         {
           "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "BEFORE START-UP CONTACT MALPENSA OPERATIONS ON 131.880 TO BE RELEASED BY THE AIRPORT OPERATOR.",
@@ -4335,7 +4335,7 @@
         {
           "text": "DEPARTURE CLEARANCE @AVAIL VIA DATALINK.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "SINGLE RWY OPERATIONS IN PROGRESS.",
@@ -6178,7 +6178,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -6287,7 +6287,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
@@ -8294,7 +8294,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -8403,7 +8403,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
@@ -12419,7 +12419,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -12528,7 +12528,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
@@ -14546,7 +14546,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -14655,7 +14655,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
@@ -16664,7 +16664,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -16773,7 +16773,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
@@ -16948,13 +16948,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd} GUST {wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd} GUST {wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust} KNOTS."
             }
           },
@@ -18754,7 +18754,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -18863,7 +18863,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }

@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "name": "LIBB v1.3",
+  "name": "LIBB v1.3.1",
   "id": "e7be4d7a-a36d-4c6f-96c8-7c6cee5c95df",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIBB.json",
-  "updateSerial": 2025031701,
+  "updateSerial": 2025031702,
   "stations": [
     {
       "id": "625904f8-6f8c-4839-b981-4885c0a0de16",
@@ -33,13 +33,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND: {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd} GUST {wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd} GUST {wind_gust}KT",
               "voice": "WIND: {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust} KNOTS."
             }
           },
@@ -1839,7 +1839,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -1948,7 +1948,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
@@ -2144,13 +2144,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND: {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/ {wind_spd} GUST {wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd} GUST {wind_gust}KT",
               "voice": "WIND: {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust} KNOTS."
             }
           },
@@ -3950,7 +3950,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "C-B CLOUDS DETECTED"
           },
           "types": {
             "FEW": {
@@ -4059,7 +4059,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "END OF INFO {letter}.",
+            "text": "",
             "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
           }
         }
