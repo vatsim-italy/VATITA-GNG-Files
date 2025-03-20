@@ -1,14 +1,17 @@
 // GROUND RADAR
 
+System_GUI_Version=1
+
 Equip_ModeS=WZLCISG
 Equip_ProMode=1
-System_OSM=1
-System_CVM=1
+System_APW=1
+System_CBM=1
 System_ECM=1
-System_APM=1
+System_ICM=1
+System_OSM=1
 System_RIM=1
+System_RUM=1
 System_RVM=1
-System_SRM=1
 
 RawVideo=0
 
@@ -16,7 +19,6 @@ System_CMAC_NoTakeOffClr_Speed=50
 
 Window_APP_Extensions=15
 Window_APP_AltFilter=9000
-Color_RunwayExtension=220,220,220
 
 System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LB,LD,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LR,LS,LZ
 System_RMCA_RWY_Closure=50
@@ -48,7 +50,7 @@ Color_Unknown=0,255,255
 
 Color_New_Stand=255,110,0
 
-Track_Heading_Line=1
+Track_Heading_Line=0
 Track_HistoryDots_GND=5
 Track_PredictionLine_APP=0
 Track_HistoryDots_APP=5
@@ -56,12 +58,12 @@ Track_HistoryDots_APP=5
 Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
 Label=GND:DEP:1:CALLSIGN,0,0:WTC,0,1:DRWY,0,1
 Label=GND:DEP:2:ATYP,0,1:GS,0,1
-Label=GND:DEP:3:RMK,0,0
+Label=GND:DEP:3:STS,0,0:RMK,0,1
 
 Label=GND:ARR:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
 Label=GND:ARR:1:CALLSIGN,0,0:STAND,0,1
 Label=GND:ARR:2:ATYP,0,0:ARWY,0,1:GS,0,1
-Label=GND:ARR:3:RMK,0,0
+Label=GND:ARR:3:STS,0,0:RMK,0,1
 
 
 Label=APP:DEP:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
@@ -116,6 +118,7 @@ Label_TSSR=1,1,0
 Label_TYP=0,0,0
 Label_VS=1,1,0
 Label_WTC=0,1,1
+Label_STS=1,1,1
 
 GroundLabel_Transparency_Bg=255
 GroundLabel_Transparency_Bd=255
@@ -172,13 +175,10 @@ List_Outbound_ExpiryTime=300
 Airport_Runway_Buffer_LVP=35L:150
 Airport_Runway_Buffer_LVP=35R:205
 
-Window_APP=0,120,630,300,300
 Window_APP_Rotation=281.5
 
 Color_Arrival=0,255,0
 Color_Departure=0,188,255
-
-Track_HistoryDots_GND=0
 
 Airport_Runway_End=35R:N045.36.56.648:E008.44.15.003
 Airport_Runway_Thr=35R:N045.36.56.648:E008.44.15.003
@@ -193,18 +193,23 @@ Airport_Runway_End=35L:N045.36.39.177:E008.43.42.075
 Color_Arrival=0,255,0
 Color_Departure=0,188,255
 
+Shortcut_Map_Target=3,LIML SMR\STANDS
+
+Window_APP_Rotation=95
+
 [LIPZ]
 Airport_Runway_Buffer=04R:150
 Airport_Runway_Buffer_LVP=04R:150
 
-Window_APP=0,250,600,300,300
 Window_APP_Rotation=226
 
 Airport_Runway_Closed_Arr=04L
 Airport_Runway_Closed_Dep=04L
 
 System_RIM=0
-System_CVM=0
+System_CBM=0
+
+Shortcut_Map_Target=3,LIPZ SMR\STANDS
 
 [LIRF]
 
@@ -212,54 +217,57 @@ Color_Arrival=255,255,255
 Color_Departure=255,255,0
 Color_Unknown=0,255,255
 
-Window_APP=0,050,300,300,300
 Window_APP_Scale=7
 
 [LIME]
 
-Window_APP=0,1600,630,300,300
 Window_APP_Rotation=347
 
 Airport_Runway_End=28:N045.39.51.899:E009.43.31.789
 Airport_Runway_End=10:N045.40.15.754:E009.41.23.100
 
+Shortcut_Map_Target=3,LIME SMR\LIME Stand Labels
+
+
 [LIMF]
 
-Window_APP=0,1600,640,300,300
 Window_APP_Rotation=267
 
 Airport_Runway_End=36:N045.11.09.120:E007.38.55.451
 Airport_Runway_End=18:N045.12.56.263:E007.39.02.149
 
+Shortcut_Map_Target=3,LIMF SMR\LIMF SMR STANDS
+
 [LIRN]
 
-Window_APP=0,1600,640,300,300
 Window_APP_Rotation=32
 
 Airport_Runway_End=24:N040.53.32.558:E014.18.14.947
 Airport_Runway_End=06:N040.52.47.024:E014.16.38.613
 
+Shortcut_Map_Target=3,LIRN SMR\LIRN Stand Labels
+
 [LIPE]
 
-Window_APP=0,050,600,300,300
 Window_APP_Rotation=334
 
 Airport_Runway_End=12:N044.32.29.720:E011.16.18.195
 Airport_Runway_End=30:N044.31.46.880:E011.18.16.800
 
-[LIML]
-
-Window_APP=0,400,200,300,300
-Window_APP_Rotation=95
+Shortcut_Map_Target=3,LIPE SMR\STANDS
 
 [LICJ]
 
 Airport_Runway_End=25:N038.11.10.801:E013.07.20.121
 Airport_Runway_End=07:N038.10.25.843:E013.05.06.538
 
+Shortcut_Map_Target=3,LICJ SMR\LICJ Stand Labels
+
 [LIEO]
 
 Airport_Runway_End=05:N040.53.31.627:E009.30.18.337
+
+Shortcut_Map_Target=3,LIEO SMR\LIEO Stand Labels
 
 [LIBR]
 
@@ -270,6 +278,8 @@ Airport_Runway_End=13:N040.40.32.282:E017.55.32.861
 
 Airport_Runway_End=08:N037.27.55.892:E015.03.04.192
 Airport_Runway_End=26:N037.28.04.854:E015.04.51.956
+
+Shortcut_Map_Target=3,LICC SMR\LICC Stand Labels
 
 [LIMP]
 
@@ -304,6 +314,10 @@ Airport_Runway_End=22:N045.24.22.085:E010.54.13.429
 Airport_Runway_End=04R:N043.40.23.123:E010.22.59.813
 Airport_Runway_End=22L:N043.41.40.392:E010.24.19.252
 
+Shortcut_Map_Target=3,LIRP SMR\LIRP Stand Labels
+
 [LIRQ]
 
 Airport_Runway_End=23:N043.48.52.907:E011.12.44.323
+
+Shortcut_Map_Target=3,LIRQ SMR\LIRQ Stand Labels

@@ -3,7 +3,6 @@ Maps_Font=EuroScope
 Shortcut_Map_Target=1,CTA / ATZ\Controlled Airspace
 Shortcut_Map_Target=2,FIS\VRP LIXX
 Shortcut_Map_Target=3,STANDS\STANDS
-Shortcut_Map_Target=4,LIP\LIPK STARs RNAV 30
 
 //Cursors
 System_GUI_Scale_Cursors=0.7
@@ -100,8 +99,8 @@ Color_Potential_FL=40,41,216
 Color_Preactive_Map=154,138,128
 Color_Preactive_Text_Map=155,147,138
 Color_Predisplay_Map=175,130,130
-Color_Proposition_In=255,28,255
-Color_Proposition_Out=255,28,255
+Color_Proposition_In=221,186,186
+Color_Proposition_Out=221,186,186
 Color_QDM=175,175,175
 Color_Redundant=192,192,192
 Color_Runway=116,200,71
@@ -142,7 +141,7 @@ Color_Unconcerned=192,192,192
 Color_Unknown=239,224,42
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
-Color_Warning=240,225,41
+Color_Warning=255,128,128
 Color_Weather_Map=225,30,0
 Color_VAW_Profile=152,202,172
 Color_VAW_Sector_Limits=145,95,30
@@ -153,6 +152,7 @@ Color_WM_Bg=88,95,99
 Color_WM_Border=88,95,99
 Color_WM_Fg=20,20,21
 Color_WM_Frame=88,95,99
+Color_Heading_Vector=0,255,255
 
 Equip_UseCodes=1
 
@@ -160,8 +160,8 @@ Malrt_Misap=MISAP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRREG
 
-Airspace_AOR_Airports=LI,LM
-Airspace_AOR_Positions=LI,LM
+Airspace_AOR_Airports=LI,LM,LSZA
+Airspace_AOR_Positions=LI,LM,LSZA
 Airspace_ModeS_Code_VFR=1000
 Airspace_No_DUPE_Codes=7000,1000
 Airspace_SIGMET_Areas=LIMM,LIRR,LIBB
