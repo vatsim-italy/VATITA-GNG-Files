@@ -4,43 +4,47 @@ ATIS2:TEST. No Active ATC.
 ATIS3:
 ATIS4:
 PROFILE:LIXX_GND:20:3
-ATIS2:XXX Ground
+ATIS2:$radioname Ground
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_TWR:50:4
-ATIS2:XXXXX Tower
+ATIS2:$radioname Tower
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_APP:150:5
-ATIS2:XXX Approach
+ATIS2:$radioname Approach
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_X_CTR:300:6
-ATIS2:XXX Radar
+ATIS2:$radioname Radar
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMM_EN_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMN [FL285+]
+PROFILE:LIMM_EN2_CTR:300:6
+ATIS2:Milano Radar - CPDLC MEN2 [FL285+]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIMM_U_CTR:300:6
 ATIS2:Milano Radar - CPDLC LIMM [FL285+]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
-PROFILE:LIMM_WN_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMW [FL285+]
+PROFILE:LIMM_WN2_CTR:300:6
+ATIS2:Milano Radar - CPDLC MWN2 [FL285+]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
-PROFILE:LIMM_WU_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMU [FL285+]
+PROFILE:LIMM_WS5_CTR:300:6
+ATIS2:Milano Radar - CPDLC MWS5 [FL285+]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
-PROFILE:LIMM_WS_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMS [FL285+]
+PROFILE:LIMM_WS2_CTR:300:6
+ATIS2:Milano Radar - CPDLC MWS2 [FL285+]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
-PROFILE:LIMM_EU_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIME [FL285+]
+PROFILE:LIMM_ES2_CTR:300:6
+ATIS2:Milano Radar - CPDLC MES2 [FL285+]
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector map.vatsim.net
+PROFILE:LIMM_ES5_CTR:300:6
+ATIS2:Milano Radar - CPDLC MES5 [FL285+]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_NE1_CTR:300:6
