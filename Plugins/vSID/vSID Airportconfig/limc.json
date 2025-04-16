@@ -90,6 +90,7 @@
 				"Y": {
 					"initial": 4000,
 					"1":{
+						"trans": {"LAGEN": "U", "NEDED": "U", "TOP": "U"},						
 						"rwy": "17L,17R",
 						"prio": 1
 					},
