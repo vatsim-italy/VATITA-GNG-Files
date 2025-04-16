@@ -1418,9 +1418,9 @@ TAGITEM:142::0:1:0:0:TopSky plugin:20:1:::1
 TAGITEM:128::0:1:59:97:TopSky plugin:20:1:TopSky plugin:TopSky plugin:1
 TAGITEM:137::0:1:0:0:TopSky plugin:20:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:15::0:0:12:123:TopSky plugin:0:1:TopSky plugin:VATITA Controller Plugin:1
+TAGITEM:15::0:0:12:0:TopSky plugin:0:1:TopSky plugin::1
 TAGITEM:67::0:0:0:0:TopSky plugin:0:1:::1
-TAGITEM:114::0:0:45:99:VATITA Controller Plugin:4:1:TopSky plugin:TopSky plugin:0
+TAGITEM:114::0:0:123:99:VATITA Controller Plugin:4:1:VATITA Controller Plugin:TopSky plugin:0
 TAGITEM:1:¤:0:1:19:159::0:1::TopSky plugin:4
 TAGITEM:131::0:0:16:97:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:56::0:1:16:97:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
