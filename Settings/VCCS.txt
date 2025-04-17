@@ -1,5 +1,5 @@
 VCCS
-Ts3Server:vacc.dutt.ch
+Ts3Server:vccs.vatita.net
 Ts3Port:9988
 Ts3G2GChannel:MILANO:ACC N:16377035:16:MMN
 Ts3G2GChannel:MILANO:ACC S:16377035:17:MMS
