@@ -1,0 +1,124 @@
+{
+    "openAutomatically": false,
+    "timelines": {
+        "ANE": {
+            "targetFixes": [ "MC761", "UNDAP", "OBFUL" ],
+            "viaFixes": [ "RIXUV", "EVRIP", "PEXUG", "ODINA", "EKLIB", "OSKOR"],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIMC", "LIML", "LIME"]
+        },
+        "ANE MC": {
+            "targetFixes": [ "MC761"],
+            "viaFixes": [ "RIXUV", "EVRIP", "PEXUG", "ODINA"],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIMC"]
+        },
+        "ANE ML": {
+            "targetFixes": [ "UNDAP"],
+            "viaFixes": [ "ODINA"],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIML"]
+        },
+        "ANE ME": {
+            "targetFixes": [ "OBFUL"],
+            "viaFixes": [ "EKLIB", "ODINA", "OSKOR"],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIME"]
+        },
+        "ASW MC": {
+            "targetFixes": [ "MC561" ],
+            "viaFixes": [ "ASTIG", "DEVOX", "MEBUR"],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIMC"]
+        },
+        "ADE": {
+            "targetFixes": [ "TIXUM", "SOROP"],
+            "viaFixes": [ "UNDAP", "DIXER", "UVNIB", "VOG", "OBFUL", "OSBUL"],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIML", "LIME" ]
+        },
+        "ADE ME": {
+            "targetFixes": [ "TIXUM"],
+            "viaFixes": [ "OBFUL", "OSBUL", "DIXER"],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIME" ]
+        },
+        "LAR": {
+            "targetFixes": [ "SOROP"],
+            "viaFixes": [ "UNDAP", "DIXER", "VOG", "UVNIB" ],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIML" ]
+        },
+        "WS MC": {
+            "targetFixes": [ "IBSAP" ],
+            "viaFixes": [ "MEBUR", "DEVOX", "ASTIG" ],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIMC" ]
+        },
+        "TW1": {
+            "targetFixes": [ "GIPAP", "VAKAB" ],
+            "viaFixes": [ "XIBIL", "ELKAP", "GILIO", "VALMA", "ESINO", "RIFFI", "LAT", "MOPUV", "RITEB" ],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIRF" ]
+        },
+        "TW1 SPLIT": {
+            "targetFixes": [ "GIPAP"],
+            "viaFixes": [ "XIBIL", "ELKAP", "GILIO", "VALMA", "ESINO", "RIFFI" ],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIRF" ]
+        },
+        "AET": {
+            "targetFixes": [ "VAKAB" ],
+            "viaFixes": [ "LAT", "MOPUV", "RITEB" ],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIRF" ]
+        },
+        "AEM": {
+            "targetFixes": [ "OXERU" ],
+            "viaFixes": [ "SUVOK", "EXAMA" ],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIRF" ]
+        }, 
+        "NW1": {
+            "targetFixes": [ "GOPOL"],
+            "viaFixes": [ "XIBIL", "ELKAP", "GILIO" ],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIRF" ]
+        },          
+        "...": {
+            "targetFixes": [ "....", "...." ],
+            "viaFixes": [ "..." ],
+            "tagLayout": "simpleLayout",
+            "defaultTimeSpan": 60,
+            "destinationAirports": [ "....", "...." ]
+        }
+    },
+    "tagLayouts": {
+        "myLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 },
+            { "source": "static", "defaultValue": "�", "width": 2, "isViaFixIndicator": true },
+            { "source": "aircraftType", "width": 5 },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true },
+            { "source": "static", "width": 1 },
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "-----" },
+            { "source": "static", "width": 1 },
+            { "source": "scratchPad", "width": 4 }
+        ],
+        "VATITA": [
+            { "source": "static", "defaultValue": "�", "width": 2, "isViaFixIndicator": true },
+            { "source": "callsign", "width": 8 },
+            { "source": "timeBehindPreceeding", "width": 6},
+            { "source": "aircraftWtc", "width": 2},
+            { "source": "assignedRunway", "width": 4},
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "-----" },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true }
+        ],            
+        "simpleLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 }
+        ]
+    }
+}

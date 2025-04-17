@@ -65,51 +65,59 @@
       "r": 255,
       "g": 255,
       "b": 255
-    },
-    "squawkNotSet": {
+  },
+  "squawkNotSet": {
       "r": 230,
       "g": 230,
       "b": 60
-    },
-    "requestNeutral": {
+  },
+  "requestNeutral": {
       "r": 128,
       "g": 128,
       "b": 128
-    },
-    "requestCaution": {
+  },
+  "requestCaution":  {
       "r": 230,
       "g": 230,
       "b": 60
-    },
-    "requestWarning": {
+  },
+  "requestWarning": {
       "r": 220,
       "g": 30,
       "b": 20
-    },
-    "clrfSet": {
+  },
+  "clrfSet": {
       "r": 0,
-      "g": 255,
-      "b": 0
-    },
-    "clrfCaution": {
+"g": 160,
+"b": 30
+  },
+  "clrfCaution": {
       "r": 250,
-      "g": 160,
-      "b": 0
-    },
-    "clrfWarning": {
+"g": 160,
+"b": 0
+  },
+  "clrfWarning": {
       "r": 200,
-      "g": 10,
-      "b": 10
-    }
+"g": 10,
+"b": 10
   },
-  "requests": {
-    "caution": 2,
-    "warning": 5
-  },
-  "clrf": {
-    "distCaution": 10.0,
-    "distWarning": 2.0,
-    "altCaution": 1500,
-    "altWarning": 500
-  }
+  "pbIndicator": {"r": 0, "g": 255, "b": 0},
+  "reqIndicator": {"r":  252, "g":  48, "b":  3}
+},
+"requests": {
+  "caution": 2,
+  "warning": 5
+},
+"clrf": {
+  "distCaution": 10.0,
+  "distWarning": 2.0,
+  "altCaution": 1500,
+  "altWarning": 500
+},
+"display": {
+  "showPbIndicatorOn": "Ground Radar display",
+  "enablePbIndicator": true,
+  "showRequestOn": "Ground Radar display",
+  "enableRequest":  true
+}
 }

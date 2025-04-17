@@ -4,71 +4,75 @@ ATIS2:TEST. No Active ATC.
 ATIS3:
 ATIS4:
 PROFILE:LIXX_GND:20:3
-ATIS2:XXX Ground
+ATIS2:$radioname
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_TWR:50:4
-ATIS2:XXXXX Tower
+ATIS2:$radioname
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_APP:150:5
-ATIS2:XXX Approach
+ATIS2:$radioname
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_X_CTR:300:6
-ATIS2:XXX Radar
+ATIS2:$radioname
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMM_EN_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMN [FL285+]
+PROFILE:LIMM_EN2_CTR:300:6
+ATIS2:Milano Radar - CPDLC MEN2
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIMM_U_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMM [FL285+]
+ATIS2:Milano Radar - CPDLC LIMM
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
-PROFILE:LIMM_WN_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMW [FL285+]
+PROFILE:LIMM_WN2_CTR:300:6
+ATIS2:Milano Radar - CPDLC MWN2
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
-PROFILE:LIMM_WU_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMU [FL285+]
+PROFILE:LIMM_WS5_CTR:300:6
+ATIS2:Milano Radar - CPDLC MWS5
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
-PROFILE:LIMM_WS_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIMS [FL285+]
+PROFILE:LIMM_WS2_CTR:300:6
+ATIS2:Milano Radar - CPDLC MWS2
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
-PROFILE:LIMM_EU_CTR:300:6
-ATIS2:Milano Radar - CPDLC LIME [FL285+]
+PROFILE:LIMM_ES2_CTR:300:6
+ATIS2:Milano Radar - CPDLC MES2
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS4:my active sector map.vatsim.net
+PROFILE:LIMM_ES5_CTR:300:6
+ATIS2:Milano Radar - CPDLC MES5
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_NE1_CTR:300:6
-ATIS2:Roma Radar - CPDLC RNE1 [FL285+]
+ATIS2:Roma Radar - CPDLC RNE1
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_SU1_CTR:300:6
-ATIS2:Roma Radar - CPDLC RSU1 [FL285+]
+ATIS2:Roma Radar - CPDLC RSU1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_NE7_CTR:300:6
-ATIS2:Roma Radar - CPDLC RNE7 [FL285+]
+ATIS2:Roma Radar - CPDLC RNE7 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIPP_NE_CTR:250:6
-ATIS2:Padova Radar - CPDLC LIPN [FL285+]
+ATIS2:Padova Radar - CPDLC LIPN 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIPP_CE_CTR:250:6
-ATIS2:Padova Radar - CPDLC LIPC [FL285+]
+ATIS2:Padova Radar - CPDLC LIPC 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIPP_SD_CTR:250:6
-ATIS2:Padova Radar - CPDLC LIPS [FL285+]
+ATIS2:Padova Radar - CPDLC LIPS 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIPP_NU_CTR:250:6
-ATIS2:Padova Radar - CPDLC LIPU [FL285+]
+ATIS2:Padova Radar - CPDLC LIPU 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIMC_TWR:50:4
@@ -116,51 +120,51 @@ ATIS2:Fiume Delivery - PDC [LIRF]
 ATIS3:Charts at vats.im/it/charts
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRR_EW1_CTR:300:6
-ATIS2:Roma Radar - CPDLC REW1 [FL285+]
+ATIS2:Roma Radar - CPDLC REW1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_OV1_CTR:300:6
-ATIS2:Roma Radar - CPDLC ROV1 [FL285+]
+ATIS2:Roma Radar - CPDLC ROV1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_TS1_CTR:300:6
-ATIS2:Roma Radar - CPDLC RTS1 [FL285+]
+ATIS2:Roma Radar - CPDLC RTS1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_US2_CTR:300:6
-ATIS2:Roma Radar - CPDLC RUS2 [FL285+]
+ATIS2:Roma Radar - CPDLC RUS2 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_NN1_CTR:300:6
-ATIS2:Roma Radar - CPDLC RNN1 [FL285+]
+ATIS2:Roma Radar - CPDLC RNN1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_EE3_CTR:300:6
-ATIS2:Roma Radar - CPDLC REE3 [FL285+]
+ATIS2:Roma Radar - CPDLC REE3 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_ES1_CTR:300:6
-ATIS2:Roma Radar - CPDLC RES1 [FL285+]
+ATIS2:Roma Radar - CPDLC RES1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_NC1_CTR:300:6
-ATIS2:Roma Radar - CPDLC RNC1 [FL285+]
+ATIS2:Roma Radar - CPDLC RNC1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_NW7_CTR:300:6
-ATIS2:Roma Radar - CPDLC RNW7 [FL285+]
+ATIS2:Roma Radar - CPDLC RNW7 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_EW7_CTR:300:6
-ATIS2:Roma Radar - CPDLC REW7 [FL285+]
+ATIS2:Roma Radar - CPDLC REW7 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_SU7_CTR:300:6
-ATIS2:Roma Radar - CPDLC RSU7 [FL285+]
+ATIS2:Roma Radar - CPDLC RSU7 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_NW1_CTR:300:6
-ATIS2:Roma Radar - CPDLC RNW1 [FL285+]
+ATIS2:Roma Radar - CPDLC RNW1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:my active sector map.vatsim.net
 PROFILE:LIRR_TW1_APP:150:5
