@@ -1,9 +1,8 @@
 {
-  "version": 3,
-  "name": "LIRR v1.4.1",
+  "name": "LIRR v1.4.2",
   "id": "c856c5ae-0e0a-4c86-9135-4420722b1fd3",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2025031702,
+  "updateSerial": 2025041701,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -6437,7 +6436,7 @@
         {
           "id": "3a3d2579-3664-4828-b047-991cabc2046f",
           "ordinal": 1,
-          "name": "15 ILS",
+          "name": "15 ILS Z",
           "airportConditions": "",
           "notams": "",
           "template": "@LIRA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE 15. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
@@ -6446,8 +6445,19 @@
           }
         },
         {
-          "id": "2ab5fb0a-ef98-404a-bdd3-2e6cab891c94",
+          "id": "b6bc1c75-f724-4ee5-b5c0-8cb335c5e44b",
           "ordinal": 1,
+          "name": "15 ILS Y",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@LIRA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Y. RWY IN USE 15. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "2ab5fb0a-ef98-404a-bdd3-2e6cab891c94",
+          "ordinal": 3,
           "name": "15 RNP",
           "template": "@LIRA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP @Z. RWY IN USE 15. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
@@ -6456,7 +6466,7 @@
         },
         {
           "id": "14381689-79d0-40e7-8f48-8538938099c7",
-          "ordinal": 3,
+          "ordinal": 4,
           "name": "33",
           "template": "@LIRA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 33. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
@@ -6465,7 +6475,7 @@
         },
         {
           "id": "e0f8bd57-dfc0-4eab-8c18-6b793ddfedc5",
-          "ordinal": 4,
+          "ordinal": 5,
           "name": "15 LVP",
           "template": "@LIRA @DEP AND @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE 15. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
@@ -6558,6 +6568,11 @@
           "variableName": "END",
           "text": "END",
           "voice": "STOP END"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
         }
       ],
       "airportConditionDefinitions": [
@@ -8561,7 +8576,8 @@
           "template": "@LIRN @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 06. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -10655,7 +10671,8 @@
           "template": "@LIEA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 02. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -10677,7 +10694,8 @@
           "template": "@LIEA @DEP AND @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 20. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -12762,7 +12780,8 @@
           "template": "@LIEO @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 05. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -12775,7 +12794,8 @@
           "template": "@LIEO @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 23. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -14869,7 +14889,8 @@
           "template": "@LICC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP @Z. RWY IN USE 08. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -14882,7 +14903,8 @@
           "template": "@LICC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP @Z. RWY IN USE 26. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -14895,7 +14917,8 @@
           "template": "@LICC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP @Z. RWY IN USE 26. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -14908,7 +14931,8 @@
           "template": "@LICC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE 08. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -17012,7 +17036,8 @@
           "template": "@LMML @ARR AND @DEP @ATIS [ATIS_CODE]. TIME [OBS_TIME]. RWY 13. EXPECT ILS APP RWY 13. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -17034,7 +17059,8 @@
           "template": "@LMML @ARR AND @DEP @ATIS [ATIS_CODE]. TIME [OBS_TIME]. RWY 31. EXPECT ILS APP RWY 31. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -17047,7 +17073,8 @@
           "template": "@LMML @ARR AND @DEP @ATIS [ATIS_CODE]. TIME [OBS_TIME]. RWY 13. EXPECT ILS APP RWY 13. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -17060,7 +17087,8 @@
           "template": "@LMML @ARR AND @DEP @ATIS [ATIS_CODE]. TIME [OBS_TIME]. RWY 31. EXPECT ILS APP RWY 31. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -19145,7 +19173,8 @@
           "template": "@LICJ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP @Z. RWY IN USE 07. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -19158,7 +19187,8 @@
           "template": "@LICJ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE 20. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -19171,7 +19201,8 @@
           "template": "@LICJ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. ARRIVAL RWY IN USE 20. DEPARTURE RWY IN USE 25. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -19193,7 +19224,8 @@
           "template": "@LICJ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP @Z. RWY IN USE 20. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -21308,7 +21340,8 @@
           "template": "@LICA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 10. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
             "approaches": "ILS Z"
@@ -21321,7 +21354,8 @@
           "template": "@LICA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 28. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -23410,7 +23444,8 @@
           "template": "@LIEE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 32. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
-            "url": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
             "approaches": "ILS Z"
@@ -29977,5 +30012,6 @@
         }
       ]
     }
-  ]
+  ],
+  "version": 4
 }
