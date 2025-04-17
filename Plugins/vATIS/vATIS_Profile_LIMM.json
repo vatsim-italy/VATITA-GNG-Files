@@ -1,9 +1,8 @@
 {
-  "version": 3,
-  "name": "LIMM v1.5.1",
+  "name": "LIMM v1.5.2",
   "id": "b7ab6bac-19ee-4f7f-b691-4e585af2d3ea",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 2025031702,
+  "updateSerial": 2025041701,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -2116,12 +2115,12 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY. ",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "NON USARE RWY CC CON LVP",
@@ -4283,12 +4282,12 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY. ",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "NON USARE RWY CC CON LVP",
@@ -6429,12 +6428,12 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY. ",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "NON USARE RWY CC CON LVP",
@@ -8547,7 +8546,7 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -10564,7 +10563,7 @@
         {
           "text": "RWY 19 AVAILABLE ON REQUEST",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "YOU MAY REQUEST CIRCLE TO LAND APPROACH 19 ON FIRST CONTACT WITH MILANO RADAR",
@@ -12681,7 +12680,7 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -14799,7 +14798,7 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -16899,7 +16898,7 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -18934,6 +18933,15 @@
           "externalGenerator": {
             "enabled": false
           }
+        },
+        {
+          "id": "5644f78a-b79b-447f-ab05-62ba291c8480",
+          "ordinal": 7,
+          "name": "17L(A) 17R(D)",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. ARRIVAL RWY IN USE 17L. DEPARTURE RWY IN USE 17R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
       "contractions": [
@@ -19042,7 +19050,7 @@
         {
           "text": "RWY @CC 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
@@ -19093,5 +19101,6 @@
         }
       ]
     }
-  ]
+  ],
+  "version": 4
 }
