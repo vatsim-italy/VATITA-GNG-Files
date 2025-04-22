@@ -31,16 +31,12 @@
                         "rwy": "15",
                         "climbvia": true,
                         "customRule": "RF34",
-                        "timeFrom": 6,
-                        "timeTo": 12,
                         "prio": 1
                     },
                     "2": {
                         "rwy": "15",
                         "climbvia": true,
                         "customRule": "RF34",
-                        "timeFrom": 6,
-                        "timeTo": 12,
                         "trans": {"RIFFI": "V"},
                         "prio": 1
                     },
@@ -48,8 +44,6 @@
                         "rwy": "15",
                         "climbvia": true,
                         "customRule": "RF34",
-                        "timeFrom": 6,
-                        "timeTo": 12,
                         "trans": {"OKUNO": "S", "PEMAR": "S"},
                         "prio": 1
                     }
@@ -72,8 +66,6 @@
                         "rwy": "15",
                         "climbvia": true,
                         "customRule": "RF34",
-                        "timeFrom": 6,
-                        "timeTo": 12,
                         "trans": {"OKUNO": "S", "PEMAR": "S"},
                         "prio": 1
                     }
