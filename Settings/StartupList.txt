@@ -1,7 +1,7 @@
 STUP
 m_Visible:0
-m_X:970
-m_Y:128
+m_X:356
+m_Y:256
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:1
@@ -27,6 +27,7 @@ m_Column:PLV:4:1:22:30:30:1::::3:0.0
 m_Column:V:4:1:10085:155:0:1:TopSky plugin:TopSky plugin::0:0.0
 m_Column:REQ:3:1:644:744:744:1:vSID:vSID:vSID:7:0.0
 m_Column:C:1:1:648:27:0:1:vSID:::3:4.0
+m_Column:D:1:1:121:120:0:1:VATITA Controller Plugin:VATITA Controller Plugin::3:4.0
 m_Column:STS:5:1:3:13:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:8:0.0
 m_Column:RMK:10:1:19:29:29:1::::7:0.0
 END
