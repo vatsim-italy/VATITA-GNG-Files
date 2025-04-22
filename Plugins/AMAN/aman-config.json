@@ -97,7 +97,7 @@
         "myLayout": [
             { "source": "assignedRunway", "width": 4 },
             { "source": "callsign", "width": 8 },
-            { "source": "static", "defaultValue": "ï¿½", "width": 2, "isViaFixIndicator": true },
+            { "source": "static", "defaultValue": "•", "width": 2, "isViaFixIndicator": true },
             { "source": "aircraftType", "width": 5 },
             { "source": "aircraftWtc", "width": 2 },
             { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
@@ -108,7 +108,7 @@
             { "source": "scratchPad", "width": 4 }
         ],
         "VATITA": [
-            { "source": "static", "defaultValue": "ï¿½", "width": 2, "isViaFixIndicator": true },
+            { "source": "static", "defaultValue": "•", "width": 2, "isViaFixIndicator": true },
             { "source": "callsign", "width": 8 },
             { "source": "timeBehindPreceeding", "width": 6},
             { "source": "aircraftWtc", "width": 2},
