@@ -1,15 +1,14 @@
-{
-    "LIMM": [
-      "LSZH", "LFKA", "LFLB", "LFLJ", "LFHM", "LSGG", "LSGS", "LSGK", "LSZB", "LSZC", "LSZG", "LSGC", "LFLL", "LFHJ", "LFHS", "LFKL", "LFLS", "LFLU", "LFHV", "LFHW", "LFKY", "LFXA", "LFLP", "EDDM", "EDDR", "EDDS", "EDFM", "EDFV", "EDJA", "EDNL", "EDMO", "EDRY", "EDSB", "EDSW", "EDTB", "EDTH", "EDTJ", "EDTL", "EDTN", "EDTO", "EDTXZ", "EDTY", "ETAR", "ETHL", "ETOR", "ETSA", "ETSI", "ETSL", "LFGA", "LFGB", "LFSB", "LFSM", "LFST", "LOWI", "EDNY", "LSZR", "EDTD", "EDTM", "LFMT", "LFMU", "LFNG", "LFMK", "LFMQ", "LFMV", "LFMY", "LFMO", "LFMI", "LFTH", "LFTW", "LFTF", "LFKJ", "LFKF", "LFKB", "LFKC", "LFMN", "LFMD"
-    ],
-    "LIPP": [
-      "EDDN", "LSZH", "EDDM", "ETSI", "ETSN", "EDMO", "EDMY", "EDMS", "EDJA", "EDNL", "ETHL", "EDDS", "LFSB", "LOWS", "LOWI", "LOWK", "LOWG", "LOWZ", "LZIB", "LZPP", "LHSM", "LOWL", "LRTR", "LRAR", "LHKE", "LHBP", "LHTL", "LOXZ", "LHDC", "LDVA", "LJLJ", "LDZA", "LDRI", "LDLO", "LOWW", "LFGA", "LFGB", "LFSM", "EDDR", "EDSB", "EDTH", "EDTK", "EDTL", "EDTN", "EDTO", "EDTX", "EDTY", "EDPA", "EDSW", "ETIE", "LSZB", "LSZC", "LSZG", "LSZR", "LSGC", "LSGS", "LSME", "LSMD", "EDNY", "EDTD", "EDTM", "LDSP", "LDPL"
-    ],
-    "LIRR": [
-      "LFMN", "LFMD", "LFTZ", "LFMO", "LFMQ", "LFMV", "LFMY", "LFNE", "LFNF", "LFNT", "LFTF", "LFTH", "LFKB", "LFKC", "LFKJ", "LFKF", "LFKO", "LFKS", "DTTA", "LDZD", "LDSP", "LDDU"
-    ],
-    "LIBB": [
-      "LGKR", "LGKF", "LGZA", "LYPG", "LYTV", "LATI", "LDDU"
-    ]
-  }
-  
+{
+  "LIMM": [
+    "LSZH", "LFKA", "LFLB", "LFLJ", "LFHM", "LSGG", "LSGS", "LSGK", "LSZB", "LSZC", "LSZG", "LSGC", "LFLL", "LFHJ", "LFHS", "LFKL", "LFLS", "LFLU", "LFHV", "LFHW", "LFKY", "LFXA", "LFLP", "EDDM", "EDDR", "EDDS", "EDFM", "EDFV", "EDJA", "EDNL", "EDMO", "EDRY", "EDSB", "EDSW", "EDTB", "EDTH", "EDTJ", "EDTL", "EDTN", "EDTO", "EDTXZ", "EDTY", "ETAR", "ETHL", "ETOR", "ETSA", "ETSI", "ETSL", "LFGA", "LFGB", "LFSB", "LFSM", "LFST", "LOWI", "EDNY", "LSZR", "EDTD", "EDTM", "LFMT", "LFMU", "LFNG", "LFMK", "LFMQ", "LFMV", "LFMY", "LFMO", "LFMI", "LFTH", "LFTW", "LFTF", "LFKJ", "LFKF", "LFKB", "LFKC", "LFMN", "LFMD"
+  ],
+  "LIPP": [
+    "EDDN", "LSZH", "EDDM", "ETSI", "ETSN", "EDMO", "EDMY", "EDMS", "EDJA", "EDNL", "ETHL", "EDDS", "LFSB", "LOWS", "LOWI", "LOWK", "LOWG", "LOWZ", "LZIB", "LZPP", "LHSM", "LOWL", "LRTR", "LRAR", "LHKE", "LHTL", "LOXZ", "LHDC", "LDVA", "LJLJ", "LDRI", "LDLO", "LOWW", "LFGA", "LFGB", "LFSM", "EDDR", "EDSB", "EDTH", "EDTK", "EDTL", "EDTN", "EDTO", "EDTX", "EDTY", "EDPA", "EDSW", "ETIE", "LSZB", "LSZC", "LSZG", "LSZR", "LSGC", "LSGS", "LSME", "LSMD", "EDNY", "EDTD", "EDTM", "LDSP", "LDPL"
+  ],
+  "LIRR": [
+    "LFMN", "LFMD", "LFTZ", "LFMO", "LFMQ", "LFMV", "LFMY", "LFNE", "LFNF", "LFNT", "LFTF", "LFTH", "LFKB", "LFKC", "LFKJ", "LFKF", "LFKO", "LFKS", "DTTA", "LDZD", "LDSP", "LDDU"
+  ],
+  "LIBB": [
+    "LGKR", "LGKF", "LGZA", "LYPG", "LYTV", "LATI", "LDDU"
+  ]
+}

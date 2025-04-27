@@ -1,0 +1,13 @@
+{
+    "weather": {
+      "url": "https://wx.vatita.net/api/regions/LIXX/wx"
+    },
+    "ias": {
+      "unreliableColor": "240,225,41",
+      "unreliableIndicator": ""
+    },
+    "mach": {
+      "unreliableColor": "240,225,41",
+      "unreliableIndicator": ""
+    }
+  }
