@@ -1,0 +1,63 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LIRU Parkings\1:freetext
+Free Text:LIRU Parkings\10:freetext
+Free Text:LIRU Parkings\11:freetext
+Free Text:LIRU Parkings\12:freetext
+Free Text:LIRU Parkings\13:freetext
+Free Text:LIRU Parkings\14:freetext
+Free Text:LIRU Parkings\15:freetext
+Free Text:LIRU Parkings\16:freetext
+Free Text:LIRU Parkings\17:freetext
+Free Text:LIRU Parkings\18:freetext
+Free Text:LIRU Parkings\19:freetext
+Free Text:LIRU Parkings\2:freetext
+Free Text:LIRU Parkings\20:freetext
+Free Text:LIRU Parkings\21:freetext
+Free Text:LIRU Parkings\22:freetext
+Free Text:LIRU Parkings\23:freetext
+Free Text:LIRU Parkings\24:freetext
+Free Text:LIRU Parkings\25:freetext
+Free Text:LIRU Parkings\26:freetext
+Free Text:LIRU Parkings\27:freetext
+Free Text:LIRU Parkings\28:freetext
+Free Text:LIRU Parkings\29:freetext
+Free Text:LIRU Parkings\3:freetext
+Free Text:LIRU Parkings\4:freetext
+Free Text:LIRU Parkings\5:freetext
+Free Text:LIRU Parkings\6:freetext
+Free Text:LIRU Parkings\7:freetext
+Free Text:LIRU Parkings\8:freetext
+Free Text:LIRU Parkings\9:freetext
+Free Text:LIRU Taxiway\C:freetext
+Free Text:LIRU Taxiway\N:freetext
+Free Text:LIRU Taxiway\S:freetext
+Free Text:LIRU Taxiway\T:freetext
+Free Text:LIRU Taxiway\T:freetext
+Free Text:LIRU Taxiway\W:freetext
+Free Text:LIRU Taxiway\W1:freetext
+Free Text:LIRU Taxiway\W2:freetext
+Geo:LIRU Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:296.20000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:41.949543:12.494701:41.956466:12.512103
+PLUGIN:BARS:menuX:4
+PLUGIN:BARS:menuY:28
+PLUGIN:Ground Radar plugin:AirportElevation:427
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIRA
+PLUGIN:TopSky plugin:NoDraw:1
