@@ -1,0 +1,37 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LIMP Parkings\101:freetext
+Free Text:LIMP Parkings\102:freetext
+Free Text:LIMP Parkings\103:freetext
+Free Text:LIMP Parkings\301:freetext
+Free Text:LIMP Parkings\302:freetext
+Free Text:LIMP Parkings\303:freetext
+Free Text:LIMP Parkings\304:freetext
+Free Text:LIMP Parkings\IC1:freetext
+Free Text:LIMP Parkings\IC2:freetext
+Free Text:LIMP Taxiway\A:freetext
+Free Text:LIMP Taxiway\B:freetext
+Free Text:LIMP Taxiway\C:freetext
+Free Text:LIMP Taxiway\D:freetext
+Geo:LIMP Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:252.50000
+TAGFAMILY:Italy
+WINDOWAREA:44.817766:10.280825:44.831508:10.315366
+PLUGIN:Ground Radar plugin:AirportElevation:161
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIMP
+PLUGIN:TopSky plugin:NoDraw:1

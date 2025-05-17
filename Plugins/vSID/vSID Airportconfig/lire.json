@@ -1,0 +1,160 @@
+{
+    "LIRE": {
+        "elevation": 44,
+        "runways": "13,31",
+        "transAlt": 6000,
+        "maxInitialClimb": 3000,
+        "enableRVSids": false,
+        "appSI": "PS1,PN1,AEM,AET,TW1,NE1",
+        "sids": {
+            "initial": 3000,
+            "OKUNO": {
+                "T": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1 
+                    }
+                }
+            },
+            "PEMAR": {
+                "T": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                },
+                "S": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "LAT": {
+                "T": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                }
+            },
+            "SIPRO": {
+                "T": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 1 
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1 
+                    }
+                }
+            },
+            "RIFFI": {
+                "T": {
+                    "1": {
+                        "rwy": "13",
+                        "prio": 99 
+                    }
+                },
+                "U": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 99 
+                    }
+                },
+                "V": {
+                    "1": {
+                        "rwy": "31",
+                        "prio": 1 
+                    }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "K": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "M": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "N": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "P": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "R": {
+                    "1": {
+                        "rwy": "13",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "S": {
+                    "1": {
+                        "rwy": "31",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 99
+                    }
+                }
+            }
+        }
+    }
+}
+

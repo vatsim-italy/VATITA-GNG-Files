@@ -66,7 +66,7 @@
     },
     "radio_callsigns": {
         "config": {
-            "load_from_ese": true,
+            "load_from_ese": false,
             "path_to_ese" : "../../../"
         },
         "custom" : [

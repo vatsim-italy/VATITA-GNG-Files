@@ -1,0 +1,25 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:267.00000
+TAGFAMILY:Italy CTR
+WINDOWAREA:45.185773:7.616109:45.211025:7.679579
+PLUGIN:BARS:menuX:40
+PLUGIN:BARS:menuY:41
+PLUGIN:Ground Radar plugin:AirportElevation:989
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIMF
+PLUGIN:TopSky plugin:NoDraw:1

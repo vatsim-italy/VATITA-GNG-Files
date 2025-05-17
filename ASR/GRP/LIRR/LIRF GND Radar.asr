@@ -1,0 +1,26 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:43.00000
+TAGFAMILY:Italy
+WINDOWAREA:41.787929:12.196630:41.835208:12.315094
+PLUGIN:BARS:menuX:1
+PLUGIN:BARS:menuY:25
+PLUGIN:Ground Radar plugin:AirportElevation:14
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIRF
+PLUGIN:TopSky plugin:HideMapData:RWY
+PLUGIN:TopSky plugin:ShowMapData:SMR

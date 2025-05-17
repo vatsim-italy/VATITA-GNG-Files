@@ -247,6 +247,12 @@ Airport_Runway_End=06:N040.52.47.024:E014.16.38.613
 
 Shortcut_Map_Target=3,LIRN SMR\LIRN Stand Labels
 
+[LIRA]
+
+Airport_Runway_End=15:N41.47.25.811:E012.36.03.452
+Airport_Runway_End=33:N41.48.28.778:E012.35.19.993
+Shortcut_Map_Target=3,LIRA SMR\LIRA Stand Labels
+
 [LIPE]
 
 Window_APP_Rotation=334
