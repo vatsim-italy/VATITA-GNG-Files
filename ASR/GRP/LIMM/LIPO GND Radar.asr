@@ -1,0 +1,75 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LIPO Parkings\101:freetext
+Free Text:LIPO Parkings\102:freetext
+Free Text:LIPO Parkings\103:freetext
+Free Text:LIPO Parkings\104:freetext
+Free Text:LIPO Parkings\105:freetext
+Free Text:LIPO Parkings\106:freetext
+Free Text:LIPO Parkings\107:freetext
+Free Text:LIPO Parkings\108:freetext
+Free Text:LIPO Parkings\109:freetext
+Free Text:LIPO Parkings\110:freetext
+Free Text:LIPO Parkings\111:freetext
+Free Text:LIPO Parkings\112:freetext
+Free Text:LIPO Parkings\113:freetext
+Free Text:LIPO Parkings\114:freetext
+Free Text:LIPO Parkings\115:freetext
+Free Text:LIPO Parkings\116:freetext
+Free Text:LIPO Parkings\201:freetext
+Free Text:LIPO Parkings\202:freetext
+Free Text:LIPO Parkings\203:freetext
+Free Text:LIPO Parkings\401:freetext
+Free Text:LIPO Parkings\501:freetext
+Free Text:LIPO Parkings\601:freetext
+Free Text:LIPO Parkings\602:freetext
+Free Text:LIPO Parkings\603:freetext
+Free Text:LIPO Parkings\604:freetext
+Free Text:LIPO Parkings\605:freetext
+Free Text:LIPO Parkings\606:freetext
+Free Text:LIPO Taxiway\A:freetext
+Free Text:LIPO Taxiway\A:freetext
+Free Text:LIPO Taxiway\A:freetext
+Free Text:LIPO Taxiway\A:freetext
+Free Text:LIPO Taxiway\A:freetext
+Free Text:LIPO Taxiway\A:freetext
+Free Text:LIPO Taxiway\A:freetext
+Free Text:LIPO Taxiway\A:freetext
+Free Text:LIPO Taxiway\A1:freetext
+Free Text:LIPO Taxiway\A2:freetext
+Free Text:LIPO Taxiway\A3:freetext
+Free Text:LIPO Taxiway\A4:freetext
+Free Text:LIPO Taxiway\A5:freetext
+Free Text:LIPO Taxiway\A6:freetext
+Free Text:LIPO Taxiway\AA:freetext
+Free Text:LIPO Taxiway\AB:freetext
+Free Text:LIPO Taxiway\B:freetext
+Free Text:LIPO Taxiway\B:freetext
+Free Text:LIPO Taxiway\B:freetext
+Free Text:LIPO Taxiway\B:freetext
+Free Text:LIPO Taxiway\C:freetext
+Free Text:LIPO Taxiway\D:freetext
+Free Text:LIPO Taxiway\E:freetext
+Free Text:LIPO Taxiway\F:freetext
+Geo:LIPO Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:316.50000
+TAGFAMILY:Italy
+WINDOWAREA:45.419734:10.309368:45.436911:10.352543
+PLUGIN:Ground Radar plugin:AirportElevation:356
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIPO
+PLUGIN:TopSky plugin:NoDraw:1
