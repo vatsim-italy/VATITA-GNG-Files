@@ -1,0 +1,47 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LICR Parkings\1:freetext
+Free Text:LICR Parkings\10:freetext
+Free Text:LICR Parkings\11:freetext
+Free Text:LICR Parkings\12:freetext
+Free Text:LICR Parkings\13:freetext
+Free Text:LICR Parkings\14:freetext
+Free Text:LICR Parkings\15:freetext
+Free Text:LICR Parkings\16:freetext
+Free Text:LICR Parkings\17:freetext
+Free Text:LICR Parkings\2:freetext
+Free Text:LICR Parkings\3:freetext
+Free Text:LICR Parkings\4:freetext
+Free Text:LICR Parkings\5:freetext
+Free Text:LICR Parkings\6:freetext
+Free Text:LICR Parkings\7:freetext
+Free Text:LICR Parkings\8:freetext
+Free Text:LICR Parkings\9:freetext
+Free Text:LICR Taxiway\A:freetext
+Free Text:LICR Taxiway\B:freetext
+Free Text:LICR Taxiway\C:freetext
+Free Text:LICR Taxiway\D:freetext
+Free Text:LICR Taxiway\HP11:freetext
+Free Text:LICR Taxiway\HP29:freetext
+Geo:LICR Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:296.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:38.067738:15.637165:38.079132:15.665803
+PLUGIN:Ground Radar plugin:AirportElevation:95
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LICR
+PLUGIN:TopSky plugin:NoDraw:1

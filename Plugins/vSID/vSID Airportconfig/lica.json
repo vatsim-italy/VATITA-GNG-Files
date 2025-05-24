@@ -76,14 +76,14 @@
                 "F": {
                     "1": {
                         "rwy": "10",
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"NON-RNAV": true, "RNAV": true},
                         "prio": 1 
                     }
                 },
                 "G": {
                     "1": {
                         "rwy": "10",
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"NON-RNAV": true, "RNAV": true},
                         "prio": 99 
                     }
                 }
