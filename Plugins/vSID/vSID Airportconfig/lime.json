@@ -28,7 +28,7 @@
                     "1": {
                         "rwy": "10",
                         "initial": 4000,
-                        "prio": 1,
+                        "prio": 2,
                         "wtc": "LM"
                     }
                 },
@@ -36,7 +36,7 @@
                     "1": {
                         "rwy": "10",
                         "initial": 4000,
-                        "prio": 1,
+                        "prio": 2,
                         "wtc": "HJ"
                     }
                 }
@@ -61,7 +61,7 @@
                     "1": {
                         "rwy": "10",
                         "initial": 4000,
-                        "prio": 1,
+                        "prio": 2,
                         "wtc": "LM"
                     }
                 },
@@ -69,7 +69,7 @@
                     "1": {
                         "rwy": "10",
                         "initial": 4000,
-                        "prio": 1,
+                        "prio": 2,
                         "wtc": "HJ"
                     }
                 },
@@ -95,14 +95,14 @@
                         "rwy": "10",
                         "prio": 1,
                         "initial": 4000,
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "trans": {"ROBAS": "K", "VOG": "K"}
                     },
                     "2": {
                         "rwy": "10",
                         "prio": 1,
                         "initial": 4000,
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "trans": {},
                         "dest": {"LIML": true}
                     }  
@@ -165,7 +165,7 @@
                         "rwy": "28",
                         "trans": {},
                         "dest": {"LIMC": true},
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
                 },
@@ -195,7 +195,7 @@
                 "Y": {
                     "1": {
                         "rwy": "10",
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
                 }
