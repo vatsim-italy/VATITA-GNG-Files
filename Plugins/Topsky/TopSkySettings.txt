@@ -322,7 +322,6 @@ WXR_Echo_dBZ_Med=40
 WXR_Echo_dBZ_Lo=30
 
 Window_SmallQNHTL=1,125,770
-Window_MsgIn=1,125,900
 
 Window_CPDLC_Current=1,0,650
 Window_VAW=0
@@ -357,6 +356,11 @@ List_Sector_Concerned = 1
 Window_CPDLC_Current=0,1,600
 
 FlightLeg_AutoShow=0
+Window_MsgIn=1,125,900
+
+[_CTR]
+
+Window_MsgIn=1,125,900
 
 [_DEL]
 
