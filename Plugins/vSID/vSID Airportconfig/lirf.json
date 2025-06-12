@@ -239,7 +239,7 @@
                 }
 			},
             "SOSAK": {
-                "trans": {"ESINO": "H", "KONUT": "A", "OKUNO": "B", "PEPIX": "B", "RIFFI": "H", "ROTUN": "B", "SIPRO": "B", "TIBER": "B"},
+                "trans": {"ESINO": "H", "KONUT": "A", "OKUNO": "B", "PEPIX": "B", "RIFFI": "H", "ROTUN": "B", "SIPRO": "B", "TIBER": "B", "VELAD": "A"},
                 "A": {
 					"1":{
 						"rwy": "25",
