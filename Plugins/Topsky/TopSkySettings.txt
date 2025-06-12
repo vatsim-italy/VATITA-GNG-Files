@@ -321,7 +321,7 @@ WXR_Echo_dBZ_Hi=50
 WXR_Echo_dBZ_Med=40
 WXR_Echo_dBZ_Lo=30
 
-Window_SmallQNHTL=1,125,770
+Window_SmallQNHTL=0,125,770
 
 Window_CPDLC_Current=1,0,650
 Window_VAW=0
@@ -357,10 +357,12 @@ Window_CPDLC_Current=0,1,600
 
 FlightLeg_AutoShow=0
 Window_MsgIn=1,125,900
+Window_SmallQNHTL=1,125,770
 
 [_CTR]
 
 Window_MsgIn=1,125,900
+Window_SmallQNHTL=1,125,770
 
 [_DEL]
 
@@ -461,6 +463,9 @@ STCA_WarningTime_U=80
 Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=ASW
 
+Shortcut_Xfr_Target=4,MCT
+Shortcut_Xfr_Target=5,MCE
+
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -494,6 +499,9 @@ STCA_WarningTime_U=80
 
 Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=MAR
+
+Shortcut_Xfr_Target=4,MCT
+Shortcut_Xfr_Target=5,MCE
 
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
