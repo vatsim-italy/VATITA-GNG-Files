@@ -561,6 +561,7 @@ Setup_LoadView=Milano ACC
 
 Setup_LoadView=PN1
 
+Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -577,6 +578,10 @@ STCA_WarningTime_U=80
 
 Setup_LoadView=AEM
 
+Shortcut_Xfr_Target=4,RFE
+Shortcut_Xfr_Target=5,RFT
+
+Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -593,6 +598,10 @@ STCA_WarningTime_U=80
 
 Setup_LoadView=AEM
 
+Shortcut_Xfr_Target=4,RFE
+Shortcut_Xfr_Target=5,RFT
+
+Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -608,7 +617,9 @@ STCA_WarningTime_U=80
 [LIRR_TW]
 
 Setup_LoadView=TW1
+Shortcut_Xfr_Target=4,AEM
 
+Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -625,6 +636,9 @@ STCA_WarningTime_U=80
 
 Setup_LoadView=TW1
 
+Shortcut_Xfr_Target=4,AEM
+
+Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -687,7 +701,6 @@ Setup_LoadView=US1
 [LIRN_US0]
 
 Setup_LoadView=US0
-
 
 
 
