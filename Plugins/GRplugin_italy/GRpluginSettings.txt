@@ -314,6 +314,7 @@ Airport_Runway_End=12:N044.01.42.703:E012.35.49.200
 [LIPX]
 
 Airport_Runway_End=22:N045.24.22.085:E010.54.13.429
+Shortcut_Map_Target=3,LIPX SMR\LIPX Stand Labels
 
 [LIRP]
 
