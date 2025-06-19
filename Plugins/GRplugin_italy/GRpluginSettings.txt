@@ -123,8 +123,8 @@ Label_STS=1,1,1
 GroundLabel_Transparency_Bg=255
 GroundLabel_Transparency_Bd=255
 GroundLabel_UseSelColor=1
-Color_SelectedLabelBorder_Gnd=255,255,255
-Color_SelectedLabelFill_Gnd=40,40,40
+Color_SelectedLabelBorder_Gnd=72,72,72
+Color_SelectedLabelFill_Gnd=72,72,72
 
 // STATES
 System_State_OnFreq=READY
