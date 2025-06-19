@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
+SECTORFILE:C:\Users\tommy\AppData\Roaming\EuroScope\LIXX-Italy_20250422095247-241301-0010.sct
+SECTORTITLE:LIXX-Italy_20250422095247-241301-0010.sct
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -22,5 +22,4 @@ PLUGIN:BARS:menuY:25
 PLUGIN:Ground Radar plugin:AirportElevation:14
 PLUGIN:Ground Radar plugin:AirportRadius:3
 PLUGIN:Ground Radar plugin:GroundMode:LIRF
-PLUGIN:TopSky plugin:HideMapData:RWY
-PLUGIN:TopSky plugin:ShowMapData:SMR
+PLUGIN:TopSky plugin:NoDraw:1
