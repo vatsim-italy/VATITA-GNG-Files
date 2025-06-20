@@ -32,6 +32,7 @@
                 "C": {
                     "1":{
                         "rwy": "17",
+                        "trans": {"GEN": "Q", "LOGDI": "C", "EKPAL": "A", "DEVOX": "B"},
                         "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     },

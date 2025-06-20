@@ -123,8 +123,8 @@ Label_STS=1,1,1
 GroundLabel_Transparency_Bg=255
 GroundLabel_Transparency_Bd=255
 GroundLabel_UseSelColor=1
-Color_SelectedLabelBorder_Gnd=255,255,255
-Color_SelectedLabelFill_Gnd=40,40,40
+Color_SelectedLabelBorder_Gnd=72,72,72
+Color_SelectedLabelFill_Gnd=72,72,72
 
 // STATES
 System_State_OnFreq=READY
@@ -185,6 +185,8 @@ Airport_Runway_Thr=35R:N045.36.56.648:E008.44.15.003
 Airport_Runway_End=17L:N045.39.01.521:E008.43.40.470
 Airport_Runway_End=35L:N045.36.39.177:E008.43.42.075
 
+Shortcut_Map_Target=3,SMR\STANDS
+
 
 
 
@@ -218,6 +220,8 @@ Color_Departure=255,255,0
 Color_Unknown=0,255,255
 
 Window_APP_Scale=7
+
+Shortcut_Map_Target=3,SMR\STANDS
 
 [LIME]
 
@@ -314,6 +318,7 @@ Airport_Runway_End=12:N044.01.42.703:E012.35.49.200
 [LIPX]
 
 Airport_Runway_End=22:N045.24.22.085:E010.54.13.429
+Shortcut_Map_Target=3,LIPX SMR\LIPX Stand Labels
 
 [LIRP]
 
