@@ -43,7 +43,8 @@ Plugins	Plugin4	\LIXX\Plugins\vSID\vSID Plugin\vSID.dll
 Plugins	Plugin4Display0	Ground Radar display
 Plugins	Plugin4Display1	Standard ES radar screen
 Plugins	Plugin5	\LIXX\Plugins\VATITA Controller Plugin\VCP.dll
-Plugins	Plugin5Display0	Standard ES radar screen
+Plugins	Plugin5Display0	Ground Radar display
+Plugins	Plugin5Display1	Standard ES radar screen
 Plugins	Plugin6	\LIXX\Plugins\AMAN\Aman.dll
 Sounds	Sound0	\LIXX\Sounds\handoffreq.wav
 Sounds	Sound1	\LIXX\Sounds\handoffacc.wav
