@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.4.3",
-  "id": "e430051b-edf4-4abf-9128-b452084d5c26",
+  "name": "LIRR v1.4.4",
+  "id": "fd8a24a2-4de6-4e22-a947-defb3663b859",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2025061201,
+  "updateSerial": 2025061901,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -2279,18 +2279,8 @@
           "enabled": false
         },
         {
-          "text": "RWY 25 AND 07 CLOSED DUE TO @WIP.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "STANDARD 1 MEANS MONITOR FIUME GROUND ON FREQUENCY 121.90, CONTINUE TAXI VIA TWY D AND HOLD SHORT OF TWY EG.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
           "text": "@RRSM",
-          "ordinal": 4,
+          "ordinal": 3,
           "enabled": false
         }
       ]
@@ -4529,7 +4519,7 @@
         {
           "text": "OPERATIONAL INFORMATION. RWYS IN USE FOR ARRIVALS ^16L AND ^16R. ",
           "ordinal": 11,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "OPERATIONAL INFORMATION. RWYS IN USE FOR ARRIVALS ^34L AND ^34R.",
@@ -4549,43 +4539,13 @@
           "enabled": false
         },
         {
-          "text": "RWY 25 AND 07 CLOSED DUE TO @WIP.",
+          "text": "READYMESSAGE IS SENT AUTOMATICALLY WHEN RELEASED BY THE RAMP WHEN READY CONTACT FIUME RAMP 121.725",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEPARTURE CLEARANCE @AVAIL VIA DATALINK.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "PILOTS MAY REQUEST RWY 16R.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "PILOTS MAY REQUEST RWY 34L.",
-          "ordinal": 6,
-          "enabled": false
-        },
-        {
-          "text": "FOR DEPARTING TRAFFIC FIRST CONTACT WITH ROMA DIRECTOR ON FREQUENCY 131.250.",
-          "ordinal": 7,
-          "enabled": false
-        },
-        {
-          "text": "ALL PILOTS SHALL REPORT TO FIUME GROUND IF ABLE TO DEPART FROM @BC OR @BD INTERSECTION AFTER PUSHBACK.",
-          "ordinal": 8,
-          "enabled": false
-        },
-        {
-          "text": "READYMESSAGE IS SENT AUTOMATICALLY WHEN RELEASED BY THE RAMP WHEN READY CONTACT FIUME RAMP 121.725",
-          "ordinal": 8,
-          "enabled": false
-        },
-        {
           "text": "@RRSM",
-          "ordinal": 10,
+          "ordinal": 4,
           "enabled": false
         }
       ]
@@ -26249,23 +26209,13 @@
           "enabled": false
         },
         {
-          "text": "RWY 25 AND 07 CLOSED DUE TO @WIP.",
+          "text": "READYMESSAGE IS SENT AUTOMATICALLY WHEN RELEASED BY THE RAMP WHEN READY CONTACT FIUME RAMP 121.725",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "STANDARD 1 MEANS MONITOR FIUME GROUND ON FREQUENCY 121.90, CONTINUE TAXI VIA TWY D AND HOLD SHORT OF TWY EG.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "READYMESSAGE IS SENT AUTOMATICALLY WHEN RELEASED BY THE RAMP WHEN READY CONTACT FIUME RAMP 121.725",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
           "text": "@RRSM",
-          "ordinal": 6,
+          "ordinal": 4,
           "enabled": false
         }
       ]
