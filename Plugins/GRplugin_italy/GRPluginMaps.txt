@@ -24,6 +24,7 @@ COLORDEF:lirfbuilding:199:182:225
 COLORDEF:background:18:18:18
 
 MAP:TEST
+FOLDER:TEST
 COLOR:magenta
 ACTIVE:1
 STYLE:Solid:3
