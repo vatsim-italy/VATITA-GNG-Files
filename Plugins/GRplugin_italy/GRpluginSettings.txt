@@ -188,7 +188,9 @@ Airport_Runway_End=35L:N045.36.39.177:E008.43.42.075
 Shortcut_Map_Target=3,SMR\STANDS
 
 
+[LSZA]
 
+Shortcut_Map_Target=3,LSZA SMR\LSZA Stand Labels
 
 [LIML]
 
