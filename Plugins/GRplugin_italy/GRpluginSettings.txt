@@ -186,7 +186,7 @@ Airport_Runway_End=17L:N045.39.01.521:E008.43.40.470
 Airport_Runway_End=35L:N045.36.39.177:E008.43.42.075
 
 Shortcut_Map_Target=3,SMR\STANDS
-
+Shortcut_Map_Target=4,SMR\RELEASE POINTS
 
 
 
