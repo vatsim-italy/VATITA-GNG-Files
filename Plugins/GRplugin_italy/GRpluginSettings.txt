@@ -280,6 +280,7 @@ Shortcut_Map_Target=3,LICJ SMR\LICJ Stand Labels
 Airport_Runway_End=05:N040.53.31.627:E009.30.18.337
 
 Shortcut_Map_Target=3,LIEO SMR\LIEO Stand Labels
+Shortcut_Map_Target=4,LIEO SMR\LIEO Release Points
 
 [LIEA]
 Shortcut_Map_Target=3,LIEA SMR\LIEA Stand Labels
