@@ -9,16 +9,24 @@ System_GUI_Scale_Cursors=0.7
 
 //Other System Settings
 System_TrueColorMode=1
-System_UseILScat=1
+System_UseILScat=0
 System_UseReportedGS=0
 System_GS_DeleteMinMax=1
 System_ASP_IasMach=28000
-System_MetarSourceVATSIM=1
 System_TaxiTime=8
-System_FPASD=0
 System_ProxySounds=0
 System_RefreshInterval_AHDG/QDM=250
 System_TransferConfirmation=0
+System_UsePresentHeading=1
+System_MagModel_Year=2024
+System_Coord_Sound_RTI_ACP=1
+System_Coord_Sound_TIP_ACP=1
+System_FPASD=1
+System_OPTEXT2_Edit_By_NextController=1
+
+Areas_Altitude_Filtering=1ù
+
+Equip_Assume_All_SSRs_Mode_S=1
 
 Setup_COOPANS=1
 
@@ -199,15 +207,13 @@ Track_TextSize=1
 Track_TextSize_2_Ratio=0.8
 
 Vector_Label_Position=5
-Vector_AHDG_FontSize=10
+Vector_AHDG_FontSize=13
 Vector_AHDG_Label_Dist=1
 Vector_AHDG_Label_Time=1
 Vector_QDM_FontSize=12
 Vector_QDM_MaxNumber=12
 Vector_QDM_AA_Label_Dir=1
-Vector_QDM_AA_Label_Dir2=1
 Vector_QDM_Label_Dir=1
-Vector_QDM_Label_Dir2=1
 Vector_MinSep_FontSize=10
 Vector_MinSep_Label_Time=1
 Vector_MinSep_VertSep_Separation=1100
@@ -253,7 +259,8 @@ STCA_LevelOff_Sep_Vert_L=750
 STCA_WarningTime_U=100
 STCA_WarningTime_L=80
 
-Menu_MaxListItems=20
+Menu_CFL_ExtendedItems=15
+Menu_MaxListItems=15
 Menu_ASP_MaxMach=90
 Menu_Level_MaxValue_5=-1
 
@@ -267,10 +274,13 @@ CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
 CPDLC_AutoAcceptLogon=0
+CPDLC_FSM_PDC_Fail=NO PDC AVAILABLE FOR <adep>
+CPDLC_VCI_UM_Type=0
 
 Divergence_CLAM_DelayTime=180
 Divergence_RAM_DCT_DelayTime=180
 
+Label_OPTEXT2_MaxChars_List=15
 Label_CompCsCaps=1
 Label_Extended_MaxChars=50
 Label_Field18_Flag_Items=CS/,CS,CALLSIGN/,CALLSIGN
@@ -389,6 +399,16 @@ Window_CPDLC_Current=0,1,600
 
 Window_CARD=0,1565,755
 
+[LMMM_]
+
+Setup_LoadView=Malta ACC
+Window_SmallQNHTL_ICAO=LMML
+
+[LIBB_]
+
+Setup_LoadView=Brindisi ACC
+Window_SmallQNHTL_ICAO=LIBD
+
 [LIMC]
 Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
@@ -402,6 +422,7 @@ CPDLC_PDC_Auto=1
 [LIPP_]
 
 Window_SmallQNHTL_ICAO=LIPZ
+Setup_LoadView=Padova ACC
 
 [LIPP_SD]
 
@@ -534,6 +555,7 @@ Setup_LoadView:ES2
 [LIMM_EN2]
 
 Setup_LoadView:EN2
+Window_SmallQNHTL_ICAO=LIMC
 
 [LIMM_ES5]
 
@@ -558,6 +580,11 @@ Setup_LoadView=Milano ACC
 [LIMM_WS5]
 
 Window_SmallQNHTL_ICAO=0
+Setup_LoadView=Milano ACC
+
+[LIMM_WS]
+
+Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=Milano ACC
 
 [LIRR_P]
@@ -666,6 +693,11 @@ Setup_LoadView=EW1-7
 
 Setup_LoadView=EW1-7
 Window_SmallQNHTL_ICAO=LIEE
+
+[LIRR_NE]
+
+Setup_LoadView=NE
+Window_SmallQNHTL_ICAO=LIRF
 
 [LIRR_NW]
 
