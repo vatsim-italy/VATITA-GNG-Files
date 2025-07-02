@@ -24,9 +24,7 @@ System_Coord_Sound_TIP_ACP=1
 System_FPASD=1
 System_OPTEXT2_Edit_By_NextController=1
 
-Areas_Altitude_Filtering=1ù
-
-Equip_Assume_All_SSRs_Mode_S=1
+Areas_Altitude_Filtering=1
 
 Setup_COOPANS=1
 
@@ -147,7 +145,11 @@ Color_WM_Fg=20,20,21
 Color_WM_Frame=88,95,99
 Color_Heading_Vector=0,255,255
 
+Equip_ModeS=ABCGHIJLMNPSTUVWYZ
 Equip_UseCodes=1
+Equip_Use_SUR_Mode_S=1
+Equip_Use_SUR_Mode_S_EHS=1
+Equip_Use_SUR_Mode_S_FLTID=1
 
 Malrt_Misap=MISAP
 Malrt_Inbound_EST=EST
