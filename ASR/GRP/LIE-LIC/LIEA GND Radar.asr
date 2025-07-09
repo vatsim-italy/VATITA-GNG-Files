@@ -3,39 +3,6 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Free Text:LIEA Parkings\1:freetext
-Free Text:LIEA Parkings\10:freetext
-Free Text:LIEA Parkings\11:freetext
-Free Text:LIEA Parkings\12:freetext
-Free Text:LIEA Parkings\13:freetext
-Free Text:LIEA Parkings\2:freetext
-Free Text:LIEA Parkings\21:freetext
-Free Text:LIEA Parkings\22:freetext
-Free Text:LIEA Parkings\23:freetext
-Free Text:LIEA Parkings\3:freetext
-Free Text:LIEA Parkings\31:freetext
-Free Text:LIEA Parkings\32:freetext
-Free Text:LIEA Parkings\4:freetext
-Free Text:LIEA Parkings\41:freetext
-Free Text:LIEA Parkings\5:freetext
-Free Text:LIEA Parkings\6:freetext
-Free Text:LIEA Parkings\7:freetext
-Free Text:LIEA Parkings\8:freetext
-Free Text:LIEA Parkings\9:freetext
-Free Text:LIEA Taxiway\A:freetext
-Free Text:LIEA Taxiway\A.M.:freetext
-Free Text:LIEA Taxiway\B:freetext
-Free Text:LIEA Taxiway\C:freetext
-Free Text:LIEA Taxiway\D:freetext
-Free Text:LIEA Taxiway\E:freetext
-Free Text:LIEA Taxiway\F:freetext
-Free Text:LIEA Taxiway\F:freetext
-Free Text:LIEA Taxiway\F:freetext
-Free Text:LIEA Taxiway\F:freetext
-Free Text:LIEA Taxiway\F:freetext
-Free Text:LIEA Taxiway\G:freetext
-Free Text:LIEA Taxiway\H:freetext
-Geo:LIEA Groundlayout:
 SHOWC:1
 SHOWSB:0
 BELOW:0
