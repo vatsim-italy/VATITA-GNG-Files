@@ -1,8 +1,14 @@
 Maps_Font=EuroScope
+
+//System_GUI_Scale_GlobalMenu=1.4
+//System_GUI_Scale_Menus=1.4
+//System_GUI_Scale_Screen=1.4
+//System_GUI_Scale_Tracks=1.5
+//System_GUI_Scale_Windows=1.
+
 //Shortcuts
 Shortcut_Map_Target=1,CTA / ATZ\Controlled Airspace
 Shortcut_Map_Target=2,FIS\VRP LIXX
-Shortcut_Map_Target=3,STANDS\STANDS
 
 //Cursors
 System_GUI_Scale_Cursors=0.7
@@ -13,18 +19,22 @@ System_UseILScat=0
 System_UseReportedGS=0
 System_GS_DeleteMinMax=1
 System_ASP_IasMach=28000
-System_TaxiTime=8
+System_TaxiTime=10
 System_ProxySounds=0
 System_RefreshInterval_AHDG/QDM=250
 System_TransferConfirmation=0
 System_UsePresentHeading=1
 System_MagModel_Year=2024
+
+Areas_Altitude_Filtering=1
+
 System_Coord_Sound_RTI_ACP=1
 System_Coord_Sound_TIP_ACP=1
 System_FPASD=1
+
 System_OPTEXT2_Edit_By_NextController=1
 
-Areas_Altitude_Filtering=1
+Label_OPTEXT2_MaxChars_List=15
 
 Setup_COOPANS=1
 
@@ -167,6 +177,8 @@ Airspace_NOTAM_Remove=EDMM,LSAS,LOVV,LFMM,LJLA,LDZO,LSZH,LOWW,LFMN,LDZA,LOWI,EDD
 HTTP_SIGMET_Server=http://aviationweather.gov/
 HTTP_TAF_Server=https://aviationweather.gov/
 Airspace_NOTAM_Add=LIMM,LIRR,LIBB
+HTTP_METAR_Server=https://aviationweather.gov/
+
 
 RDF_Mode=-1
 RDF_Accuracy=0.0
@@ -180,11 +192,11 @@ RwyAppLines_MarkerSpacing=5
 RwyAppLines_Auto=0
 
 //Segregated Area Probe
-SAP=0
+SAP=1
 SAP_Floor=5000
 
 //Airspace Infringement Warning
-AIW=0
+AIW=1
 
 //Area Proximity Warning
 APW=1
@@ -227,6 +239,8 @@ FlightLeg_Label_DIST=1
 FlightLeg_Label_RFL=1
 FlightLeg_LineWidth=0
 
+// STCA
+
 STCA_VFR=0
 STCA_AlertSound=1
 STCA_AlertSound_Filter=2
@@ -264,7 +278,6 @@ STCA_WarningTime_L=80
 Menu_CFL_ExtendedItems=15
 Menu_MaxListItems=15
 Menu_ASP_MaxMach=90
-Menu_Level_MaxValue_5=-1
 
 List_Sector_Concerned=1
 List_Sector_Concerned_MaxTime=30
@@ -282,28 +295,31 @@ CPDLC_VCI_UM_Type=0
 Divergence_CLAM_DelayTime=180
 Divergence_RAM_DCT_DelayTime=180
 
-Label_OPTEXT2_MaxChars_List=15
 Label_CompCsCaps=1
 Label_Extended_MaxChars=50
 Label_Field18_Flag_Items=CS/,CS,CALLSIGN/,CALLSIGN
 Label_Alt_Digits=2
 Label_AFL_ForceNautical=1
+Label_AHDG_ShowDct=0
 Label_AHDG_HideDctIfCOPX=0
 Label_ASP_Digits=3
 Label_CFL_DefaultValue=1
 Label_COP_MaxChars=3
 Label_SI_ShowFreq=1
 Label_Extended_MaxChars=45
-Label_SI_ShowFreq=1
 Label_SI_FreqTime=3
-Label_DAPs=0
+Label_DAPs=1
 Label_Rev_Highlight_Delta_ETN=3
 Label_Alt_Digits=2
-Label_UseTransferInColor=1
 Label_N_Default=0
 
 Label_FCOP_MaxChars=5
 Label_FText_MaxChars_List=10
+Label_ADES_MaxChars=4
+
+Label_UseTransferInColor=1
+
+Label_CFL_DefaultValue=0
 
 Label_SQ_Default=0000
 Label_ATYP_Default=0000
@@ -408,8 +424,12 @@ Window_SmallQNHTL_ICAO=LMML
 
 [LIBB_]
 
-Setup_LoadView=Brindisi ACC
+Setup_LoadView=ES3
 Window_SmallQNHTL_ICAO=LIBD
+
+[LIBR_]
+
+Setup_LoadView=CS0
 
 [LIMC]
 Window_CPDLC_Current=1,1350,48
@@ -420,15 +440,6 @@ CPDLC_PDC_Auto=1
 Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
 CPDLC_PDC_Auto=1
-
-[LIPP_]
-
-Window_SmallQNHTL_ICAO=LIPZ
-Setup_LoadView=Padova ACC
-
-[LIPP_SD]
-
-Window_SmallQNHTL_ICAO=LIPE
 
 [LIMM_ADE]
 
@@ -739,5 +750,44 @@ Setup_LoadView=US1
 
 Setup_LoadView=US0
 
+[LIPP_CE]
 
+Setup_LoadView=Padova ACC
+Window_SmallQNHTL_ICAO=LIPZ
+
+[LIPP_NE]
+
+Setup_LoadView=PNE
+Window_SmallQNHTL_ICAO=LIPB
+
+[LIPP_NW]
+
+Setup_LoadView=PNW
+Window_SmallQNHTL_ICAO=LIPB
+
+[LIPP_CW]
+
+Setup_LoadView=CW
+Window_SmallQNHTL_ICAO=LIPZ
+
+[LIPP_SW]
+
+Setup_LoadMap=ACC\SW1 Padova ACC
+Setup_LoadView=SW
+Window_SmallQNHTL_ICAO=LIPZ
+
+[LIPP_SD]
+
+Setup_LoadView=SD
+Window_SmallQNHTL_ICAO=LIPE
+
+[LIPQ_CE]
+
+Setup_LoadView=CE0
+STCA_WarningTime_L=70
+
+[LIPZ_SE]
+
+Setup_LoadView=SE0
+STCA_WarningTime_L=70
 
