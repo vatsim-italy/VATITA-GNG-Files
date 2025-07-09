@@ -3,7 +3,7 @@
 System_GUI_Version=1
 
 Equip_ModeS=WZLCISG
-Equip_ProMode=1
+Equip_ProMode=0
 System_APW=1
 System_CBM=1
 System_ECM=1
