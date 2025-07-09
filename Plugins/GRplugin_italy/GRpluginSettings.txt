@@ -1,5 +1,6 @@
 // GROUND RADAR
 
+
 System_GUI_Version=1
 
 Equip_ModeS=WZLCISG
@@ -43,6 +44,8 @@ System_GlobalMenu_Font=Verdana
 GroundLabel=1
 GroundLabel_Font=Verdana
 GroundLabel_FontStyle=550,0,0,0
+
+GroundLabel_Filter_Parked=1
 
 Color_Arrival=255,255,255
 Color_Departure=255,255,0
@@ -187,6 +190,7 @@ Airport_Runway_End=35L:N045.36.39.177:E008.43.42.075
 
 Shortcut_Map_Target=3,SMR\STANDS
 Shortcut_Map_Target=4,SMR\RELEASE POINTS
+
 
 
 
