@@ -228,6 +228,7 @@ Color_Unknown=0,255,255
 Window_APP_Scale=7
 
 Shortcut_Map_Target=3,SMR\STANDS
+Shortcut_Map_Target=4,SMR\RELEASE POINTS
 
 [LIME]
 
