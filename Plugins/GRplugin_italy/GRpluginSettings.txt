@@ -272,6 +272,7 @@ Airport_Runway_End=12:N044.32.29.720:E011.16.18.195
 Airport_Runway_End=30:N044.31.46.880:E011.18.16.800
 
 Shortcut_Map_Target=3,LIPE SMR\STANDS
+Shortcut_Map_Target=4,LIPE SMR\RELEASE POINTS
 
 [LICJ]
 
