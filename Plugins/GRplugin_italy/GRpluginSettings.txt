@@ -281,6 +281,7 @@ Airport_Runway_End=25:N038.11.10.801:E013.07.20.121
 Airport_Runway_End=07:N038.10.25.843:E013.05.06.538
 
 Shortcut_Map_Target=3,LICJ SMR\LICJ Stand Labels
+Shortcut_Map_Target=4,LICJ SMR\RELEASE POINTS
 
 [LIEO]
 
