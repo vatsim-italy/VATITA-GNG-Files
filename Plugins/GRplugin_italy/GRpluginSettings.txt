@@ -202,6 +202,7 @@ Color_Arrival=0,255,0
 Color_Departure=0,188,255
 
 Shortcut_Map_Target=3,LIML SMR\STANDS
+Shortcut_Map_Target=4,LIML SMR\RELEASE POINTS
 
 Window_APP_Rotation=95
 
