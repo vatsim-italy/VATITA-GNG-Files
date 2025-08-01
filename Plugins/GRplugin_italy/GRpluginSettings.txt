@@ -219,6 +219,7 @@ System_RIM=0
 System_CBM=0
 
 Shortcut_Map_Target=3,LIPZ SMR\STANDS
+Shortcut_Map_Target=4,LIPZ SMR\RELEASE POINTS
 
 [LIRF]
 
