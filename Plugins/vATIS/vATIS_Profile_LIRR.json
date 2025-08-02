@@ -1,8 +1,8 @@
 {
   "name": "LIRR v1.4.5",
-  "id": "21bf8dcf-2275-4746-9e0b-fbde8e9f5463",
+  "id": "7f2af8fd-c7f9-48d6-95e3-2c9e0306d513",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2025072401,
+  "updateSerial": 2025073001,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -2202,32 +2202,32 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR RWY 25. @CC 6/6/6 CONTAMINANT DRY.DRY.DRY.",
+          "text": "@RCR RWY 25. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR RWY 25. @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "@RCR RWY 25. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^16L. @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.\r\n@RCR RWY ^16R. @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "@RCR RWY ^16L. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.\r\n@RCR RWY ^16R. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^16L. @CC 5. 5. 5. CONTAMINANT WET .WET. WET. @RCR RWY ^16R. @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "@RCR RWY ^16L. 5. 5. 5. CONTAMINANT WET .WET. WET. @RCR RWY ^16R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^34L. @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.\r\n@RCR RWY ^34R. @CC 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "@RCR RWY ^34L. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.\r\n@RCR RWY ^34R. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^34L. @CC 5. 5. 5. CONTAMINANT WET .WET. WET. @RCR RWY ^34R. @CC 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "@RCR RWY ^34L. 5. 5. 5. CONTAMINANT WET .WET. WET. @RCR RWY ^34R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 6,
           "enabled": false
         },
@@ -30239,7 +30239,7 @@
         {
           "variableName": "LICT",
           "text": "LICT",
-          "voice": "THIS IS TRAPANI"
+          "voice": "THIS IS TRAPANI AIRPORT"
         },
         {
           "variableName": "ARR",
