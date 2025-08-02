@@ -26,6 +26,8 @@ System_TransferConfirmation=0
 System_UsePresentHeading=1
 System_MagModel_Year=2024
 
+System_UseAcceptedCoordColor=1
+
 Areas_Altitude_Filtering=1
 
 System_Coord_Sound_RTI_ACP=1
@@ -40,6 +42,30 @@ Setup_COOPANS=1
 
 Setup_ScreenLat=42.0
 
+// System settings
+Color_Selected_Group=255,255,254
+Color_Selected_Period=255,255,41
+Color_Text_Notes=0,200,0 //MSG->Text notes bright green
+
+Color_Active_Sector=159,159,159
+Color_Inactive_Sector=159,156,199
+Color_Background=142,142,142
+Color_Field_Highlight=72,72,73
+Color_Flight_Highlight=51,51,51
+Color_Foreground=0,0,0
+Color_Global_Menu_Highlight=0,125,255
+
+Color_WM_Active_Fg=255,255,255
+Color_WM_Bg=109,131,227
+Color_WM_Border=45,62,154
+Color_WM_Fg=0,0,0
+Color_WM_Frame=195,195,185
+Color_TopShadow=111,133,233
+//Color_BottomShadow=45,62,154
+Color_Trough=191,191,191
+
+Color_QDM=255,242,0
+
 Color_Active_Map=198,174,58
 Color_Active_Map_Type_1=255,0,0
 Color_Active_Map_Type_2=87,87,164
@@ -47,20 +73,18 @@ Color_Active_Map_Type_3=230,126,0
 Color_Active_Map_Type_4=200,53,18
 Color_Active_Map_Type_5=198,174,58
 Color_Active_RD_Infill_Map=90,90,90
-Color_Active_Sector=10,10,10
 Color_Active_Text_Map=198,174,58
 Color_AIW_Intrusion=255,152,0
 Color_Arm=97,97,97
 Color_Assumed=0,255,0
-Color_Background=52,58,62
 Color_Border=51,51,52
 Color_BottomShadow=70,70,70
 Color_CARD_Mark_All=212,128,44
 Color_CARD_Mark_Own=212,128,44
 Color_CARD_Min_Sep=95,170,140
 Color_CARD_Time_Vector=170,231,197
-Color_Concerned=110,153,110
-Color_Coordination=110,153,110
+Color_Concerned=0,180,0
+Color_Coordination=0,180,0
 Color_CPDLC_Controller_Late=212,128,44
 Color_CPDLC_Discarded=128,128,128
 Color_CPDLC_DM_Request=30,250,250
@@ -71,19 +95,14 @@ Color_CPDLC_UM_Clearance=30,250,250
 Color_CPDLC_Unable=212,128,44
 Color_CPDLC_Urgency=225,25,25
 Color_Datalink_Logged_On
-Color_Field_Highlight=72,72,73
-Color_Flight_Highlight=51,51,51
 Color_Flight_Leg=170,231,197
-Color_Foreground=255,255,255
 Color_FPLSEP_Tool_1=153,217,234
 Color_FPLSEP_Tool_2=255,153,184
 Color_FPLSEP_Tool_3=255,209,143
 Color_FPLSEP_Tool_4=197,64,212
 Color_FPLSEP_Tool_5=166,160,245
 Color_Freq_Indicator=237,237,237
-Color_Global_Menu_Highlight=1,165,219
 Color_Heading_Vector=0,255,0
-Color_Inactive_Sector=67,73,76
 Color_Info_Coord=1,255,255
 Color_Information=40,150,40
 Color_Information_FL=41,245,41
@@ -100,8 +119,9 @@ Color_Potential_FL=40,41,216
 Color_Preactive_Map=154,138,128
 Color_Preactive_Text_Map=155,147,138
 Color_Predisplay_Map=175,130,130
-Color_Proposition_In=221,186,186
-Color_Proposition_Out=221,186,186
+Color_Proposition_In=255,28,255
+Color_Proposition_Out=255,28,255
+Color_Proposition_Accepted=0,180,0
 Color_QDM=255,242,0
 Color_Redundant=192,192,192
 Color_Runway=116,200,71
@@ -148,11 +168,6 @@ Color_VAW_Profile=152,202,172
 Color_VAW_Sector_Limits=145,95,30
 Color_VAW_Track_Position=219,219,219
 Color_Warning_FL=240,225,41
-Color_WM_Active_Fg=20,20,21
-Color_WM_Bg=88,95,99
-Color_WM_Border=88,95,99
-Color_WM_Fg=20,20,21
-Color_WM_Frame=88,95,99
 Color_Heading_Vector=0,255,255
 
 Equip_ModeS=ABCGHIJLMNPSTUVWYZ
@@ -231,6 +246,7 @@ Vector_QDM_Label_Dir=1
 Vector_MinSep_FontSize=10
 Vector_MinSep_Label_Time=1
 Vector_MinSep_VertSep_Separation=1100
+Vector_MinSep_Width=1
 
 FlightLeg_AssumeTime=2
 FlightLeg_FontSize=11
