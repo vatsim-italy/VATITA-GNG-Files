@@ -207,11 +207,11 @@ RwyAppLines_MarkerSpacing=5
 RwyAppLines_Auto=0
 
 //Segregated Area Probe
-SAP=1
+SAP=0
 SAP_Floor=5000
 
 //Airspace Infringement Warning
-AIW=1
+AIW=0
 
 //Area Proximity Warning
 APW=1
@@ -235,10 +235,9 @@ Track_PredictionLine=0
 Track_TextSize=1
 Track_TextSize_2_Ratio=0.8
 
-Vector_Label_Position=5
+Vector_Label_Position=3
 Vector_AHDG_FontSize=13
 Vector_AHDG_Label_Dist=1
-Vector_AHDG_Label_Time=1
 Vector_QDM_FontSize=12
 Vector_QDM_MaxNumber=12
 Vector_QDM_AA_Label_Dir=1
@@ -328,6 +327,7 @@ Label_DAPs=1
 Label_Rev_Highlight_Delta_ETN=3
 Label_Alt_Digits=2
 Label_N_Default=0
+Label_ACF_Use=2
 
 Label_FCOP_MaxChars=5
 Label_FText_MaxChars_List=10
@@ -717,6 +717,7 @@ Setup_LoadView=EW0
 [LIRR_EW]
 
 Setup_LoadView=EW1-7
+Window_SmallQNHTL_ICAO=LIEO
 
 [LIRR_EE]
 
