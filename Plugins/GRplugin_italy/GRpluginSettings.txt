@@ -202,6 +202,7 @@ Color_Arrival=0,255,0
 Color_Departure=0,188,255
 
 Shortcut_Map_Target=3,LIML SMR\STANDS
+Shortcut_Map_Target=4,LIML SMR\RELEASE POINTS
 
 Window_APP_Rotation=95
 
@@ -218,6 +219,7 @@ System_RIM=0
 System_CBM=0
 
 Shortcut_Map_Target=3,LIPZ SMR\STANDS
+Shortcut_Map_Target=4,LIPZ SMR\RELEASE POINTS
 
 [LIRF]
 
@@ -272,6 +274,7 @@ Airport_Runway_End=12:N044.32.29.720:E011.16.18.195
 Airport_Runway_End=30:N044.31.46.880:E011.18.16.800
 
 Shortcut_Map_Target=3,LIPE SMR\STANDS
+Shortcut_Map_Target=4,LIPE SMR\RELEASE POINTS
 
 [LICJ]
 
@@ -279,6 +282,7 @@ Airport_Runway_End=25:N038.11.10.801:E013.07.20.121
 Airport_Runway_End=07:N038.10.25.843:E013.05.06.538
 
 Shortcut_Map_Target=3,LICJ SMR\LICJ Stand Labels
+Shortcut_Map_Target=4,LICJ SMR\RELEASE POINTS
 
 [LIEO]
 
@@ -288,7 +292,13 @@ Shortcut_Map_Target=3,LIEO SMR\LIEO Stand Labels
 Shortcut_Map_Target=4,LIEO SMR\LIEO Release Points
 
 [LIEA]
+
 Shortcut_Map_Target=3,LIEA SMR\LIEA Stand Labels
+
+[LIEE]
+
+Shortcut_Map_Target=3,LIEE SMR\LIEE Stand Labels
+Shortcut_Map_Target=4,LIEE SMR\RELEASE POINTS
 
 [LIBR]
 
@@ -337,6 +347,7 @@ Airport_Runway_End=04R:N043.40.23.123:E010.22.59.813
 Airport_Runway_End=22L:N043.41.40.392:E010.24.19.252
 
 Shortcut_Map_Target=3,LIRP SMR\LIRP Stand Labels
+Shortcut_Map_Target=4,SMR\RELEASE POINTS
 
 [LIRQ]
 
