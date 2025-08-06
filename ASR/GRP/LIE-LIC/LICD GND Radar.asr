@@ -1,0 +1,33 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LICD Parkings\1:freetext
+Free Text:LICD Parkings\2:freetext
+Free Text:LICD Parkings\3:freetext
+Free Text:LICD Parkings\3:freetext
+Free Text:LICD Parkings\4:freetext
+Free Text:LICD Parkings\5:freetext
+Free Text:LICD Parkings\6:freetext
+Free Text:LICD Taxiway\A:freetext
+Free Text:LICD Taxiway\B:freetext
+Geo:LICD Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:10.00000
+TAGFAMILY:Italy CTR
+WINDOWAREA:41.163474:10.675665:42.558854:14.081380
+PLUGIN:Ground Radar plugin:AirportElevation:66
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LICD
+PLUGIN:TopSky plugin:NoDraw:1
