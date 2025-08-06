@@ -196,7 +196,7 @@ SAP=1
 SAP_Floor=5000
 
 //Airspace Infringement Warning
-AIW=1
+AIW=0
 
 //Area Proximity Warning
 APW=1
@@ -790,4 +790,5 @@ STCA_WarningTime_L=70
 
 Setup_LoadView=SE0
 STCA_WarningTime_L=70
+
 
