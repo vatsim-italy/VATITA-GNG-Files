@@ -3,100 +3,6 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Free Text:LMML MRVA LABELs\15:freetext
-Free Text:LMML MRVA LABELs\2:freetext
-Free Text:LMML Parking A2\1:freetext
-Free Text:LMML Parking A2\10:freetext
-Free Text:LMML Parking A2\11:freetext
-Free Text:LMML Parking A2\12:freetext
-Free Text:LMML Parking A2\13:freetext
-Free Text:LMML Parking A2\14:freetext
-Free Text:LMML Parking A2\15C:freetext
-Free Text:LMML Parking A2\16C:freetext
-Free Text:LMML Parking A2\17C:freetext
-Free Text:LMML Parking A2\2:freetext
-Free Text:LMML Parking A2\3:freetext
-Free Text:LMML Parking A2\4:freetext
-Free Text:LMML Parking A2\5:freetext
-Free Text:LMML Parking A2\6:freetext
-Free Text:LMML Parking A2\7:freetext
-Free Text:LMML Parking A2\8:freetext
-Free Text:LMML Parking A2\9:freetext
-Free Text:LMML Parking A3\1:freetext
-Free Text:LMML Parking A3\13A:freetext
-Free Text:LMML Parking A3\14C:freetext
-Free Text:LMML Parking A3\2:freetext
-Free Text:LMML Parking A3\3:freetext
-Free Text:LMML Parking A3\4A:freetext
-Free Text:LMML Parking A3\5A:freetext
-Free Text:LMML Parking A3\6A:freetext
-Free Text:LMML Parking A3\7A:freetext
-Free Text:LMML Parking A3\8A:freetext
-Free Text:LMML Parking A3\9A:freetext
-Free Text:LMML Parking A5\11:freetext
-Free Text:LMML Parking A5\3:freetext
-Free Text:LMML Parking A5\4:freetext
-Free Text:LMML Parking A5\5:freetext
-Free Text:LMML Parking A5\6:freetext
-Free Text:LMML Parking A5\7:freetext
-Free Text:LMML Parking A5\8:freetext
-Free Text:LMML Parking A8\1:freetext
-Free Text:LMML Parking A8\2:freetext
-Free Text:LMML Parking A8\3:freetext
-Free Text:LMML Parking A8\4:freetext
-Free Text:LMML Parking A8\5:freetext
-Free Text:LMML Parking A8\6:freetext
-Free Text:LMML Parking A9\1:freetext
-Free Text:LMML Parking A9\10:freetext
-Free Text:LMML Parking A9\11:freetext
-Free Text:LMML Parking A9\12:freetext
-Free Text:LMML Parking A9\13:freetext
-Free Text:LMML Parking A9\14:freetext
-Free Text:LMML Parking A9\14X:freetext
-Free Text:LMML Parking A9\15:freetext
-Free Text:LMML Parking A9\16:freetext
-Free Text:LMML Parking A9\17:freetext
-Free Text:LMML Parking A9\18:freetext
-Free Text:LMML Parking A9\18X:freetext
-Free Text:LMML Parking A9\19:freetext
-Free Text:LMML Parking A9\1R:freetext
-Free Text:LMML Parking A9\2:freetext
-Free Text:LMML Parking A9\20:freetext
-Free Text:LMML Parking A9\21:freetext
-Free Text:LMML Parking A9\21X:freetext
-Free Text:LMML Parking A9\22:freetext
-Free Text:LMML Parking A9\23:freetext
-Free Text:LMML Parking A9\24:freetext
-Free Text:LMML Parking A9\3:freetext
-Free Text:LMML Parking A9\4:freetext
-Free Text:LMML Parking A9\5:freetext
-Free Text:LMML Parking A9\6:freetext
-Free Text:LMML Parking A9\7:freetext
-Free Text:LMML Parking A9\8:freetext
-Free Text:LMML Parking A9\8L:freetext
-Free Text:LMML Parking A9\9:freetext
-Free Text:LMML Parking A9\9X:freetext
-Free Text:LMML Parking LTM\1A:freetext
-Free Text:LMML Parking LTM\1B:freetext
-Free Text:LMML VRPs\BLUE GROTTO (BG):freetext
-Free Text:LMML VRPs\COMINO TOWER (CT):freetext
-Free Text:LMML VRPs\DINGLI RADAR (DR):freetext
-Free Text:LMML VRPs\FAWWARA RADAR (FR):freetext
-Free Text:LMML VRPs\FILFLA (FA):freetext
-Free Text:LMML VRPs\GHARGHUR MAST (GM):freetext
-Free Text:LMML VRPs\GOZO VOR/DME (GZO):freetext
-Free Text:LMML VRPs\GRAND HARBOUR (GH):freetext
-Free Text:LMML VRPs\MADLIENA FORT (MF):freetext
-Free Text:LMML VRPs\MARSASCALA BAY (MB):freetext
-Free Text:LMML VRPs\PORTOMASO TOWER (PT):freetext
-Free Text:LMML VRPs\ST PAUL'S ISLANDS (SP):freetext
-Free Text:LMML VRPs\TEMPLES (TP):freetext
-Free Text:LMML VRPs\WEST POINT (WP):freetext
-Geo:LMML Groundlayout:
-Geo:LMML Groundlayout Airport TWY:
-Geo:LMML Groundlayout Airport TWY Blue:
-Geo:LMML MRVA:
-Regions:LUQA Geo Malta Ground:polygon
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -109,8 +15,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:314.00000
-TAGFAMILY:Italy CTR
-WINDOWAREA:35.809847:14.372084:35.892526:14.573926
+TAGFAMILY:Matias (built in)
+WINDOWAREA:35.832404:14.452094:35.859502:14.518234
 PLUGIN:Ground Radar plugin:AirportElevation:297
 PLUGIN:Ground Radar plugin:AirportRadius:3
 PLUGIN:Ground Radar plugin:GroundMode:LMML

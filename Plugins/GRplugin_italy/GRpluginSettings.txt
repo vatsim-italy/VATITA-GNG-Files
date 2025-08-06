@@ -369,3 +369,7 @@ Shortcut_Map_Target=3,LIRQ SMR\LIRQ Stand Labels
 [LIBD]
 
 Shortcut_Map_Target=3,LIBD SMR\LIBD Stand Labels
+
+[LMML]
+
+Shortcut_Map_Target=3,LMML SMR\STANDS
