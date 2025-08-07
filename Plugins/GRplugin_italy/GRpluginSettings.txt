@@ -218,7 +218,7 @@ Shortcut_Map_Target=4,LIPZ SMR\RELEASE POINTS
 
 [LIRF]
 
-Color_Arrival=0,130,74
+Color_Arrival=60,199,60
 Color_Departure=0,140,255
 Color_Unknown=255,255,0
 
