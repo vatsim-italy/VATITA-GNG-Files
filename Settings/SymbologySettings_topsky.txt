@@ -24,11 +24,11 @@ Runways:centerline:6579300:3.5:0:0:7
 Runways:extended centerline:6579300:3.5:0:1:7
 Runways:name:0:0.5:0:0:7
 Datablock:non concerned:12632256:3.5:0:0:7
-Datablock:notified:7248238:3.5:0:0:7
+Datablock:notified:3965244:3.5:0:0:7
 Datablock:assumed:65280:3.5:0:0:7
-Datablock:transfer to me initiated:12818930:3.5:0:0:7
+Datablock:transfer to me initiated:9785599:3.5:0:0:7
 Datablock:redundant:12632256:3.5:0:0:7
-Datablock:information:8421631:3.5:0:0:7
+Datablock:information:3302655:3.5:0:0:7
 Datablock:even flight level:16777215:3.5:0:0:7
 Datablock:odd flight level:16777215:3.5:0:0:7
 Datablock:arrivals:13113111:3.5:0:0:7
@@ -40,26 +40,26 @@ Datablock:user 4:16629248:3.5:0:0:7
 Datablock:user 5:16777215:3.5:0:0:7
 Datablock:user 6:3831277:3.5:0:0:7
 Datablock:emergency:255:3.5:0:0:7
-Datablock:ongoing requested by me:12818930:3.5:0:0:7
-Datablock:ongoing requested by other:12818930:3.5:0:0:7
-Datablock:ongoing accepted:65280:3.5:0:0:7
+Datablock:ongoing requested by me:9785599:3.5:0:0:7
+Datablock:ongoing requested by other:9785599:3.5:0:0:7
+Datablock:ongoing accepted:7248238:3.5:0:0:7
 Datablock:ongoing refused:16777215:3.5:0:0:7
-Datablock:detailed background:4737096:3.5:0:0:7
+Datablock:detailed background:4934475:3.5:0:0:7
 Datablock:active item background:13113111:3.5:0:0:7
 Datablock:arrival background:16777215:3.5:0:0:7
 Datablock:departure background:3463655:3.5:0:0:7
-Datablock:AC list background:4078132:3.5:0:0:7
-Datablock:AC list selected background:2894892:3.5:0:0:7
+Datablock:AC list background:5592405:3.5:0:0:7
+Datablock:AC list selected background:6776679:3.5:0:0:7
 Datablock:dimmed at conflict detection:5263440:3.5:0:0:7
 Datablock:SCTA warning rectangle:3289855:3.5:0:0:7
 Datablock:SCTA CFL used warning rectangle:65535:3.5:0:0:7
 Datablock:SCTA warning leader:3289855:3.5:0:3:7
 Datablock:SCTA CFL used warning leader:65535:3.5:0:3:7
-Controller:normal:65280:3.5:0:0:7
+Controller:normal:16777215:3.5:0:0:7
 Controller:breaking:4227327:3.5:0:0:7
 Controller:timeout:255:3.5:0:0:7
-Metar:normal:65280:4.0:0:0:7
-Metar:modified:65535:4.0:0:0:7
+Metar:normal:16776960:4.0:0:0:7
+Metar:modified:13408767:4.0:0:0:7
 Metar:timeout:255:3.5:0:0:7
 Other:wait:16777215:3.5:0:0:7
 Other:distance line:16776960:3.5:0:0:7
@@ -95,10 +95,10 @@ Chat:name unread:16776960:3.5:0:0:7
 Ground Network:exit:8816262:3.5:0:3:7
 Ground Network:taxiway:8816262:3.5:0:3:7
 Ground Network:terminal taxiway:3158064:3.5:0:3:7
-Sector:line:1787979:4.0:0:1:7
+Sector:line:9037542:4.0:0:1:7
 Sector:msaw:32768:2.0:0:2:7
 Sector:active sector background:986895:3.5:0:0:7
-Sector:inactive sector background:1184274:3.5:0:0:7
+Sector:inactive sector background:1052688:3.5:0:0:7
 SYMBOL:0
 SYMBOLITEM:MOVETO -3 -3
 SYMBOLITEM:LINETO 3 -3
