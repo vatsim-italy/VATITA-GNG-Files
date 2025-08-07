@@ -1,0 +1,37 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:LIBC Parkings\1:freetext
+Free Text:LIBC Parkings\2:freetext
+Free Text:LIBC Parkings\3:freetext
+Free Text:LIBC Parkings\4:freetext
+Free Text:LIBC Parkings\5:freetext
+Free Text:LIBC Parkings\6:freetext
+Free Text:LIBC Parkings\7:freetext
+Free Text:LIBC Taxiway\A:freetext
+Free Text:LIBC Taxiway\B:freetext
+Free Text:LIBC Taxiway\T:freetext
+Free Text:LIBC Taxiway\T:freetext
+Free Text:LIBC Taxiway\U:freetext
+Free Text:LIBC Taxiway\U:freetext
+Geo:LIBC Groundlayout:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:280.50000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:41.163474:10.675665:42.558854:14.081380
+PLUGIN:Ground Radar plugin:AirportElevation:522
+PLUGIN:Ground Radar plugin:AirportRadius:3
+PLUGIN:Ground Radar plugin:GroundMode:LIBC
+PLUGIN:TopSky plugin:NoDraw:1
