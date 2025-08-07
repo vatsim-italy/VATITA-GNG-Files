@@ -222,7 +222,7 @@ Color_Arrival=60,199,60
 Color_Departure=0,140,255
 Color_Unknown=255,255,0
 
-GroundLabel_FontSize=16
+GroundLabel_FontSize=14
 
 Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
 Label=GND:DEP:1:CALLSIGN,0,0:WTC,0,1
