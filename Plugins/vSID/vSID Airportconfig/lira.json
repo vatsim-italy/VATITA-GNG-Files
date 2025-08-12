@@ -131,6 +131,7 @@
                 }
             },
             "KASCI": {
+                "initial": 3000,
                 "trans": {"PEMAR": "T", "SIPRO": "T", "TIBER": "T"},
                 "F": {
                     "1": {
