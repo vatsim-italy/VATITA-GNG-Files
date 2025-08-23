@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.4.5",
-  "id": "7f2af8fd-c7f9-48d6-95e3-2c9e0306d513",
+  "name": "LIRR v1.4.6",
+  "id": "7f2af8fd-c7f9-48d6-95e3-2c9e0306d514",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2025073001,
+  "updateSerial": 2025082301,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -6564,6 +6564,11 @@
           "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
           "enabled": false
+        },
+        {
+          "text": "ADVISE IF ABLE TO DEPART FROM INTERSECTION ECHO.",
+          "ordinal": 3,
+          "enabled": true
         }
       ]
     },
