@@ -251,6 +251,7 @@ Airport_Runway_End=28:N045.39.51.899:E009.43.31.789
 Airport_Runway_End=10:N045.40.15.754:E009.41.23.100
 
 Shortcut_Map_Target=3,LIME SMR\LIME Stand Labels
+Shortcut_Map_Target=4,LIME SMR\LIME Release Points
 
 
 [LIMF]
