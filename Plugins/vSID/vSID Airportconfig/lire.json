@@ -6,6 +6,10 @@
         "maxInitialClimb": 3000,
         "enableRVSids": false,
         "appSI": "PS1,PN1,AEM,AET,TW1,NE1",
+        "intersections": {
+            "13": "Z, A1, B1",
+            "20": "W, D1, C1"
+        },
         "sids": {
             "initial": 3000,
             "OKUNO": {

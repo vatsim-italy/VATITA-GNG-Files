@@ -6,6 +6,10 @@
         "maxInitialClimb": 5000,
         "enableRVSids": false,
         "appSI": "EEA,EE3,EW1,SU1",
+        "intersections": {
+            "14": "AA, B, C",
+            "32": "F, E"
+        },
         "sids": {
             "initial": 5000,
             "CAR": {

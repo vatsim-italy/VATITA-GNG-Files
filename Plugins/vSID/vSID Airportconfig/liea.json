@@ -6,6 +6,10 @@
         "maxInitialClimb": 6000,
         "enableRVSids": false,
         "appSI": "EW0,EW1,SU1",
+        "intersections": {
+            "02": "D, C",
+            "20": "A, B"
+        },
         "sids": {
             "initial": 6000,
             "GINOX": {

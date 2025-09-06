@@ -6,6 +6,9 @@
         "maxInitialClimb": 10000,
         "enableRVSids": false,
         "appSI": "LAR,ADE,ANE,MEN",
+        "intersections": {
+            "17": "G"
+        },
         "sids": {
             "TOVSA": {
 				"initial": 5000,                

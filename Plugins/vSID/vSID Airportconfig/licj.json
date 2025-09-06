@@ -6,6 +6,9 @@
         "maxInitialClimb": 4000,
         "enableRVSids": false,
         "appSI": "CJA,SU1",
+        "intersections": {
+            "02": "G, F"
+        },
         "sids": {
             "initial": 4000,
             "GIANO": {

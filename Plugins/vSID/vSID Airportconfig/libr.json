@@ -6,6 +6,10 @@
         "maxInitialClimb": 3000,
         "enableRVSids": false,
         "appSI": "BRA,BBB",
+        "intersections": {
+            "13": "AA, AB",
+            "31": "AF, B, AE"
+        },
         "sids": {
             "initial": 3000,
             "GOKEL": {

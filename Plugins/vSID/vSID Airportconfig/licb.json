@@ -6,6 +6,9 @@
         "maxInitialClimb": 9000,
         "enableRVSids": false,
         "appSI": "CCA,SU1",
+        "intersections": {
+            "23": "A, B"
+        },
         "sids": {
             "initial": 9000,
             "ENEPA": {

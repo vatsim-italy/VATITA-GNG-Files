@@ -6,6 +6,10 @@
         "maxInitialClimb": 3000,
         "enableRVSids": false,
         "appSI": "BRA,BBB",
+        "intersections": {
+            "07": "G, F",
+            "25": "A, B"
+        },
         "sids": {
             "initial": 3000,
             "BANAV": {

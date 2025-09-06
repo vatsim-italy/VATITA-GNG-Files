@@ -6,6 +6,10 @@
         "maxInitialClimb": 4000,
 		"enableRVSids": false,
         "appSI": "PZA,PCE,PNE",
+        "intersections": {
+            "04R": "A, B, C",
+            "22L": "H"
+        },
         "sids": {
             "initial": 4000,
             "AKADO": {

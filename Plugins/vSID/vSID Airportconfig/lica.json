@@ -6,6 +6,10 @@
         "maxInitialClimb": 5000,
         "enableRVSids": false,
         "appSI": "ES0,ES1,SU1,NE7",
+        "intersections": {
+            "10": "E, D, C, B",
+            "28": "A, B, C, D"
+        },
         "sids": {
             "initial": 5000,
             "CDC": {

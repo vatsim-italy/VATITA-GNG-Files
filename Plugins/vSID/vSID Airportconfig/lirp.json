@@ -6,6 +6,11 @@
         "maxInitialClimb": 4000,
         "enableRVSids": false,
         "appSI": "RPA,NW1,NE1",
+        "intersections": {
+            "04L": "A",
+            "04R": "Z1, A",
+            "22L": "D"
+        },
         "sids": {
             "initial": 4000,
             "AKUTO": {

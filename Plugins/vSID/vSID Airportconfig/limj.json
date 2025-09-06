@@ -6,6 +6,10 @@
         "maxInitialClimb": 5000,
         "enableRVSids": false,
         "appSI": "MJA,MWS,MEN",
+        "intersections": {
+            "28": "G, F, E",
+            "10": "B, E"
+        },
         "sids": {
             "initial": 5000,
             "GEN": {

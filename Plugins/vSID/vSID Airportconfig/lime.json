@@ -6,6 +6,10 @@
         "maxInitialClimb": 6000,
         "enableRVSids": false,
         "appSI": "ADE,ANE,MEN",
+        "intersections": {
+            "28": "AA, BA, AB, BB",
+            "10": "AG, AF, BD"
+        },
         "sids": {
             "initial": 6000,
             "LEGLO": {

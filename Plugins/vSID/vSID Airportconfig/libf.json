@@ -6,6 +6,9 @@
         "maxInitialClimb": 11000,
         "enableRVSids": false,
         "appSI": "BAA,BBB",
+        "intersections": {
+            "15": "B"
+        },
         "sids": {
             "DOGUS": {
                 "initial": 11000,
