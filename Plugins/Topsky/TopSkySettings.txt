@@ -405,8 +405,26 @@ List_Sector_Informed = 1
 List_Sector_Redundant = 1
 List_Sector_Concerned = 1
 
+[_OBS]
+
+Window_CPDLC_Current=0,1,600
+
+Window_CARD=0,1565,755
+
 [LIMC]
-Window_CPDLC_Current=1,1,600
+Window_CPDLC_Current=1,1350,48
+Window_CPDLC_Setting=1,1,248
+CPDLC_PDC_Auto=1
+
+[LIRF]
+Window_CPDLC_Current=1,1350,48
+Window_CPDLC_Setting=1,1,248
+CPDLC_PDC_Auto=1
+
+[_TWR]
+
+FlightLeg_AutoShow=0
+Window_CPDLC_Current=0,1350,48
 
 [_APP]
 FlightLeg_AutoShow=0
@@ -414,10 +432,6 @@ Window_CPDLC_Current=0,0,650
 
 [_CTR]
 Window_CPDLC_Setting=1,1,350
-
-[_TWR]
-
-FlightLeg_AutoShow=0
 
 [LMMM_]
 
