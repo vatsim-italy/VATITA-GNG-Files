@@ -43,6 +43,7 @@ Setup_COOPANS=1
 Setup_ScreenLat=42.0
 
 // System settings
+
 Color_Selected_Group=255,255,254
 Color_Selected_Period=255,255,41
 Color_Text_Notes=0,200,0 //MSG->Text notes bright green
@@ -178,6 +179,7 @@ Equip_Use_SUR_Mode_S_FLTID=1
 Malrt_Misap=MISAP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRREG
+Malrt_Weather=WX
 
 Airspace_AOR_Airports=LI,LM,LSZA
 Airspace_AOR_Positions=LI,LM,LSZA
@@ -192,7 +194,6 @@ HTTP_SIGMET_Server=http://aviationweather.gov/
 HTTP_TAF_Server=https://aviationweather.gov/
 Airspace_NOTAM_Add=LIMM,LIRR,LIBB
 HTTP_METAR_Server=https://aviationweather.gov/
-
 
 RDF_Mode=-1
 RDF_Accuracy=0.0
@@ -256,12 +257,11 @@ FlightLeg_LineWidth=0
 // STCA
 
 STCA_VFR=0
-STCA_AlertSound=1
 STCA_AlertSound_Filter=2
 STCA_Filter=2
 
 STCA_Sep_Lat_SepLevel=29000
-STCA_Floor=2000
+STCA_Floor=1300
 
 STCA_FastDiv_Sep_Lat_L=4.98
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -293,8 +293,13 @@ Menu_CFL_ExtendedItems=15
 Menu_MaxListItems=15
 Menu_ASP_MaxMach=90
 
+
+
 List_Sector_Concerned=1
 List_Sector_Concerned_MaxTime=30
+
+List_TfcMgmt_MaxTime=180
+List_OptionsInGlobalMenu=1
 
 CPDLC_MinLevel=285
 CPDLC_Transfer=1
@@ -326,12 +331,12 @@ Label_DAPs=1
 Label_Rev_Highlight_Delta_ETN=3
 Label_Alt_Digits=2
 Label_N_Default=0
-Label_ACF_Use=2
 
 Label_FCOP_MaxChars=5
 Label_FText_MaxChars_List=10
 Label_ADES_MaxChars=4
 
+Label_ACF_Use=2
 Label_UseTransferInColor=1
 
 Label_CFL_DefaultValue=0
@@ -345,7 +350,7 @@ Label_COPN_Default=1111
 Label_COPX_Default=1111
 Label_NRAC_Default=0000
 Label_XFL_Default=1110
-Label_AHDG_Default=0100
+Label_AHDG_Default=1110
 Label_ASP_Default=1110
 Label_PEL_Default=0000
 Label_TSSR_Default=0000
@@ -367,70 +372,52 @@ WXR_Echo_dBZ_Hi=50
 WXR_Echo_dBZ_Med=40
 WXR_Echo_dBZ_Lo=30
 
-Window_SmallQNHTL=0,125,770
-
-Window_CPDLC_Current=1,0,650
+Window_CPDLC_Current=1,1100,15
 Window_VAW=0
-Window_CARD=3,1565,755
+Window_CARD=0,2190,814
 Window_CARD_RefreshRate=30
 Window_CARD_MaxConflicts=10
 Window_CARD_MinSep=5
 Window_CARD_Slider_Time=20
 Window_CARD_Slider_Distance=10
 Window_CARD_View_Future=0
-Window_LFUNCFP=0,2210,48
 Window_CARD_RefreshRate=5
-Window_WxMsgs=0
 Window_WxMsgs_MetarRefreshInterval=600
 Window_WxMsgs_TafRefreshInterval=3600
-Window_MsgOut=0,1475,48
-Window_QNHTL=0
-Window_PrimFreqMsg=0
-Window_NOTAM=0
+Window_MsgIn=1,125,1200
+
 Window_SM_LeaveHoldTime=3
 Window_SM_LowestLevel=30
 Window_SAP_MaxListItems=5
 Window_SAP_Chars_Area=12
 Window_SAP_Chars_User=12
+
+Window_SmallQNHTL=1,125,770
+Window_QNHTL_MaxListItems=13
+Window_WxMsgs_HighlightNew=0
+
+Window_SepList=1500,620
+
+Window_Zoom_Max=250
+
 //Sector list
 List_Sector_Informed = 1
 List_Sector_Redundant = 1
 List_Sector_Concerned = 1
 
+[LIMC]
+Window_CPDLC_Current=1,1,600
+
 [_APP]
-
-Window_CPDLC_Current=0,1,600
-
 FlightLeg_AutoShow=0
-Window_MsgIn=1,125,900
-Window_SmallQNHTL=1,125,770
+Window_CPDLC_Current=0,0,650
 
 [_CTR]
-
-Window_MsgIn=1,125,900
-Window_SmallQNHTL=1,125,770
-
-[_DEL]
-
-Window_CARD=0,1565,755
-
-[_GND]
-
-Window_CARD=0,1565,755
+Window_CPDLC_Setting=1,1,350
 
 [_TWR]
 
-Window_CPDLC_Current=0,1,600
-
-Window_CARD=0,1565,755
-
 FlightLeg_AutoShow=0
-
-[_OBS]
-
-Window_CPDLC_Current=0,1,600
-
-Window_CARD=0,1565,755
 
 [LMMM_]
 
@@ -445,16 +432,6 @@ Window_SmallQNHTL_ICAO=LIBD
 [LIBR_]
 
 Setup_LoadView=CS0
-
-[LIMC]
-Window_CPDLC_Current=1,1350,48
-Window_CPDLC_Setting=1,1,248
-CPDLC_PDC_Auto=1
-
-[LIRF]
-Window_CPDLC_Current=1,1350,48
-Window_CPDLC_Setting=1,1,248
-CPDLC_PDC_Auto=1
 
 [LIMM_ADE]
 
@@ -582,8 +559,8 @@ Setup_LoadView:ES2
 
 [LIMM_EN2]
 
-Setup_LoadView:EN2
 Window_SmallQNHTL_ICAO=LIMC
+Setup_LoadView:EN2
 
 [LIMM_ES5]
 
@@ -715,8 +692,8 @@ Setup_LoadView=EW0
 
 [LIRR_EW]
 
-Setup_LoadView=EW1-7
 Window_SmallQNHTL_ICAO=LIEO
+Setup_LoadView=EW1-7
 
 [LIRR_EE]
 
@@ -806,5 +783,3 @@ STCA_WarningTime_L=70
 
 Setup_LoadView=SE0
 STCA_WarningTime_L=70
-
-

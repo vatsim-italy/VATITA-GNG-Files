@@ -20,9 +20,9 @@ TopSky plugin:ACList/LOAD/m_Resizable:1
 TopSky plugin:ACList/LOAD/m_OrderingColumn:1
 TopSky plugin:ACList/LOAD/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/LOAD/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
-TopSky plugin:ACList/Sector List/m_Visible:1
+TopSky plugin:ACList/Sector List/m_Visible:0
 TopSky plugin:ACList/Sector List/m_X:0
-TopSky plugin:ACList/Sector List/m_Y:67
+TopSky plugin:ACList/Sector List/m_Y:45
 TopSky plugin:ACList/Sector List/m_LineNumber:0
 TopSky plugin:ACList/Sector List/m_Resizable:1
 TopSky plugin:ACList/Sector List/m_OrderingColumn:2
@@ -60,9 +60,9 @@ TopSky plugin:ACList/Resectorisation List/m_Resizable:1
 TopSky plugin:ACList/Resectorisation List/m_OrderingColumn:1
 TopSky plugin:ACList/Resectorisation List/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Resectorisation List/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
-TopSky plugin:ACList/Traffic Management List 1/m_Visible:1
-TopSky plugin:ACList/Traffic Management List 1/m_X:515
-TopSky plugin:ACList/Traffic Management List 1/m_Y:68
+TopSky plugin:ACList/Traffic Management List 1/m_Visible:0
+TopSky plugin:ACList/Traffic Management List 1/m_X:0
+TopSky plugin:ACList/Traffic Management List 1/m_Y:69
 TopSky plugin:ACList/Traffic Management List 1/m_LineNumber:0
 TopSky plugin:ACList/Traffic Management List 1/m_Resizable:1
 TopSky plugin:ACList/Traffic Management List 1/m_OrderingColumn:1
@@ -98,8 +98,8 @@ DelHel:DelHel:0|0|0|0|0|0|0|1
 BARS:token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5NWVkNDBkNS1mMTg0LTQzYTEtYWYxYi1kYWUxNjIwN2ZmOGQiLCJlbWFpbCI6InRvbW1hc29kYWxsYXNwYWRhQGdtYWlsLmNvbSIsImNvbnRyb2xsZXJJZCI6IjE2MTQzNjEiLCJpYXQiOjE3MzkxMzcwMDQsImV4cCI6MTc3MDY3MzAwNCwianRpIjoiYjA5ZWJjNjItNGQzMy00OTZiLThkYmMtODYwMjU5ODVjOTA0IiwiaXNzIjoic3RvcGJhcnMtYXV0aCIsImF1ZCI6InN0b3BiYXJzLWFwaSJ9.Q3PUz/wXcVMJXFhPeAdicoNe7Z2AMy/dwXBoelnD3Fo=
 BARS:clickMode:9
 VATITA Controller Plugin:ACList/Mode S/m_Visible:1
-VATITA Controller Plugin:ACList/Mode S/m_X:59
-VATITA Controller Plugin:ACList/Mode S/m_Y:456
+VATITA Controller Plugin:ACList/Mode S/m_X:54
+VATITA Controller Plugin:ACList/Mode S/m_Y:458
 VATITA Controller Plugin:ACList/Mode S/m_LineNumber:0
 VATITA Controller Plugin:ACList/Mode S/m_Resizable:1
 VATITA Controller Plugin:ACList/Mode S/m_OrderingColumn:-1
@@ -116,14 +116,15 @@ TopSky plugin:ACList/ETWR List/m_Column_7:TSE:8:1:647:741:746:1:vSID:vSID:vSID
 TopSky plugin:ACList/Traffic Management List 1/m_Column_2:SSR:5:1:10041:27:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Traffic Management List 1/m_Column_3:DEST:5:1:10008:1001:1001:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/Traffic Management List 1/m_Column_4:ETO:5:0:10033:0:0:1:TopSky plugin::
-TopSky plugin:ACList/Traffic Management List 1/m_Column_5:TXT:11:0:10059:2:0:1:TopSky plugin:TopSky plugin:
-TopSky plugin:ACList/Traffic Management List 1/m_Column_6:PEL:4:1:10001:68:12:1:TopSky plugin:TopSky plugin:TopSky plugin
-TopSky plugin:ACList/Traffic Management List 1/m_Column_7:XFL:4:1:10003:105:105:1:TopSky plugin:TopSky plugin:TopSky plugin
-TopSky plugin:ACList/Traffic Management List 1/m_Column_8:PLV:4:1:10006:59:59:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Traffic Management List 1/m_Column_5:PKB:4:1:2:1:0:1:Ground Radar plugin:Ground Radar plugin:
+TopSky plugin:ACList/Traffic Management List 1/m_Column_6:TXT:11:0:10059:2:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Traffic Management List 1/m_Column_7:PEL:4:1:10001:68:12:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Traffic Management List 1/m_Column_8:XFL:4:1:10003:105:105:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/Traffic Management List 2/m_Column_2:C/S:9:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Traffic Management List 2/m_Column_3:SSR:5:1:10041:27:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Traffic Management List 2/m_Column_4:PEL:4:1:10001:68:22:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/Traffic Management List 2/m_Column_5:XFL:4:1:10003:105:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Traffic Management List 2/m_Column_6:C/S:4:1:10006:59:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Traffic Management List 2/m_Column_7:OUT:4:1:10045:1001:1001:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Traffic Management List 1/m_Column_9:PLV:4:1:10006:59:59:1:TopSky plugin:TopSky plugin:TopSky plugin
 END

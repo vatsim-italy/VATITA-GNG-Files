@@ -1189,7 +1189,7 @@ TAGITEM:269::0:1:19:19:TopSky plugin:20:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:49::0:1:69:70:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:53::0:1:105:97:TopSky plugin:3:1:TopSky plugin:TopSky plugin:1
-TAGITEM:66::0:1:100:20:TopSky plugin:0:1:TopSky plugin::1
+TAGITEM:66::0:1:20:42:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:2011::0:1:2:2:TopSky plugin:15:1:TopSky plugin:TopSky plugin:1
 TAGITEM:2012::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:2013::0:0:0:0:TopSky plugin:0:1:::1
@@ -1379,7 +1379,7 @@ TAGITEM:269::0:1:19:19:TopSky plugin:20:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:49::0:1:69:70:TopSky plugin:0:1:TopSky plugin:TopSky plugin:1
 TAGITEM:53::0:1:105:97:TopSky plugin:3:1:TopSky plugin:TopSky plugin:1
-TAGITEM:66::0:1:100:20:TopSky plugin:0:1:TopSky plugin::1
+TAGITEM:66::0:1:20:42:TopSky plugin:0:1::TopSky plugin:1
 TAGITEM:2011::0:1:2:2:TopSky plugin:15:1:TopSky plugin:TopSky plugin:1
 TAGITEM:2012::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:2013::0:0:0:0:TopSky plugin:0:1:::1
