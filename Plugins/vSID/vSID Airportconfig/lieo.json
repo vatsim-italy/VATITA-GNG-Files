@@ -6,7 +6,11 @@
         "maxInitialClimb": 5000,
         "enableRVSids": false,
         "appSI": "EW0,EW1,SU1",
-        "sids": {
+        "intersections": {
+            "05": "F, E, D",
+            "20": "A, B, C, D"
+        },
+		"sids": {
             "initial": 5000,
             "BATOX": {
                 "K": {
