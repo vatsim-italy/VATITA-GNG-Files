@@ -6,6 +6,10 @@
         "maxInitialClimb": 6000,
         "enableRVSids": false,
         "appSI": "CCA,ES1,SU1",
+        "intersections": {
+            "08": "A, B",
+            "26": "G, F"
+        },
         "sids": {
             "initial": 6000,
             "ALUDU": {
