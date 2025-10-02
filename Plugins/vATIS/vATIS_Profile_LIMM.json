@@ -1,8 +1,8 @@
 {
-  "name": "LIMM v1.5.3",
-  "id": "9c32819b-9c44-44f9-950b-96b512234a67",
+  "name": "LIMM v1.5.4",
+  "id": "45d243f4-bf30-4bf5-93a3-4b89416e9cba",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 2025072401,
+  "updateSerial": 2025100201,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -8696,13 +8696,18 @@
           "enabled": false
         },
         {
-          "text": "NON USARE RWY CC CON LVP",
+          "text": "OPERATIONAL INFORMATION. ORIO DELIVERY FREQUENCY ACTIVATED. WHEN RELEASED BY AIRPORT OPERATOR CONTACT FREQUENCY 134.105.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RVR. @TDZ - @M. @MID - @M. @END - @M.",
+          "text": "NON USARE RWY CC CON LVP",
           "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "RVR. @TDZ - @M. @MID - @M. @END - @M.",
+          "ordinal": 5,
           "enabled": false
         }
       ],
