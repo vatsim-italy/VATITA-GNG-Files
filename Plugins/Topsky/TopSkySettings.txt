@@ -9,6 +9,9 @@ Maps_Font=EuroScope
 //Shortcuts
 Shortcut_Map_Target=1,CTA / ATZ\Controlled Airspace
 Shortcut_Map_Target=2,FIS\VRP LIXX
+Shortcut_Map_Target=3,MRVA\LIPE MRVA
+Shortcut_Map_Target=4,AD / FIX / NAVAIDS\FIXES
+Shortcut_Map_Target=5,AD / FIX / NAVAIDS\BORDER FIX NAMES LIPP
 
 //Cursors
 System_GUI_Scale_Cursors=0.7
@@ -28,6 +31,8 @@ System_MagModel_Year=2024
 
 System_UseAcceptedCoordColor=1
 
+System_UseTSAborderHighlightColor=1
+
 Areas_Altitude_Filtering=1
 
 System_Coord_Sound_RTI_ACP=1
@@ -39,6 +44,8 @@ System_OPTEXT2_Edit_By_NextController=1
 Label_OPTEXT2_MaxChars_List=15
 
 Setup_COOPANS=1
+
+System_Toggle_Units_In_Level_Menus=0
 
 Setup_ScreenLat=42.0
 
@@ -65,7 +72,7 @@ Color_Trough=191,191,191
 //Color_QDM=255,242,0
 
 Color_Active_Map=198,174,58
-Color_Active_Map_Type_1=255,0,0
+Color_Active_Map_Type_1=174,174,174
 Color_Active_Map_Type_2=87,87,164
 Color_Active_Map_Type_3=230,126,0
 Color_Active_Map_Type_4=200,53,18
@@ -155,7 +162,7 @@ Color_Track_Default=192,192,192
 Color_Track_Highlight=0,255,0
 Color_Trough=97,99,97
 Color_TSA_Active=93,138,195
-Color_TSA_Border_Highlight=0,0,0
+Color_TSA_Border_Highlight=255,254,255
 Color_TSA_Filter=0,0,255
 Color_TSA_Preactive=132,142,139
 Color_Unconcerned=192,192,192
@@ -253,6 +260,7 @@ FlightLeg_AutoShow=1
 FlightLeg_Label_DIST=1
 FlightLeg_Label_RFL=1
 FlightLeg_LineWidth=0
+FlightLeg_Potential_Risk=0
 
 // STCA
 
@@ -261,7 +269,7 @@ STCA_AlertSound_Filter=2
 STCA_Filter=2
 
 STCA_Sep_Lat_SepLevel=29000
-STCA_Floor=1300
+STCA_Floor=2000
 
 STCA_FastDiv_Sep_Lat_L=4.98
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -380,11 +388,11 @@ Window_CARD_MaxConflicts=10
 Window_CARD_MinSep=5
 Window_CARD_Slider_Time=20
 Window_CARD_Slider_Distance=10
-Window_CARD_View_Future=0
+Window_CARD_View_Future=1
 Window_CARD_RefreshRate=5
 Window_WxMsgs_MetarRefreshInterval=600
 Window_WxMsgs_TafRefreshInterval=3600
-Window_MsgIn=1,125,1200
+Window_MsgIn=1,125,800
 
 Window_SM_LeaveHoldTime=3
 Window_SM_LowestLevel=30
@@ -392,7 +400,7 @@ Window_SAP_MaxListItems=5
 Window_SAP_Chars_Area=12
 Window_SAP_Chars_User=12
 
-Window_SmallQNHTL=1,125,770
+Window_SmallQNHTL=1,125,670
 Window_QNHTL_MaxListItems=13
 Window_WxMsgs_HighlightNew=0
 
@@ -409,8 +417,6 @@ List_Sector_Concerned = 1
 
 Window_CPDLC_Current=0,1,600
 
-Window_CARD=0,1565,755
-
 [LIMC]
 Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
@@ -421,17 +427,16 @@ Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
 CPDLC_PDC_Auto=1
 
-[_TWR]
-
-FlightLeg_AutoShow=0
-Window_CPDLC_Current=0,1350,48
-
 [_APP]
 FlightLeg_AutoShow=0
 Window_CPDLC_Current=0,0,650
 
 [_CTR]
 Window_CPDLC_Setting=1,1,350
+
+[_TWR]
+
+FlightLeg_AutoShow=0
 
 [LMMM_]
 
@@ -542,6 +547,26 @@ STCA_WarningTime_U=80
 
 Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=MAR
+
+Shortcut_Xfr_Target=4,MCT
+Shortcut_Xfr_Target=5,MCE
+
+STCA_Sep_Lat_SepLevel=19000
+STCA_FastDiv_Sep_Lat_L=3
+STCA_FastDiv_Sep_Lat_U=4.98
+STCA_LinPred_Sep_Lat_U_Div=4.98
+STCA_LinPred_Sep_Lat_L_Div=3
+STCA_LinPred_Sep_Lat_U=5
+STCA_LinPred_Sep_Lat_L=3
+STCA_CurrProx_Sep_Lat_U=5
+STCA_CurrProx_Sep_Lat_L=3
+STCA_WarningTime_L=70
+STCA_WarningTime_U=80
+
+[LIMM_MAP]
+
+Window_SmallQNHTL_ICAO=LIMC
+Setup_LoadView=MAP
 
 Shortcut_Xfr_Target=4,MCT
 Shortcut_Xfr_Target=5,MCE
@@ -703,6 +728,11 @@ STCA_WarningTime_U=80
 [LIEO_EW0]
 
 Setup_LoadView=EW0
+
+[LIRR_I]
+
+Window_SmallQNHTL_ICAO=LIRF
+Setup_LoadView=NE
 
 [LIRR_EW]
 
