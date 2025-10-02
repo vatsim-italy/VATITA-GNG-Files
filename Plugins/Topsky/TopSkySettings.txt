@@ -388,7 +388,6 @@ Window_CARD_MaxConflicts=10
 Window_CARD_MinSep=5
 Window_CARD_Slider_Time=20
 Window_CARD_Slider_Distance=10
-Window_CARD_View_Future=0
 Window_CARD_View_Future=1
 Window_CARD_RefreshRate=5
 Window_WxMsgs_MetarRefreshInterval=600
