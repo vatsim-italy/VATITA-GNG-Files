@@ -6,6 +6,11 @@
         "maxInitialClimb": 7000,
         "enableRVSids": false,
         "appSI": "ANW,ANE,MEN",
+        "intersections": {
+            "35L": "GW, GE, WB, F, FE",
+            "17R": "BW, BE, EW, EM",
+            "17L": "AA, AB"
+        },
         "sids": {
             "IRKED": {
 				"initial": 5000,
