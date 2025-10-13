@@ -6,6 +6,9 @@
         "maxInitialClimb": 10000,
         "enableRVSids": false,
         "appSI": "WN0,MWN,MWS,MEN",
+        "intersections": {
+            "03": "B, A"
+        },
         "sids": {
             "initial": 5000,
             "ENOBA": {

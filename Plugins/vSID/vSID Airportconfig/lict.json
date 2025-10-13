@@ -6,6 +6,9 @@
         "maxInitialClimb": 4000,
         "enableRVSids": false,
         "appSI": "CTA,SU1",
+        "intersections": {
+            "31L": "G, H"
+        },
         "sids": {
             "initial": 4000,
             "ADUKA": {
