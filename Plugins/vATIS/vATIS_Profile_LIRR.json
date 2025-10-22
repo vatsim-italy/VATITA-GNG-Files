@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.4.7",
-  "id": "b17cd47a-7a5f-46c9-95c0-1205ad7de2db",
+  "name": "LIRR v1.4.8",
+  "id": "b17cd47a-7a5f-46c9-95c0-1205ad7de3db",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2025100201,
+  "updateSerial": 2025102301,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -30224,22 +30224,22 @@
             {
               "low": 1013,
               "high": 1050,
-              "altitude": 70
+              "altitude": 60
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 75
+              "altitude": 65
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 80
+              "altitude": 70
             },
             {
               "low": 800,
               "high": 976,
-              "altitude": 85
+              "altitude": 75
             }
           ],
           "template": {
@@ -32680,4 +32680,5 @@
     }
   ],
   "version": 4
+
 }
