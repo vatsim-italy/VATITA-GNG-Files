@@ -30224,22 +30224,22 @@
             {
               "low": 1013,
               "high": 1050,
-              "altitude": 70
+              "altitude": 60
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 75
+              "altitude": 65
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 80
+              "altitude": 70
             },
             {
               "low": 800,
               "high": 976,
-              "altitude": 85
+              "altitude": 75
             }
           ],
           "template": {
