@@ -6,6 +6,12 @@
         "maxInitialClimb": 5000,
         "enableRVSids": false,
         "appSI": "MMA,MMC",
+        "intersections": {
+            "05": "L, P",
+            "13": "E",
+            "23": "J, Z2, R, Q",
+            "31": "A, BN, C, D, Y"
+        },
         "sids": {
             "initial": 5000,
             "AGARI": {

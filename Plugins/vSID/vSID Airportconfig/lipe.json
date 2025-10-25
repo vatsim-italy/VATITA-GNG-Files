@@ -5,7 +5,11 @@
         "transAlt": 6000,
         "maxInitialClimb": 5000,
         "enableRVSids": false,
-        "appSI": "PEA,PSD,PCE,PNE",
+        "appSI": "PEA,SW1,SD2,CE1",
+        "intersections": {
+            "12": "A, B, C, D",
+            "30": "K, J, H"
+        },
         "sids": {
             "initial": 5000,
             "LOMED": {
@@ -36,7 +40,7 @@
                 },
                 "V": {
                     "1": {
-                        "rwy": "12",
+                        "rwy": "30",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
@@ -64,7 +68,7 @@
                 },
                 "V": {
                     "1": {
-                        "rwy": "12",
+                        "rwy": "30",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
@@ -125,7 +129,7 @@
                 },
                 "V": {
                     "1": {
-                        "rwy": "12",
+                        "rwy": "30",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }

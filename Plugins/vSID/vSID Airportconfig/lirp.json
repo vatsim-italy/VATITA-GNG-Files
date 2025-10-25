@@ -5,7 +5,12 @@
         "transAlt": 6000,
         "maxInitialClimb": 4000,
         "enableRVSids": false,
-        "appSI": "RPA,NW1,NE1",
+        "appSI": "RPA,NW1,NE1,NE7",
+        "intersections": {
+            "04L": "A",
+            "04R": "Z1, A",
+            "22L": "D"
+        },
         "sids": {
             "initial": 4000,
             "AKUTO": {

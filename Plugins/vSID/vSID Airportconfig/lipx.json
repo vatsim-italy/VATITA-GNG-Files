@@ -5,7 +5,11 @@
         "transAlt": 6000,
         "maxInitialClimb": 6000,
         "enableRVSids": false,
-        "appSI": "MES0,EE1,MES,MEN",
+        "appSI": "MES0,EE1,ES2,EN2,WS2",
+        "intersections": {
+            "04": "B, C",
+            "22": "K, Y, W, F"
+        },
         "sids": {
             "initial": 5000,
             "ECVAZ": {

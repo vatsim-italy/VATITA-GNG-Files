@@ -5,7 +5,10 @@
         "transAlt": 6000,
         "maxInitialClimb": 6000,
         "enableRVSids": false,
-        "appSI": "RQA,NW1,NN1,NE1",
+        "appSI": "RQA,NW1,NN1,NE1,NE7",
+        "intersections": {
+            "05": "F, G, H, M"
+        },
         "sids": {
             "initial": 6000,
             "BALUK": {

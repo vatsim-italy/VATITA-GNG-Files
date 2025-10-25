@@ -5,10 +5,15 @@
         "transAlt": 6000,
         "maxInitialClimb": 6000,
         "enableRVSids": false,
-        "appSI": "BPA,NC1,TS1,NE1",
+        "appSI": "BPA,ND1,TS1,NE1",
+        "intersections": {
+            "04": "D, C",
+            "22": "A, B"
+        },
         "sids": {
             "initial": 6000,
             "ASPIR": {
+                "allowDiffNumbers": true,                
                 "F": {
                     "1": {
                         "rwy": "04",
@@ -37,6 +42,7 @@
                 }
             },
             "ERPOG": {
+                "allowDiffNumbers": true,
                 "F": {
                     "1": {
                         "rwy": "04",
@@ -65,6 +71,7 @@
                 }
             },
             "INKIM": {
+                "allowDiffNumbers": true,
                 "F": {
                     "1": {
                         "rwy": "04",
@@ -93,6 +100,7 @@
                 }
             },
             "OTRET": {
+                "allowDiffNumbers": true,
                 "F": {
                     "1": {
                         "rwy": "04",
@@ -121,6 +129,7 @@
                 }
             },
             "SUTOB": {
+                "allowDiffNumbers": true,
                 "F": {
                     "1": {
                         "rwy": "04",

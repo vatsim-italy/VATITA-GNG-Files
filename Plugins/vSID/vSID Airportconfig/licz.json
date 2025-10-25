@@ -5,7 +5,7 @@
         "transAlt": 7000,
         "maxInitialClimb": 10000,
         "enableRVSids": false,
-        "appSI": "CAA,SU1",
+        "appSI": "CAA,ES1,SU1",
         "sids": {
             "ALUDU": {
                 "L": {
@@ -38,6 +38,7 @@
                 }
             },
             "LIBRO": {
+				"allowDiffNumbers": true,
                 "L": {
                     "1": {
                         "rwy": "10R",
@@ -98,7 +99,7 @@
                 },
                 "T": {
                     "1": {
-                        "rwy": "28R",
+                        "rwy": "10R",
                         "equip": {"RNAV": true},
                         "prio": 1
                     }
@@ -107,14 +108,14 @@
             "PEKOD": {
                 "L": {
                     "1": {
-                        "rwy": "10L",
+                        "rwy": "10R",
                         "equip": {"NON-RNAV": true, "RNAV": true},
                         "prio": 3 
                     }
                 },
                 "N": {
                     "1": {
-                        "rwy": "10L",
+                        "rwy": "10R",
                         "equip": {"RNAV": true},
                         "prio": 1 
                     }
@@ -135,6 +136,7 @@
                 }
             },
             "PIMOR": {
+				"allowDiffNumbers": true,
                 "L": {
                     "1": {
                         "rwy": "10R",

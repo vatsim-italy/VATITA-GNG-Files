@@ -1,0 +1,237 @@
+SIL
+m_Visible:0
+m_X:2141
+m_Y:47
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column::1:1:10057:0:0:1:TopSky plugin:::0:0.0
+m_Column:FIX:6:1:10004:21:99:1:TopSky plugin::TopSky plugin:9:0.0
+m_Column:ETO:4:0:10034:0:32:1:TopSky plugin:::9:0.0
+m_Column:ARCID:9:0:10021:6:33:1:TopSky plugin:TopSky plugin::9:0.0
+m_Column:ASSR:5:1:10023:62:62:1:TopSky plugin:TopSky plugin:TopSky plugin:9:0.0
+m_Column:PLV:4:1:10006:59:59:1:TopSky plugin:TopSky plugin:TopSky plugin:9:0.0
+m_Column:PEL:4:1:10001:68:68:1:TopSky plugin:TopSky plugin:TopSky plugin:9:0.0
+m_Column:TYPE:5:1:10028:0:0:1:TopSky plugin:::9:0.0
+m_Column:DEP:5:0:10007:1001:1001:1:TopSky plugin:TopSky plugin:TopSky plugin:9:0.0
+m_Column:DES:5:0:10008:1001:1001:1:TopSky plugin:TopSky plugin:TopSky plugin:9:0.0
+m_Column:ROUTE:6:0:233:0:0:1:TopSky plugin:::9:0.0
+m_Column:R:2:1:202:0:0:1:TopSky plugin:::9:0.0
+END
+SEL
+m_Visible:0
+m_X:2141
+m_Y:79
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:4
+m_HeaderOnly:0
+m_Column::1:1:10057:0:0:1:TopSky plugin:::0:0.0
+m_Column:FIX:6:1:10005:22:99:1:TopSky plugin::TopSky plugin:1:0.0
+m_Column:ETO:4:0:10092:0:0:1:TopSky plugin:::1:0.0
+m_Column:ARCID:9:0:10021:6:33:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column:ASSR:5:1:10023:62:62:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
+m_Column:PLV:4:1:10006:59:59:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
+m_Column:XFL:4:1:10003:105:105:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
+m_Column:TYPE:5:0:10028:0:0:1:TopSky plugin:::1:0.0
+m_Column:DEP:5:0:10007:1001:1001:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
+m_Column:DEST:5:0:10008:1001:1001:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
+END
+DEP
+m_Visible:0
+m_X:1496
+m_Y:161
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:2
+m_HeaderOnly:0
+m_Column:SI:3:1:66:0:0:1:TopSky plugin:::0:0.0
+m_Column:ARCID:8:1:9:8:0:1::::7:4.0
+m_Column:FR:2:1:63:0:0:1::::7:0.0
+m_Column:ATYP:4:1:16:0:0:1::::7:4.0
+m_Column:PKB:5:1:1:0:0:0:Ground Radar plugin:::4:0.0
+m_Column:TTOT:4:1:3:0:0:0:CDM Plugin:::0:0.0
+m_Column:ADEP:4:1:61:7:140:1:::TopSky plugin:8:4.0
+m_Column:ADES:5:1:17:7:140:1:::TopSky plugin:3:4.0
+m_Column:ICP:8:1:641:741:742:1:vSID:vSID:vSID:6:4.0
+m_Column:TSE:8:1:647:741:746:1:vSID:vSID:vSID:0:4.0
+m_Column:DRW:3:1:642:743:743:1:vSID:vSID:vSID:7:0.0
+m_Column:ALV:4:1:640:740:740:1:vSID:vSID:vSID:3:4.0
+m_Column:ASSR:5:1:643:940:62:1:vSID:vSID:TopSky plugin:0:4.0
+m_Column:PLV:4:1:22:59:59:1::TopSky plugin:TopSky plugin:3:0.0
+m_Column:V:4:1:10085:155:0:1:TopSky plugin:TopSky plugin::7:0.0
+m_Column:REQS:4:1:644:744:744:1:vSID:vSID:vSID:7:0.0
+m_Column:INT:3:1:649:750:749:1:vSID:vSID:vSID:0:0.0
+m_Column:C:1:1:648:27:0:1:vSID:::3:4.0
+m_Column:STS:5:1:3:13:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:8:4.0
+m_Column:RMK:10:1:19:29:29:1::::7:0.0
+END
+ARR
+m_Visible:0
+m_X:1265
+m_Y:47
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:5
+m_HeaderOnly:0
+m_Column:ARCID:8:1:9:8:6:1:::TopSky plugin:0:0.0
+m_Column:ATYP:4:1:69:0:0:1:TopSky plugin:::1:0.0
+m_Column:RWY:4:1:47:0:0:1::::1:0.0
+m_Column:PKB:5:1:2:1:1:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:1:0.0
+m_Column:CTL:4:1:646:745:745:1:vSID:vSID:vSID:0:0.0
+m_Column:ASSR:7:1:60:62:62:1::TopSky plugin:TopSky plugin:1:0.0
+END
+CONFLICT
+m_Visible:0
+m_X:0
+m_Y:661
+m_LineNumber:10
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:1
+m_Column:TYPE:10:1:88:0:36:1::::1:0.0
+m_Column:CALLSIGN:10:1:9:0:36:1::::0:0.0
+m_Column:CALLSIGN:10:1:85:0:36:1::::1:0.0
+m_Column:START:8:1:86:0:36:1::::1:0.0
+m_Column:END:8:1:87:0:36:1::::1:0.0
+END
+PILOTING
+m_Visible:0
+m_X:60
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:1
+m_Column:*:4:0:90:41:0:1::::1:0.0
+m_Column:C/S:12:0:9:0:0:1::::0:0.0
+m_Column:SPD:5:0:94:12:0:1::::1:0.0
+m_Column:ALT:10:0:95:11:0:1::::1:0.0
+m_Column:HDG:10:0:96:14:0:1::::1:0.0
+m_Column:WP:6:0:91:42:0:1::::1:0.0
+m_Column:TO:4:0:100:37:0:1::::1:0.0
+m_Column:LAND:7:0:101:38:0:1::::1:0.0
+m_Column:TX:6:0:102:39:0:1::::1:0.0
+m_Column:TXB:6:0:103:40:0:1::::1:0.0
+m_Column:HOLD:5:0:104:43:0:1::::1:0.0
+END
+ORIGPLANE
+m_Visible:0
+m_X:529
+m_Y:263
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:C/S:12:0:9:0:0:1::::0:0.0
+m_Column:C:2:0:105:0:0:1::::1:0.0
+m_Column:APT:5:0:106:0:0:1::::1:0.0
+m_Column:DATA:7:0:107:0:0:1::::1:0.0
+END
+STUP
+m_Visible:1
+m_X:0
+m_Y:45
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:9
+m_HeaderOnly:0
+m_Column:ARCID:8:1:9:8:0:1::::7:0.0
+m_Column:FR:2:1:63:0:0:1::::7:0.0
+m_Column:ATYP:4:1:16:0:0:1::::7:4.0
+m_Column:PKB:5:1:1:0:0:1:Ground Radar plugin:::4:0.0
+m_Column:EOBT:5:1:0:10:6:1:vACDM:vACDM:vACDM:1:0.0
+m_Column:TOBT:5:1:1:6:3:1:vACDM:vACDM:vACDM:1:0.0
+m_Column:TSAT:5:1:2:8:9:1:vACDM:vACDM:vACDM:1:0.0
+m_Column:ASRT:5:1:8:9:8:1:vACDM:vACDM:vACDM:0:0.0
+m_Column:CTOT:5:1:10:0:0:0:vACDM:::1:0.0
+m_Column:TTOT:5:1:3:0:0:1:vACDM:::1:0.0
+m_Column:ECFMP:6:1:11:0:0:0:vACDM:::0:0.0
+m_Column:ADES:5:1:17:7:1001:1:::TopSky plugin:3:4.0
+m_Column:ICP:8:1:641:741:742:1:vSID:vSID:vSID:6:4.0
+m_Column:TSE:8:1:647:741:746:1:vSID:vSID:vSID:0:4.0
+m_Column:DRW:3:1:642:743:743:1:vSID:vSID:vSID:7:0.0
+m_Column:ALV:4:1:640:740:740:1:vSID:vSID:vSID:3:4.0
+m_Column:ASSR:5:1:643:940:62:1:vSID:vSID:TopSky plugin:0:4.0
+m_Column:PLV:4:1:22:30:30:1::::3:0.0
+m_Column:V:4:1:10085:155:0:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column:REQ:3:1:644:744:744:1:vSID:vSID:vSID:7:0.0
+m_Column:C:1:1:648:27:0:1:vSID:::3:4.0
+m_Column:D:1:1:133:134:135:0:VATITA Controller Plugin:VATITA Controller Plugin:VATITA Controller Plugin:3:4.0
+m_Column:INT:3:1:649:750:749:0:vSID:vSID:vSID:0:0.0
+m_Column:STS:5:1:3:13:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:8:0.0
+m_Column:RMK:10:1:19:29:29:1::::7:0.0
+END
+TAXIOUT
+m_Visible:1
+m_X:0
+m_Y:558
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:ARCID:8:1:9:8:0:1::::7:4.0
+m_Column:ATYP:4:1:16:0:0:1::::7:4.0
+m_Column:CTOT:5:1:10:0:0:0:vACDM:::0:0.0
+m_Column:TTOT:5:1:3:0:0:1:vACDM:::0:0.0
+m_Column:ADES:5:1:17:7:0:1::::3:4.0
+m_Column:DRW:4:1:642:743:743:1:vSID:vSID:vSID:7:0.0
+m_Column:ICP:8:1:641:741:742:1:vSID:vSID:vSID:6:4.0
+m_Column:ALV:4:1:640:740:740:1:vSID:vSID:vSID:3:4.0
+m_Column:ASSR:5:1:60:62:62:1::TopSky plugin:TopSky plugin:0:4.0
+m_Column:REQ:3:1:644:744:0:1:vSID:vSID::7:0.0
+m_Column:C:1:1:648:27:0:1:vSID:::3:4.0
+m_Column:INT:3:1:649:750:749:1:vSID:vSID:vSID:0:0.0
+m_Column:STS:5:1:3:13:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:8:4.0
+m_Column:RMK:10:1:19:29:29:1::::7:0.0
+END
+TAKEOFF
+m_Visible:1
+m_X:0
+m_Y:783
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:ARCID:8:1:9:8:0:1::::7:4.0
+m_Column:ATYP:4:1:16:0:0:1::::7:4.0
+m_Column:DRW:4:1:642:743:743:1:vSID:vSID:vSID:7:0.0
+m_Column:ICP:8:1:641:741:742:1:vSID:vSID:vSID:6:4.0
+m_Column:ALV:4:1:640:740:740:1:vSID:vSID:vSID:3:4.0
+m_Column:ASSR:5:1:60:62:62:1::TopSky plugin:TopSky plugin:0:4.0
+m_Column:STS:5:1:3:13:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:8:4.0
+m_Column:RMK:10:1:19:29:29:1::::7:0.0
+END
+ADCS
+m_Visible:1
+m_X:392
+m_Y:783
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:ARCID:8:1:9:8:0:1::::0:0.0
+m_Column:SSR:5:1:2:62:62:1::TopSky plugin:TopSky plugin:7:0.0
+m_Column:ARW:4:1:47:19:19:1::::7:0.0
+m_Column:PKB:5:1:2:1:1:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:1:0.0
+m_Column:ATYP:4:1:16:0:0:1::::7:4.0
+m_Column:ETL:4:1:10033:0:0:1:TopSky plugin:::7:0.0
+m_Column:CTL:4:1:646:745:745:1:vSID:vSID:vSID:0:0.0
+m_Column:STS:5:1:3:13:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:8:4.0
+END
+TAXIIN
+m_Visible:1
+m_X:539
+m_Y:559
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:ARCID:8:1:9:8:0:1::::7:4.0
+m_Column:ARW:4:1:47:0:0:1::::7:0.0
+m_Column:PKB:5:1:2:1:1:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:0:0.0
+m_Column:ATYP:4:1:16:0:0:1::::7:4.0
+m_Column:STS:5:1:3:13:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:8:4.0
+m_Column:RMK:10:1:19:29:29:1::::7:0.0
+END

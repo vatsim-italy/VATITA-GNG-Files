@@ -6,7 +6,14 @@
         "maxInitialClimb": 4000,
         "customRules": {"ipa": false},
         "enableRVSids": false,
-        "appSI": "PN1,TW1,OV1,NW1,NE1",
+        "appSI": "PN1,TW1,OV1,NW1,NE1,NE7",
+        "intersections": {
+            "25": "BB, BA, BC, BD",
+            "16R": "AA, AB, AC",
+            "34L": "AL, AK",
+            "16L": "DA, DB",
+            "34R": "DL, DK"
+        },
         "sids": {
             "initial": 4000,
             "SOSIV": {

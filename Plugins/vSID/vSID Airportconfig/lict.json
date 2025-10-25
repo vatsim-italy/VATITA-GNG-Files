@@ -5,7 +5,10 @@
         "transAlt": 5000,
         "maxInitialClimb": 4000,
         "enableRVSids": false,
-        "appSI": "CTA,SU1",
+        "appSI": "CTA,SU1,NE7",
+        "intersections": {
+            "31L": "G, H"
+        },
         "sids": {
             "initial": 4000,
             "ADUKA": {

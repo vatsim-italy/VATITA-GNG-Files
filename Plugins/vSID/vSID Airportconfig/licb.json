@@ -5,7 +5,10 @@
         "transAlt": 7000,
         "maxInitialClimb": 9000,
         "enableRVSids": false,
-        "appSI": "CCA,SU1",
+        "appSI": "CCA,ES1,SU1,NE7",
+        "intersections": {
+            "23": "A, B"
+        },
         "sids": {
             "initial": 9000,
             "ENEPA": {

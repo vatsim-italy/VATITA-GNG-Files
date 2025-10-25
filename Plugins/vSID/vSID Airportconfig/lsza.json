@@ -5,7 +5,11 @@
         "transAlt": 6000,
         "maxInitialClimb": 9000,
         "enableRVSids": false,
-        "appSI": "ANE,MEN",
+        "appSI": "ANW,ANE,EN2,WS2",
+        "intersections": {
+            "01": "M",
+            "19": "Z, N"
+        },
         "sids": {
             "initial": 9000,
             "CANNE": {

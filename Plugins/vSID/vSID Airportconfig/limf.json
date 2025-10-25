@@ -5,7 +5,11 @@
         "transAlt": 6000,
         "maxInitialClimb": 5000,
         "enableRVSids": false,
-        "appSI": "WN0,MWS,MEN",
+        "appSI": "WN0,WN2,WS2",
+        "intersections": {
+            "36": "G, F, E, D, C",
+            "18": "A, B, C"
+        },
         "sids": {
             "initial": 5000, 
             "ASTIG": {
@@ -57,7 +61,7 @@
                 },
                 "Z": {
                     "1": {
-                        "rwy": "18",
+                        "rwy": "36",
                         "initial": 4000, 
                         "prio": 99
                     }

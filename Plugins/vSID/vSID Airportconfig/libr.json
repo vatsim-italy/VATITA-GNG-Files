@@ -5,7 +5,11 @@
         "transAlt": 5000,
         "maxInitialClimb": 3000,
         "enableRVSids": false,
-        "appSI": "BRA,BBB",
+        "appSI": "CS0,ES3",
+        "intersections": {
+            "13": "AA, AB",
+            "31": "AF, B, AE"
+        },
         "sids": {
             "initial": 3000,
             "GOKEL": {

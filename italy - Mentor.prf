@@ -1,0 +1,86 @@
+Voice	Grammar	\Settings\ESGrammar.txt
+Settings	AselKey	1769472
+Settings	FreqKey	2686976
+Settings	AtisFolder	\LIXX\ATIS\AtisFiles.txt
+Settings	airlines	\LIXX\ICAO\ICAO_Airlines.txt
+Settings	airports	\LIXX\ICAO\ICAO_Airports.txt
+Settings	aircraft	\LIXX\ICAO\ICAO_Aircraft.txt
+Settings	airways	\LIXX\NavData\airway.txt
+Settings	airportcoords	\LIXX\NavData\icao.txt
+Settings	SettingsfileSYMBOLOGY	\LIXX\Settings\SymbologySettings_topsky.txt
+Settings	SettingsfileVOICE	\LIXX\Settings\VoiceChannels.txt
+Settings	SettingsfilePROFILE	\LIXX\Settings\LoginProfiles.txt
+Settings	SettingsfileTAGS	\LIXX\Settings\TAGS.txt
+Settings	SettingsfileSIL	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileSEL	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileDEP	\LIXX\Settings\DepartureList_topsky.txt
+Settings	SettingsfileARR	\LIXX\Settings\ArrivalList.txt
+Settings	SettingsfileFP	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfilePLUGINS	\LIXX\Settings\Plugins.txt
+Settings	SettingsfileSCREEN	\LIXX\Settings\ScreenSettings.txt
+Settings	SettingsfileCONFLICT	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileVCCS	\LIXX\Settings\VCCS.txt
+Settings	SettingsfilePILOTING	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileORIGPLANE	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileSTUP	\LIXX\Settings\StartupList.txt
+Settings	SettingsfileTAXIOUT	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileTAKEOFF	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileADCS	\LIXX\Settings\italyCTR.txt
+Settings	SettingsfileTAXIIN	\LIXX\Settings\italyCTR.txt
+Settings	Settingsfile	\LIXX\Settings\GeneralSettings_mentor.txt
+Settings	alias	\LIXX\Alias\alias.txt
+Plugins	Plugin0	\LIXX\Plugins\Topsky\TopSky.dll
+Plugins	Plugin0Display0	Standard ES radar screen
+Plugins	Plugin0Display1	Ground Radar display
+Plugins	Plugin1	\LIXX\Plugins\GRplugin_italy\GRplugin.dll
+Plugins	Plugin2	\LIXX\Plugins\AMAN\Aman.dll
+Plugins	Plugin3	\LIXX\Plugins\VATITA Controller Plugin\VCP.dll
+Plugins	Plugin3Display0	Standard ES radar screen
+Plugins	Plugin4	\LIXX\Plugins\RDF\RDFPlugin.dll
+Sounds	Sound0	\LIXX\Sounds\handoffreq.wav
+Sounds	Sound1	\LIXX\Sounds\handoffacc.wav
+Sounds	Sound2	\LIXX\Plugins\Topsky\TopSkySoundSTCA.wav
+Sounds	Sound3	\LIXX\Sounds\radiomessage.wav
+Sounds	Sound4	\LIXX\Sounds\chatmessage.wav
+Sounds	Sound5	\LIXX\Sounds\atcmessage.wav
+Sounds	Sound6	\LIXX\Sounds\broadcast.wav
+Sounds	Sound7	\LIXX\Sounds\intercomcall.wav
+Sounds	Sound8	\LIXX\Sounds\supervisor_message.wav
+Sounds	Sound9	\LIXX\Sounds\connected.wav
+Sounds	Sound10	\LIXX\Sounds\disconnected.wav
+Sounds	Sound11	\LIXX\Plugins\Topsky\TopSkySoundCoord.wav
+Sounds	Sound12	\LIXX\Plugins\Topsky\TopSkySoundCoordACP.wav
+Sounds	Sound13	\LIXX\Plugins\Topsky\TopSkySoundCoordRJC.wav
+Sounds	Sound14	\LIXX\Plugins\Topsky\TopSkySoundCoord.wav
+Sounds	Sound15	\LIXX\Sounds\new_atis.wav
+Sounds	Sound16	\LIXX\Sounds\handoff_refused.wav
+Sounds	Sound17	\LIXX\Sounds\pointout.wav
+Voice	PPPT	1900544
+Voice	SPPT	2752512
+TeamSpeakVccs	Ts3G2GPtt	1900544
+TeamSpeakVccs	TsVccsMiniControlX	870
+TeamSpeakVccs	TsVccsMiniControlY	24
+Sounds	Sound18	\LIXX\Sounds\startup.wav
+RecentFiles	Recent1	\LIXX\ASR\TOPSKY\Mentor.asr
+ASRFastKeys	1	\LIXX\ASR\TOPSKY\Mentor.asr
+Plugins	Plugin5	\LIXX\Plugins\DiscordRP\DiscordEuroscope.dll
+Plugins	Plugin6	\LIXX\Plugins\vACDM\vACDM.dll
+RecentFiles	Recent2	\LIXX\ASR\GRP\LIPP\LIPZ GND Radar.asr
+Plugins	Plugin2Display0	Standard ES radar screen
+RecentFiles	Recent3	\LIXX\ASR\GRP\LIE-LIC\LIEO GND Radar.asr
+RecentFiles	Recent4	\LIXX\ASR\GRP\LIE-LIC\LIEA GND Radar.asr
+RecentFiles	Recent5	\LIXX\ASR\GRP\LIPP\LIPE GND Radar.asr
+RecentFiles	Recent6	\LIXX\ASR\GRP\LIMM\LIML GND Radar.asr
+RecentFiles	Recent7	\LIXX\ASR\GRP\LIMM\LIME GND Radar.asr
+RecentFiles	Recent8	\LIXX\ASR\GRP\LIMM\LIMC GND Radar.asr
+RecentFiles	Recent9	\LIXX\ASR\GRP\LIMM\LSZA GND Radar.asr
+RecentFiles	Recent10	\LIXX\ASR\GRP\LIMM\LIPX GND Radar.asr
+RecentFiles	Recent11	\LIXX\ASR\GRP\LIPP\LIPA GND Radar.asr
+Plugins	Plugin7	\LIXX\Plugins\vSID\vSID Plugin\vSID.dll
+Plugins	Plugin1Display0	Ground Radar display
+Plugins	Plugin4Display0	Ground Radar display
+Plugins	Plugin7Display0	Ground Radar display
+Plugins	Plugin4Display1	Standard ES radar screen
+Plugins	Plugin6Display0	Ground Radar display
+Plugins	Plugin6Display1	Standard ES radar screen
+Plugins	Plugin7Display1	Standard ES radar screen
