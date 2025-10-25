@@ -5,7 +5,11 @@
         "transAlt": 6000,
         "maxInitialClimb": 5000,
         "enableRVSids": false,
-        "appSI": "PYA,PSD,PCE,PNE",
+        "appSI": "PYA,SW1,SD2,CE1",
+        "intersections": {
+            "04": "C, D, B, E, A",
+            "20": "A, B"
+        },
         "sids": {
             "initial": 5000,
             "BIDMA": {

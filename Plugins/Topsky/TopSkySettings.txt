@@ -340,6 +340,8 @@ Label_Rev_Highlight_Delta_ETN=3
 Label_Alt_Digits=2
 Label_N_Default=0
 
+Label_WTC_Highlight_WTC=HJ
+
 Label_FCOP_MaxChars=5
 Label_FText_MaxChars_List=10
 Label_ADES_MaxChars=4
@@ -437,6 +439,8 @@ Window_CPDLC_Setting=1,1,350
 [_TWR]
 
 FlightLeg_AutoShow=0
+Window_MsgIn=0,125,800
+Window_SmallQNHTL=0,125,670
 
 [LMMM_]
 
@@ -782,10 +786,12 @@ Window_SmallQNHTL_ICAO=LIRN
 [LIRN_US1]
 
 Setup_LoadView=US1
+Menu_Level_MaxValue_5=80
 
 [LIRN_US0]
 
 Setup_LoadView=US0
+Menu_Level_MaxValue_5=80
 
 [LIPP_CE]
 

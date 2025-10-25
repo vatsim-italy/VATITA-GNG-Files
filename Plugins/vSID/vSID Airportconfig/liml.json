@@ -5,7 +5,10 @@
         "transAlt": 6000,
         "maxInitialClimb": 10000,
         "enableRVSids": false,
-        "appSI": "LAR,ADE,ANE,MEN",
+        "appSI": "LAR,ADE,ANE,ANW,EN2,WS2",
+        "intersections": {
+            "17": "G"
+        },
         "sids": {
             "TOVSA": {
 				"initial": 5000,                
@@ -47,12 +50,6 @@
                     "1": {
                         "rwy": "17",
                         "prio": 99
-                    },
-                    "2": {
-                        "rwy": "35",
-                        "trans": {"GEN": "V"},
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1
                     }
                 }
             },

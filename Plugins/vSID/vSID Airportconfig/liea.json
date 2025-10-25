@@ -5,7 +5,11 @@
         "transAlt": 6000,
         "maxInitialClimb": 6000,
         "enableRVSids": false,
-        "appSI": "EW0,EW1,SU1",
+        "appSI": "EW0,EW1,SU1,NE7",
+        "intersections": {
+            "02": "D, C",
+            "20": "A, B"
+        },
         "sids": {
             "initial": 6000,
             "GINOX": {

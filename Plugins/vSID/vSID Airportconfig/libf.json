@@ -5,7 +5,11 @@
         "transAlt": 7000,
         "maxInitialClimb": 11000,
         "enableRVSids": false,
-        "appSI": "BAA,BBB",
+        "appSI": "BAA,ES3",
+        "intersections": {
+            "04": "D, C",
+            "22": "A, B"
+        },
         "sids": {
             "DOGUS": {
                 "initial": 11000,

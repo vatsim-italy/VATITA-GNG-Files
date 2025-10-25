@@ -5,7 +5,11 @@
         "transAlt": 6000,
         "maxInitialClimb": 5000,
         "enableRVSids": false,
-        "appSI": "EEA,EE3,EW1,SU1",
+        "appSI": "EEA,EE3,EW1,SU1,NE7",
+        "intersections": {
+            "14": "AA, B, C",
+            "32": "F, E"
+        },
         "sids": {
             "initial": 5000,
             "CAR": {
@@ -179,7 +183,7 @@
                 },
                 "X": {
                     "1": {
-                        "rwy": "14",
+                        "rwy": "32",
                         "equip": {"NON-RNAV": true},
                         "prio": 99
                     }

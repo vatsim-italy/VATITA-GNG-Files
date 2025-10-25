@@ -5,7 +5,11 @@
         "transAlt": 7000,
         "maxInitialClimb": 6000,
         "enableRVSids": false,
-        "appSI": "CCA,ES1,SU1",
+        "appSI": "CCA,ES1,SU1,NE7",
+        "intersections": {
+            "08": "A, B",
+            "26": "G, F"
+        },
         "sids": {
             "initial": 6000,
             "ALUDU": {
