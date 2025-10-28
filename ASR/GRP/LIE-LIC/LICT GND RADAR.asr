@@ -42,5 +42,5 @@ TAGFAMILY:Matias (built in)
 WINDOWAREA:37.904107:12.464729:37.924302:12.515329
 PLUGIN:Ground Radar plugin:AirportElevation:65
 PLUGIN:Ground Radar plugin:AirportRadius:3
-PLUGIN:Ground Radar plugin:GroundMode:LICJ
+PLUGIN:Ground Radar plugin:GroundMode:LICT
 PLUGIN:TopSky plugin:NoDraw:1
