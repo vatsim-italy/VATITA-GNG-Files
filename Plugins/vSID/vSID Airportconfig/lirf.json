@@ -250,8 +250,13 @@
                 "A": {
 					"1":{
 						"rwy": "25",
+						"trans": {"ESINO": "H", "KONUT": "A"},
                         "actArrRwy": {"any": "16L,16R"},
 						"prio": 1
+					},
+					"2":{
+						"rwy": "25",
+						"prio": 99
 					}
                 },
                 "D": {
@@ -312,6 +317,7 @@
 					"1":{
 						"rwy": "25",
                         "trans": {"OKUNO": "R", "PEPIX": "A", "RIFFI": "G", "ROTUN": "A", "SIPRO": "R", "TIBER": "R"},
+                        "actArrRwy": {"any": "16L,16R"},
 						"prio": 1
 					}
                 },
