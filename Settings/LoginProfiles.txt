@@ -3,14 +3,6 @@ PROFILE:OBS:50:0
 ATIS2:TEST. No Active ATC.
 ATIS3:
 ATIS4:
-PROFILE:LIXX_GND:20:3
-ATIS2:$radioname
-ATIS3:Charts at vats.im/it/charts
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIXX_TWR:50:4
-ATIS2:$radioname
-ATIS3:Charts at vats.im/it/charts
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_APP:150:5
 ATIS2:$radioname
 ATIS3:Charts at vats.im/it/charts
@@ -111,50 +103,6 @@ PROFILE:LIPP_SW1_CTR:250:6
 ATIS2:Padova Radar
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:My active sector map.vatsim.net
-PROFILE:LIMC_TWR:50:4
-ATIS2:Malpensa Tower
-ATIS3:PDC/DCL [LIMC] - Airport briefing vats.im/it/LIMCbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMC_W_GND:20:3
-ATIS2:Malpensa Ground
-ATIS3:PDC/DCL [LIMC] - Airport briefing vats.im/it/LIMCbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMC_N_GND:20:3
-ATIS2:Malpensa Ground
-ATIS3:PDC/DCL [LIMC] - Airport briefing vats.im/it/LIMCbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMC_DEL:20:3
-ATIS2:Malpensa Planning
-ATIS3:PDC/DCL [LIMC] - Airport briefing vats.im/it/LIMCbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMC_O_DEL:20:3
-ATIS2:Malpensa Operations
-ATIS3:PDC/DCL [LIMC] - Airport briefing vats.im/it/LIMCbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIMC_E_TWR:50:4
-ATIS2:Malpensa Tower
-ATIS3:PDC/DCL [LIMC] - Airport briefing vats.im/it/LIMCbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIRF_TWR:50:4
-ATIS2:Fiume Tower
-ATIS3:PDC/DCL [LIRF] - Airport briefing vats.im/it/LIRFbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIRF_E_TWR:50:4
-ATIS2:Fiume Tower
-ATIS3:PDC/DCL [LIRF] - Airport briefing vats.im/it/LIRFbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIRF_W_GND:20:3
-ATIS2:Fiume Ground
-ATIS3:PDC/DCL [LIRF] - Airport briefing vats.im/it/LIRFbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIRF_E_GND:20:3
-ATIS2:Fiume Ground
-ATIS3:PDC/DCL [LIRF] - Airport briefing vats.im/it/LIRFbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIRF_DEL:20:3
-ATIS2:Fiume Delivery
-ATIS3:PDC/DCL [LIRF] - Airport briefing vats.im/it/LIRFbrief
-ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRR_EW1_CTR:300:6
 ATIS2:Roma Radar - CPDLC REW1 
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
@@ -287,7 +235,7 @@ PROFILE:LIBB_ES3_CTR:150:6
 ATIS2:Brindisi Radar - CPDLC [LIBB]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:My active sector map.vatsim.net
-PROFILE:LIBR_CS0_CTR:150:5
+PROFILE:LIBR_CS0_APP:150:5
 ATIS2:Brindisi Radar
 ATIS3:Controlling LIBR and LIBD
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
