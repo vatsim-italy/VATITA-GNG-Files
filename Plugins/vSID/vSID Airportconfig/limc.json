@@ -98,11 +98,6 @@
 						"trans": {"LAGEN": "U", "NEDED": "U", "TOP": "U"},						
 						"rwy": "17L,17R",
 						"prio": 1
-					},
-					"2":{
-						"rwy": "17L,17R",
-						"trans": {"OSKOR": "M", "VAKON": "M"},
-						"prio": 99
 					}
                 }
 			},
@@ -236,7 +231,7 @@
 					},
 					"2":{
 						"rwy": "17L,17R",
-						"trans": {"AOSTA": "M", "PEPAG": "V"},
+						"trans": {"AOSTA": "M"},
 						"prio": 99
 					}
                 }
@@ -256,15 +251,6 @@
 						"rwy": "35L",
 						"trans": {"AOSTA": "L"},
 						"prio": 4
-					}
-                },
-				"N": {
-					"initial": 5000,
-					"1":{
-						"rwy": "35L",
-						"trans": {"AOSTA": "J"},
-						"wtc": "LM",
-						"prio": 1
 					}
                 },
 				"X": {
