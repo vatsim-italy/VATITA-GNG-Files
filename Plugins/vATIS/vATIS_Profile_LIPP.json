@@ -1,8 +1,8 @@
 {
-  "name": "LIPP v1.1.2",
-  "id": "d1c2cee7-5bfe-49d3-88a9-02ef8ab1ce80",
+  "name": "LIPP v1.1.3",
+  "id": "04bf6eb8-d696-4e93-8ad3-b8a8128631f8",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIPP.json",
-  "updateSerial": 2025072401,
+  "updateSerial": 2025110201,
   "stations": [
     {
       "id": "fa2257bb-38a3-413b-b95e-3c39ad0f0acf",
@@ -4337,18 +4337,13 @@
       ],
       "notamDefinitions": [
         {
-          "text": "AIRPORT INFORMATION. RWY 04L USED AS TWY T.",
-          "ordinal": 1,
-          "enabled": true
-        },
-        {
           "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 2,
+          "ordinal": 1,
           "enabled": false
         },
         {
           "text": "AIRPORT INFORMATION",
-          "ordinal": 3,
+          "ordinal": 2,
           "enabled": false
         }
       ]
