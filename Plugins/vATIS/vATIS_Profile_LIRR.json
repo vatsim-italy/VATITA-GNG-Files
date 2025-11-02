@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.5.0",
-  "id": "b17cd47a-7a5f-46c9-95c0-1205ad7de6db",
+  "name": "LIRR v1.5.1",
+  "id": "4b66d87f-3927-475b-1a8c-8b73ada7af60",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2025110201,
+  "updateSerial": 2025100202,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -10700,6 +10700,7 @@
           "id": "dbef9022-e0cb-497c-908a-e89506d10515",
           "ordinal": 0,
           "name": "05",
+          "airportConditions": "",
           "template": "@LIEO @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 05. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
@@ -21810,7 +21811,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": "WIND: {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
@@ -21859,7 +21860,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -23695,7 +23696,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}HPA QFE {qfe|6}HPA",
+            "text": "QNH {altimeter}HPA",
             "voice": "QNH. {altimeter}."
           }
         },
@@ -23943,7 +23944,7 @@
         {
           "text": "AERODROME COLOUR STATE. @BLU.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AERODROME COLOUR STATE. @WHT.",
@@ -26128,7 +26129,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "AT {time}"
+            "voice": "TIME {time}"
           }
         },
         "surfaceWind": {
@@ -26190,7 +26191,7 @@
           "metersCutoff": 5000,
           "template": {
             "text": "VIS {visibility}M",
-            "voice": "VISIBILITY: {visibility}"
+            "voice": "VISIBILITY {visibility}"
           }
         },
         "runwayVisualRange": {
@@ -28011,7 +28012,7 @@
           "speakLeadingZero": true,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE: {temp} DEGREES."
+            "voice": "TEMPERATURE: {temp}."
           }
         },
         "dewpoint": {
@@ -28019,14 +28020,14 @@
           "speakLeadingZero": true,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT: {dewpoint} DEGREES."
+            "voice": "DEWPOINT: {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}HPA QFE {qfe|11}HPA",
-            "voice": "QNH. {altimeter} HECTOPASCALS. QF ECHO. {qfe|11} HECTOPASCALS."
+            "text": "QNH {altimeter}HPA",
+            "voice": "QNH. {altimeter}."
           }
         },
         "trend": {
@@ -28050,27 +28051,27 @@
             {
               "low": 1013,
               "high": 1050,
-              "altitude": 60
+              "altitude": 70
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 65
+              "altitude": 75
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 70
+              "altitude": 80
             },
             {
               "low": 800,
               "high": 976,
-              "altitude": 75
+              "altitude": 85
             }
           ],
           "template": {
             "text": "TL {trl}",
-            "voice": "TRANSITION LEVEL: {trl}"
+            "voice": "TRANSITION LEVEL {trl}"
           }
         },
         "notams": {
@@ -28083,7 +28084,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "YOU HAVE RECEIVED ATIS INFORMATION {letter|word}"
+            "voice": "ACKNOWLEDGE INFORMATION {letter|word}. ON FIRST CONTACT WITH ATC."
           }
         }
       },
@@ -28101,7 +28102,7 @@
         {
           "id": "b65236ec-c4b6-488b-bca2-934463e44686",
           "name": "13R",
-          "template": "@LICT @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^13R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LICT @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^13R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -28115,14 +28116,15 @@
         {
           "id": "6ccf83c5-339b-454f-afc2-013d86b2da40",
           "name": "31L",
-          "template": "@LICT @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^31L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LICT @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^31L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$wy()&metar=$metar($atisairport)",
             "arrival": "24",
             "departure": "24",
-            "approaches": "ILS Z"
+            "approaches": "ILS Z",
+            "remarks": ""
           }
         }
       ],
@@ -28145,22 +28147,12 @@
         {
           "variableName": "LICT",
           "text": "LICT",
-          "voice": "THIS IS TRAPANI"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ATIS ARRIVAL"
-        },
-        {
-          "variableName": "DEP",
-          "text": "DEP",
-          "voice": "DEPARTURE"
+          "voice": "TRAPANI AIRPORT"
         },
         {
           "variableName": "ATIS",
           "text": "ATIS",
-          "voice": "INFORMATION"
+          "voice": "INFO"
         },
         {
           "variableName": "LGT",
@@ -28211,6 +28203,31 @@
           "variableName": "RCR",
           "text": "RCR",
           "voice": "RUNWAY CONDITIONS CODE"
+        },
+        {
+          "variableName": "BLU",
+          "text": "BLU",
+          "voice": "BLUE"
+        },
+        {
+          "variableName": "GRN",
+          "text": "GRN",
+          "voice": "GREEN"
+        },
+        {
+          "variableName": "WHT",
+          "text": "WHT",
+          "voice": "WHITE"
+        },
+        {
+          "variableName": "YLO",
+          "text": "YLO",
+          "voice": "YELLOW"
+        },
+        {
+          "variableName": "AMB",
+          "text": "AMB",
+          "voice": "AMBER"
         }
       ],
       "airportConditionDefinitions": [
@@ -28227,13 +28244,43 @@
       ],
       "notamDefinitions": [
         {
-          "text": "OPERATIONAL INFORMATION.",
+          "text": "AERODROME COLOUR STATE. @BLU.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "AIRPORT INFORMATION.",
+          "text": "AERODROME COLOUR STATE. @WHT.",
           "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "AERODROME COLOUR STATE. @GRN.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "AERODROME COLOUR STATE. @YLO.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "AERODROME COLOUR STATE. @AMB.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "AERODROME COLOUR STATE. RED.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "OPERATIONAL INFORMATION.",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "AIRPORT INFORMATION.",
+          "ordinal": 7,
           "enabled": false
         }
       ]
@@ -30506,5 +30553,4 @@
     }
   ],
   "version": 4
-
 }
