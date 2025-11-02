@@ -10,74 +10,7 @@
             "05": "F, G, H, M"
         },
         "sids": {
-            "initial": 6000,
-            "BALUK": {
-                "F": {
-                    "1":{
-                    "rwy": "05,23",
-                    "prio": 99
-                    }
-                },
-                "G": {
-                    "1":{
-                        "rwy": "05",
-                        "prio": 99
-                    }
-                },
-                "M": {
-                    "1":{
-                        "rwy": "05,23",
-                        "prio": 1
-                    }
-                },
-                "H": {
-                    "1":{
-                    "rwy": "05,23",
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                    }
-                },
-                "C": {
-                    "1":{
-                    "rwy": "05",
-                    "equip": {"NON-RNAV": true},
-                    "prio": 99
-                    }
-                }
-            },
-            "LOMED": {
-                "F": {
-                    "1":{
-                    "rwy": "05,23",
-                    "prio": 1
-                    }
-                },
-                "H": {
-                    "1":{
-                    "rwy": "05,23",
-                    "equip": {"NON-RNAV": true},
-                    "prio": 1
-                    }
-                }
-            },
-            "PRT": {
-                "F": {
-                    "1":{
-                        "rwy": "05,23",
-                        "initial": 4000,                        
-                        "prio": 1
-                    }
-                },
-                "H": {
-                    "1":{
-                        "rwy": "05,23",
-                        "initial": 4000,
-                        "equip": {"NON-RNAV": true},                       
-                        "prio": 1
-                    }
-                }
-            },
-            "BIKTU": {
+            "BIBNO": {
                 "M": {
                     "1":{
                         "rwy": "05,23",                      
@@ -119,6 +52,21 @@
                         "rwy": "05,23",
                         "equip": {"NON-RNAV": true},                       
                         "prio": 1
+                    }
+                }
+            },
+            "LOMED": {
+                "F": {
+                    "1":{
+                    "rwy": "05,23",
+                    "prio": 1
+                    }
+                },
+                "H": {
+                    "1":{
+                    "rwy": "05,23",
+                    "equip": {"NON-RNAV": true},
+                    "prio": 1
                     }
                 }
             },
