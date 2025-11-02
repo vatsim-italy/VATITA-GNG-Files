@@ -1,8 +1,8 @@
 {
-  "name": "LIMM v1.5.4",
-  "id": "45d243f4-bf30-4bf5-93a3-4b89416e9cba",
+  "name": "LIMM v1.5.5",
+  "id": "45d243f4-bf30-4bf5-93a3-4b89416e1cba",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 2025100201,
+  "updateSerial": 2025110201,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -2043,7 +2043,7 @@
           "id": "6d94bccd-95a7-4cb1-b8e4-2979c26499be",
           "ordinal": 4,
           "name": "35L+35R",
-          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS ZULU. RWY IN USE ^35L AND ^35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS ZULU. RWY IN USE ^35L AND ^35R. [ARPT_COND] [TL]. OPERATIONAL INFORMATION. DEPENDENT @PARL ILS @APCH @INPR. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2167,6 +2167,21 @@
           "variableName": "LGT",
           "text": "LGT",
           "voice": "LIGHT"
+        },
+        {
+          "variableName": "PARL",
+          "text": "PARL",
+          "voice": "PARALLEL"
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
+        },
+        {
+          "variableName": "APCH",
+          "text": "APCH",
+          "voice": "APPROACHES"
         }
       ],
       "airportConditionDefinitions": [
