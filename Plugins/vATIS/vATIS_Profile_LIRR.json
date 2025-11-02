@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.5.1",
-  "id": "4b66d87f-3927-475b-1a8c-8b73ada7af60",
-  "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2025100202,
+  "name": "LIRR v1.5.2",
+  "id": "efe489c0-1f9a-4a3b-b92c-2fa115361346",
+  "updateUrl": "",
+  "updateSerial": 2025110203,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -6435,6 +6435,7 @@
           "id": "babeb1cc-cf47-40f7-8e4a-9a3b864a8ef0",
           "ordinal": 0,
           "name": "06",
+          "notams": "",
           "template": "@LIRN @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 06. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
@@ -6449,6 +6450,8 @@
           "id": "ff0db5bd-fda1-4b8f-b8a2-f7fb73b28df6",
           "ordinal": 2,
           "name": "24",
+          "airportConditions": "",
+          "notams": "AIRPORT INFORMATION. ADVISE IF ABLE TO DEPART FROM INTERSECTION ECHO.",
           "template": "@LIRN @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 24. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
@@ -6563,12 +6566,7 @@
         {
           "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
-          "enabled": true
-        },
-        {
-          "text": "ADVISE IF ABLE TO DEPART FROM INTERSECTION ECHO.",
-          "ordinal": 3,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
