@@ -5,7 +5,7 @@
         "transAlt": 6000,
         "maxInitialClimb": 6000,
         "enableRVSids": false,
-        "appSI": "RQA,NW1,NN1,NE1,NE7",
+        "appSI": "NN0,NN1,NW1,NE1,NE7",
         "intersections": {
             "05": "F, G, H, M"
         },
