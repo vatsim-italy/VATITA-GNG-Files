@@ -30,7 +30,7 @@
                 "C": {
                     "1": {
                         "rwy": "22R,22L",
-                        "equip": {"NON-RNAV": true},
+                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
                 }
