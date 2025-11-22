@@ -88,9 +88,9 @@ Color_CARD_Mark_All=212,128,44
 Color_CARD_Mark_Own=212,128,44
 Color_CARD_Min_Sep=95,170,140
 Color_CARD_Time_Vector=170,231,197
-// 110,153,110
-Color_Concerned=60,129,60
-Color_Coordination=60,129,60
+// Color_Concerned=192,192,192  //Notified >15mins
+Color_Concerned=60,129,60 //Notified >15mins
+Color_Coordination=60,129,60  //Coordinated <15mins
 Color_CPDLC_Controller_Late=212,128,44
 Color_CPDLC_DM_Request=21,96,130
 Color_CPDLC_Failed=212,128,44
@@ -130,7 +130,8 @@ Color_Proposition_In=255,80,149
 Color_Proposition_Out=255,80,149
 Color_Proposition_Accepted=110,153,110
 Color_QDM=255,242,0
-Color_Redundant=192,192,192
+Color_Redundant=192,192,192 //Transfered to next controller still in airspace
+//Color_Redundant=0,255,0  //Transfered to next controller still in airspace
 Color_Runway=116,200,71
 Color_Rwy_App_Line_Inuse=134,134,135
 Color_Rwy_App_Line_Not_Inuse=134,134,135
@@ -165,7 +166,7 @@ Color_TSA_Active=93,138,195
 Color_TSA_Border_Highlight=255,254,255
 Color_TSA_Filter=0,0,255
 Color_TSA_Preactive=132,142,139
-Color_Unconcerned=192,192,192
+Color_Unconcerned=192,192,192  //Doesn't pass through sector
 Color_Unknown=252,198,3
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
@@ -627,7 +628,7 @@ Setup_LoadView=Milano ACC
 
 [LIMM_WS5]
 
-Window_SmallQNHTL_ICAO=0
+Window_SmallQNHTL=0
 Setup_LoadView=Milano ACC
 
 [LIMM_WS]
