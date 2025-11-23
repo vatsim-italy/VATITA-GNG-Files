@@ -2,7 +2,7 @@
   "name": "LMMM v1.0.0",
   "id": "4b66d87f-3927-475b-9a8c-8b73ada7af71",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LMMM.json",
-  "updateSerial": 2025100201,
+  "updateSerial": 2025112301,
   "stations": [
     {
       "id": "57bb6fa3-1464-4a39-99d5-7febad5f93da",
