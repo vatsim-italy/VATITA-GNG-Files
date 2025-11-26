@@ -29,7 +29,7 @@
 						"rwy": "25",
 						"climbvia": true,
                         "customRule": "ipa",
-                        "actArrRwy": {"any": "16L,16R"},
+                        "actArrRwy": {"allow": {"any": "16L,16R"}},
 						"prio": 1
 					}
                 },
@@ -50,7 +50,7 @@
 						"rwy": "16R",
 						"climbvia": true,
                         "customRule": "ipa",
-                        "actArrRwy": {"any": "16L,16R"},
+                        "actArrRwy": {"allow": {"any": "16L,16R"}},
 						"prio": 1
 					}
                 },
@@ -104,7 +104,7 @@
 						"rwy": "25",
 						"climbvia": true,
                         "customRule": "ipa",
-                        "actArrRwy": {"any": "16L,16R"},
+                        "actArrRwy": {"allow": {"any": "16L,16R"}},
 						"prio": 1
 					}
                 },
@@ -126,7 +126,7 @@
 						"rwy": "16R",
 						"climbvia": true,
                         "customRule": "ipa",
-                        "actArrRwy": {"any": "16L,16R"},
+                        "actArrRwy": {"allow": {"any": "16L,16R"}},
 						"prio": 1
 					}
                 },
@@ -154,7 +154,7 @@
 						"rwy": "34L",
 						"climbvia": true,
 						"customRule": "ipa",
-                        "actArrRwy": {"any": "34L,34R"},
+                        "actArrRwy": {"allow": {"any": "34L,34R"}},
                         "prio": 1
 					}
                 },
@@ -178,7 +178,7 @@
 						"rwy": "25",
 						"climbvia": true,
                         "customRule": "ipa",
-                        "actArrRwy": {"any": "16L,16R"},
+                        "actArrRwy": {"allow": {"any": "16L,16R"}},
 						"prio": 1
 					}
                 },
@@ -219,7 +219,7 @@
 						"rwy": "34L",
 						"climbvia": true,
 						"customRule": "ipa",
-                        "actArrRwy": {"any": "34L,34R"},
+                        "actArrRwy": {"allow": {"any": "34L,34R"}},
                         "prio": 1
 					}
                 },
@@ -234,7 +234,7 @@
 						"rwy": "25",
 						"climbvia": true,
 						"customRule": "ipa",
-                        "actArrRwy": {"any": "34L,34R"},
+                        "actArrRwy": {"allow": {"any": "34L,34R"}},
                         "prio": 1
 					}
                 },
@@ -251,7 +251,7 @@
 					"1":{
 						"rwy": "25",
 						"trans": {"ESINO": "H", "KONUT": "A"},
-                        "actArrRwy": {"any": "16L,16R"},
+                        "actArrRwy": {"allow": {"any": "16L,16R"}},
 						"prio": 1
 					},
 					"2":{
@@ -262,7 +262,7 @@
                 "D": {
 					"1":{
 						"rwy": "25",
-                        "actArrRwy": {"any": "34L,34R"},
+                        "actArrRwy": {"allow": {"any": "34L,34R"}},
 						"prio": 2
 					}
                 },
@@ -285,7 +285,7 @@
 						"rwy": "34L",
 						"climbvia": true,
 						"customRule": "ipa",
-                        "actArrRwy": {"any": "34L,34R"},
+                        "actArrRwy": {"allow": {"any": "34L,34R"}},
                         "prio": 1
 					}
                 },
@@ -300,7 +300,7 @@
 						"rwy": "25",
 						"climbvia": true,
 						"customRule": "ipa",
-                        "actArrRwy": {"any": "34L,34R"},
+                        "actArrRwy": {"allow": {"any": "34L,34R"}},
                         "prio": 1
 					}
                 },
@@ -317,7 +317,7 @@
 					"1":{
 						"rwy": "25",
                         "trans": {"OKUNO": "R", "PEPIX": "A", "RIFFI": "G", "ROTUN": "A", "SIPRO": "R", "TIBER": "R"},
-                        "actArrRwy": {"any": "16L,16R"},
+                        "actArrRwy": {"deny": {"any": "34L,34R"}},
 						"prio": 1
 					}
                 },
