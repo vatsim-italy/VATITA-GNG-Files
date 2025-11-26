@@ -366,6 +366,7 @@ Shortcut_Map_Target=4,SMR\RELEASE POINTS
 Airport_Runway_End=23:N043.48.52.907:E011.12.44.323
 
 Shortcut_Map_Target=3,LIRQ SMR\LIRQ Stand Labels
+Shortcut_Map_Target=4,LIRQ SMR\RELEASE POINTS
 
 [LIBD]
 
