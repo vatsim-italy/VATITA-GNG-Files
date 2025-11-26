@@ -103,10 +103,10 @@ VATITA Controller Plugin:ACList/Mode S/m_Y:458
 VATITA Controller Plugin:ACList/Mode S/m_LineNumber:0
 VATITA Controller Plugin:ACList/Mode S/m_Resizable:1
 VATITA Controller Plugin:ACList/Mode S/m_OrderingColumn:-1
-VATITA Controller Plugin:ACList/Mode S/m_Column_0:ARCID:9:1:10021:958:958:1:TopSky plugin:VATITA Controller Plugin:VATITA Controller Plugin
-VATITA Controller Plugin:ACList/Mode S/m_Column_1:DIAS:6:1:901:202:951:1:VATITA Controller Plugin:VATITA Controller Plugin:VATITA Controller Plugin
-VATITA Controller Plugin:ACList/Mode S/m_Column_2:DMACH:6:1:905:954:955:1:VATITA Controller Plugin:VATITA Controller Plugin:VATITA Controller Plugin
-VATITA Controller Plugin:ACList/Mode S/m_Column_3:DHDG:4:1:125:0:0:1:VATITA Controller Plugin::
+VATITA Controller Plugin:ACList/Mode S/m_Column_0:ARCID:9:1:10021:411:411:1:TopSky plugin:VATITA Controller Plugin:VATITA Controller Plugin
+VATITA Controller Plugin:ACList/Mode S/m_Column_1:DIAS:6:1:520:409:407:1:VATITA Controller Plugin:VATITA Controller Plugin:VATITA Controller Plugin
+VATITA Controller Plugin:ACList/Mode S/m_Column_2:DMACH:6:1:524:410:408:1:VATITA Controller Plugin:VATITA Controller Plugin:VATITA Controller Plugin
+VATITA Controller Plugin:ACList/Mode S/m_Column_3:DHDG:4:1:511:0:0:1:VATITA Controller Plugin::
 TopSky plugin:ACList/ETWR List/m_Column_2:ETD:5:1:10018:0:0:1:TopSky plugin::
 TopSky plugin:ACList/ETWR List/m_Column_3:TYPE:5:0:69:0:0:1:TopSky plugin::
 TopSky plugin:ACList/ETWR List/m_Column_4:DRW:4:0:642:743:0:1:vSID:vSID:
