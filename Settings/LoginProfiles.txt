@@ -187,6 +187,9 @@ PROFILE:LICA_ES0_APP:150:5
 ATIS2:Roma Radar
 ATIS3:Controlling LICA + LIBC
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIRQ_NN0_APP:150:5
+ATIS2:Roma Radar
+ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ANE_APP:150:5
 ATIS2:Milano Radar 
 ATIS3:Controlling airports within Milano TMA
