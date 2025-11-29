@@ -8,6 +8,7 @@
         "appSI": "RVA,NN1,NW1,NE1,NE7",
         "sids": {
             "GILIO": {
+                "initial": 6000,
                 "N": {
                     "1":{
                         "rwy": "04C",                      
