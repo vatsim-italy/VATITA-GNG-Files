@@ -1,8 +1,8 @@
 {
   "name": "LIMM v1.5.6",
-  "id": "1660e020-3162-4ea3-a8d1-7792a9931ca0",
+  "id": "1660e020-3162-4ea3-a8d1-7892a9931ca0",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 20251201901,
+  "updateSerial": 2025122001,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
