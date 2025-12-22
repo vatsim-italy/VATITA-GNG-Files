@@ -12,6 +12,7 @@ m_Column:FR:2:1:63:0:0:1::::7:0.0
 m_Column:ATYP:4:1:16:0:0:1::::7:4.0
 m_Column:PKB:5:1:1:0:0:0:Ground Radar plugin:::4:0.0
 m_Column:TTOT:4:1:3:0:0:0:CDM Plugin:::0:0.0
+m_Column:CTOT:4:1:10:0:0:0:CDM Plugin:::0:0.0
 m_Column:ADEP:4:1:61:7:140:1:::TopSky plugin:8:4.0
 m_Column:ADES:5:1:17:7:140:1:::TopSky plugin:3:4.0
 m_Column:ICP:8:1:641:741:742:1:vSID:vSID:vSID:6:4.0

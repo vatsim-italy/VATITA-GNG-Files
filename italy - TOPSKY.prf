@@ -36,7 +36,7 @@ Plugins	Plugin1	\LIXX\Plugins\GRplugin_italy\GRplugin.dll
 Plugins	Plugin1Display0	Ground Radar display
 Plugins	Plugin1Display1	Standard ES radar screen
 Plugins	Plugin2	\LIXX\Plugins\DiscordRP\DiscordEuroscope.dll
-Plugins	Plugin3	\LIXX\Plugins\vACDM\vACDM.dll
+Plugins	Plugin3	\LIXX\Plugins\ACDM\CDM.dll
 Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin4	\LIXX\Plugins\vSID\vSID Plugin\vSID.dll

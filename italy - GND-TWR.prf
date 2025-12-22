@@ -59,7 +59,7 @@ TeamSpeakVccs	TsVccsMiniControlY	26
 Sounds	Sound18	\LIXX\Sounds\startup.wav
 RecentFiles	Recent1	\LIXX\ASR\TOPSKY\TWR.asr
 ASRFastKeys	1	\LIXX\ASR\TOPSKY\TWR.asr
-Plugins	Plugin5	\LIXX\Plugins\vACDM\vACDM.dll
+Plugins	Plugin5	\LIXX\Plugins\ACDM\CDM.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin1Display0	Ground Radar display
 Plugins	Plugin4Display0	Ground Radar display
