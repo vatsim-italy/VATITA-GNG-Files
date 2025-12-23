@@ -29,10 +29,10 @@ Settings	SettingsfileADCS	\LIXX\Settings\italyCTR.txt
 Settings	SettingsfileTAXIIN	\LIXX\Settings\italyCTR.txt
 Settings	Settingsfile	\LIXX\Settings\GeneralSettings_topsky.txt
 Settings	alias	\LIXX\Alias\alias.txt
-Plugins	Plugin0	\LIXX\Plugins\Topsky\TopSky.dll
+Plugins	Plugin0	\LIXX\Plugins\VATITA Controller Plugin\VCP.dll
 Plugins	Plugin0Display0	Standard ES radar screen
 Plugins	Plugin0Display1	Ground Radar display
-Plugins	Plugin1	\LIXX\Plugins\GRplugin_italy\GRplugin.dll
+Plugins	Plugin1	\LIXX\Plugins\Topsky\TopSky.dll
 Plugins	Plugin1Display0	Ground Radar display
 Plugins	Plugin1Display1	Standard ES radar screen
 Plugins	Plugin2	\LIXX\Plugins\DiscordRP\DiscordEuroscope.dll
@@ -42,7 +42,7 @@ Plugins	Plugin3Display1	Standard ES radar screen
 Plugins	Plugin4	\LIXX\Plugins\vSID\vSID Plugin\vSID.dll
 Plugins	Plugin4Display0	Ground Radar display
 Plugins	Plugin4Display1	Standard ES radar screen
-Plugins	Plugin5	\LIXX\Plugins\VATITA Controller Plugin\VCP.dll
+Plugins	Plugin5	\LIXX\Plugins\GRplugin_italy\GRplugin.dll
 Plugins	Plugin5Display0	Ground Radar display
 Plugins	Plugin5Display1	Standard ES radar screen
 Plugins	Plugin6	\LIXX\Plugins\AMAN\Aman.dll
@@ -87,3 +87,4 @@ TeamSpeakVccs	TsVccsMiniControlY	24
 Sounds	Sound18	\LIXX\Sounds\startup.wav
 RecentFiles	Recent1	\LIXX\ASR\TOPSKY\TOPSKY.asr
 LastSession	atis_freq4	118000
+
