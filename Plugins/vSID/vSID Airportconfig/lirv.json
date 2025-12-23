@@ -1,0 +1,27 @@
+{
+    "LIRV": {
+        "elevation": 992,
+        "runways": "04L,04C,04R,22L,22C,22R",
+        "transAlt": 6000,
+        "maxInitialClimb": 6000,
+        "enableRVSids": false,
+        "appSI": "RVA,AET,TW1,PN1,NN1,NE1,NE7",
+        "sids": {
+            "GILIO": {
+                "initial": 5000,
+                "N": {
+                    "1":{
+                        "rwy": "04C",                      
+                        "prio": 1
+                    }
+                },
+                "S": {
+                    "1":{
+                        "rwy": "22C",                     
+                        "prio": 1
+                    }
+                }
+            }
+        }
+    }
+}
