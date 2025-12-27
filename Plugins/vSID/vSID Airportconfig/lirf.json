@@ -17,7 +17,7 @@
         "sids": {
             "initial": 4000,
             "SOSIV": {
-                "trans": {"SOVAN": "A"},
+                "trans": {"SOVAN": "E"},
                 "A": {
 					"1":{
 						"rwy": "25",
