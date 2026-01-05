@@ -159,7 +159,7 @@ PROFILE:LIRR_AET_APP:150:5
 ATIS2:Roma Arrivals
 ATIS3:Controlling airports within Rome CTR
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIRR_PN1_APP:150:5
+PROFILE:LIRR_PN1_DEP:150:5
 ATIS2:Roma Departures
 ATIS3:Controlling airports within Rome CTR
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
