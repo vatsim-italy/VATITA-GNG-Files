@@ -250,7 +250,7 @@
                 "A": {
 					"1":{
 						"rwy": "25",
-						"trans": {"ESINO": "H", "KONUT": "A"},
+						"trans": {"ESINO": "H", "KONUT": "A", "VELAD": "A"},
                         "actArrRwy": {"allow": {"any": "16L,16R"}},
 						"prio": 1
 					},
