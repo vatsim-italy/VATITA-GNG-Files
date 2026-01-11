@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.5.3",
-  "id": "31e1fd0f-5165-4ea3-a731-fe5d9361bc6e",
+  "name": "LIRR v1.5.4",
+  "id": "25c7c1e9-7980-406e-8e8f-e09d0f452381",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2025122001,
+  "updateSerial": 2025011101,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -2027,6 +2027,8 @@
           "id": "6a379d2b-9465-46d3-a2a6-34748c216043",
           "ordinal": 3,
           "name": "34L+34R DEPENDENT",
+          "airportConditions": "",
+          "notams": "",
           "template": "@LIRF @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS. RWY IN USE ^34R AND ^34L. [ARPT_COND] [TL]. OPERATIONAL INFORMATION. DEPENDENT @PARL ILS @APCH @INPR. THE RWY 34R OR ^34L SHALL BE ASSIGNED BY ROMA RADAR. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
@@ -2202,63 +2204,48 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR RWY 25. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "@RCR RWY 25. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR RWY 25. 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "@RCR RWY ^16L. 5. 5. 5. CONTAMINANT WET .WET. WET. @RCR RWY ^16R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^16L. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.\r\n@RCR RWY ^16R. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "@RCR RWY ^34L. 5. 5. 5. CONTAMINANT WET .WET. WET. @RCR RWY ^34R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^16L. 5. 5. 5. CONTAMINANT WET .WET. WET. @RCR RWY ^16R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "NON USARE RWY CC CON LVP",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^34L. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.\r\n@RCR RWY ^34R. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "RVR RWY 25. @TDZ - @M. @MID - @M. @END - @M.",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^34L. 5. 5. 5. CONTAMINANT WET .WET. WET. @RCR RWY ^34R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "RVR RWY 16L. @TDZ - @M. @MID - @M. @END - @M.",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "NON USARE RWY CC CON LVP",
+          "text": "RVR RWY 16R. @TDZ - @M. @MID - @M. @END - @M.",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "RVR RWY 25. @TDZ - @M. @MID - @M. @END - @M.",
+          "text": "RVR RWY 34L. @TDZ - @M. @MID - @M. @END - @M.",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "RVR RWY 16L. @TDZ - @M. @MID - @M. @END - @M.",
-          "ordinal": 9,
-          "enabled": false
-        },
-        {
-          "text": "RVR RWY 16R. @TDZ - @M. @MID - @M. @END - @M.",
-          "ordinal": 10,
-          "enabled": false
-        },
-        {
-          "text": "RVR RWY 34L. @TDZ - @M. @MID - @M. @END - @M.",
-          "ordinal": 11,
-          "enabled": false
-        },
-        {
           "text": "RVR RWY 34R. @TDZ - @M. @MID - @M. @END - @M.",
-          "ordinal": 12,
+          "ordinal": 9,
           "enabled": false
         }
       ],
@@ -30339,41 +30326,21 @@
           "airportConditions": "",
           "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^16R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
-          "id": "231e06b5-256d-4a39-a5e9-084359a59130",
-          "ordinal": 2,
-          "name": "34L",
-          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^34L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "2fda0e95-e7b2-4095-8bcb-ce0cb0bc7c4a",
-          "ordinal": 4,
-          "name": "16R+25",
-          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^25 AND ^16R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "70ba87fd-c31d-4d82-811c-22d84bbedbfb",
-          "ordinal": 5,
-          "name": "34L+25",
-          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^25 AND ^34L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "67a0b532-fb2c-4086-8dc9-d126ca0856ef",
-          "ordinal": 6,
-          "name": "25 LVP",
-          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^25. @RCR 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. @LVP @INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "id": "03e47106-0e3f-4596-a41e-ca8456ec3847",
+          "ordinal": 3,
+          "name": "16L",
+          "airportConditions": "",
+          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^16L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30385,10 +30352,40 @@
           }
         },
         {
-          "id": "869d334f-afa6-4d0f-90d4-ff9a2ac3525a",
-          "ordinal": 7,
-          "name": "16R+25 LVP",
-          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. AT [OBS_TIME]. RWY IN USE ^25 AND ^16R. @RCR 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. @LVP @INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "id": "a90243e2-8533-49bd-8be6-25580d54a752",
+          "ordinal": 3,
+          "name": "34R",
+          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^34R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "231e06b5-256d-4a39-a5e9-084359a59130",
+          "ordinal": 5,
+          "name": "34L",
+          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^34L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "67a0b532-fb2c-4086-8dc9-d126ca0856ef",
+          "ordinal": 6,
+          "name": "25 LVP",
+          "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^25. @RCR 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. @LVP @INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30534,63 +30531,58 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR RWY 25. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "@RCR RWY 25. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR RWY 25. 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "@RCR RWY ^16R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^16R. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "@RCR RWY ^16L. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^16R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "@RCR RWY ^34L. 5. 5. 5. CONTAMINANT WET .WET. WET.",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "@RCR RWY ^34L. 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "@RCR RWY ^34L. 5. 5. 5. CONTAMINANT WET .WET. WET.",
-          "ordinal": 6,
+          "text": "@RCR RWY ^34R. 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "ordinal": 4,
           "enabled": false
         },
         {
           "text": "NON USARE RWY CC CON LVP",
-          "ordinal": 7,
+          "ordinal": 6,
           "enabled": false
         },
         {
           "text": "RVR RWY 25. @TDZ - @M. @MID - @M. @END - @M.",
-          "ordinal": 8,
+          "ordinal": 7,
           "enabled": false
         },
         {
           "text": "RVR RWY 16R. @TDZ - @M. @MID - @M. @END - @M.",
-          "ordinal": 9,
+          "ordinal": 8,
           "enabled": false
         },
         {
           "text": "RVR RWY 34L. @TDZ - @M. @MID - @M. @END - @M.",
-          "ordinal": 10,
+          "ordinal": 9,
           "enabled": false
         },
         {
           "text": "OPERATIONAL INFORMATION. RWYS IN USE FOR ARRIVALS ^16L AND ^16R. ",
-          "ordinal": 11,
+          "ordinal": 10,
           "enabled": false
         },
         {
           "text": "OPERATIONAL INFORMATION. RWYS IN USE FOR ARRIVALS ^34R AND ^34L.",
-          "ordinal": 12,
+          "ordinal": 11,
           "enabled": false
         }
       ],
