@@ -224,16 +224,6 @@ Color_Unknown=255,255,0
 
 GroundLabel_FontSize=14
 
-Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
-Label=GND:DEP:1:CALLSIGN,0,0:WTC,0,1:DRWY,0,1
-Label=GND:DEP:2:ATYP,0,1:GS,0,1
-Label=GND:DEP:3:RMK,0,0
-
-Label=GND:ARR:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
-Label=GND:ARR:1:CALLSIGN,0,0:STAND,0,1
-Label=GND:ARR:2:ATYP,0,0:GS,0,1
-Label=GND:ARR:3:RMK,0,0
-
 Window_APP_Scale=7
 
 Window_TSW_Number=3
