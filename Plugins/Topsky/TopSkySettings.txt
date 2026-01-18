@@ -49,6 +49,8 @@ System_Toggle_Units_In_Level_Menus=0
 
 Setup_ScreenLat=42.0
 
+FAST=0
+
 // System settings
 
 Color_Selected_Group=255,255,254
