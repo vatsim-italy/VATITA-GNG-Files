@@ -4,7 +4,7 @@
 	<rateLvo ops="10" />
 	<expiredCtot time="15" />
 	<realMode mode="true" />
-	<pilotTobt mode="true" />
+	<pilotTobt mode="false" />
 	<autoAtot mode="false" />
 	<invalidateAtTsat mode="true" />
 	<Rates url="https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/rate.txt" />
