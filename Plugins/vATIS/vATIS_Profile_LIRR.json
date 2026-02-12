@@ -23744,16 +23744,21 @@
               "altitude": 70
             },
             {
-              "low": 997,
+              "low": 995,
               "high": 1012,
               "altitude": 75
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 800,
+              "high": 976,
+              "altitude": 85
             }
           ],
-          "template": {
-            "text": "TL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
-          }
-        },
         "notams": {
           "template": {
             "text": "{notams}",
@@ -25950,10 +25955,21 @@
               "altitude": 70
             },
             {
-              "low": 997,
+              "low": 995,
               "high": 1012,
               "altitude": 75
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 800,
+              "high": 976,
+              "altitude": 85
             }
+          ],
           ],
           "template": {
             "text": "TL {trl}",
