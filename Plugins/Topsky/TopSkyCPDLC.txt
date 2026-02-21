@@ -1,9 +1,9 @@
 [DCL]
-// ****************** REQ STARTUP ON OWN FREQ ****************** 
-DCL:LIMC,LIRF:SID:<callsign> CLRD TO <ades> OFF <drwy> VIA <sid> CLIMB <cfl> SQUAWK <assr> <atis> <rmk> <startup_own>
+// ****************** OWN FREQ ****************** 
+DCL:LIMC,LIRF:SID:<callsign> CLRD TO <ades> OFF <drwy> VIA <sid> CLIMB <cfl> SQUAWK <assr> <freq_own> <atis> <rmk>
 
-// ****************** STARTUP APPROVED + next Frequency ****************** 
-DCL:LIMC,LIRF:SID:<callsign> CLRD TO <ades> OFF <drwy> VIA <sid> CLIMB <cfl> SQUAWK <assr> <atis> <rmk> <startup_next>
+// ****************** Next Frequency ****************** 
+DCL:LIMC,LIRF:SID:<callsign> CLRD TO <ades> OFF <drwy> VIA <sid> CLIMB <cfl> SQUAWK <assr> <freq_next> <atis> <rmk>
 
 [FREETEXT]
 FREETEXT:UNICOM:MONITOR ADVISORY 122.8 CIAO
