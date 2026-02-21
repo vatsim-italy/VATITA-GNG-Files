@@ -18,7 +18,6 @@ System_GUI_Scale_Cursors=0.7
 
 //Other System Settings
 System_TrueColorMode=1
-System_UseILScat=0
 System_UseReportedGS=0
 System_GS_DeleteMinMax=1
 System_ASP_IasMach=28000
@@ -28,6 +27,8 @@ System_RefreshInterval_AHDG/QDM=250
 System_TransferConfirmation=0
 System_UsePresentHeading=1
 System_MagModel_Year=2024
+
+BlindSpot=-1
 
 System_UseAcceptedCoordColor=1
 
@@ -262,6 +263,7 @@ FlightLeg_Label_DIST=1
 FlightLeg_Label_RFL=1
 FlightLeg_LineWidth=0
 FlightLeg_Potential_Risk=0
+FlightLeg_Potential_Predicted=0
 
 // STCA
 
