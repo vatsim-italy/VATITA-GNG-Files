@@ -1,0 +1,441 @@
+[stations]
+selected_profile = "LIMM"
+
+[stations.profiles.LIMM]
+include = [
+    "LIM*",
+    "LIL*",
+    "LIRR_N*_CTR",
+    "LIP*_CTR",
+    "LIR*_FMP",
+    "LIP*_FMP",
+    "LIPX_*_APP",
+    "LIRP_APP",
+    "LIRQ_*_APP",
+    "LIPE_*_APP",
+    "LFMN*_APP",
+    "LS*_CTR",
+    "LFM*_CTR"
+]
+exclude = [
+    "LSAZ_E*_CTR",
+    "LSAZ_N*_CTR",
+    "LSAZ_W*_CTR",
+    "LSAG_N*_CTR",
+    "LFMM_W*_CTR",
+    "LIPP_NE2_CTR",
+    "LIPE_E_APP"
+]
+priority = [
+    "LIMM*_FMP",
+    "LIRR*_FMP",
+    "LIPP*_FMP",
+    "LIMM*",
+    "LIPX_*_APP",
+    "LIM*_APP",
+    "LIPP*",
+    "LIPE*",
+    "LIRR*",
+    "LIR*_APP",
+    "LSA*",
+    "LFM*",
+    "LIM*_TWR",
+    "LIPX_TWR",
+    "LIL*_TWR",
+    "LIM*_GND",
+    "LIM*_DEL",
+    "*_FMP"
+]
+frequencies = "HideAll"
+grouping = "None"
+
+[stations.profiles.LIMM.aliases]
+"126.300" = "ADE"
+"126.750" = "ANE"
+"125.630" = "ASW"
+"132.705" = "MAR"
+"133.180" = "LAR"
+"134.175" = "ANW"
+"127.450" = "EN2"
+"130.730" = "ES2"
+"136.035" = "ES5"
+"124.925" = "FIC"
+"118.805" = "MAP"
+"132.905" = "MMU"
+"128.015" = "WN2"
+"135.455" = "WS2"
+"122.730" = "WS5"
+"129.275" = "WN0"
+"135.900" = "ES0"
+"130.180" = "EE1"
+"118.150" = "LIPE_W"
+"133.775" = "LIPE_E"
+"120.725" = "CE1"
+"125.900" = "PNW1"
+"134.750" = "SW1_190-"
+"132.860" = "NE3_200+"
+"134.390" = "NE6_340+"
+"127.380" = "NE8_310+"
+"124.800" = "RNW1"
+"124.200" = "NE1"
+"134.900" = "NN1"
+"121.315" = "NW7"
+"132.840" = "NE7"
+"130.875" = "NN0_LIRQ"
+"126.080" = "PISA_APP"
+"119.600" = "GEN_APP"
+"127.575" = "PARMA_APP"
+"124.150" = "LIPP_FIC"
+"119.075" = "LIRR_FIC"
+"124.180" = "LFMN_E_190-"
+"134.475" = "LFMN_190-"
+"123.900" = "LFMM"
+"125.465" = "LFMM_250+"
+"133.760" = "LFMM_E"
+"132.385" = "LFMM_E_250+"
+"134.850" = "LSAG"
+"124.225" = "LSAG_S_240-"
+"135.015" = "SWISS"
+"128.905" = "LSAG_E_240-"
+"128.050" = "LSAZ_S_240-"
+"133.050" = "LSAZ"
+"133.940" = "SD2"
+
+[stations.profiles.LIPP]
+include = [
+    "LIP*",
+    "LID*",
+    "LIK*",
+    "LIRR_N*_CTR",
+    "LIM*_CTR",
+    "LIMM*_APP",
+    "LIR*_FMP",
+    "LIP*_FMP",
+    "LIPX_*_APP",
+    "LIRQ_*_APP",
+    "LSAZ*_CTR",
+    "LJ*_CTR",
+    "LJ*_APP",
+    "LDPL*_APP",
+    "LD*_CTR",
+    "ADR*_CTR",
+    "LDSP*_APP",
+    "LOV*_CTR",
+    "LOWI*_APP",
+    "EDM*_CTR",
+    "EDUU*_CTR"
+]
+exclude = [
+    "LSAZ_E*_CTR",
+    "LSAZ_N*_CTR",
+    "LSAZ_W*_CTR",
+    "LIMM_LA*_APP",
+    "LIMM_AS*_APP",
+    "ADR_E*_CTR",
+    "LDZO_N*_CTR",
+    "LDZO_UN*_CTR",
+    "LDZO_C*_CTR",
+    "LDZO_UC*_CTR",
+    "LIMM_WN*_CTR"
+]
+priority = [
+    "LIPP*_FMP",
+    "LIRR*_FMP",
+    "LIMM*_FMP",
+    "LIPP*",
+    "LIPZ_*_APP",
+    "LIPQ_*_APP",
+    "LIPE*_APP",
+    "LIP*_APP",
+    "LIR*",
+    "LIM*",
+    "LD*",
+    "LS*",
+    "ED*",
+    "LO*",
+    "AD*",
+    "LJ*",
+    "LIP*_TWR",
+    "LID*_TWR",
+    "LIK*_TWR",
+    "LIP*_GND",
+    "LIP*_DEL",
+    "*_FMP"
+]
+frequencies = "HideAll"
+grouping = "None"
+
+[stations.profiles.LIPP.aliases]
+"126.300" = "ADE"
+"126.750" = "ANE"
+"134.175" = "ANW"
+"127.450" = "EN2"
+"130.730" = "ES2"
+"136.035" = "ES5"
+"124.925" = "LIMM_FIC"
+"132.905" = "MMU"
+"135.455" = "WS2"
+"122.730" = "WS5"
+"135.900" = "ES0"
+"130.180" = "EE1"
+"118.150" = "LIPE_W"
+"133.775" = "LIPE_E"
+"120.725" = "CE1"
+"125.900" = "NW1"
+"134.750" = "SW1"
+"132.860" = "NE3"
+"134.390" = "NE6"
+"127.380" = "NE8"
+"124.200" = "RNE1"
+"132.840" = "NE7"
+"130.875" = "NN0_LIRQ"
+"127.575" = "PARMA_APP"
+"124.150" = "FIC"
+"119.075" = "LIRR_FIC"
+"135.015" = "SWISS"
+"128.050" = "LSAZ_S_240-"
+"133.050" = "LSAZ"
+"128.575" = "CW2"
+"125.485" = "CW3"
+"130.525" = "NE2"
+"133.940" = "SD2"
+"118.900" = "SE0"
+"119.175" = "CE0"
+"120.975" = "AVI_APP"
+"120.405" = "TVS_APP"
+"125.325" = "FALCO_APP"
+"131.200" = "ND1"
+
+[stations.profiles.LIRR-NORTH]
+include = [
+    "LIR*",
+    "LICA_*_APP",
+    "LIA*",
+    "LIEO_*_APP",
+    "LIQ*",
+    "LIMM*_CTR",
+    "LIP*_CTR",
+    "LIB*_CTR",
+    "LIB*_APP",
+    "LDZ*_CTR",
+    "ADR*_CTR",
+    "LDSP*_APP",
+    "LIM*_FMP",
+    "LIP*_FMP",
+    "LIPE_*_APP",
+    "LFM*_CTR",
+    "LFKB*_APP",
+    "LFKJ*_APP",
+]
+exclude = [
+    "LFMM_W*_CTR",
+    "LIPP_NE2_CTR",
+    "LIPP_NW*_CTR",
+    "LIPP_CW*_CTR",
+    "LIMM_WN*_CTR",
+    "ADR_E*_CTR",
+    "LDZO_N*_CTR",
+    "LDZO_UN*_CTR",
+    "LDZO_C*_CTR",
+    "LDZO_UC*_CTR"
+]
+priority = [
+    "LIRR*_FMP",
+    "LIMM*_FMP",
+    "LIPP*_FMP",
+    "LIRR_N*_CTR",
+    "LIRR*",
+    "LIRR_*_APP",
+    "LIRR_*_DEP",
+    "LIRN_*_APP",
+    "LIRQ_*_APP",
+    "LICA_*_APP",
+    "LIR*_APP",
+    "LIEO_*_APP",
+    "LIMM*",
+    "LIPP*",
+    "LIPE*",
+    "LIB*",
+    "LFM*",
+    "LDZ*",
+    "ADR*",
+    "LDSP*",
+    "LIR*_TWR",
+    "LIA*_TWR",
+    "LIQ*_TWR",
+    "LIR*_GND",
+    "LIR*_DEL",
+    "*_FMP"
+]
+frequencies = "HideAll"
+grouping = "None"
+
+[stations.profiles.LIRR-NORTH.aliases]
+"125.500" = "TW1"
+"131.250" = "AEM"
+"127.950" = "AET"
+"119.200" = "AWL"
+"132.525" = "EE3"
+"133.250" = "ES1"
+"127.125" = "EW1"
+"134.780" = "EW7"
+"119.075" = "FIC"
+"131.200" = "ND1"
+"124.200" = "NE1"
+"132.840" = "NE7"
+"134.900" = "NN1"
+"124.800" = "NW1"
+"121.315" = "NW7"
+"123.415" = "OV1"
+"130.900" = "PN1"
+"131.100" = "PS1"
+"118.150" = "LIPE_W"
+"133.775" = "LIPE_E"
+"120.725" = "CE1"
+"128.800" = "SU1"
+"134.750" = "SW1_190-"
+"132.860" = "NE3_200+"
+"134.390" = "NE6_340+"
+"127.380" = "NE8_310+"
+"132.855" = "SU7"
+"127.350" = "TS1"
+"128.750" = "US2"
+"130.875" = "NN0"
+"124.925" = "LIMM_FIC"
+"123.900" = "LFMM"
+"125.465" = "LFMM_250+"
+"133.760" = "LFMM_E"
+"132.385" = "LFMM_E_250+"
+"124.350" = "US0"
+"134.200" = "US1"
+"118.800" = "ES0"
+"125.950" = "EW0"
+"126.080" = "PISA_APP"
+"128.300" = "BDS_ES3"
+"131.125" = "LIBB_FIC"
+"118.750" = "BDS_CS0"
+"120.050" = "PES_APP"
+"132.905" = "MMU"
+"133.940" = "SD2"
+
+[stations.profiles.LIRR-SOUTH]
+include = [
+    "LIR*",
+    "LIC*",
+    "LIA*",
+    "LIE*",
+    "LIQ*",
+    "LIB*_CTR",
+    "LIB*_APP",
+    "LFM*_CTR",
+    "LFKB*_APP",
+    "LFKJ*_APP",
+    "LMM*_CTR",
+    "LMM*_APP",
+    "DTT*_CTR",
+]
+exclude = [
+    "LFMM_W*_CTR",
+    "LIBP*_APP",
+    "LIRR_NN*_CTR",
+    "LIRR_ND*_CTR",
+    "LIRR_US*_CTR"
+]
+priority = [
+    "LIRR*_FMP",
+    "LIRR_S*_CTR",
+    "LIRR_E*_CTR",
+    "LIRR*",
+    "LICA_*_APP",
+    "LIEO_*_APP",
+    "LIRR_*_DEP",
+    "LIRR_*_APP",
+    "LIRN_*_APP",
+    "LIR*_APP",
+    "LIC*_APP",
+    "LIE*_APP",
+    "LIB*",
+    "LFM*",
+    "LIC*_TWR",
+    "LIE*_TWR",
+    "LIC*_GND",
+    "LIE*_GND",
+    "LIC*_DEL",
+    "LIE*_DEL",
+    "*_FMP"
+]
+frequencies = "HideAll"
+grouping = "None"
+
+[stations.profiles.LIRR-SOUTH.aliases]
+"125.500" = "TW1"
+"131.250" = "AEM"
+"127.950" = "AET"
+"119.200" = "AWL"
+"132.525" = "EE3"
+"133.250" = "ES1"
+"127.125" = "EW1"
+"134.780" = "EW7"
+"119.075" = "FIC"
+"131.200" = "ND1"
+"124.200" = "NE1"
+"132.840" = "NE7"
+"134.900" = "NN1"
+"124.800" = "NW1"
+"121.315" = "NW7"
+"123.415" = "OV1"
+"130.900" = "PN1"
+"131.100" = "PS1"
+"118.150" = "LIPE_W"
+"133.775" = "LIPE_E"
+"120.725" = "CE1"
+"128.800" = "SU1"
+"134.750" = "SW1_190-"
+"132.860" = "NE3_200+"
+"134.390" = "NE6_340+"
+"127.380" = "NE8_310+"
+"132.855" = "SU7"
+"127.350" = "TS1"
+"128.750" = "US2"
+"130.875" = "NN0"
+"124.925" = "LIMM_FIC"
+"123.900" = "LFMM"
+"125.465" = "LFMM_250+"
+"133.760" = "LFMM_E"
+"132.385" = "LFMM_E_250+"
+"124.350" = "US0"
+"134.200" = "US1"
+"118.800" = "ES0"
+"125.950" = "EW0"
+"126.080" = "PISA_APP"
+"128.300" = "BDS_ES3"
+"131.125" = "LIBB_FIC"
+"118.750" = "BDS_CS0"
+"120.050" = "PES_APP"
+"119.250" = "CTA_APP"
+"120.200" = "PAL_APP"
+"119.275" = "CAG_APP"
+"119.950" = "TRP_APP"
+"120.275" = "REGGIO_APP"
+"132.550" = "TUNIS_N"
+"129.500" = "TUNIS_325+"
+"132.500" = "TUNIS"
+"130.975" = "MALTA_CTR"
+"122.775" = "MALTA_E_CTR"
+"128.155" = "MALTA_APP"
+
+[stations.profiles.Default]
+include = []
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "ShowAll"
+grouping = "None"
+
+[stations.profiles.Default.aliases]
