@@ -1,7 +1,7 @@
 {
     "LIRP": {
         "elevation": 6,
-        "runways": "04R,04L,22L,22R",
+        "runways": "03R,03L,21L,21R",
         "transAlt": 6000,
         "maxInitialClimb": 4000,
         "enableRVSids": false,
@@ -16,20 +16,20 @@
             "AKUTO": {
                 "B": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "prio": 1
                     }
                 },
                 "A": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "C": {
                     "1": {
-                        "rwy": "22R,22L",
+                        "rwy": "21R,21L",
                         "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
@@ -38,26 +38,26 @@
             "BEROK": {
                 "B": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "prio": 1
                     }
                 },
                 "A": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "F": {
                     "1": {
-                        "rwy": "22R,22L",
+                        "rwy": "21R,21L",
                         "prio": 1
                     }
                 },
                 "C": {
                     "1": {
-                        "rwy": "22R,22L",
+                        "rwy": "21R,21L",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
@@ -66,7 +66,7 @@
             "DOCME": {
                 "F": {
                     "1": {
-                        "rwy": "22L,22R",
+                        "rwy": "21L,21R",
                         "prio": 1
                     }
                 }
@@ -74,26 +74,26 @@
             "GINAR": {
                 "B": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "prio": 1
                     }
                 },
                 "A": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "F": {
                     "1": {
-                        "rwy": "22R,22L",
+                        "rwy": "21R,21L",
                         "prio": 1
                     }
                 },
                 "C": {
                     "1": {
-                        "rwy": "22R,22L",
+                        "rwy": "21R,21L",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
@@ -102,26 +102,26 @@
             "SPEZI": {
                 "B": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "prio": 1
                     }
                 },
                 "A": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "F": {
                     "1": {
-                        "rwy": "22R,22L",
+                        "rwy": "21R,21L",
                         "prio": 1
                     }
                 },
                 "C": {
                     "1": {
-                        "rwy": "22R,22L",
+                        "rwy": "21R,21L",
                         "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
@@ -130,14 +130,14 @@
             "VANXI": {
                 "A": {
                     "1": {
-                        "rwy": "04R,04L",
+                        "rwy": "03R,03L",
                         "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 99
                     }
                 },
                 "C": {
                     "1": {
-                        "rwy": "22L,22R",
+                        "rwy": "21L,21R",
                         "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 99
                     }
