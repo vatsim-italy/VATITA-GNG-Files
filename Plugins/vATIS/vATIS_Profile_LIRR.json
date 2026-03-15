@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.5.5",
+  "name": "LIRR v1.5.6",
   "id": "25c7c1e9-7980-406e-8e8f-e09d0f452381",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2026021201,
+  "updateSerial": 2026031901,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -23791,8 +23791,8 @@
       "presets": [
         {
           "id": "a5dcc1f7-df10-4910-8f10-596fa9b70df3",
-          "name": "04R",
-          "template": "@LIRP @ATIS [ATIS_CODE]. [OBS_TIME]. EXPECT ILS APPROACH. RWY IN USE ^04R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
+          "name": "03R",
+          "template": "@LIRP @ATIS [ATIS_CODE]. [OBS_TIME]. EXPECT ILS APPROACH. RWY IN USE ^03R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -23805,8 +23805,8 @@
         },
         {
           "id": "c60eda3f-b688-4dfd-9fb0-5e92a4c28644",
-          "name": "22L",
-          "template": "@LIRP @ATIS [ATIS_CODE]. [OBS_TIME]. EXPECT RNP YANKEE APPROACH. RWY IN USE ^22L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
+          "name": "21L",
+          "template": "@LIRP @ATIS [ATIS_CODE]. [OBS_TIME]. EXPECT RNP YANKEE APPROACH. RWY IN USE ^21L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -23819,8 +23819,8 @@
         },
         {
           "id": "3aae9b6a-34c9-4dee-9310-1239ab53a349",
-          "name": "04R(A) 22L(D)",
-          "template": "@LIRP @ATIS [ATIS_CODE]. [OBS_TIME]. EXPECT ILS APPROACH. ARRIVAL RWY IN USE ^04R. DEPARTURE RWY IN USE ^22L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
+          "name": "03R(A) 21L(D)",
+          "template": "@LIRP @ATIS [ATIS_CODE]. [OBS_TIME]. EXPECT ILS APPROACH. ARRIVAL RWY IN USE ^03R. DEPARTURE RWY IN USE ^21L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -23833,8 +23833,8 @@
         },
         {
           "id": "9f4018f6-cf50-4972-9926-537ce6ece46e",
-          "name": "04R LVP",
-          "template": "@LIRP @ATIS [ATIS_CODE]. [OBS_TIME]. EXPECT ILS APPROACH. RWY IN USE ^04R. @RCR 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. @LVP @INPR. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
+          "name": "03R LVP",
+          "template": "@LIRP @ATIS [ATIS_CODE]. [OBS_TIME]. EXPECT ILS APPROACH. RWY IN USE ^03R. @RCR 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. @LVP @INPR. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
