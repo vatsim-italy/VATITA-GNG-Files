@@ -1,8 +1,8 @@
 {
-  "name": "LIMM v1.5.7",
+  "name": "LIMM v1.5.8",
   "id": "1660e020-3162-4ea3-a8d1-7792a9932ca0",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 2025011101,
+  "updateSerial": 2026031901,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -14867,22 +14867,22 @@
             {
               "low": 1013,
               "high": 1050,
-              "altitude": 70
+              "altitude": 80
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 75
+              "altitude": 85
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 80
+              "altitude": 90
             },
             {
               "low": 800,
               "high": 976,
-              "altitude": 85
+              "altitude": 95
             }
           ],
           "template": {
