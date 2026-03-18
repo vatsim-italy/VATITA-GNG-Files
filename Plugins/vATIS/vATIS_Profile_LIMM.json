@@ -1,8 +1,8 @@
 {
-  "name": "LIMM v1.5.7",
-  "id": "1660e020-3162-4ea3-a8d1-7792a9932ca0",
+  "name": "LIMM v1.5.8",
+  "id": "1660e020-3162-4ea3-a8d1-7792a9931ca0",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 2025011101,
+  "updateSerial": 2025031801,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -2027,7 +2027,8 @@
           "id": "545eaa56-7767-429a-9214-52c1965f776a",
           "ordinal": 3,
           "name": "35R",
-          "airportConditions": "",
+          "airportConditions": "@RUNWAY 35L CLOSED DUE TO WORK IN PROGRESS MEDIUM AND LIGHT AIRCRAFT HAVE TO VACATE VIA TAXIWAY DELTA, IF UNABLE ADVISE ATC.",
+          "notams": "",
           "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS ZULU. RWY IN USE ^35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
@@ -2182,6 +2183,11 @@
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACHES"
+        },
+        {
+          "variableName": "RUNWAY",
+          "text": "RUNWAY",
+          "voice": "OPERATIONAL INFORMATION. RUNWAY"
         }
       ],
       "airportConditionDefinitions": [
@@ -2225,11 +2231,6 @@
         {
           "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "SINGLE RWY OPERATIONS IN PROGRESS.",
-          "ordinal": 3,
           "enabled": false
         }
       ]
@@ -4258,7 +4259,8 @@
           "id": "b979add5-8a80-4b51-bce6-aa9fd7f2251b",
           "ordinal": 4,
           "name": "35R",
-          "airportConditions": "",
+          "airportConditions": "@SINGLE RWY OPS IN PROGRESS, IF NOT FULLY READY FOR DEPARTURE ADVISE ATC TAXIWAY BRAVO ECHO, BRAVO WHISKEY, DELTA MIKE, FOXTROT, FOXTROT ECHO, WHISKEY BRAVO AND JULIET CLOSED.",
+          "notams": "",
           "template": "@LIMC @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
@@ -4377,6 +4379,11 @@
           "variableName": "AVAIL",
           "text": "AVAIL",
           "voice": "AVAILABLE"
+        },
+        {
+          "variableName": "SINGLE",
+          "text": "SINGLE",
+          "voice": "OPERATIONAL INFORMATION. SINGLE"
         }
       ],
       "airportConditionDefinitions": [
@@ -4423,18 +4430,13 @@
           "enabled": false
         },
         {
-          "text": "BEFORE START-UP CONTACT MALPENSA OPERATIONS ON 131.880 TO BE RELEASED BY THE AIRPORT OPERATOR.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
           "text": "DATALINK CLEARANCE AVAILABLE.",
-          "ordinal": 4,
+          "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "SINGLE RWY OPERATIONS IN PROGRESS.",
-          "ordinal": 5,
+          "text": "BEFORE START-UP CONTACT MALPENSA OPERATIONS ON 131.880 TO BE RELEASED BY THE AIRPORT OPERATOR.",
+          "ordinal": 4,
           "enabled": false
         }
       ]
