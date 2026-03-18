@@ -2,7 +2,7 @@
     "openAutomatically": false,
     "timelines": {
         "ANE": {
-            "targetFixes": [ "MC761", "UNDAP", "OBFUL" ],
+            "targetFixes": [ "MC761", "ML749", "OBFUL" ],
             "viaFixes": [ "RIXUV", "EVRIP", "PEXUG", "ODINA", "EKLIB", "OSKOR"],
             "tagLayout": "VATITA",
             "destinationAirports": [ "LIMC", "LIML", "LIME"]
@@ -14,10 +14,10 @@
             "destinationAirports": [ "LIMC"]
         },
         "ANE ML": {
-            "targetFixes": [ "UNDAP"],
-            "viaFixes": [ "ODINA"],
+            "targetFixes": [ "ML749"],
+            "viaFixes": ["ODINA"],
             "tagLayout": "VATITA",
-            "destinationAirports": [ "LIML"]
+            "destinationAirports": ["LIML"]
         },
         "ANE ME": {
             "targetFixes": [ "OBFUL"],
@@ -33,7 +33,7 @@
         },
         "ADE": {
             "targetFixes": [ "TIXUM", "SOROP"],
-            "viaFixes": [ "UNDAP", "DIXER", "UVNIB", "VOG", "OBFUL", "OSBUL"],
+            "viaFixes": ["OBFUL", "OSBUL", "LUSIL", "ODINA"],
             "tagLayout": "VATITA",
             "destinationAirports": [ "LIML", "LIME" ]
         },
@@ -43,9 +43,16 @@
             "tagLayout": "VATITA",
             "destinationAirports": [ "LIME" ]
         },
+        "ADE ML": {
+            "targetFixes": ["PUKCI"],
+            "viaFixes": [ "ODINA", "LUSIL"],
+            "tagLayout": "VATITA",
+            "destinationAirports": [ "LIML" ]
+        },
+
         "LAR": {
             "targetFixes": [ "SOROP"],
-            "viaFixes": [ "UNDAP", "DIXER", "VOG", "UVNIB" ],
+            "viaFixes": [ "KALMO", "KALIK", "IDONA", "GEN", "TOP", "ODINA", "LUSIL"],
             "tagLayout": "VATITA",
             "destinationAirports": [ "LIML" ]
         },
@@ -84,7 +91,7 @@
             "viaFixes": [ "XIBIL", "ELKAP", "GILIO" ],
             "tagLayout": "VATITA",
             "destinationAirports": [ "LIRF" ]
-        },          
+        },
         "...": {
             "targetFixes": [ "....", "...." ],
             "viaFixes": [ "..." ],
