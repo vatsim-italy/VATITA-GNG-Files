@@ -175,6 +175,9 @@ Airport_Runway_Buffer_LVP=35R:205
 
 Window_APP_Rotation=281.5
 
+Airport_Runway_Closed_Arr=35L
+Airport_Runway_Closed_Dep=35L
+
 Color_Arrival=0,255,0
 Color_Departure=0,188,255
 
