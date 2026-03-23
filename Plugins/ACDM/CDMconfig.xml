@@ -15,9 +15,8 @@
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
 	<RefreshTime seconds="5" />
 	<Debug mode="false" />
-	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
 	<vdgsFileType type="3"/>
-	<sftpConnection mode="true" />
+	<sftpConnection mode="false" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
 </CDM>
