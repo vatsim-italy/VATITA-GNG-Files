@@ -5,13 +5,12 @@
         "transAlt": 7000,
         "maxInitialClimb": 10000,
         "enableRVSids": false,
-        "appSI": "MJA,MWS,MEN",
+        "appSI": "WW0,WW,WS2",
         "sids": {
-            "GEN": {
-                "T": {
+            "ITCAP": {
+                "B": {
                     "1": {
                         "rwy": "09",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
                 }
@@ -23,6 +22,12 @@
                         "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
                     }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
+                    }
                 }
             },
             "LAGEN": {
@@ -31,6 +36,12 @@
                         "rwy": "09",
                         "equip": {"RNAV": true, "NON-RNAV": true},
                         "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "09",
+                        "prio": 99
                     }
                 }
             }
