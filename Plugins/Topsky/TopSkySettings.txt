@@ -35,6 +35,7 @@ System_UseAcceptedCoordColor=1
 System_UseTSAborderHighlightColor=1
 
 Areas_Altitude_Filtering=1
+Areas_AUP_Activation=1
 
 System_Coord_Sound_RTI_ACP=1
 System_Coord_Sound_TIP_ACP=1
@@ -203,6 +204,7 @@ HTTP_SIGMET_Server=http://aviationweather.gov/
 HTTP_TAF_Server=https://aviationweather.gov/
 Airspace_NOTAM_Add=LIMM,LIRR,LIBB
 HTTP_METAR_Server=https://aviationweather.gov/
+HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/LI/
 
 RDF_Mode=-1
 RDF_Accuracy=0.0
