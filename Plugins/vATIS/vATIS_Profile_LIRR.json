@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.5.6",
-  "id": "25c7c1e9-7980-406e-8e8f-e09d0f452381",
+  "name": "LIRR v1.5.7",
+  "id": "0091bb53-5216-4d45-b61d-8c5521335334",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2026031901,
+  "updateSerial": 2026041801,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -2258,12 +2258,12 @@
         {
           "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "@RRSM",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -4289,9 +4289,15 @@
           "id": "14381689-79d0-40e7-8f48-8538938099c7",
           "ordinal": 4,
           "name": "33",
-          "template": "@LIRA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 33. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIRA @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP @A. RWY IN USE 33. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4405,6 +4411,11 @@
           "variableName": "INPR",
           "text": "INPR",
           "voice": "IN PROGRESS"
+        },
+        {
+          "variableName": "A",
+          "text": "A",
+          "voice": "ALPHA"
         }
       ],
       "airportConditionDefinitions": [
@@ -21788,7 +21799,7 @@
         {
           "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "READYMESSAGE IS SENT AUTOMATICALLY WHEN RELEASED BY THE RAMP WHEN READY CONTACT FIUME RAMP 121.725",
@@ -21798,7 +21809,7 @@
         {
           "text": "@RRSM",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -30598,7 +30609,7 @@
         {
           "text": "OPERATIONAL INFORMATION. RWYS IN USE FOR ARRIVALS ^16L AND ^16R. ",
           "ordinal": 10,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "OPERATIONAL INFORMATION. RWYS IN USE FOR ARRIVALS ^34R AND ^34L.",
@@ -30615,7 +30626,7 @@
         {
           "text": "AIRPORT INFORMATION.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "READYMESSAGE IS SENT AUTOMATICALLY WHEN RELEASED BY THE RAMP WHEN READY CONTACT FIUME RAMP 121.725",
@@ -30625,7 +30636,7 @@
         {
           "text": "@RRSM",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ]
     }
