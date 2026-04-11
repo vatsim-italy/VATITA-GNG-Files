@@ -5,7 +5,7 @@
         "transAlt": 7000,
         "maxInitialClimb": 5000,
         "enableRVSids": false,
-        "appSI": "WW0,WW,WS2",
+        "appSI": "WW0,WS0,WS2",
         "intersections": {
             "28": "G, F, E",
             "10": "B, E"
