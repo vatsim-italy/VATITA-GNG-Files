@@ -7,8 +7,8 @@
         "enableRVSids": false,
         "appSI": "RPA,NW1,NE1,NE7",
         "intersections": {
-            "04L": "A",
-            "04R": "Z1, A",
+            "03L": "A",
+            "03R": "Z1, A",
             "22L": "D"
         },
         "sids": {
