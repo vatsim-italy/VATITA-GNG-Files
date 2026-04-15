@@ -407,7 +407,7 @@ Window_SAP_MaxListItems=5
 Window_SAP_Chars_Area=12
 Window_SAP_Chars_User=12
 
-Window_SmallQNHTL=1,125,670
+Window_SmallQNHTL=0,125,670
 Window_QNHTL_MaxListItems=13
 Window_WxMsgs_HighlightNew=0
 
@@ -425,21 +425,27 @@ List_Sector_Concerned = 1
 Window_CPDLC_Current=0,1,600
 
 [LIMC]
+
 Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
 CPDLC_PDC_Auto=1
 
 [LIRF]
+
 Window_CPDLC_Current=1,1350,48
 Window_CPDLC_Setting=1,1,248
 CPDLC_PDC_Auto=1
 
 [_APP]
+
 FlightLeg_AutoShow=0
 Window_CPDLC_Current=0,0,650
+Window_ASM=1
 
 [_CTR]
+
 Window_CPDLC_Setting=1,1,350
+Window_ASM=1
 
 [_TWR]
 
@@ -1101,6 +1107,16 @@ Setup_LoadView=SE0
 STCA_WarningTime_L=70
 
 {SE0}
+
+Setup_LoadView=SE0
+STCA_WarningTime_L=70
+
+[LIPP_SC]
+
+Setup_LoadView=SE0
+STCA_WarningTime_L=70
+
+{SC0}
 
 Setup_LoadView=SE0
 STCA_WarningTime_L=70

@@ -46,7 +46,7 @@
                 }
             },
             "ILFUG": {
-                "trans": {"LOGDI": "S", "EKPAL": "S", "GEN": "S", "VOG": "S"},
+                "trans": {"LOGDI": "S", "EKPAL": "S", "ITCAP": "U", "VOG": "S"},
                 "P": {
                     "1": {
                         "rwy": "28",

@@ -6460,7 +6460,7 @@
           "ordinal": 2,
           "name": "24",
           "airportConditions": "",
-          "notams": "AIRPORT INFORMATION. ADVISE IF ABLE TO DEPART FROM INTERSECTION ECHO.",
+          "notams": "AIRPORT INFORMATION. FOR DEPARTING TFC. TWY G NOT AVAIL. FULL LENGTH RUNWAY AVAIL ONLY WITH BACKTRACK. REPORT AT STARTUP REQUEST IF ABLE FROM TWY ECHO. TORA 2326 M.",
           "template": "@LIRN @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 24. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false

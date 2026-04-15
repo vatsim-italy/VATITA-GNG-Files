@@ -7,34 +7,12 @@
         "enableRVSids": false,
         "appSI": "RPA,NW1,NE1,NE7",
         "intersections": {
-            "04L": "A",
-            "04R": "Z1, A",
+            "03L": "A",
+            "03R": "Z1, A",
             "22L": "D"
         },
         "sids": {
             "initial": 4000,
-            "AKUTO": {
-                "B": {
-                    "1": {
-                        "rwy": "03R,03L",
-                        "prio": 1
-                    }
-                },
-                "A": {
-                    "1": {
-                        "rwy": "03R,03L",
-                        "equip": {"NON-RNAV": true},
-                        "prio": 1
-                    }
-                },
-                "C": {
-                    "1": {
-                        "rwy": "21R,21L",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
-                        "prio": 1
-                    }
-                }
-            },
             "BEROK": {
                 "B": {
                     "1": {
@@ -64,9 +42,29 @@
                 }
             },
             "DOCME": {
+                "B": {
+                    "1": {
+                        "rwy": "03L,03R",
+                        "prio": 1
+                    }
+                },
+                "A": {
+                    "1": {
+                        "rwy": "03L,03R",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
                 "F": {
                     "1": {
                         "rwy": "21L,21R",
+                        "prio": 1
+                    }
+                },
+                "C": {
+                    "1": {
+                        "rwy": "21L,21R",
+                        "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 }
