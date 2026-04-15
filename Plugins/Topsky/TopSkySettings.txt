@@ -302,6 +302,11 @@ STCA_LevelOff_Sep_Vert_L=750
 STCA_WarningTime_U=100
 STCA_WarningTime_L=80
 
+// TCTA
+
+TCT_Prediction_Time=480
+TCT_BS_Sep_Lat=6.4
+
 Menu_CFL_ExtendedItems=15
 Menu_MaxListItems=15
 Menu_ASP_MaxMach=90
