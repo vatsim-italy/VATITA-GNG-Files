@@ -407,7 +407,7 @@ Window_SAP_MaxListItems=5
 Window_SAP_Chars_Area=12
 Window_SAP_Chars_User=12
 
-Window_SmallQNHTL=1,125,670
+Window_SmallQNHTL=0,125,670
 Window_QNHTL_MaxListItems=13
 Window_WxMsgs_HighlightNew=0
 
