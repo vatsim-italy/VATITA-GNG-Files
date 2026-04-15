@@ -2,7 +2,7 @@
   "name": "LIRR v1.5.7",
   "id": "0091bb53-5216-4d45-b61d-8c5521335334",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2026041801,
+  "updateSerial": 2026041501,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
