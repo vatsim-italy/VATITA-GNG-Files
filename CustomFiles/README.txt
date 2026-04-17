@@ -1,1 +1,0 @@
-Place here any files you’ve modified from the sector file to prevent them from being overwritten by the autoupdater. [WIP - Not yet released]
