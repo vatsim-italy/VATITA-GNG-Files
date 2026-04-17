@@ -216,15 +216,27 @@ ATIS3:Controlling airports within Milano TMA
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPZ_SE0_APP:150:5
 ATIS2:Padova Radar 
-ATIS3:Controlling LIPZ and LIPQ if CE0 offline
+ATIS3:Controlling LIPZ
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPQ_CE0_APP:150:5
 ATIS2:Padova Radar 
-ATIS3:Controlling LIPQ and LIPG
+ATIS3:Controlling LIPQ
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIPP_SC0_APP:150:5
+ATIS2:Padova Radar 
+ATIS3:Controlling LIPZ and LIPQ
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMF_WN0_APP:150:5
 ATIS2:Milano Radar 
 ATIS3:Controlling LIMF and LIMZ
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIMJ_WS0_APP:150:5
+ATIS2:Milano Radar 
+ATIS3:Controlling LIMJ and LIMG
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LIMM_WW0_APP:150:5
+ATIS2:Milano Radar 
+ATIS3:Controlling LIMF, LIMZ, LIMJ and LIMG
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPX_ES0_APP:150:5
 ATIS2:Milano Radar 
