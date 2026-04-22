@@ -5,7 +5,7 @@
         "transAlt": 5000,
         "maxInitialClimb": 4000,
         "enableRVSids": false,
-        "appSI": "CTA,SU1,NE7",
+        "appSI": "CTA,SU1,ROM",
         "intersections": {
             "31L": "G, H"
         },

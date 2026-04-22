@@ -5,7 +5,7 @@
         "transAlt": 5000,
         "maxInitialClimb": 4000,
         "enableRVSids": false,
-        "appSI": "CGA,SU1",
+        "appSI": "CGA,SU1,ROM",
         "sids": {
             "initial": 4000,
             "ROBET": {

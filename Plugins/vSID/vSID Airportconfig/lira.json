@@ -7,7 +7,7 @@
         "customRules": {"RF34": false},
         "enableRVSids": false,
         "timezone": "Europe/Berlin",
-        "appSI": "PN1,PS1,AET,TW1,OV1,NW1,NE1",
+        "appSI": "PN1,PS1,AET,TW1,OV1,NW1,NE1,ROM",
         "sids": {
             "initial": 5000,
             "OST": {
