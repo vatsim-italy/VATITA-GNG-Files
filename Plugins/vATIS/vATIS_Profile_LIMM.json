@@ -1,8 +1,8 @@
 {
-  "name": "LIMM v1.5.8",
-  "id": "1660e020-3162-4ea3-a8d1-7792a9932ca0",
+  "name": "LIMM v1.5.9",
+  "id": "912d9bd2-1596-43bd-8a91-30ed76ff0fa8",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 2026031901,
+  "updateSerial": 2026042501,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -1995,7 +1995,7 @@
           "id": "bc1e5940-b924-46c5-9902-c66686da1599",
           "ordinal": 0,
           "name": "17L",
-          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS ZULU. RWY IN USE ^17L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. 1 RWY IN USE ^17L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2012,7 +2012,7 @@
           "name": "35L",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS ZULU. RWY IN USE ^35L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. 1 RWY IN USE ^35L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2029,7 +2029,7 @@
           "name": "35R",
           "airportConditions": "@RUNWAY 35L CLOSED DUE TO WORK IN PROGRESS MEDIUM AND LIGHT AIRCRAFT HAVE TO VACATE VIA TAXIWAY DELTA, IF UNABLE ADVISE ATC.",
           "notams": "",
-          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS ZULU. RWY IN USE ^35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. 1 RWY IN USE ^35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2044,7 +2044,7 @@
           "id": "6d94bccd-95a7-4cb1-b8e4-2979c26499be",
           "ordinal": 4,
           "name": "35L+35R",
-          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS ZULU. RWY IN USE ^35L AND ^35R. [ARPT_COND] [TL]. OPERATIONAL INFORMATION. DEPENDENT @PARL ILS @APCH @INPR. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. 1 RWY IN USE ^35L AND ^35R. [ARPT_COND] [TL]. OPERATIONAL INFORMATION. DEPENDENT @PARL ILS @APCH @INPR. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2061,7 +2061,24 @@
           "name": "35L LVP",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS ZULU. RWY IN USE ^35L. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. 1 RWY IN USE ^35L. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "bb925168-4025-4f87-8612-8f4bdcff6ad5",
+          "ordinal": 6,
+          "name": "35R LVP",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. 1 RWY IN USE ^35R. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2152,12 +2169,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
-        },
-        {
-          "variableName": "RCR",
-          "text": "RCR",
-          "voice": "RUNWAY CONDITIONS CODE"
+          "voice": "OPERATIONAL INFORMATION. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "AVAIL",
@@ -2188,11 +2200,26 @@
           "variableName": "RUNWAY",
           "text": "RUNWAY",
           "voice": "OPERATIONAL INFORMATION. RUNWAY"
+        },
+        {
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
+        },
+        {
+          "variableName": "1",
+          "text": "I.L.S.ZULU.",
+          "voice": "TYPE OF APPROACH. ILS ZULU."
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 1,
           "enabled": false
         },
@@ -2222,18 +2249,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "0384811c-65bc-4bcc-b693-67ed2174ce75",
@@ -4283,9 +4299,15 @@
           "name": "35R LVP",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIMC @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^35R. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^35R. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -4363,7 +4385,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
+          "voice": "OPERATIONAL INFORMATION. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "RCR",
@@ -4384,11 +4406,31 @@
           "variableName": "SINGLE",
           "text": "SINGLE",
           "voice": "OPERATIONAL INFORMATION. SINGLE"
+        },
+        {
+          "variableName": "DATALINK",
+          "text": "DATALINK",
+          "voice": "AIRPORT INFORMATION. DATALINK"
+        },
+        {
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 1,
           "enabled": false
         },
@@ -4420,23 +4462,13 @@
       ],
       "notamDefinitions": [
         {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
           "text": "DATALINK CLEARANCE AVAILABLE.",
-          "ordinal": 2,
+          "ordinal": 0,
           "enabled": false
         },
         {
           "text": "BEFORE START-UP CONTACT MALPENSA OPERATIONS ON 131.880 TO BE RELEASED BY THE AIRPORT OPERATOR.",
-          "ordinal": 4,
+          "ordinal": 2,
           "enabled": false
         }
       ]
@@ -6452,9 +6484,15 @@
           "id": "e23b6cba-9195-47fe-98c7-fde3b844b395",
           "ordinal": 4,
           "name": "35 LVP",
-          "template": "@LIML @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 35. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIML @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 35. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -6487,7 +6525,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
+          "voice": "OPERATIONAL INFORMATION. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "TDZ",
@@ -6548,16 +6586,31 @@
           "variableName": "FL",
           "text": "FL",
           "voice": "FLIGHT LEVEL"
+        },
+        {
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY. DRY. DRY. ",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         },
@@ -6572,18 +6625,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "cf0da1d2-1135-43d1-b079-42e7682b3365",
@@ -8603,9 +8645,15 @@
           "id": "a96e0141-5788-4914-9bb1-fa8c850eeaba",
           "ordinal": 4,
           "name": "28 LVP",
-          "template": "@LIME @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 28. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIME @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 28. WET. [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -8663,7 +8711,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
+          "voice": "OPERATIONAL INFORMATION. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "M",
@@ -8694,21 +8742,41 @@
           "variableName": "ATIS",
           "text": "ATIS",
           "voice": "INFORMATION"
+        },
+        {
+          "variableName": "ORIO",
+          "text": "ORIO",
+          "voice": "OPERATIONAL INFORMATION. ORIO"
+        },
+        {
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "OPERATIONAL INFORMATION. ORIO DELIVERY FREQUENCY ACTIVATED. WHEN RELEASED BY AIRPORT OPERATOR CONTACT FREQUENCY 134.105.",
+          "text": "ORIO DELIVERY FREQUENCY ACTIVATED. WHEN RELEASED BY AIRPORT OPERATOR CONTACT FREQUENCY 134.105.",
           "ordinal": 3,
           "enabled": false
         },
@@ -8725,18 +8793,8 @@
       ],
       "notamDefinitions": [
         {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
           "text": "TAILWIND XX KNOTS, ON FINAL APPROACH",
-          "ordinal": 2,
+          "ordinal": 1,
           "enabled": false
         }
       ]
@@ -10753,18 +10811,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "0d87516c-abda-4562-98de-c412842254af",
@@ -12757,7 +12804,7 @@
           "id": "7ead16e6-1039-49f9-9c61-74f1d175ab34",
           "ordinal": 2,
           "name": "04 ILS",
-          "template": "@LIPX @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE 04. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPX @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY IN USE 04. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12772,7 +12819,7 @@
           "id": "2df11dd0-9b1b-45d3-b149-b430804446a1",
           "ordinal": 3,
           "name": "04 RNP",
-          "template": "@LIPX @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP. RWY IN USE 04. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPX @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RNP. RWY IN USE 04. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12796,7 +12843,7 @@
           "id": "6a9377ee-5814-4f58-ac7a-490388bdff68",
           "ordinal": 5,
           "name": "04 LVP",
-          "template": "@LIPX @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS Z. ARRIVAL RWY IN USE 04. DEPARTURE RWY IN USE 22. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPX @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z ARRIVAL RWY IN USE 04. DEPARTURE RWY IN USE 22. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12862,7 +12909,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
+          "voice": "OPERATIONAL INFORMATION. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "M",
@@ -12872,7 +12919,7 @@
         {
           "variableName": "Z",
           "text": "Z",
-          "voice": "ZULU"
+          "voice": "ZULU."
         },
         {
           "variableName": "LIPX",
@@ -12893,16 +12940,41 @@
           "variableName": "ATIS",
           "text": "ATIS",
           "voice": "INFORMATION"
+        },
+        {
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
+        },
+        {
+          "variableName": "ILS",
+          "text": "ILS",
+          "voice": "TYPE OF APPROACH, ILS"
+        },
+        {
+          "variableName": "RNP",
+          "text": "RNP",
+          "voice": "TYPE OF APPROACH, RNP"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         },
@@ -12917,18 +12989,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "1bc43270-c1b4-4ca2-b90c-ce319f55d33a",
@@ -14930,27 +14991,45 @@
           "id": "a2649220-b932-421f-8dc6-bddf8fdafd69",
           "ordinal": 2,
           "name": "36 ILS",
-          "template": "@LIMF @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE 36. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMF @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY IN USE 36. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "4e90bd21-47a9-474e-b27e-dd64f809a6c9",
           "ordinal": 3,
           "name": "36 RNP",
-          "template": "@LIMF @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP. RWY IN USE 36. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMF @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RNP. RWY IN USE 36. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "ec661b5f-3db7-4900-a2f1-f6f080afb298",
           "ordinal": 4,
           "name": "36 LVP",
-          "template": "@LIMF @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS Z. RWY IN USE 36. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMF @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY IN USE 36. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -15008,7 +15087,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
+          "voice": "OPERATIONAL PROCEDURES. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "M",
@@ -15018,7 +15097,7 @@
         {
           "variableName": "Z",
           "text": "Z",
-          "voice": "ZULU"
+          "voice": "ZULU."
         },
         {
           "variableName": "LIMF",
@@ -15039,16 +15118,41 @@
           "variableName": "ATIS",
           "text": "ATIS",
           "voice": "INFORMATION"
+        },
+        {
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
+        },
+        {
+          "variableName": "ILS",
+          "text": "ILS",
+          "voice": "TYPE OF APPROACH, ILS"
+        },
+        {
+          "variableName": "RNP",
+          "text": "RNP",
+          "voice": "TYPE OF APPROACH, RNP"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         },
@@ -15063,18 +15167,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "a177d530-dffa-418f-9314-b0465f967be8",
@@ -17167,32 +17260,31 @@
           "variableName": "ATIS",
           "text": "ATIS",
           "voice": "INFORMATION"
+        },
+        {
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "8957301f-ea60-4048-8f70-83d8949d463b",
@@ -19185,9 +19277,15 @@
           "id": "4caa868b-d20e-48b7-9f5b-64fb8688ea6c",
           "ordinal": 1,
           "name": "17L(D) 17R(A)",
-          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP @Z. ARRIVAL RWY IN USE 17R. DEPARTURE RWY IN USE 17L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RNP @Z. ARRIVAL RWY IN USE 17R. DEPARTURE RWY IN USE 17L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -19196,34 +19294,52 @@
           "name": "35L(D) 35R(A)",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. ARRIVAL RWY IN USE 35R. DEPARTURE RWY IN USE 35L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z. ARRIVAL RWY IN USE 35R. DEPARTURE RWY IN USE 35L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "63f60084-478d-422d-8f7c-39899e3d7709",
           "ordinal": 3,
           "name": "35L(A) 35R(D)",
-          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. ARRIVAL RWY IN USE 35L. DEPARTURE RWY IN USE 35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z. ARRIVAL RWY IN USE 35L. DEPARTURE RWY IN USE 35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "01d322dc-cefd-4052-8da0-c13a51d5122b",
           "ordinal": 4,
           "name": "NIGHT CONFIG - 35L(A) 17R(D)",
-          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. ARRIVAL RWY IN USE 35L. DEPARTURE RWY IN USE 17R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z. ARRIVAL RWY IN USE 35L. DEPARTURE RWY IN USE 17R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "323bba06-b2bb-48be-ba2e-3ddb5c6d111a",
           "ordinal": 5,
           "name": "35L(A+D)",
-          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE 35L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z. RWY IN USE 35L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19238,7 +19354,7 @@
           "id": "6fa36279-7c1e-4494-b045-9d9f4339a1d6",
           "ordinal": 5,
           "name": "35R(A+D)",
-          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. RWY IN USE 35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z. RWY IN USE 35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19253,18 +19369,30 @@
           "id": "dba2a134-1a6f-40f7-b2dc-7090658c1a94",
           "ordinal": 7,
           "name": "35L(A) 35R(D) LVP",
-          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. ARRIVAL RWY IN USE 35L. DEPARTURE RWY IN USE 35R. RWY @CC 5. 5. 5. CONTAMINANT WET. WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z. ARRIVAL RWY IN USE 35L. DEPARTURE RWY IN USE 35R. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "5644f78a-b79b-447f-ab05-62ba291c8480",
           "ordinal": 8,
           "name": "17L(A) 17R(D)",
-          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z. ARRIVAL RWY IN USE 17L. DEPARTURE RWY IN USE 17R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIMC @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z. ARRIVAL RWY IN USE 17L. DEPARTURE RWY IN USE 17R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -19352,12 +19480,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
-        },
-        {
-          "variableName": "RCR",
-          "text": "RCR",
-          "voice": "RUNWAY CONDITIONS CODE"
+          "voice": "OPERATIONAL INFORMATION. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "AVAIL",
@@ -19368,11 +19491,26 @@
           "variableName": "ARR",
           "text": "ARR",
           "voice": "ATIS ARRIVAL"
+        },
+        {
+          "variableName": "RNP",
+          "text": "RNP",
+          "voice": "TYPE OF APPROACH, RNP"
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
+        },
+        {
+          "variableName": "ILS",
+          "text": "ILS",
+          "voice": "TYPE OF APPROACH, ILS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 1,
           "enabled": false
         },
@@ -19404,23 +19542,18 @@
       ],
       "notamDefinitions": [
         {
-          "text": "AIRPORT INFORMATION. BEFORE START-UP CONTACT MALPENSA OPERATIONS ON 131.880 TO BE RELEASED BY THE AIRPORT OPERATOR.",
+          "text": "DATALINK CLEARANCE AVAILABLE.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "OPERATIONAL INFORMATION.",
+          "text": "BEFORE START-UP CONTACT MALPENSA OPERATIONS ON 131.880 TO BE RELEASED BY THE AIRPORT OPERATOR.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
           "text": "SINGLE RWY OPERATIONS IN PROGRESS.",
-          "ordinal": 4,
+          "ordinal": 3,
           "enabled": false
         }
       ]

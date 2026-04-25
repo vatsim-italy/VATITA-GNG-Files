@@ -1,8 +1,8 @@
 {
-  "name": "LIPP v1.1.3",
-  "id": "04bf6eb8-d696-4e93-8ad3-b8a8128631f8",
+  "name": "LIPP v1.1.4",
+  "id": "7dbfc206-5b69-4be7-a620-0ad5f71cbe05",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIPP.json",
-  "updateSerial": 2025110201,
+  "updateSerial": 2026042501,
   "stations": [
     {
       "id": "fa2257bb-38a3-413b-b95e-3c39ad0f0acf",
@@ -1997,48 +1997,60 @@
           "name": "12 ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z RWY 12. RWY IN USE 12. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY 12. RWY IN USE 12. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "92b65da4-21b7-43eb-b038-959cb94b32d5",
           "ordinal": 2,
           "name": "30 ILS",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS RWY 30. RWY IN USE 30. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS RWY 30. RWY IN USE 30. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "voiceUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "30",
-            "departure": "30"
+            "departure": "30",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "d38f7fd9-a25a-4871-92f6-7d6a5ed1c07f",
           "ordinal": 3,
           "name": "12 RNP",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP RWY 12. RWY IN USE 12. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RNP RWY 12. RWY IN USE 12. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "voiceUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "12",
-            "departure": "12"
+            "departure": "12",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "b5a7b528-efb3-47bd-ab46-b130e467543d",
           "ordinal": 4,
           "name": "30 RNP",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP RWY 30. RWY IN USE 30. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RNP RWY 30. RWY IN USE 30. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "voiceUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "30",
-            "departure": "30"
+            "departure": "30",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2047,18 +2059,30 @@
           "name": "NIGHT CONFIG - 12(A) 30(D)",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z RWY 12. ARRIVAL RWY IN USE 12. DEPARTURE RWY IN USE 30. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. ",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY 12. ARRIVAL RWY IN USE 12. DEPARTURE RWY IN USE 30. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS]. ",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "93b9d9cd-1560-43bb-be64-5e86aed4b89e",
           "ordinal": 6,
           "name": "12 LVP",
-          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z RWY 12. RWY IN USE 12. RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPE @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY 12. RWY IN USE 12. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -2081,7 +2105,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
+          "voice": "OPERATIONAL PROCEDURES. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "LIPE",
@@ -2147,16 +2171,31 @@
           "variableName": "RCR",
           "text": "RCR",
           "voice": "RUNWAY CONDITIONS CODE"
+        },
+        {
+          "variableName": "ILS",
+          "text": "ILS",
+          "voice": "TYPE OF APPROACH, ILS"
+        },
+        {
+          "variableName": "RNP",
+          "text": "RNP",
+          "voice": "TYPE OF APPROACH, RNP"
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         },
@@ -2171,18 +2210,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "6ce13a1c-d052-45c6-96b4-9fd0f8806245",
@@ -4177,36 +4205,45 @@
           "name": "04R ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIPZ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z RWY 04R. RWY IN USE ^04R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS].",
+          "template": "@LIPZ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY IN USE ^04R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "voiceUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "04R",
             "departure": "04R",
-            "approaches": "ILS Z"
+            "approaches": "ILS Z",
+            "remarks": ""
           }
         },
         {
           "id": "63164086-9cdf-41d3-bec4-f1e0ce6954e6",
           "ordinal": 1,
           "name": "04R RNP",
-          "template": "@LIPZ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP RWY 04R. RWY IN USE ^04R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS].",
+          "template": "@LIPZ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RNP RWY IN USE ^04R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "e2ea56ae-8fba-4f52-9e16-aa956e371155",
           "ordinal": 3,
           "name": "22L",
-          "template": "@LIPZ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP RNP RWY 22L. RWY IN USE ^22L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS].",
+          "template": "@LIPZ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RNP RWY IN USE ^22L. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "voiceUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "22L",
-            "departure": "22L"
+            "departure": "22L",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4215,14 +4252,15 @@
           "name": "04R LVP",
           "airportConditions": "",
           "notams": "",
-          "template": "@LIPZ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. TYPE OF APP ILS @Z RWY 04R. RWY IN USE ^04R. RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIPZ @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY IN USE ^04R. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "voiceUrl": "https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "04R",
             "departure": "04R",
-            "approaches": "ILS Z"
+            "approaches": "ILS Z",
+            "remarks": ""
           }
         }
       ],
@@ -4250,12 +4288,12 @@
         {
           "variableName": "Z",
           "text": "Z",
-          "voice": "ZULU"
+          "voice": "ZULU."
         },
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
+          "voice": "OPERATIONAL PROCEDURES. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "TDZ",
@@ -4311,16 +4349,31 @@
           "variableName": "M",
           "text": "M",
           "voice": "METERS"
+        },
+        {
+          "variableName": "ILS",
+          "text": "ILS",
+          "voice": "TYPE OF APPROACH, ILS"
+        },
+        {
+          "variableName": "RNP",
+          "text": "RNP",
+          "voice": "TYPE OF APPROACH, RNP."
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY.DRY.DRY.",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         },
@@ -4335,18 +4388,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     }
   ],
   "version": 4

@@ -1,8 +1,8 @@
 {
-  "name": "LIBB v1.3.2",
-  "id": "dae342d1-30b1-4301-bfb9-5710905ab366",
+  "name": "LIBB v1.3.3",
+  "id": "016c5e11-6f89-4ed1-946c-5239aed2e118",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIBB.json",
-  "updateSerial": 2025072401,
+  "updateSerial": 2026042501,
   "stations": [
     {
       "id": "625904f8-6f8c-4839-b981-4885c0a0de16",
@@ -2017,14 +2017,15 @@
         {
           "id": "820784f4-2da1-4e04-a3e5-fa210e0d8a86",
           "name": "07 LVP",
-          "template": "@LIBD @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 07. RWY @CC 5. 5. 5. CONTAMINANT WET .WET. WET. [TL]. OPERATIONAL INFORMATION. @LVP IN PROGRESS. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "template": "@LIBD @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 07. WET [TL]. LVP INPR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
-            "approaches": "ILS Z"
+            "approaches": "ILS Z",
+            "remarks": ""
           }
         }
       ],
@@ -2047,7 +2048,7 @@
         {
           "variableName": "LVP",
           "text": "LVP",
-          "voice": "LOW VISIBILITY PROCEDURES"
+          "voice": "OPERATIONAL INFORMATION. LOW VISIBILITY PROCEDURES"
         },
         {
           "variableName": "LIBD",
@@ -2105,19 +2106,29 @@
           "voice": "METERS"
         },
         {
-          "variableName": "RCR",
-          "text": "RCR",
-          "voice": "RUNWAY CONDITIONS CODE"
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
+        },
+        {
+          "variableName": "INPR",
+          "text": "INPR",
+          "voice": "IN PROGRESS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET. WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         },
@@ -2132,18 +2143,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "254e50f5-8bd5-4406-8d02-fc8cdf959291",
@@ -4235,35 +4235,29 @@
           "voice": "METERS"
         },
         {
-          "variableName": "RCR",
-          "text": "RCR",
-          "voice": "RUNWAY CONDITIONS CODE"
+          "variableName": "DRY",
+          "text": "RCR 6/6/6 DRY/DRY/DRY",
+          "voice": "RUNWAY CONDITIONS CODE 6. 6. 6. CONTAMINANT DRY. DRY. DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "RCR 5/5/5 WET/WET/WET",
+          "voice": "RUNWAY CONDITIONS CODE 5. 5. 5. CONTAMINANT WET. WET. WET."
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "@RCR 6. 6. 6. CONTAMINANT DRY. DRY. DRY.",
+          "text": "DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "@RCR 5. 5. 5. CONTAMINANT WET .WET. WET.",
+          "text": "WET",
           "ordinal": 2,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "OPERATIONAL INFORMATION.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "AIRPORT INFORMATION.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     }
   ],
   "version": 4
