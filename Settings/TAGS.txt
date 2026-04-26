@@ -1120,11 +1120,12 @@ TAGTYPE:23:0:0
 TAGITEM:9::1:0:0:0::0:1:::0
 TAGITEM:16::0:1:0:0::0:1:::1
 TAGFAMILY:VATITA Integrated
-TAGTYPE:0:14:1
+TAGTYPE:0:15:1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:1:::1
 TAGITEM:259::0:1:62:62:TopSky plugin:0:1:TopSky plugin:TopSky plugin:0
 TAGITEM:303::0:1:62:62:TopSky plugin:0:1:TopSky plugin:TopSky plugin:0
 TAGITEM:190::0:1:0:0:TopSky plugin:0:1:::0
+TAGITEM:417::0:1:0:0:TopSky plugin:3:1:::1
 TAGITEM:309::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:151::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:399::0:1:0:0:TopSky plugin:0:1:::1
@@ -1198,7 +1199,7 @@ TAGITEM:309::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:399::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:151::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:68::0:1:0:0:TopSky plugin:0:1:::1
-TAGITEM:531::0:0:0:0:VATITA Controller Plugin:0:1:::1
+TAGITEM:531::0:1:0:0:VATITA Controller Plugin:0:1:::1
 TAGITEM:312::0:1:119:0:TopSky plugin:0:1:TopSky plugin::1
 TAGITEM:264::0:1:0:0:TopSky plugin:0:1:::1
 TAGITEM:265::0:1:80:0:TopSky plugin:0:1:TopSky plugin::1
