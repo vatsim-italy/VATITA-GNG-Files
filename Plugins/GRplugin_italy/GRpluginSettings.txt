@@ -204,6 +204,10 @@ Shortcut_Map_Target=4,LIML SMR\RELEASE POINTS
 
 Window_APP_Rotation=95
 
+[LIMJ]
+Shortcut_Map_Target=3,LIMJ SMR\LIMJ Stands
+
+
 [LIPZ]
 Airport_Runway_Buffer=04R:150
 Airport_Runway_Buffer_LVP=04R:150
