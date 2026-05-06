@@ -5,7 +5,7 @@
         "transAlt": 8000,
         "maxInitialClimb": 10000,
         "enableRVSids": false,
-        "appSI": "US0,US1,US2,TS1,NE1",
+        "appSI": "US0,US1,US2,TS1,NE1,ROM",
         "sids": {
             "initial": 6000,      
             "AMANO": {

@@ -5,7 +5,7 @@
         "transAlt": 7000,
         "maxInitialClimb": 10000,
         "enableRVSids": false,
-        "appSI": "CAA,ES1,SU1",
+        "appSI": "CAA,ES1,SU1,ROM",
         "sids": {
             "ALUDU": {
                 "L": {

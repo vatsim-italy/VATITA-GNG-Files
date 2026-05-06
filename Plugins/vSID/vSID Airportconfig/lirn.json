@@ -5,7 +5,7 @@
         "transAlt": 8000,
         "maxInitialClimb": 6000,
         "enableRVSids": false,
-        "appSI": "US0,US1,US2,TS1,NE1,NE7",
+        "appSI": "US0,US1,US2,TS1,NE1,ROM",
         "intersections": {
             "24": "G, E",
             "06": "A, B, H"
