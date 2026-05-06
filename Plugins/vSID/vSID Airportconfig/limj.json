@@ -30,27 +30,27 @@
                 "K": {
                     "1": {
                         "rwy": "28",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "N": {
                     "1": {
                         "rwy": "10",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "M": {
                     "1": {
                         "rwy": "28",
-                        "prio": 99
+                        "prio": 1
                     }
                 },
                 "H": {
                     "1": {
                         "rwy": "10",
-                        "prio": 99
+                        "prio": 1
                     }
                 }
             },
@@ -58,27 +58,27 @@
                  "K": {
                     "1": {
                         "rwy": "28",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "Q": {
                     "1": {
                         "rwy": "10",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
+                        "equip": {"NON-RNAV": true},
                         "prio": 1
                     }
                 },
                 "C": {
                     "1": {
                         "rwy": "28",
-                        "prio": 99
+                        "prio": 1
                     }
                 },
                 "H": {
                     "1": {
                         "rwy": "10",
-                        "prio": 99
+                        "prio": 1
                     }
                 }
             }
