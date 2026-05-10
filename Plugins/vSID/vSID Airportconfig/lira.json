@@ -105,7 +105,8 @@
                     }
                 }
             },
-            "RATIR": {              
+            "RATIR": {    
+                "initial":8000,          
                 "trans": {"RIFFI": "U", "SIPRO": "U"},
                 "W": {
                     "1":{
