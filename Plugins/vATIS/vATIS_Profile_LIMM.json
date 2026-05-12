@@ -1,8 +1,8 @@
 {
-  "name": "LIMM v1.5.9",
+  "name": "LIMM v1.5.10",
   "id": "912d9bd2-1596-43bd-8a91-30ed76ff0fa8",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIMM.json",
-  "updateSerial": 2026042501,
+  "updateSerial": 2026051201,
   "stations": [
     {
       "id": "4fb2dbf4-067b-4eda-928e-3acc280f7add",
@@ -2027,7 +2027,7 @@
           "id": "545eaa56-7767-429a-9214-52c1965f776a",
           "ordinal": 3,
           "name": "35R",
-          "airportConditions": "@RUNWAY 35L CLOSED DUE TO WORK IN PROGRESS MEDIUM AND LIGHT AIRCRAFT HAVE TO VACATE VIA TAXIWAY DELTA, IF UNABLE ADVISE ATC.",
+          "airportConditions": "",
           "notams": "",
           "template": "@LIMC @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. 1 RWY IN USE ^35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
@@ -4275,7 +4275,7 @@
           "id": "b979add5-8a80-4b51-bce6-aa9fd7f2251b",
           "ordinal": 4,
           "name": "35R",
-          "airportConditions": "@SINGLE RWY OPS IN PROGRESS, IF NOT FULLY READY FOR DEPARTURE ADVISE ATC TAXIWAY BRAVO ECHO, BRAVO WHISKEY, DELTA MIKE, FOXTROT, FOXTROT ECHO, WHISKEY BRAVO AND JULIET CLOSED.",
+          "airportConditions": "",
           "notams": "",
           "template": "@LIMC @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^35R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
