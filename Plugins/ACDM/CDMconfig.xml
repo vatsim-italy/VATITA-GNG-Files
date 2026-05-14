@@ -4,12 +4,15 @@
 	<rateLvo ops="10" />
 	<expiredCtot time="15" />
 	<realMode mode="true" />
+	<bmi mode="false" />
 	<pilotTobt mode="false" />
 	<autoAtot mode="false" />
 	<invalidateAtTsat mode="true" />
+	<invalidateAtTobt mode="true" />
+	<readySetTsac mode="false" />
 	<Rates url="https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/rate.txt" />
 	<Taxizones url="https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/taxizones.txt" />
-	<Ctot url="" />
+	<Slots url="" />
 	<sidInterval url="" />
 	<DefaultTaxiTime minutes="15" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
@@ -19,4 +22,10 @@
 	<sftpConnection mode="false" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
+	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
+	<reqTobtPriority mode="true" />
+	<eventPriority mode="false" />
+	<autoSetTobtFromEvSlot mode="false" />
+	<remarksOptionCtot mode="false" />
+	<PrivateMessage text="[CDM MSG] PLEASE, MONITOR https://vats.im/vdgs FOR CDM AND ATFCM UPDATES. [END OF CDM MSG]" />
 </CDM>

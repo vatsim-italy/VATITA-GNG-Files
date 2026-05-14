@@ -12,7 +12,7 @@ m_Column:ATYP:4:1:16:0:0:1::::7:4.0
 m_Column:PKB:5:1:1:0:0:1:Ground Radar plugin:::4:0.0
 m_Column:EOBT:5:1:1:100:120:1:CDM Plugin:CDM Plugin:CDM Plugin:1:0.0
 m_Column:TOBT:5:1:22:114:121:1:CDM Plugin:CDM Plugin:CDM Plugin:1:0.0
-m_Column:TSAT:5:1:2:0:0:1:CDM Plugin:::1:0.0
+m_Column:TSAT:5:1:2:0:153:1:CDM Plugin::CDM Plugin:1:0.0
 m_Column:TSAC:5:1:5:103:104:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
 m_Column:ASRT:5:1:7:106:107:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
 m_Column:CTOT:5:1:10:108:0:0:CDM Plugin:CDM Plugin::1:0.0
