@@ -9,14 +9,12 @@ jobs:
   calculate-hash:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.ADMIN_PAT }}
 
       - name: Calculate SHA256 hash of relevant files
         id: calc_hash
@@ -56,4 +54,4 @@ jobs:
           git diff --cached --quiet && echo "No changes to commit" && exit 0
 
           git commit -m "ci: update hash.txt [skip ci]"
-          git push
+          git push origin main
