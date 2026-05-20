@@ -1,0 +1,55 @@
+name: Calculate Commit Hash
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  calculate-hash:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Calculate SHA256 hash of relevant files
+        id: calc_hash
+        run: |
+          HASH=$(
+            find . \
+              -type f \
+              ! -name "*.prf" \
+              ! -name "*.sct" \
+              ! -name "*.ese" \
+              ! -name "*.rwy" \
+              ! -path "./.git/*" \
+              | sort \
+              | xargs sha256sum \
+              | sha256sum \
+              | awk '{print $1}'
+          )
+
+          echo "hash=$HASH" >> "$GITHUB_OUTPUT"
+          echo "### 🔐 Commit Hash" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Field | Value |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|-------|-------|" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Commit | \`${{ github.sha }}\` |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Files hash (SHA256) | \`$HASH\` |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Excluded extensions | \`.prf\`, \`.sct\`, \`.ese\`, \`.rwy\` |" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Write hash to file and push
+        run: |
+          echo "${{ steps.calc_hash.outputs.hash }}" > hash.txt
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add hash.txt
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+
+          git commit -m "ci: update hash.txt [skip ci]"
+          git push
