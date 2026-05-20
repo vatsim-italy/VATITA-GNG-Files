@@ -9,6 +9,9 @@ jobs:
   calculate-hash:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,10 +29,11 @@ jobs:
               ! -name "*.ese" \
               ! -name "*.rwy" \
               ! -path "./.git/*" \
-              | sort \
-              | xargs sha256sum \
-              | sha256sum \
-              | awk '{print $1}'
+              -print0 \
+            | sort -z \
+            | xargs -0 sha256sum \
+            | sha256sum \
+            | awk '{print $1}'
           )
 
           echo "hash=$HASH" >> "$GITHUB_OUTPUT"
