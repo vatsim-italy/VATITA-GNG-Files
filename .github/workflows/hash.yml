@@ -28,6 +28,7 @@ jobs:
               ! -name "*.rwy" \
               ! -path "./.git/*" \
               ! -path "./.github/*" \
+              ! -name "hash.txt" \
               -print0 \
             | sort -z \
             | xargs -0 sha256sum \
