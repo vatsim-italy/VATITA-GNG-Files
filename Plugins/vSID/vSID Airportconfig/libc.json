@@ -37,48 +37,89 @@
                 }
             },
             "ADREN": {
-                "G": {
+                "L": {
                     "1":{
                         "rwy": "17",
                         "prio": 1
                         }
                     }
                 },
-                "D": {
+                "W": {
                     "1": {
                         "rwy": "35",
                         "prio": 1
                         }
+                    },
+                "D": {
+                    "1": {
+                        "rwy": "35",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "17",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
                     }
                 },
             "APVAR": {
-                "G": {
+                "L": {
                     "1": {
                         "rwy": "17",
                         "prio": 1
                         }
                 },
-                "D": {
+                "W": {
                     "2": {
                         "rwy": "35",
                         "prio": 1
                     }
                 },
-            "GEMVI": {
+                "D": {
+                    "1": {
+                        "rwy": "35",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                },
                 "G": {
+                    "1": {
+                        "rwy": "17",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                },
+            "GEMVI": {
+                "L": {
                     "1": {
                         "rwy": "17",
                         "prio": 1
                     }
                 },
-                "D": {
+                "W": {
                     "2": {
                         "rwy": "35",
                         "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "35",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "17",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
                     }
                 }
             }
         }
     }
 }
-
+}
