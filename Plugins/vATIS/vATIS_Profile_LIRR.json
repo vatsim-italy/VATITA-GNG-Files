@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.5.8",
+  "name": "LIRR v1.5.9",
   "id": "e769c55f-750c-4f9a-93b8-cf7b13d7611a",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2026042501,
+  "updateSerial": 2026061001,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -6577,7 +6577,7 @@
           "ordinal": 0,
           "name": "06",
           "airportConditions": "",
-          "notams": "AIRPORT INFORMATION. TWY G NOT AVAIL. EXPECT TO VACATE RWY WITHIN TWY F. ADVISE APP CONTROL SERVICE IF NOT ABLE.",
+          "notams": "",
           "template": "@LIRN @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 06. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
@@ -6593,7 +6593,7 @@
           "ordinal": 2,
           "name": "24",
           "airportConditions": "",
-          "notams": "AIRPORT INFORMATION. FOR DEPARTING TFC. TWY G NOT AVAIL. FULL LENGTH RUNWAY AVAIL ONLY WITH BACKTRACK. REPORT AT STARTUP REQUEST IF ABLE FROM TWY ECHO. TORA 2326 M.",
+          "notams": "",
           "template": "@LIRN @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 24. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
