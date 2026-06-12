@@ -253,6 +253,12 @@ Airport_Runway_End=18:N045.12.56.263:E007.39.02.149
 
 Shortcut_Map_Target=3,LIMF SMR\LIMF SMR STANDS
 
+[LIMJ]
+
+Window_APP_Rotation=267
+
+Shortcut_Map_Target=3,LIMJ SMR\LIMJ Stand Labels
+
 [LIRN]
 
 Window_APP_Rotation=32
