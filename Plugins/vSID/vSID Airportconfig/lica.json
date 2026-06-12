@@ -19,7 +19,7 @@
                         "prio": 1
                     }
                 },
-                "R": {
+                "B": {
                     "1": {
                         "rwy": "28",
                         "prio": 1 
@@ -48,7 +48,7 @@
                         "prio": 1
                     }
                 },
-                "E": {
+                "J": {
                     "1": {
                         "rwy": "28",
                         "equip": {"NON-RNAV": true, "RNAV": true},
@@ -64,7 +64,7 @@
                 }
             },
             "ARBUM": {
-                "R": {
+                "B": {
                     "1": {
                         "rwy": "28",
                         "prio": 1 
@@ -77,14 +77,14 @@
                         "prio": 3 
                     }
                 },
-                "F": {
+                "H": {
                     "1": {
                         "rwy": "10",
                         "equip": {"NON-RNAV": true, "RNAV": true},
                         "prio": 1 
                     }
                 },
-                "G": {
+                "J": {
                     "1": {
                         "rwy": "10",
                         "equip": {"NON-RNAV": true, "RNAV": true},
@@ -92,8 +92,24 @@
                     }
                 }
             },
+            "APVAR": {
+                "H": {
+                    "1": {
+                        "rwy": "10",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "F": {
+                    "1": {
+                        "rwy": "10",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
             "BAGIX": {
-                "R": {
+                "B": {
                     "1": {
                         "rwy": "28",
                         "prio": 1 
