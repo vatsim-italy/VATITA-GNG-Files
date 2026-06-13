@@ -28,4 +28,5 @@
 	<autoSetTobtFromEvSlot mode="false" />
 	<remarksOptionCtot mode="false" />
 	<PrivateMessage text="[CDM MSG] PLEASE, SET TOBT AT https://vats.im/vdgs AND MONITOR FOR CDM AND ATFCM UPDATES. REPORT READY WITHIN TOBT TOLERANCE WINDOW. [END OF CDM MSG]" />
+	<loading text="...."/>
 </CDM>
