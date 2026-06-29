@@ -306,6 +306,8 @@ STCA_WarningTime_L=80
 
 TCT_Prediction_Time=480
 TCT_BS_Sep_Lat=6.4
+TCT_Leg_Embellished=0
+TCT_Floor=19500
 
 Menu_CFL_ExtendedItems=15
 Menu_MaxListItems=15
