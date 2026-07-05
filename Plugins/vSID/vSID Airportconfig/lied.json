@@ -1,0 +1,193 @@
+{
+    "LIED": {
+        "elevation": 100,
+        "runways": "16L,16R,34L,34R",
+        "transAlt": 6000,
+        "maxInitialClimb": 6000,
+        "enableRVSids": false,
+        "appSI": "EEA,EE3,EW1,SU1,ROM",
+        "sids": {
+            "CAR": {
+                "initial": 4000,
+                "F": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 99
+                    }
+                },
+                 "D": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "G": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 99
+                    }
+                }
+            },
+            "KOVAS": {
+                "initial": 4000,
+                "H": {
+                    "1": {
+                        "rwy": "34L.34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "L": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "ALG": {
+                "initial": 4000,
+                "C": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 99
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "32",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "CAPOF": {
+                "initial": 4000,
+                "A": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "PERDA": {
+                "initial": 4000,
+                "A": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "RAMEN": {
+                "initial": 4000,
+                "C": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "SILVE": {
+                "initial": 6000,
+                "A": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "TEULA": {
+                "initial": 6000,
+                "A": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            },
+            "VIKXO": {
+                "initial": 4000,
+                "A": {
+                    "1": {
+                        "rwy": "34L,34R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "B": {
+                    "1": {
+                        "rwy": "16L,16R",
+                        "equip": {"NON-RNAV": true, "RNAV": true},
+                        "prio": 1
+                    }
+                }
+            }          
+        }
+    }
+}
