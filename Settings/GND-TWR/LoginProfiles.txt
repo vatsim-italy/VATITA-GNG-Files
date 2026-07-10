@@ -5,15 +5,15 @@ ATIS3:
 ATIS4:
 PROFILE:LIXX_DEL:20:2
 ATIS2:$radioname
-ATIS3:https://www.vatita.net/
+ATIS3:www.vatita.net/
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_GND:20:3
 ATIS2:$radioname
-ATIS3:https://www.vatita.net/
+ATIS3:www.vatita.net/
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_TWR:50:4
 ATIS2:$radioname
-ATIS3:https://www.vatita.net/
+ATIS3:www.vatita.net/
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMC_TWR:50:4
 ATIS2:Malpensa Tower - Report your TOBT at vats.im/vdgs
