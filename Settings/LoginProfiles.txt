@@ -5,11 +5,11 @@ ATIS3:
 ATIS4:
 PROFILE:LIXX_APP:150:5
 ATIS2:$radioname
-ATIS3:https://www.vatita.net/
+ATIS3:www.vatita.net/
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_X_CTR:300:6
 ATIS2:$radioname
-ATIS3:https://www.vatita.net/
+ATIS3:www.vatita.net/
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_EN2_CTR:300:6
 ATIS2:Milano Radar - CPDLC MEN2
