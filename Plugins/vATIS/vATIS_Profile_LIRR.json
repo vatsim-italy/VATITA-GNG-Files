@@ -1,6 +1,6 @@
 {
-  "name": "LIRR v1.5.9",
-  "id": "e769c55f-750c-4f9a-93b8-cf7b13d7611a",
+  "name": "LIRR v1.5.10",
+  "id": "6e3a1d10-12f3-4df8-9e27-1c9151e88c45",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
   "updateSerial": 2026061001,
   "stations": [
@@ -6585,7 +6585,8 @@
             "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
             "arrival": "06",
             "departure": "06",
-            "approaches": "ILS Z"
+            "approaches": "ILS Z",
+            "remarks": ""
           }
         },
         {
@@ -6597,6 +6598,23 @@
           "template": "@LIRN @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE 24. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false
+          }
+        },
+        {
+          "id": "7564fb24-cb1c-40ec-9c90-41d6a4473642",
+          "ordinal": 3,
+          "name": "NIGHT CONFIG - 24(A) 06(D) (2300LT-0600LT)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@LIRN @ARR AND @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. ILS @Z RWY 24. ARRIVAL RWY IN USE 24. DEPARTURE RWY IN USE 06. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "voiceUrl": "https://WWW.vatatis.nz/gen?apptype= ILS  Z &arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)",
+            "arrival": "06",
+            "departure": "06",
+            "approaches": "ILS Z",
+            "remarks": ""
           }
         }
       ],
