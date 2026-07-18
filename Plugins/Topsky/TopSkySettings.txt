@@ -339,7 +339,7 @@ Label_Extended_MaxChars=50
 Label_Field18_Flag_Items=CS/,CS,CALLSIGN/,CALLSIGN
 Label_Alt_Digits=2
 Label_AFL_ForceNautical=1
-Label_AHDG_ShowDct=0
+Label_AHDG_ShowDct=2
 Label_AHDG_HideDctIfCOPX=0
 Label_ASP_Digits=3
 Label_CFL_DefaultValue=1
@@ -393,6 +393,7 @@ WXR_ImageSize=512
 WXR_Echo_dBZ_Hi=50
 WXR_Echo_dBZ_Med=40
 WXR_Echo_dBZ_Lo=30
+WXR_DisplayType=0
 
 Window_CPDLC_Current=1,1100,15
 Window_VAW=0
@@ -459,11 +460,6 @@ Window_ASM=1
 FlightLeg_AutoShow=0
 Window_MsgIn=0,125,800
 Window_SmallQNHTL=0,125,670
-
-[LMMM_]
-
-Setup_LoadView=Malta ACC
-Window_SmallQNHTL_ICAO=LMML
 
 [LIBB_]
 
@@ -1127,3 +1123,59 @@ STCA_WarningTime_L=70
 
 Setup_LoadView=SE0
 STCA_WarningTime_L=70
+
+// ##################################################################
+//                            MALTA
+// ##################################################################
+
+[LMMM_]
+
+Setup_LoadView=Malta ACC
+Window_SmallQNHTL_ICAO=LMML
+
+Rings_Number=6
+Rings_CenterPos=LMML
+Rings_Highlight=1
+Rings_HighlightStep=1
+Rings_Separation=10
+
+Setup_COOPANS=0
+Label_GS_Prefix=G
+
+Color_Concerned=188,188,188
+Color_Unconcerned=115,115,115
+Color_Assumed=255,255,255
+Color_Coordination=150,150,150
+
+[LMML_]
+
+Setup_COOPANS=0
+
+Color_Concerned=188,188,188
+Color_Unconcerned=115,115,115
+Color_Assumed=255,255,255
+Color_Coordination=150,150,150
+
+[LMML_APP]
+
+Rings_Available=1
+Rings_Number=6
+Rings_CenterPos=LMML
+Rings_Highlight=1
+Rings_HighlightStep=1
+Rings_Separation=10
+
+{MLA}
+
+Rings_Available=1
+Rings_Number=6
+Rings_CenterPos=LMML
+Rings_Highlight=1
+Rings_HighlightStep=1
+Rings_Separation=10
+
+
+
+
+
+
