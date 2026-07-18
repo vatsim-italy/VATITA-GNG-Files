@@ -254,4 +254,12 @@ PROFILE:LIBR_CS0_APP:150:5
 ATIS2:Brindisi Radar
 ATIS3:Controlling LIBR and LIBD
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LMML_APP:150:5
+ATIS2:$radioname
+ATIS3:vats.im/malta
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LMMM_CTR:300:6
+ATIS2:$radioname - CPDLC [LMMM]
+ATIS3:vats.im/malta
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 END
