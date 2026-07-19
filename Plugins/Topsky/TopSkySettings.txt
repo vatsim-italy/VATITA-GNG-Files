@@ -1133,6 +1133,7 @@ STCA_WarningTime_L=70
 Setup_LoadView=Malta ACC
 Window_SmallQNHTL_ICAO=LMML
 
+Rings_Available=1
 Rings_Number=6
 Rings_CenterPos=LMML
 Rings_Highlight=1
