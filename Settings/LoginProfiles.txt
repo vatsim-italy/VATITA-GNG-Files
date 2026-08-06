@@ -5,11 +5,11 @@ ATIS3:
 ATIS4:
 PROFILE:LIXX_APP:150:5
 ATIS2:$radioname
-ATIS3:www.vatita.net/
+ATIS3:My active sector map.vatsim.net/
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIXX_X_CTR:300:6
 ATIS2:$radioname
-ATIS3:www.vatita.net/
+ATIS3:My active sector map.vatsim.net/
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_EN2_CTR:300:6
 ATIS2:Milano Radar - CPDLC MEN2
@@ -153,98 +153,99 @@ ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:My active sector map.vatsim.net
 PROFILE:LIRR_TW1_APP:150:5
 ATIS2:Roma Arrivals
-ATIS3:Controlling airports within Rome CTR
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRR_AET_APP:150:5
 ATIS2:Roma Arrivals
-ATIS3:Controlling airports within Rome CTR
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRR_PN1_DEP:150:5
 ATIS2:Roma Departures
-ATIS3:Controlling airports within Rome CTR
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRR_AEM_APP:150:5
 ATIS2:Roma Director
-ATIS3:Controlling airports within Rome CTR
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRR_AWL_APP:150:5
 ATIS2:Roma Director
-ATIS3:Controlling airports within Rome CTR
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRN_US0_APP:150:5
 ATIS2:Roma Radar
-ATIS3:Controlling LIRN + LIRI
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRN_US1_APP:150:5
 ATIS2:Roma Radar
-ATIS3:Controlling LIRN + LIRI
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIEO_EW0_APP:150:5
 ATIS2:Roma Radar
-ATIS3:Controlling LIEO + LIEA
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LICA_ES0_APP:150:5
 ATIS2:Roma Radar
-ATIS3:Controlling LICA + LIBC
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRQ_NN0_APP:150:5
 ATIS2:Roma Radar
-ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
+ATIS3:My active sector map.vatsim.net
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ANE_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling airports within Milano TMA
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ADE_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling airports within Milano TMA
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ASW_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling airports within Milano TMA
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_MAR_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling airports within Milano TMA
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_LAR_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling airports within Milano TMA
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_ANW_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling airports within Milano TMA
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPZ_SE0_APP:150:5
 ATIS2:Padova Radar 
-ATIS3:Controlling LIPZ
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPQ_CE0_APP:150:5
 ATIS2:Padova Radar 
-ATIS3:Controlling LIPQ
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPP_SC0_APP:150:5
 ATIS2:Padova Radar 
-ATIS3:Controlling LIPZ and LIPQ
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMF_WN0_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling LIMF and LIMZ
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMJ_WS0_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling LIMJ and LIMG
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIMM_WW0_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling LIMF, LIMZ, LIMJ and LIMG
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPX_ES0_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling LIPX and LIPO
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIPX_EE1_APP:150:5
 ATIS2:Milano Radar 
-ATIS3:Controlling LIPX and LIPO
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIBB_ES3_CTR:150:6
 ATIS2:Brindisi Radar - CPDLC [LIBB]
@@ -252,7 +253,7 @@ ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:My active sector map.vatsim.net
 PROFILE:LIBR_CS0_APP:150:5
 ATIS2:Brindisi Radar
-ATIS3:Controlling LIBR and LIBD
+ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LMML_APP:150:5
 ATIS2:$radioname
