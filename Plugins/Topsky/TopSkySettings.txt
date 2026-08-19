@@ -447,12 +447,10 @@ CPDLC_PDC_Auto=1
 
 FlightLeg_AutoShow=0
 Window_CPDLC_Current=0,0,650
-Window_ASM=1
 
 [_CTR]
 
 Window_CPDLC_Setting=1,1,350
-Window_ASM=1
 
 [_TWR]
 
