@@ -22,6 +22,7 @@
 	<sftpConnection mode="false" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
+	<viffSystem url="https://api.viffsys.com" />
 	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
 	<reqTobtPriority mode="true" />
 	<eventPriority mode="true" />
