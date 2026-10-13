@@ -260,7 +260,7 @@ Vector_MinSep_Width=1
 
 FlightLeg_AssumeTime=2
 FlightLeg_FontSize=11
-FlightLeg_AutoShow=1
+FlightLeg_AutoShow=0
 FlightLeg_Label_DIST=1
 FlightLeg_Label_RFL=1
 FlightLeg_LineWidth=0
