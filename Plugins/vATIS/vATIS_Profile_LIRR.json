@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.6.0",
+  "name": "LIRR v1.6.1",
   "id": "25c7c1e9-7980-406e-8e8f-e09d0f452381",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2026091701,
+  "updateSerial": 2026101401,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -2058,8 +2058,25 @@
           }
         },
         {
-          "id": "041846f3-fbbf-4c15-be06-d9636ed7e714",
+          "id": "9f32826f-0832-49fa-9b42-4c557f6825c7",
           "ordinal": 5,
+          "name": "34L+34R (RNP) DEPENDENT",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@LIRF @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. RWYAP 34R RNP RWY 34L ILS. RWY IN USE ^34R AND ^34L. [ARPT_COND] [TL]. DEPENDENT PARL ILS APCH INPR. THE 1 2 ^34R OR ^34L ASSIGNED BY ROME RADAR. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "041846f3-fbbf-4c15-be06-d9636ed7e714",
+          "ordinal": 6,
           "name": "34L+34R INDEPENDENT (BY ATC)",
           "template": "@LIRF @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPEAPP RWY IN USE ^34R AND ^34L. [ARPT_COND] [TL]. INDEPENDENT PARL ILS APCH INPR. THE 1 2 ^34R OR ^34L ASSIGNED BY ROME RADAR. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
@@ -2074,7 +2091,7 @@
         },
         {
           "id": "282ab3ee-288e-4c56-92da-3e5523d70b4c",
-          "ordinal": 6,
+          "ordinal": 7,
           "name": "16L (ILS W)",
           "airportConditions": "",
           "notams": "",
@@ -2091,7 +2108,7 @@
         },
         {
           "id": "b6c8c457-4b1a-44c4-8064-135022fc437c",
-          "ordinal": 7,
+          "ordinal": 8,
           "name": "16L (ILS X)",
           "airportConditions": "",
           "notams": "",
@@ -2108,7 +2125,7 @@
         },
         {
           "id": "cdb07da3-618d-4c07-b9fe-4553d5af73d6",
-          "ordinal": 7,
+          "ordinal": 9,
           "name": "16R",
           "airportConditions": "",
           "notams": "",
@@ -2125,7 +2142,7 @@
         },
         {
           "id": "492a00ba-a127-4195-b181-4359c1a703df",
-          "ordinal": 9,
+          "ordinal": 10,
           "name": "34R",
           "airportConditions": "",
           "notams": "",
@@ -2141,8 +2158,25 @@
           }
         },
         {
-          "id": "dd036605-77ce-46dd-a75a-f30aed7b4f57",
+          "id": "f635787c-39bd-4ecb-8d6c-b9b6c4bc2819",
           "ordinal": 10,
+          "name": "34R (RNP)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@LIRF @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. RNP1 RWY IN USE ^34R. [ARPT_COND] [TL] [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "dd036605-77ce-46dd-a75a-f30aed7b4f57",
+          "ordinal": 12,
           "name": "34L",
           "airportConditions": "",
           "notams": "",
@@ -2159,7 +2193,7 @@
         },
         {
           "id": "f9e38126-9b51-4453-83f2-b06a6a10571f",
-          "ordinal": 11,
+          "ordinal": 13,
           "name": "25",
           "template": "@LIRF @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. TYPEAPP RWY IN USE 25. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
@@ -2174,7 +2208,7 @@
         },
         {
           "id": "130d92a5-27af-486b-ad4d-ec7e350b15d6",
-          "ordinal": 12,
+          "ordinal": 14,
           "name": "16L+16R LVP",
           "template": "@LIRF @ARR @ATIS [ATIS_CODE]. [OBS_TIME]. RWYAP 16L ILS @W RWY 16R ILS @Z. RWY IN USE ^16L AND ^16R. RWY16L_WET RWY16R_WET [TL]. LVP INPR. 3 PARL ILS APCH INPR. THE 1 2 ^16R OR ^16L ASSIGNED BY ROME RADAR. [WIND] [VIS] [ARPT_COND] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
@@ -2287,7 +2321,7 @@
         {
           "variableName": "RRSM",
           "text": "RRSM",
-          "voice": "AIRPORT INFORMATION. REDUCED RUNWAYS SEPARATION MINIMA PROCEDURES IN PROGRESS"
+          "voice": "REDUCED RUNWAYS SEPARATION MINIMA PROCEDURES IN PROGRESS"
         },
         {
           "variableName": "PARL",
@@ -2373,6 +2407,16 @@
           "variableName": "3",
           "text": "DEPENDENT",
           "voice": "DEPENDENT"
+        },
+        {
+          "variableName": "RNP1",
+          "text": "RNP",
+          "voice": "TYPE OF APPROACH. RNP."
+        },
+        {
+          "variableName": "NOTICE",
+          "text": "NOTICE",
+          "voice": "AIRPORT INFORMATION. NOTICE"
         }
       ],
       "airportConditionDefinitions": [
@@ -2434,8 +2478,13 @@
       ],
       "notamDefinitions": [
         {
-          "text": "RRSM",
+          "text": "NOTICE FOR PILOTS AIP SUPPLEMENT 55 26 PHASE 1 IS ACTIVE.",
           "ordinal": 1,
+          "enabled": true
+        },
+        {
+          "text": "RRSM",
+          "ordinal": 2,
           "enabled": false
         }
       ]
@@ -30768,7 +30817,7 @@
         {
           "variableName": "RRSM",
           "text": "RRSM",
-          "voice": "AIRPORT INFORMATION. REDUCED RUNWAYS SEPARATION MINIMA PROCEDURES IN PROGRESS"
+          "voice": "REDUCED RUNWAYS SEPARATION MINIMA PROCEDURES IN PROGRESS"
         },
         {
           "variableName": "INPR",
@@ -30819,6 +30868,11 @@
           "variableName": "RWY1",
           "text": "RWY",
           "voice": "OPERATIONAL INFORMATION. RUNWAY"
+        },
+        {
+          "variableName": "NOTICE",
+          "text": "NOTICE",
+          "voice": "AIRPORT INFORMATION. NOTICE"
         }
       ],
       "airportConditionDefinitions": [
@@ -30900,13 +30954,18 @@
       ],
       "notamDefinitions": [
         {
+          "text": "NOTICE FOR PILOTS AIP SUPPLEMENT 55 26 PHASE 1 IS ACTIVE.",
+          "ordinal": 0,
+          "enabled": true
+        },
+        {
           "text": "READYMESSAGE IS SENT AUTOMATICALLY WHEN RELEASED BY THE RAMP WHEN READY CONTACT FIUME RAMP 121.725",
-          "ordinal": 1,
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "RRSM",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         }
       ]
