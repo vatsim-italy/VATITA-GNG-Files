@@ -230,9 +230,6 @@ Window_TSW_Number=3
 Window_TSW=1,1
 Window_TSW_Rotation=70
 
-RWYCLOSEDARR:LIRF:25,07
-RWYCLOSEDDEP:LIRF:25,07 
-
 Shortcut_Map_Target=3,SMR\STANDS
 Shortcut_Map_Target=4,SMR\RELEASE POINTS
 
