@@ -2478,7 +2478,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "NOTICE FOR PILOTS AIP SUPPLEMENT 55 26 PHASE 1 IS ACTIVE.",
+          "text": "NOTICE FOR PILOTS AIP SUPPLEMENT 55 26 PHASE 2 IS ACTIVE.",
           "ordinal": 1,
           "enabled": true
         },
@@ -30954,7 +30954,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "NOTICE FOR PILOTS AIP SUPPLEMENT 55 26 PHASE 1 IS ACTIVE.",
+          "text": "NOTICE FOR PILOTS AIP SUPPLEMENT 55 26 PHASE 2 IS ACTIVE.",
           "ordinal": 0,
           "enabled": true
         },
