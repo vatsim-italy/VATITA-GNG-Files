@@ -12,10 +12,12 @@
 	<readySetTsac mode="false" />
 	<Rates url="https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/rate.txt" />
 	<Taxizones url="https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/taxizones.txt" />
-	<Slots url="" />
+	<Slots url="https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/slots.txt" />
 	<sidInterval url="" />
 	<DefaultTaxiTime minutes="15" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
+	<DeIceRemTaxi rem1Name= "REM1" rem1="10" rem2Name= "REM2" rem2="10" rem3Name= "REM3" rem3="10" rem4Name= "REM4" rem4="10" rem5Name= "REM5" rem5="10"/>
+	<eventModeMin time="5" />
 	<RefreshTime seconds="5" />
 	<Debug mode="false" />
 	<vdgsFileType type="3"/>
@@ -24,9 +26,15 @@
 	<Su_Wait mode="false" />
 	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
 	<reqTobtPriority mode="true" />
-	<eventPriority mode="false" />
+	<eventPriority mode="true" />
 	<autoSetTobtFromEvSlot mode="false" />
 	<remarksOptionCtot mode="false" />
+	<disableTobtReqAfterAsrt mode="true" />
 	<PrivateMessage text="[CDM MSG] PLEASE, SET TOBT AT https://vats.im/vdgs AND MONITOR FOR CDM AND ATFCM UPDATES. REPORT READY WITHIN TOBT TOLERANCE WINDOW. [END OF CDM MSG]" />
 	<loading text="...."/>
+	<nonCdmEarlyClearenceColor minutes="0" />
+	<AtfcmPrivateMessage
+		fls="[ATFCM MSG] OFF-BLOCK TIME EXPIRED - {CALLSIGN} ({EOBT} - {TOBT}). Please update your off-block time."
+        slot="[ATFCM MSG] SLOT ALLOCATION - {CALLSIGN} ({EOBT} - {TOBT}) CTOT:{CTOT} REGUL:{REGUL}. Please monitor for updates."
+	/>
 </CDM>
