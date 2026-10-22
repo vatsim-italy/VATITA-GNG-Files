@@ -1,8 +1,8 @@
 {
-  "name": "LIRR v1.6.1",
+  "name": "LIRR v1.6.2",
   "id": "25c7c1e9-7980-406e-8e8f-e09d0f452381",
   "updateUrl": "https://raw.githubusercontent.com/vatsim-italy/VATITA-GNG-Files/refs/heads/main/Plugins/vATIS/vATIS_Profile_LIRR.json",
-  "updateSerial": 2026101401,
+  "updateSerial": 2026101801,
   "stations": [
     {
       "id": "d0eda2a7-87a5-4b26-98e7-52a6dbc15d95",
@@ -30625,6 +30625,7 @@
           "ordinal": 2,
           "name": "16R",
           "airportConditions": "",
+          "notams": "",
           "template": "@LIRF @DEP @ATIS [ATIS_CODE]. [OBS_TIME]. RWY IN USE ^16R. [ARPT_COND] [TL]. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
@@ -30955,7 +30956,7 @@
       "notamDefinitions": [
         {
           "text": "NOTICE FOR PILOTS AIP SUPPLEMENT 55 26 PHASE 2 IS ACTIVE.",
-          "ordinal": 0,
+          "ordinal": 1,
           "enabled": true
         },
         {
