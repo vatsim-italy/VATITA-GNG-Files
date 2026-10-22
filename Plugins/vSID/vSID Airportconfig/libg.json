@@ -1,0 +1,130 @@
+{
+    "LIBG": {
+        "elevation": 214,
+        "runways": "35,17",
+        "transAlt": 5000,
+        "maxInitialClimb": 9000,
+        "enableRVSids": false,
+        "appSI": "CS0,ES3",
+        "intersections": {
+            "17": "D"
+        },
+        "sids": {
+            "initial": 9000,
+            "MOKTO": {
+                "M": {
+                    "1": {
+                        "rwy": "35",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "17",
+                        "prio": 1 
+                    }
+                },
+                "P": {
+                    "1": {
+                        "rwy": "35",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "rwy": "17",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                }
+            },
+            "ROBOT": {
+                "T": {
+                    "1":{
+                        "rwy": "35",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
+                },
+                "P": {
+                    "1": {
+                        "rwy": "35",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "rwy": "17",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                }
+            },
+            "KAPPO": {
+                "T": {
+                    "1":{
+                        "rwy": "35",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
+                },
+                "E": {
+                    "1": {
+                        "rwy": "35",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "D": {
+                    "1": {
+                        "rwy": "17",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                }
+            },
+            "LCC": {
+                "M": {
+                    "1":{
+                        "rwy": "35",
+                        "prio": 1
+                    }
+                },
+                "H": {
+                    "1": {
+                        "rwy": "17",
+                        "prio": 1
+                    }
+                },
+                "P": {
+                    "1": {
+                        "rwy": "35",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "rwy": "17",
+                        "equip": {"NON-RNAV": true},
+                        "prio": 1 
+                    }
+                }
+            }
+        }
+    }
+}
+
+
