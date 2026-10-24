@@ -248,11 +248,11 @@ ATIS2:Milano Radar
 ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIBB_ES3_CTR:200:6
-ATIS2:Brindisi Radar - CPDLC [ES3]
+ATIS2:Brindisi Radar - CPDLC [BES3]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:My active sector map.vatsim.net
 PROFILE:LIBB_ES8_CTR:200:6
-ATIS2:Brindisi Radar - CPDLC [ES8]
+ATIS2:Brindisi Radar - CPDLC [BES8]
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:My active sector map.vatsim.net
 PROFILE:LIBR_CS0_APP:150:5
