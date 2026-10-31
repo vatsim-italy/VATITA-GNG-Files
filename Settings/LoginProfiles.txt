@@ -187,6 +187,10 @@ PROFILE:LICA_ES0_APP:150:5
 ATIS2:Roma Radar
 ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
+PROFILE:LICJ_SU0_APP:150:5
+ATIS2:Roma Radar
+ATIS3:My active sector map.vatsim.net
+ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
 PROFILE:LIRQ_NN0_APP:150:5
 ATIS2:Roma Radar
 ATIS3:My active sector map.vatsim.net
