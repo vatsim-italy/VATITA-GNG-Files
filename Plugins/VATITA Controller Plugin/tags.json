@@ -1,0 +1,1597 @@
+{
+  "version": 1,
+  "types": {
+    "primary_only": {
+      "untagged": [
+        {
+          "width": 3,
+          "item": "GS"
+        }
+      ],
+      "detailed": [
+        {
+          "width": 3,
+          "item": "GS"
+        }
+      ],
+      "tagged": [
+        {
+          "width": 3,
+          "item": "GS"
+        }
+      ]
+    },
+    "uncorrelated": {
+      "untagged": [
+        {
+          "item": 72,
+          "width": 1,
+          "provider": "TopSky plugin",
+          "gap_before": 0,
+          "minimum_position": 0,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 1,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "item": "FLTID",
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 33
+          },
+          "width": 8
+        },
+        "newline",
+        {
+          "width": 3,
+          "item": "LVL"
+        },
+        {
+          "width": 3,
+          "item": "GS"
+        }
+      ],
+      "detailed": [
+        {
+          "item": 78,
+          "width": 1,
+          "provider": "TopSky plugin",
+          "gap_before": 0,
+          "minimum_position": 0,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 1,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "item": "FLTID",
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 33
+          },
+          "width": 8
+        },
+        "newline",
+        {
+          "width": 3,
+          "item": "LVL"
+        },
+        {
+          "width": 3,
+          "item": "GS"
+        }
+      ],
+      "tagged": [
+        {
+          "item": 72,
+          "width": 1,
+          "provider": "TopSky plugin",
+          "gap_before": 0,
+          "minimum_position": 0,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 1,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "item": "FLTID",
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 33
+          },
+          "width": 8
+        },
+        "newline",
+        {
+          "width": 3,
+          "item": "LVL"
+        },
+        {
+          "width": 3,
+          "item": "GS"
+        }
+      ]
+    },
+    "correlated_ac": {
+      "untagged": [
+        {
+          "provider": "TopSky plugin",
+          "item": 72,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 259,
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 190,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 3
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 399,
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "EventFlag",
+          "width": 2,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 312,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 264,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 265,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 22,
+          "width": 8,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 58,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 32
+          }
+        },
+        {
+          "item": "AHDG",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 8
+        },
+        "newline",
+        {
+          "item": "LVL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "VerticalSpeedIndicator",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "EFX",
+          "width": 6,
+          "gap_before": 0,
+          "minimum_position": 4
+        },
+        {
+          "item": "RWYDESIG",
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 6
+        },
+        {
+          "item": "AVR",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 8
+        },
+        "newline",
+        {
+          "item": "SPD",
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "WTC",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "ALV",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 4
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 49,
+          "width": 15,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "XFL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 3
+        },
+        {
+          "item": "NXS",
+          "width": 7,
+          "gap_before": 1,
+          "minimum_position": 6
+        }
+      ],
+      "tagged": [
+        {
+          "provider": "TopSky plugin",
+          "item": 72,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 259,
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 190,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 3
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 399,
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "EventFlag",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 312,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 264,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 265,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 22,
+          "width": 8,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 58,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 32
+          }
+        },
+        {
+          "item": "AHDG",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 8
+        },
+        "newline",
+        {
+          "item": "LVL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "VerticalSpeedIndicator",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "EFX",
+          "width": 6,
+          "gap_before": 0,
+          "minimum_position": 4
+        },
+        {
+          "item": "RWYDESIG",
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 6
+        },
+        {
+          "item": "AVR",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 8
+        },
+        "newline",
+        {
+          "item": "SPD",
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "WTC",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "ALV",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 4
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 49,
+          "width": 15,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "XFL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 3
+        },
+        {
+          "item": "NXS",
+          "width": 7,
+          "gap_before": 1,
+          "minimum_position": 6
+        }
+      ],
+      "detailed": [
+        {
+          "provider": "TopSky plugin",
+          "item": 78,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 259,
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 81
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 190,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 191,
+          "width": 4,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 192,
+          "width": 4,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 276,
+          "width": 4,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 3,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 175
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "provider": "vcp",
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "item": "EventFlag",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 312,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 119
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 264,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 265,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 80
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 22,
+          "width": 8,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 6
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 14
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 58,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 32
+          }
+        },
+        {
+          "item": "AHDGDetailed",
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 8,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 416
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 402
+          }
+        },
+        "newline",
+        {
+          "item": "LVL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 12
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 136
+          }
+        },
+        {
+          "item": "VerticalSpeedIndicator",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "EFXDetailed",
+          "width": 6,
+          "gap_before": 0,
+          "minimum_position": 4,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 417
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 418
+          },
+          "provider": "vcp",
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "item": "RWYDESIGDetailed",
+          "width": 6,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 19
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 132
+          }
+        },
+        {
+          "item": "AVRDetailed",
+          "width": 5,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 16
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 404
+          }
+        },
+        "newline",
+        {
+          "item": "SPD",
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 15
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 401
+          }
+        },
+        {
+          "item": "WTC",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "ALV",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 4,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 12
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 97
+          }
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 49,
+          "width": 15,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 69
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 70
+          }
+        },
+        {
+          "item": "XFLDetailed",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 3,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 26
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 97
+          }
+        },
+        {
+          "item": "NXSDetailed",
+          "width": 7,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 20
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 2
+          }
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 212,
+          "width": 15,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 2
+          }
+        }
+      ]
+    },
+    "correlated_s": {
+      "untagged": [
+        {
+          "provider": "TopSky plugin",
+          "item": 72,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 259,
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 190,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 3
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 399,
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "EventFlag",
+          "width": 2,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 312,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 264,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 265,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 22,
+          "width": 8,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 58,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 32
+          }
+        },
+        {
+          "item": "AHDG",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 8
+        },
+        "newline",
+        {
+          "item": "LVL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "VerticalSpeedIndicator",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "EFX",
+          "width": 6,
+          "gap_before": 0,
+          "minimum_position": 4
+        },
+        {
+          "item": "RWYDESIG",
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 6
+        },
+        {
+          "item": "AVR",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 8
+        },
+        "newline",
+        {
+          "item": "SPD",
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "WTC",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "ALV",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 4
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 49,
+          "width": 15,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "XFL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 3
+        },
+        {
+          "item": "NXS",
+          "width": 7,
+          "gap_before": 1,
+          "minimum_position": 6
+        }
+      ],
+      "detailed": [
+        {
+          "provider": "TopSky plugin",
+          "item": 78,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 259,
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 81
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 190,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 191,
+          "width": 4,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 192,
+          "width": 4,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 276,
+          "width": 4,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 3,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 175
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "provider": "vcp",
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "item": "EventFlag",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 312,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 119
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 264,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 265,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 80
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 22,
+          "width": 8,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 6
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 14
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 58,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 32
+          }
+        },
+        {
+          "item": "AHDGDetailed",
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 8,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 416
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 402
+          }
+        },
+        "newline",
+        {
+          "item": "LVL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 12
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 136
+          }
+        },
+        {
+          "item": "VerticalSpeedIndicator",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "EFXDetailed",
+          "width": 6,
+          "gap_before": 0,
+          "minimum_position": 4,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 417
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 418
+          },
+          "provider": "vcp",
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "item": "RWYDESIGDetailed",
+          "width": 6,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 19
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 132
+          }
+        },
+        {
+          "item": "AVRDetailed",
+          "width": 5,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 16
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 404
+          }
+        },
+        "newline",
+        {
+          "item": "SPD",
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 15
+          },
+          "right_click": {
+            "plugin": "vcp",
+            "function_id": 401
+          }
+        },
+        {
+          "item": "WTC",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "ALV",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 4,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 12
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 97
+          }
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 49,
+          "width": 15,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 69
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 70
+          }
+        },
+        {
+          "item": "XFLDetailed",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 3,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 26
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 97
+          }
+        },
+        {
+          "item": "NXSDetailed",
+          "width": 7,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 20
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 2
+          }
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 212,
+          "width": 15,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 2
+          }
+        }
+      ],
+      "tagged": [
+        {
+          "provider": "TopSky plugin",
+          "item": 72,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "placeholder": "",
+          "force_width": false
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 259,
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 190,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 417,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 3
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 309,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 399,
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "EventFlag",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 312,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 264,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 265,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 26,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 22,
+          "width": 8,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 58,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "euroscope",
+            "function_id": 32
+          }
+        },
+        {
+          "item": "AHDG",
+          "width": 3,
+          "gap_before": 1,
+          "minimum_position": 8
+        },
+        "newline",
+        {
+          "item": "LVL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "VerticalSpeedIndicator",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "EFX",
+          "width": 6,
+          "gap_before": 0,
+          "minimum_position": 4
+        },
+        {
+          "item": "RWYDESIG",
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 6
+        },
+        {
+          "item": "AVR",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 8
+        },
+        "newline",
+        {
+          "item": "SPD",
+          "width": 5,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "WTC",
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "ALV",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 4
+        },
+        "newline",
+        {
+          "provider": "TopSky plugin",
+          "item": 49,
+          "width": 15,
+          "gap_before": 0,
+          "minimum_position": 0
+        },
+        {
+          "item": "XFL",
+          "width": 3,
+          "gap_before": 0,
+          "minimum_position": 3
+        },
+        {
+          "item": "NXS",
+          "width": 7,
+          "gap_before": 1,
+          "minimum_position": 6
+        }
+      ]
+    }
+  }
+}
