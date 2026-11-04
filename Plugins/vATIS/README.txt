@@ -1,7 +1,8 @@
+These vATIS profile include custom VoicePacks to closely replicate the real ATIS voices used in Italy and Malta.
 How to use:
 
 · Open vATIS
-· Import > \LIXX\Plugins\vATIS - All the files [LIMM, LIRR, LIBB]
+· Import > \LIXX\Plugins\vATIS - All the .zip files [LIMM, LIRR, LIBB, LMMM]
 · Remember to change the ARPT COND by pressing on the text "ARPT COND"
 · It'll open a new popup and then choose the Runway Condition Report - here you can choose between code 6 (dry) and code 5 (wet). For apts with LVPs active the rwy CC **must not** be used since it is already included in
 the LVP profile. You can set the RVR for TDZ, MID and END parts of RWY (just replace the "-" with a numerical value).
@@ -10,4 +11,3 @@ the LVP profile. You can set the RVR for TDZ, MID and END parts of RWY (just rep
 · That's it!
 · For further, check https://vatis.app/docs/ > Documentation
 
-The "VATITA VoicePacks" folder contains the files needed for the custom ATIS voice. The Voice Pack includes three types of custom ATIS voices: ENAV, MIL and MALTA.
