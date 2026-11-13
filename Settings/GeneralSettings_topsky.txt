@@ -1,6 +1,6 @@
 m_PlaySounds:1
 m_AssumeSlowAcAsStandby:0
-m_ShowAirspaceLines:1
+m_ShowAirspaceLines:0
 m_ShowRouteFixName:1
 m_ShowRouteETA:1
 m_ShowCalculatedHeading:1
@@ -82,13 +82,13 @@ m_UnicomFrequency:122.8
 m_MessageInfoLevel:1
 m_MessageWarningLevel:2
 m_MessageErrorLevel:4
-m_PointOutLevel:4
-m_HandoffRequestLevel:4
-m_CoordinationRequestLevel:4
+m_PointOutLevel:0
+m_HandoffRequestLevel:0
+m_CoordinationRequestLevel:0
 m_HandoffAcceptLevel:0
-m_HandoffRefuseLevel:2
+m_HandoffRefuseLevel:0
 m_CoordinationAcceptLevel:0
-m_CoordinationRefuseLevel:2
+m_CoordinationRefuseLevel:0
 m_ServerMessageLevel:2
 m_AtcMessageLevel:2
 m_BroadcastMessageLevel:2
