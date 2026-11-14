@@ -2,8 +2,8 @@ m_ShowControllers:1
 m_ShowAircraft:0
 m_ShowTextMessages:0
 m_ShowTitle:1
-m_ShowTitleFileName:0
-m_ShowTitleController:0
+m_ShowTitleFileName:1
+m_ShowTitleController:1
 m_ShowTitlePrimaryFreq:1
 m_ShowTitleAtisFreq:0
 m_ShowTitleClock:1
@@ -17,7 +17,7 @@ m_ShowAPPControllers:1
 m_ShowTWRControllers:1
 m_ShowGNDControllers:1
 m_ShowATISControllers:1
-m_ShowOBSControllers:1
+m_ShowOBSControllers:0
 m_ShowUnidentifiedControllers:0
 m_ShowFreqUsers:1
 m_ShowAtisUsers:1
@@ -52,7 +52,7 @@ m_ShowTooltips:1
 m_OnTheGroundAltitude:5000
 m_OnTheGroundSpeed:50
 m_ShowCdtOnCflCheck:0
-m_ShowTsVccsMiniControl:1
+m_ShowTsVccsMiniControl:0
 ScenarioEditorX:0
 ScenarioEditorY:0
 m_ShowSTARControllers:1
