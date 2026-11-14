@@ -1,0 +1,571 @@
+{
+  "version": 1,
+  "split": 0.7,
+  "departures": {
+    "sort_by": "tobt",
+    "descending": false,
+    "columns": [
+      {
+        "id": "callsign",
+        "type": "callsign",
+        "title": "ARCID",
+        "width": 0,
+        "minimum_width": 90,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 8
+        },
+        "right_click": {
+          "type": "none"
+        }
+      },
+      {
+        "id": "aircraft_type_2",
+        "type": "plugin",
+        "title": "FR",
+        "width": 0,
+        "minimum_width": 58,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "none"
+        },
+        "right_click": {
+          "type": "none"
+        },
+        "provider": "TopSky plugin",
+        "item_id": 10031
+      },
+      {
+        "id": "aircraft_type",
+        "type": "aircraft_type",
+        "title": "ATYP",
+        "width": 0,
+        "minimum_width": 58,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "none"
+        },
+        "right_click": {
+          "type": "none"
+        }
+      },
+      {
+        "id": "parking",
+        "type": "parking",
+        "title": "PKB",
+        "width": 0,
+        "minimum_width": 48,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "none"
+        },
+        "right_click": {
+          "type": "none"
+        }
+      },
+      {
+        "id": "eobt",
+        "type": "eobt",
+        "title": "EOBT",
+        "width": 0,
+        "minimum_width": 56,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "CDM Plugin",
+          "function_id": 120
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "CDM Plugin",
+          "function_id": 100
+        }
+      },
+      {
+        "id": "tobt",
+        "type": "tobt",
+        "title": "TOBT",
+        "width": 0,
+        "minimum_width": 62,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "CDM Plugin",
+          "function_id": 121
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "CDM Plugin",
+          "function_id": 114
+        }
+      },
+      {
+        "id": "tsat",
+        "type": "tsat",
+        "title": "TSAT",
+        "width": 0,
+        "minimum_width": 62,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "none"
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "CDM Plugin",
+          "function_id": 153
+        }
+      },
+      {
+        "id": "tsat_2",
+        "type": "plugin",
+        "title": "ASRT",
+        "width": 0,
+        "minimum_width": 62,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "CDM Plugin",
+          "function_id": 107
+        },
+        "right_click": {
+          "type": "none"
+        },
+        "provider": "CDM Plugin",
+        "item_id": 7
+      },
+      {
+        "id": "ctot",
+        "type": "ctot",
+        "title": "CTOT",
+        "width": 0,
+        "minimum_width": 56,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "CDM Plugin",
+          "function_id": 108
+        },
+        "right_click": {
+          "type": "none"
+        }
+      },
+      {
+        "id": "ttot",
+        "type": "ttot",
+        "title": "TTOT",
+        "width": 0,
+        "minimum_width": 56,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "none"
+        },
+        "right_click": {
+          "type": "none"
+        }
+      },
+      {
+        "id": "destination",
+        "type": "destination",
+        "title": "ADES",
+        "width": 0,
+        "minimum_width": 54,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 7
+        },
+        "right_click": {
+          "type": "none"
+        }
+      },
+      {
+        "id": "icp",
+        "type": "icp",
+        "title": "ICP",
+        "width": 0,
+        "minimum_width": 54,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "acknowledge",
+          "provider": "vSID",
+          "function_id": 741
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 742
+        }
+      },
+      {
+        "id": "tse",
+        "type": "tse",
+        "title": "TSE",
+        "width": 0,
+        "minimum_width": 84,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "acknowledge"
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 746
+        }
+      },
+      {
+        "id": "departure_runway",
+        "type": "departure_runway",
+        "title": "DRW",
+        "width": 0,
+        "minimum_width": 44,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 743
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 743
+        }
+      },
+      {
+        "id": "assigned_level",
+        "type": "assigned_level",
+        "title": "ALV",
+        "width": 0,
+        "minimum_width": 46,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 740
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 740
+        }
+      },
+      {
+        "id": "squawk",
+        "type": "squawk",
+        "title": "SSR",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 940
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "TopSky plugin",
+          "function_id": 62
+        }
+      },
+      {
+        "id": "planned_level",
+        "type": "planned_level",
+        "title": "PLV",
+        "width": 0,
+        "minimum_width": 48,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 30
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 30
+        }
+      },
+      {
+        "id": "stand_2",
+        "type": "plugin",
+        "title": "V",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "TopSky plugin",
+          "function_id": 155
+        },
+        "right_click": {
+          "type": "none"
+        },
+        "provider": "TopSky plugin",
+        "item_id": 10085
+      },
+      {
+        "id": "stand_2_2",
+        "type": "plugin",
+        "title": "Request",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 744
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 744
+        },
+        "provider": "vSID",
+        "item_id": 644
+      },
+      {
+        "id": "stand_2_2_2",
+        "type": "plugin",
+        "title": "Clearance received flag",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 27
+        },
+        "right_click": {
+          "type": "none",
+          "provider": "vSID",
+          "function_id": 744
+        },
+        "provider": "vSID",
+        "item_id": 648
+      },
+      {
+        "id": "stand_2_2_2_2",
+        "type": "plugin",
+        "title": "Route check",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "vcp",
+          "function_id": 405
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "vcp",
+          "function_id": 406
+        },
+        "provider": "vcp",
+        "item_id": 519
+      },
+      {
+        "id": "stand_2_2_2_2_2",
+        "type": "plugin",
+        "title": "Intersection",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 750
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 749
+        },
+        "provider": "vSID",
+        "item_id": 649
+      },
+      {
+        "id": "ground_state",
+        "type": "ground_state",
+        "title": "STS",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "left",
+        "stretch": false,
+        "left_click": {
+          "type": "select"
+        },
+        "right_click": {
+          "type": "menu"
+        }
+      },
+      {
+        "id": "ground_state_2",
+        "type": "ground_state",
+        "title": "STS",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "left",
+        "stretch": false,
+        "left_click": {
+          "type": "select"
+        },
+        "right_click": {
+          "type": "menu"
+        }
+      },
+      {
+        "id": "stand_2_2_3",
+        "type": "plugin",
+        "title": "FText",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 29
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 29
+        },
+        "provider": "TopSky plugin",
+        "item_id": 10095
+      }
+    ]
+  },
+  "arrivals": {
+    "sort_by": "callsign",
+    "descending": false,
+    "columns": [
+      {
+        "id": "callsign",
+        "type": "callsign",
+        "title": "ARCID",
+        "width": 0,
+        "minimum_width": 94,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 8
+        },
+        "right_click": {
+          "type": "menu",
+          "provider": "TopSky plugin",
+          "function_id": 6
+        }
+      },
+      {
+        "id": "squawk",
+        "type": "aircraft_type",
+        "title": "ATYP",
+        "width": 0,
+        "minimum_width": 64,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "none"
+        },
+        "right_click": {
+          "type": "none"
+        }
+      },
+      {
+        "id": "arrival_runway",
+        "type": "arrival_runway",
+        "title": "ARW",
+        "width": 0,
+        "minimum_width": 44,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "euroscope",
+          "function_id": 19
+        },
+        "right_click": {
+          "type": "none"
+        }
+      },
+      {
+        "id": "parking",
+        "type": "parking",
+        "title": "PKB",
+        "width": 0,
+        "minimum_width": 54,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "menu"
+        },
+        "right_click": {
+          "type": "menu"
+        }
+      },
+      {
+        "id": "origin",
+        "type": "plugin",
+        "title": "Cleared to land flag",
+        "width": 0,
+        "minimum_width": 56,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 745
+        },
+        "right_click": {
+          "type": "plugin",
+          "provider": "vSID",
+          "function_id": 745
+        },
+        "provider": "vSID",
+        "item_id": 646
+      },
+      {
+        "id": "etl",
+        "type": "squawk",
+        "title": "SSR",
+        "width": 0,
+        "minimum_width": 56,
+        "align": "center",
+        "stretch": false,
+        "left_click": {
+          "type": "menu"
+        },
+        "right_click": {
+          "type": "menu"
+        }
+      }
+    ]
+  }
+}

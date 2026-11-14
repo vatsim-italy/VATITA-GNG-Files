@@ -24,51 +24,13 @@
     "uncorrelated": {
       "untagged": [
         {
-          "item": 72,
-          "width": 1,
-          "provider": "TopSky plugin",
-          "gap_before": 0,
-          "minimum_position": 0,
-          "placeholder": "",
-          "force_width": false
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 1,
-          "placeholder": "",
-          "force_width": false
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        "newline",
-        {
           "item": "FLTID",
           "left_click": {
             "plugin": "euroscope",
             "function_id": 33
           },
-          "width": 8
+          "width": 8,
+          "minimum_position": 0
         },
         "newline",
         {
@@ -82,51 +44,13 @@
       ],
       "detailed": [
         {
-          "item": 78,
-          "width": 1,
-          "provider": "TopSky plugin",
-          "gap_before": 0,
-          "minimum_position": 0,
-          "placeholder": "",
-          "force_width": false
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 1,
-          "placeholder": "",
-          "force_width": false
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        "newline",
-        {
           "item": "FLTID",
           "left_click": {
             "plugin": "euroscope",
             "function_id": 33
           },
-          "width": 8
+          "width": 8,
+          "minimum_position": 0
         },
         "newline",
         {
@@ -140,51 +64,13 @@
       ],
       "tagged": [
         {
-          "item": 72,
-          "width": 1,
-          "provider": "TopSky plugin",
-          "gap_before": 0,
-          "minimum_position": 0,
-          "placeholder": "",
-          "force_width": false
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 1,
-          "placeholder": "",
-          "force_width": false
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        "newline",
-        {
           "item": "FLTID",
           "left_click": {
             "plugin": "euroscope",
             "function_id": 33
           },
-          "width": 8
+          "width": 8,
+          "minimum_position": 0
         },
         "newline",
         {
@@ -200,11 +86,45 @@
     "correlated_ac": {
       "untagged": [
         {
-          "provider": "TopSky plugin",
-          "item": 72,
+          "item": "EmergencyAlert",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "TctAlert",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 2,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 419
+          }
+        },
+        {
+          "item": "StcaAlert",
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
+          "minimum_position": 5
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 68,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 6
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 7
+        },
+        {
+          "item": "ClearanceAlert",
+          "width": 2,
+          "gap_before": 0,
+          "minimum_position": 9
         },
         {
           "provider": "TopSky plugin",
@@ -223,42 +143,23 @@
         },
         {
           "provider": "TopSky plugin",
-          "item": 190,
+          "item": 303,
           "width": 4,
           "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 3
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 399,
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
         },
         {
           "item": "EventFlag",
           "width": 2,
-          "gap_before": 0,
+          "gap_before": 1,
           "minimum_position": 0
         },
         {
@@ -280,13 +181,6 @@
           "item": 265,
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
           "minimum_position": 0
         },
         "newline",
@@ -387,11 +281,45 @@
       ],
       "tagged": [
         {
-          "provider": "TopSky plugin",
-          "item": 72,
+          "item": "EmergencyAlert",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "TctAlert",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 2,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 419
+          }
+        },
+        {
+          "item": "StcaAlert",
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
+          "minimum_position": 5
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 68,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 6
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 7
+        },
+        {
+          "item": "ClearanceAlert",
+          "width": 2,
+          "gap_before": 0,
+          "minimum_position": 9
         },
         {
           "provider": "TopSky plugin",
@@ -410,39 +338,18 @@
         },
         {
           "provider": "TopSky plugin",
-          "item": 190,
+          "item": 303,
           "width": 4,
           "gap_before": 1,
           "minimum_position": 0,
-          "placeholder": "",
-          "force_width": false
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 3
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 399,
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
         },
         {
           "item": "EventFlag",
@@ -469,13 +376,6 @@
           "item": 265,
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
           "minimum_position": 0
         },
         "newline",
@@ -576,11 +476,45 @@
       ],
       "detailed": [
         {
-          "provider": "TopSky plugin",
-          "item": 78,
+          "item": "EmergencyAlert",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "TctAlert",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 2,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 419
+          }
+        },
+        {
+          "item": "StcaAlert",
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
+          "minimum_position": 5
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 68,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 6
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 7
+        },
+        {
+          "item": "ClearanceAlert",
+          "width": 2,
+          "gap_before": 0,
+          "minimum_position": 9
         },
         {
           "provider": "TopSky plugin",
@@ -599,12 +533,25 @@
         },
         {
           "provider": "TopSky plugin",
-          "item": 190,
+          "item": 303,
           "width": 4,
           "gap_before": 1,
           "minimum_position": 0,
-          "placeholder": "",
-          "force_width": false
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 190,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0
         },
         {
           "provider": "TopSky plugin",
@@ -626,33 +573,6 @@
           "width": 4,
           "gap_before": 0,
           "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 3,
-          "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 175
-          }
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0,
-          "provider": "vcp",
-          "placeholder": "",
-          "force_width": false
         },
         {
           "item": "EventFlag",
@@ -689,13 +609,6 @@
             "function_id": 80
           }
         },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
         "newline",
         {
           "provider": "TopSky plugin",
@@ -708,8 +621,8 @@
             "function_id": 6
           },
           "right_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 14
+            "plugin": "vcp",
+            "function_id": 425
           }
         },
         {
@@ -744,8 +657,8 @@
           "gap_before": 0,
           "minimum_position": 0,
           "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 12
+            "plugin": "vcp",
+            "function_id": 420
           },
           "right_click": {
             "plugin": "vcp",
@@ -795,8 +708,8 @@
           "gap_before": 0,
           "minimum_position": 0,
           "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 16
+            "plugin": "vcp",
+            "function_id": 422
           },
           "right_click": {
             "plugin": "vcp",
@@ -810,8 +723,8 @@
           "gap_before": 1,
           "minimum_position": 0,
           "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 15
+            "plugin": "vcp",
+            "function_id": 421
           },
           "right_click": {
             "plugin": "vcp",
@@ -830,12 +743,8 @@
           "gap_before": 0,
           "minimum_position": 4,
           "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 12
-          },
-          "right_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 97
+            "plugin": "vcp",
+            "function_id": 420
           }
         },
         "newline",
@@ -860,12 +769,12 @@
           "gap_before": 1,
           "minimum_position": 3,
           "left_click": {
-            "plugin": "euroscope",
-            "function_id": 26
+            "plugin": "vcp",
+            "function_id": 423
           },
           "right_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 97
+            "plugin": "vcp",
+            "function_id": 424
           }
         },
         {
@@ -899,11 +808,45 @@
     "correlated_s": {
       "untagged": [
         {
-          "provider": "TopSky plugin",
-          "item": 72,
+          "item": "EmergencyAlert",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "TctAlert",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 2,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 419
+          }
+        },
+        {
+          "item": "StcaAlert",
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
+          "minimum_position": 5
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 68,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 6
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 7
+        },
+        {
+          "item": "ClearanceAlert",
+          "width": 2,
+          "gap_before": 0,
+          "minimum_position": 9
         },
         {
           "provider": "TopSky plugin",
@@ -922,42 +865,23 @@
         },
         {
           "provider": "TopSky plugin",
-          "item": 190,
+          "item": 303,
           "width": 4,
           "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 3
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 399,
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
         },
         {
           "item": "EventFlag",
           "width": 2,
-          "gap_before": 0,
+          "gap_before": 1,
           "minimum_position": 0
         },
         {
@@ -979,13 +903,6 @@
           "item": 265,
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
           "minimum_position": 0
         },
         "newline",
@@ -1086,11 +1003,45 @@
       ],
       "detailed": [
         {
-          "provider": "TopSky plugin",
-          "item": 78,
+          "item": "EmergencyAlert",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "TctAlert",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 2,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 419
+          }
+        },
+        {
+          "item": "StcaAlert",
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
+          "minimum_position": 5
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 68,
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 6
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 7
+        },
+        {
+          "item": "ClearanceAlert",
+          "width": 2,
+          "gap_before": 0,
+          "minimum_position": 9
         },
         {
           "provider": "TopSky plugin",
@@ -1105,6 +1056,21 @@
           "right_click": {
             "plugin": "TopSky plugin",
             "function_id": 81
+          }
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 303,
+          "width": 4,
+          "gap_before": 1,
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
           }
         },
         {
@@ -1134,33 +1100,6 @@
           "width": 4,
           "gap_before": 0,
           "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 3,
-          "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 175
-          }
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0,
-          "provider": "vcp",
-          "placeholder": "",
-          "force_width": false
         },
         {
           "item": "EventFlag",
@@ -1197,13 +1136,6 @@
             "function_id": 80
           }
         },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
         "newline",
         {
           "provider": "TopSky plugin",
@@ -1216,8 +1148,8 @@
             "function_id": 6
           },
           "right_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 14
+            "plugin": "vcp",
+            "function_id": 425
           }
         },
         {
@@ -1252,8 +1184,8 @@
           "gap_before": 0,
           "minimum_position": 0,
           "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 12
+            "plugin": "vcp",
+            "function_id": 420
           },
           "right_click": {
             "plugin": "vcp",
@@ -1303,8 +1235,8 @@
           "gap_before": 0,
           "minimum_position": 0,
           "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 16
+            "plugin": "vcp",
+            "function_id": 422
           },
           "right_click": {
             "plugin": "vcp",
@@ -1318,8 +1250,8 @@
           "gap_before": 1,
           "minimum_position": 0,
           "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 15
+            "plugin": "vcp",
+            "function_id": 421
           },
           "right_click": {
             "plugin": "vcp",
@@ -1338,12 +1270,8 @@
           "gap_before": 0,
           "minimum_position": 4,
           "left_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 12
-          },
-          "right_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 97
+            "plugin": "vcp",
+            "function_id": 420
           }
         },
         "newline",
@@ -1368,12 +1296,12 @@
           "gap_before": 1,
           "minimum_position": 3,
           "left_click": {
-            "plugin": "euroscope",
-            "function_id": 26
+            "plugin": "vcp",
+            "function_id": 423
           },
           "right_click": {
-            "plugin": "TopSky plugin",
-            "function_id": 97
+            "plugin": "vcp",
+            "function_id": 424
           }
         },
         {
@@ -1405,13 +1333,45 @@
       ],
       "tagged": [
         {
-          "provider": "TopSky plugin",
-          "item": 72,
+          "item": "EmergencyAlert",
+          "width": 2,
+          "gap_before": 1,
+          "minimum_position": 0
+        },
+        {
+          "item": "TctAlert",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 2,
+          "left_click": {
+            "plugin": "vcp",
+            "function_id": 419
+          }
+        },
+        {
+          "item": "StcaAlert",
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0,
-          "placeholder": "",
-          "force_width": false
+          "minimum_position": 5
+        },
+        {
+          "provider": "TopSky plugin",
+          "item": 68,
+          "width": 1,
+          "gap_before": 0,
+          "minimum_position": 6
+        },
+        {
+          "item": "AreaInfringementWarning",
+          "width": 1,
+          "gap_before": 1,
+          "minimum_position": 7
+        },
+        {
+          "item": "ClearanceAlert",
+          "width": 2,
+          "gap_before": 0,
+          "minimum_position": 9
         },
         {
           "provider": "TopSky plugin",
@@ -1430,37 +1390,18 @@
         },
         {
           "provider": "TopSky plugin",
-          "item": 190,
+          "item": 303,
           "width": 4,
           "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 417,
-          "width": 1,
-          "gap_before": 1,
-          "minimum_position": 3
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 309,
-          "width": 4,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "item": "AreaInfringementWarning",
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 399,
-          "width": 3,
-          "gap_before": 1,
-          "minimum_position": 0
+          "minimum_position": 0,
+          "left_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          },
+          "right_click": {
+            "plugin": "TopSky plugin",
+            "function_id": 62
+          }
         },
         {
           "item": "EventFlag",
@@ -1487,13 +1428,6 @@
           "item": 265,
           "width": 1,
           "gap_before": 0,
-          "minimum_position": 0
-        },
-        {
-          "provider": "TopSky plugin",
-          "item": 26,
-          "width": 4,
-          "gap_before": 1,
           "minimum_position": 0
         },
         "newline",
