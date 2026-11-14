@@ -1,6 +1,6 @@
 m_PlaySounds:1
 m_AssumeSlowAcAsStandby:0
-m_ShowAirspaceLines:0
+m_ShowAirspaceLines:1
 m_ShowRouteFixName:1
 m_ShowRouteETA:1
 m_ShowCalculatedHeading:1
@@ -66,7 +66,7 @@ m_HiliteASELAircraft:1
 m_EnableVoiceRecognition:0
 m_VoiceRecognitionStyle:2
 m_SModeTransponders:HLEGWQS
-m_CorrelationMode:2
+m_CorrelationMode:0
 m_CorrelationDistance:100
 m_SimulateRadars:0
 m_AllowCorrelatedTAGDown:1
@@ -82,13 +82,13 @@ m_UnicomFrequency:122.8
 m_MessageInfoLevel:1
 m_MessageWarningLevel:2
 m_MessageErrorLevel:4
-m_PointOutLevel:0
-m_HandoffRequestLevel:0
-m_CoordinationRequestLevel:0
+m_PointOutLevel:4
+m_HandoffRequestLevel:4
+m_CoordinationRequestLevel:4
 m_HandoffAcceptLevel:0
-m_HandoffRefuseLevel:0
+m_HandoffRefuseLevel:2
 m_CoordinationAcceptLevel:0
-m_CoordinationRefuseLevel:0
+m_CoordinationRefuseLevel:2
 m_ServerMessageLevel:2
 m_AtcMessageLevel:2
 m_BroadcastMessageLevel:2
