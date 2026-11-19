@@ -321,16 +321,6 @@ List_Sector_Concerned_MaxTime=30
 List_TfcMgmt_MaxTime=180
 List_OptionsInGlobalMenu=0
 
-CPDLC_MinLevel=285
-CPDLC_Transfer=1
-CPDLC_CFL=1
-CPDLC_DCT=1
-CPDLC_AHDG=1
-CPDLC_ASP=1
-CPDLC_AutoAcceptLogon=0
-CPDLC_FSM_PDC_Fail=NO PDC AVAILABLE FOR <adep>
-CPDLC_VCI_UM_Type=0
-
 Divergence_CLAM_DelayTime=180
 Divergence_RAM_DCT_DelayTime=180
 
@@ -436,13 +426,11 @@ Window_CPDLC_Current=0,1,600
 
 Window_CPDLC_Current=0,1350,48
 Window_CPDLC_Setting=0,1,248
-CPDLC_PDC_Auto=1
 
 [LIRF]
 
 Window_CPDLC_Current=0,1350,48
 Window_CPDLC_Setting=0,1,248
-CPDLC_PDC_Auto=1
 
 [_APP]
 

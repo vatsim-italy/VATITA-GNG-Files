@@ -1,9 +1,6 @@
 [DCL]
-// ****************** OWN FREQ ****************** 
-DCL:LIMC,LIRF:SID:<callsign> CLRD TO <ades> OFF <drwy> VIA <sid> CLIMB <cfl> SQUAWK <assr> <freq_own> <atis> <rmk>
-
-// ****************** Next Frequency ****************** 
-DCL:LIMC,LIRF:SID:<callsign> CLRD TO <ades> OFF <drwy> VIA <sid> CLIMB <cfl> SQUAWK <assr> <freq_next> <atis> <rmk>
+PDC:LIRF:CLRD TO @{DEST}@ OFF @{RWY}@ VIA @{SID}@ SQUAWK @{SSR}@ TSE @{TSE}@ CLIMB TO @{CFL}@{?LIRF_P_DEL WHEN READY FOR STUP CTC FIUME RAMP @{FREQ}@}
+PDC:LIMC:CLRD TO @{DEST}@ OFF @{RWY}@ VIA @{SID}@ SQUAWK @{SSR}@ TSE @{TSE}@ CLIMB TO @{CFL}@{?LIMC_O_DEL WHEN READY FOR STUP CTC OPERATIONS @{FREQ}@}
 
 [FREETEXT]
 FREETEXT:WU:CONTACT ME VIA VOICE
