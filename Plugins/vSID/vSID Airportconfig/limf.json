@@ -120,8 +120,7 @@
                 "A": {
                     "1": {
                         "rwy": "36",
-                        "equip": {"RNAV": true, "NON-RNAV": true},
-                        "prio": 1
+                        "prio": 99
                     }
                 }
             },

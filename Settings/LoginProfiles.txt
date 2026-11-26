@@ -247,11 +247,11 @@ PROFILE:LIPX_EE1_APP:150:5
 ATIS2:Milano Radar 
 ATIS3:My active sector map.vatsim.net
 ATIS4:Feedback helps us get better! Submit yours at vats.im/it/feedback
-PROFILE:LIBB_ES3_CTR:200:6
+PROFILE:LIBB_ES3_CTR:150:6
 ATIS2:Brindisi Radar - CPDLC LIBB
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:My active sector map.vatsim.net
-PROFILE:LIBB_ES8_CTR:200:6
+PROFILE:LIBB_ES8_CTR:150:6
 ATIS2:Brindisi Radar - CPDLC LIBB
 ATIS3:Feedback helps us get better! Submit yours at vats.im/it/feedback
 ATIS4:My active sector map.vatsim.net
