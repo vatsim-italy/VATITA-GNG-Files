@@ -93,8 +93,8 @@ Color_CARD_Mark_Own=212,128,44
 Color_CARD_Min_Sep=95,170,140
 Color_CARD_Time_Vector=170,231,197
 // Color_Concerned=192,192,192  //Notified >15mins
-Color_Concerned=60,129,60 //Notified >15mins
-Color_Coordination=60,129,60  //Coordinated <15mins
+Color_Concerned=0,100,0 //Notified >15mins
+Color_Coordination=0,100,0  //Coordinated <15mins
 Color_CPDLC_Controller_Late=212,128,44
 Color_CPDLC_DM_Request=21,96,130
 Color_CPDLC_Failed=212,128,44
@@ -260,7 +260,7 @@ Vector_MinSep_Width=1
 
 FlightLeg_AssumeTime=2
 FlightLeg_FontSize=11
-FlightLeg_AutoShow=1
+FlightLeg_AutoShow=0
 FlightLeg_Label_DIST=1
 FlightLeg_Label_RFL=1
 FlightLeg_LineWidth=0
@@ -320,16 +320,6 @@ List_Sector_Concerned_MaxTime=30
 
 List_TfcMgmt_MaxTime=180
 List_OptionsInGlobalMenu=0
-
-CPDLC_MinLevel=285
-CPDLC_Transfer=1
-CPDLC_CFL=1
-CPDLC_DCT=1
-CPDLC_AHDG=1
-CPDLC_ASP=1
-CPDLC_AutoAcceptLogon=0
-CPDLC_FSM_PDC_Fail=NO PDC AVAILABLE FOR <adep>
-CPDLC_VCI_UM_Type=0
 
 Divergence_CLAM_DelayTime=180
 Divergence_RAM_DCT_DelayTime=180
@@ -395,7 +385,7 @@ WXR_Echo_dBZ_Med=40
 WXR_Echo_dBZ_Lo=30
 WXR_DisplayType=0
 
-Window_CPDLC_Current=1,1100,15
+Window_CPDLC_Current=0,1100,15
 Window_VAW=0
 Window_CARD=0,2190,814
 Window_CARD_RefreshRate=30
@@ -407,7 +397,7 @@ Window_CARD_View_Future=1
 Window_CARD_RefreshRate=5
 Window_WxMsgs_MetarRefreshInterval=600
 Window_WxMsgs_TafRefreshInterval=3600
-Window_MsgIn=1,125,800
+Window_MsgIn=0,125,800
 
 Window_SM_LeaveHoldTime=3
 Window_SM_LowestLevel=30
@@ -434,15 +424,13 @@ Window_CPDLC_Current=0,1,600
 
 [LIMC]
 
-Window_CPDLC_Current=1,1350,48
-Window_CPDLC_Setting=1,1,248
-CPDLC_PDC_Auto=1
+Window_CPDLC_Current=0,1350,48
+Window_CPDLC_Setting=0,1,248
 
 [LIRF]
 
-Window_CPDLC_Current=1,1350,48
-Window_CPDLC_Setting=1,1,248
-CPDLC_PDC_Auto=1
+Window_CPDLC_Current=0,1350,48
+Window_CPDLC_Setting=0,1,248
 
 [_APP]
 
@@ -451,18 +439,15 @@ Window_CPDLC_Current=0,0,650
 
 [_CTR]
 
-Window_CPDLC_Setting=1,1,350
+Window_CPDLC_Setting=0,1,350
 
 [_TWR]
 
 FlightLeg_AutoShow=0
-Window_MsgIn=0,125,800
-Window_SmallQNHTL=0,125,670
 
 [LIBB_]
 
 Setup_LoadView=ES3
-Window_SmallQNHTL_ICAO=LIBD
 
 [LIBR_]
 
@@ -470,7 +455,6 @@ Setup_LoadView=CS0
 
 [LIMM_ADE]
 
-Window_SmallQNHTL_ICAO=LIME
 Setup_LoadView=ADE
 
 STCA_Sep_Lat_SepLevel=19000
@@ -487,7 +471,6 @@ STCA_WarningTime_U=80
 
 {ADE}
 
-Window_SmallQNHTL_ICAO=LIME
 Setup_LoadView=ADE
 
 STCA_Sep_Lat_SepLevel=19000
@@ -504,7 +487,6 @@ STCA_WarningTime_U=80
 
 [LIMM_ANE]
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=ANE
 
 Shortcut_Xfr_Target=4,MAR,ASW
@@ -524,7 +506,6 @@ STCA_WarningTime_U=80
 
 {ANE}
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=ANE
 
 Shortcut_Xfr_Target=4,MAR,ASW
@@ -544,7 +525,6 @@ STCA_WarningTime_U=80
 
 [LIMM_ANW]
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=ANW
 
 STCA_Sep_Lat_SepLevel=19000
@@ -561,7 +541,6 @@ STCA_WarningTime_U=80
 
 {ANW}
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=ANW
 
 STCA_Sep_Lat_SepLevel=19000
@@ -578,7 +557,6 @@ STCA_WarningTime_U=80
 
 [LIMM_ASW]
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=ASW
 
 Shortcut_Xfr_Target=4,MCT
@@ -598,7 +576,6 @@ STCA_WarningTime_U=80
 
 {ASW}
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=ASW
 
 Shortcut_Xfr_Target=4,MCT
@@ -618,7 +595,6 @@ STCA_WarningTime_U=80
 
 [LIMM_LAR]
 
-Window_SmallQNHTL_ICAO=LIML
 Setup_LoadView=LAR
 
 STCA_Sep_Lat_SepLevel=19000
@@ -635,7 +611,6 @@ STCA_WarningTime_U=80
 
 {LAR}
 
-Window_SmallQNHTL_ICAO=LIML
 Setup_LoadView=LAR
 
 STCA_Sep_Lat_SepLevel=19000
@@ -652,7 +627,6 @@ STCA_WarningTime_U=80
 
 [LIMM_MAR]
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=MAR
 
 Shortcut_Xfr_Target=4,MCT
@@ -662,7 +636,6 @@ STCA=0
 
 {MAR}
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=MAR
 
 Shortcut_Xfr_Target=4,MCT
@@ -672,7 +645,6 @@ STCA=0
 
 [LIMM_MAP]
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=MAP
 
 Shortcut_Xfr_Target=4,MCT
@@ -682,7 +654,6 @@ STCA=0
 
 {MAP}
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=MAP
 
 Shortcut_Xfr_Target=4,MCT
@@ -700,22 +671,18 @@ Setup_LoadView=EE1
 
 [LIMM_ES2]
 
-Window_SmallQNHTL_ICAO=LIPX
 Setup_LoadView:ES2
 
 {ES2}
 
-Window_SmallQNHTL_ICAO=LIPX
 Setup_LoadView:ES2
 
 [LIMM_EN2]
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView:EN2
 
 {EN2}
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView:EN2
 
 [LIMM_ES5]
@@ -741,21 +708,17 @@ Setup_LoadView:WN0
 [LIMM_WN]
 
 Setup_LoadView=WN2
-Window_SmallQNHTL_ICAO=LIMF
 
 {WN2}
 
 Setup_LoadView=WN2
-Window_SmallQNHTL_ICAO=LIMF
 
 [LIMM_WS2]
 
-Window_SmallQNHTL_ICAO=LIMJ
 Setup_LoadView=Milano ACC
 
 {WS2}
 
-Window_SmallQNHTL_ICAO=LIMJ
 Setup_LoadView=Milano ACC
 
 [LIMM_WS5]
@@ -770,19 +733,16 @@ Setup_LoadView=Milano ACC
 
 [LIMM_WS]
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=Milano ACC
 
 {WS2}
 
-Window_SmallQNHTL_ICAO=LIMC
 Setup_LoadView=Milano ACC
 
 [LIRR_P]
 
 Setup_LoadView=PN1
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -799,7 +759,6 @@ STCA_WarningTime_U=80
 
 Setup_LoadView=PN1
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -816,7 +775,6 @@ STCA_WarningTime_U=80
 
 Setup_LoadView=PN1
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -836,7 +794,6 @@ Setup_LoadView=AEM
 Shortcut_Xfr_Target=4,RFE
 Shortcut_Xfr_Target=5,RFT
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA=0
 
 {AEM}
@@ -846,7 +803,6 @@ Setup_LoadView=AEM
 Shortcut_Xfr_Target=4,RFE
 Shortcut_Xfr_Target=5,RFT
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA=0
 
 [LIRR_AWL]
@@ -856,7 +812,6 @@ Setup_LoadView=AEM
 Shortcut_Xfr_Target=4,RFE
 Shortcut_Xfr_Target=5,RFT
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA=0
 
 {AWL}
@@ -866,7 +821,6 @@ Setup_LoadView=AEM
 Shortcut_Xfr_Target=4,RFE
 Shortcut_Xfr_Target=5,RFT
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA=0
 
 [LIRR_TW]
@@ -874,7 +828,6 @@ STCA=0
 Setup_LoadView=TW1
 Shortcut_Xfr_Target=4,AEM
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -892,7 +845,6 @@ STCA_WarningTime_U=80
 Setup_LoadView=TW1
 Shortcut_Xfr_Target=4,AEM
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -911,7 +863,6 @@ Setup_LoadView=TW1
 
 Shortcut_Xfr_Target=4,AEM
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -930,7 +881,6 @@ Setup_LoadView=TW1
 
 Shortcut_Xfr_Target=4,AEM
 
-Window_SmallQNHTL_ICAO=LIRF
 STCA_Sep_Lat_SepLevel=19000
 STCA_FastDiv_Sep_Lat_L=3
 STCA_FastDiv_Sep_Lat_U=4.98
@@ -953,88 +903,71 @@ Setup_LoadView=EW0
 
 [LIRR_I]
 
-Window_SmallQNHTL_ICAO=LIRF
 Setup_LoadView=NE
 
 [LIRR_EW]
 
-Window_SmallQNHTL_ICAO=LIEO
 Setup_LoadView=EW1-7
 
 {EW1}
 
-Window_SmallQNHTL_ICAO=LIEO
 Setup_LoadView=EW1-7
 
 [LIRR_EE]
 
 Setup_LoadView=EW1-7
-Window_SmallQNHTL_ICAO=LIEE
 
 {EE3}
 
 Setup_LoadView=EW1-7
-Window_SmallQNHTL_ICAO=LIEE
 
 [LIRR_NE]
 
 Setup_LoadView=NE
-Window_SmallQNHTL_ICAO=LIRF
 
 {NE1}
 
 Setup_LoadView=NE
-Window_SmallQNHTL_ICAO=LIRF
 
 [LIRR_NW]
 
 Setup_LoadView=NW
-Window_SmallQNHTL_ICAO=LIRP
 
 {NW1}
 
 Setup_LoadView=NW
-Window_SmallQNHTL_ICAO=LIRP
 
 [LIRR_TS]
 
 Setup_LoadView=TS
-Window_SmallQNHTL_ICAO=LIRN
 
 {TS1}
 
 Setup_LoadView=TS
-Window_SmallQNHTL_ICAO=LIRN
 
 [LIRR_US]
 
 Setup_LoadView=TS
-Window_SmallQNHTL_ICAO=LIRN
 
 {US2}
 
 Setup_LoadView=TS
-Window_SmallQNHTL_ICAO=LIRN
 
 [LIRR_SU]
 
 Setup_LoadView=SU
-Window_SmallQNHTL_ICAO=LICJ
 
 {SU1}
 
 Setup_LoadView=SU
-Window_SmallQNHTL_ICAO=LICJ
 
 [LIRR_ES]
 
 Setup_LoadView=ES
-Window_SmallQNHTL_ICAO=LICA
 
 {ES0}
 
 Setup_LoadView=ES
-Window_SmallQNHTL_ICAO=LICA
 
 [LIRN_US1]
 
@@ -1044,7 +977,6 @@ Menu_Level_MaxValue_5=80
 {US1}
 
 Setup_LoadView=ES
-Window_SmallQNHTL_ICAO=LIRN
 
 [LIRN_US0]
 
@@ -1059,38 +991,31 @@ Menu_Level_MaxValue_5=80
 [LIPP_CE]
 
 Setup_LoadView=Padova ACC
-Window_SmallQNHTL_ICAO=LIPZ
 
 {CE1}
 
 Setup_LoadView=Padova ACC
-Window_SmallQNHTL_ICAO=LIPZ
 
 [LIPP_NE]
 
 Setup_LoadView=PNE
-Window_SmallQNHTL_ICAO=LIPB
 
 [LIPP_NW]
 
 Setup_LoadView=PNW
-Window_SmallQNHTL_ICAO=LIPB
 
 [LIPP_CW]
 
 Setup_LoadView=CW
-Window_SmallQNHTL_ICAO=LIPZ
 
 [LIPP_SW]
 
 Setup_LoadMap=ACC\SW1 Padova ACC
 Setup_LoadView=SW
-Window_SmallQNHTL_ICAO=LIPZ
 
 [LIPP_SD]
 
 Setup_LoadView=SD
-Window_SmallQNHTL_ICAO=LIPE
 
 [LIPQ_CE]
 
@@ -1129,7 +1054,6 @@ STCA_WarningTime_L=70
 [LMMM_]
 
 Setup_LoadView=Malta ACC
-Window_SmallQNHTL_ICAO=LMML
 
 Rings_Available=1
 Rings_Number=6

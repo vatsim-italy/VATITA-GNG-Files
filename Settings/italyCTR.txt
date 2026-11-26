@@ -39,14 +39,15 @@ m_Column:DEP:5:0:10007:1001:1001:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0
 m_Column:DEST:5:0:10008:1001:1001:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 END
 FP
-m_Visible:0
-m_X:1026
-m_Y:438
+m_Visible:1
+m_X:0
+m_Y:367
 m_LineNumber:20
 m_Resizable:1
 m_OrderingColumn:1
 m_HeaderOnly:0
 m_Column:C/S:10:1:9:0:8:1::::0:0.0
+m_Column:ASSR:5:1:10023:62:62:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 m_Column:ADEP:6:1:61:7:0:1::::1:0.0
 m_Column:ADES:6:1:17:7:0:1::::1:0.0
 m_Column:ETA:7:1:54:0:0:1::::1:0.0
