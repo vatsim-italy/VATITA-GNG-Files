@@ -178,6 +178,13 @@
           "minimum_position": 0
         },
         {
+          "item": "VoiceType",
+          "width": 1,
+          "provider": "vcp",
+          "minimum_position": 0,
+          "gap_before": 0
+        },
+        {
           "item": "CpdlcAsterisk",
           "width": 1,
           "gap_before": 0,
@@ -189,7 +196,8 @@
           "right_click": {
             "plugin": "euroscope",
             "function_id": 32
-          }
+          },
+          "provider": "vcp"
         },
         {
           "item": "AHDG",
@@ -259,13 +267,8 @@
           "item": "XFL",
           "width": 3,
           "gap_before": 0,
-          "minimum_position": 3
-        },
-        {
-          "item": "NXS",
-          "width": 7,
-          "gap_before": 1,
-          "minimum_position": 6
+          "minimum_position": 3,
+          "provider": "vcp"
         }
       ],
       "tagged": [
@@ -346,6 +349,13 @@
           "width": 8,
           "gap_before": 0,
           "minimum_position": 0
+        },
+        {
+          "item": "VoiceType",
+          "width": 1,
+          "provider": "vcp",
+          "minimum_position": 0,
+          "gap_before": 0
         },
         {
           "item": "CpdlcAsterisk",
@@ -430,13 +440,7 @@
           "item": "XFL",
           "width": 3,
           "gap_before": 0,
-          "minimum_position": 3
-        },
-        {
-          "item": "NXS",
-          "width": 7,
-          "gap_before": 1,
-          "minimum_position": 6,
+          "minimum_position": 3,
           "provider": "vcp"
         }
       ],
@@ -556,6 +560,13 @@
             "plugin": "vcp",
             "function_id": 425
           }
+        },
+        {
+          "item": "VoiceType",
+          "width": 1,
+          "provider": "vcp",
+          "minimum_position": 0,
+          "gap_before": 0
         },
         {
           "item": "CpdlcAsterisk",
@@ -859,6 +870,13 @@
           "minimum_position": 0
         },
         {
+          "item": "VoiceType",
+          "width": 1,
+          "provider": "vcp",
+          "minimum_position": 0,
+          "gap_before": 0
+        },
+        {
           "item": "CpdlcAsterisk",
           "width": 1,
           "gap_before": 0,
@@ -940,13 +958,8 @@
           "item": "XFL",
           "width": 3,
           "gap_before": 0,
-          "minimum_position": 3
-        },
-        {
-          "item": "NXS",
-          "width": 7,
-          "gap_before": 1,
-          "minimum_position": 6
+          "minimum_position": 3,
+          "provider": "vcp"
         }
       ],
       "detailed": [
@@ -1060,6 +1073,13 @@
             "plugin": "vcp",
             "function_id": 425
           }
+        },
+        {
+          "item": "VoiceType",
+          "width": 1,
+          "provider": "vcp",
+          "minimum_position": 0,
+          "gap_before": 0
         },
         {
           "item": "CpdlcAsterisk",
@@ -1351,6 +1371,13 @@
           "minimum_position": 0
         },
         {
+          "item": "VoiceType",
+          "width": 1,
+          "provider": "vcp",
+          "minimum_position": 0,
+          "gap_before": 0
+        },
+        {
           "item": "CpdlcAsterisk",
           "width": 1,
           "gap_before": 0,
@@ -1432,13 +1459,7 @@
           "item": "XFL",
           "width": 3,
           "gap_before": 0,
-          "minimum_position": 3
-        },
-        {
-          "item": "NXS",
-          "width": 7,
-          "gap_before": 1,
-          "minimum_position": 6,
+          "minimum_position": 3,
           "provider": "vcp"
         }
       ]
